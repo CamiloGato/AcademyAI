@@ -237,6 +237,45 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -266,9 +305,9 @@ TextureImporter:
       name: Gangblanc_1
       rect:
         serializedVersion: 2
-        x: 0
-        y: 96
-        width: 17
+        x: 16
+        y: 112
+        width: 16
         height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -288,9 +327,9 @@ TextureImporter:
       name: Gangblanc_2
       rect:
         serializedVersion: 2
-        x: 15
+        x: 32
         y: 112
-        width: 17
+        width: 16
         height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -310,10 +349,10 @@ TextureImporter:
       name: Gangblanc_3
       rect:
         serializedVersion: 2
-        x: 16
-        y: 96
-        width: 17
-        height: 17
+        x: 48
+        y: 112
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -332,10 +371,10 @@ TextureImporter:
       name: Gangblanc_4
       rect:
         serializedVersion: 2
-        x: 31
-        y: 111
-        width: 17
-        height: 17
+        x: 64
+        y: 112
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -354,10 +393,10 @@ TextureImporter:
       name: Gangblanc_5
       rect:
         serializedVersion: 2
-        x: 32
-        y: 95
-        width: 17
-        height: 17
+        x: 0
+        y: 96
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -376,9 +415,9 @@ TextureImporter:
       name: Gangblanc_6
       rect:
         serializedVersion: 2
-        x: 47
-        y: 112
-        width: 17
+        x: 16
+        y: 96
+        width: 16
         height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -398,10 +437,10 @@ TextureImporter:
       name: Gangblanc_7
       rect:
         serializedVersion: 2
-        x: 48
+        x: 32
         y: 96
-        width: 17
-        height: 17
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -420,10 +459,10 @@ TextureImporter:
       name: Gangblanc_8
       rect:
         serializedVersion: 2
-        x: 63
-        y: 111
-        width: 17
-        height: 17
+        x: 48
+        y: 96
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -443,9 +482,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 64
-        y: 95
-        width: 17
-        height: 17
+        y: 96
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -466,7 +505,7 @@ TextureImporter:
         serializedVersion: 2
         x: 0
         y: 80
-        width: 15
+        width: 16
         height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -486,8 +525,8 @@ TextureImporter:
       name: Gangblanc_11
       rect:
         serializedVersion: 2
-        x: 1
-        y: 64
+        x: 16
+        y: 80
         width: 16
         height: 16
       alignment: 0
@@ -508,10 +547,10 @@ TextureImporter:
       name: Gangblanc_12
       rect:
         serializedVersion: 2
-        x: 15
+        x: 32
         y: 80
         width: 16
-        height: 17
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -530,10 +569,10 @@ TextureImporter:
       name: Gangblanc_13
       rect:
         serializedVersion: 2
-        x: 17
-        y: 64
+        x: 48
+        y: 80
         width: 16
-        height: 17
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -552,10 +591,10 @@ TextureImporter:
       name: Gangblanc_14
       rect:
         serializedVersion: 2
-        x: 31
-        y: 79
+        x: 64
+        y: 80
         width: 16
-        height: 17
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -574,10 +613,10 @@ TextureImporter:
       name: Gangblanc_15
       rect:
         serializedVersion: 2
-        x: 33
-        y: 63
+        x: 0
+        y: 64
         width: 16
-        height: 17
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -596,10 +635,10 @@ TextureImporter:
       name: Gangblanc_16
       rect:
         serializedVersion: 2
-        x: 47
-        y: 80
+        x: 16
+        y: 64
         width: 16
-        height: 17
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -618,10 +657,10 @@ TextureImporter:
       name: Gangblanc_17
       rect:
         serializedVersion: 2
-        x: 49
+        x: 32
         y: 64
         width: 16
-        height: 17
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -640,10 +679,10 @@ TextureImporter:
       name: Gangblanc_18
       rect:
         serializedVersion: 2
-        x: 63
-        y: 79
+        x: 48
+        y: 64
         width: 16
-        height: 17
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -662,10 +701,10 @@ TextureImporter:
       name: Gangblanc_19
       rect:
         serializedVersion: 2
-        x: 65
-        y: 63
+        x: 64
+        y: 64
         width: 16
-        height: 17
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -706,9 +745,9 @@ TextureImporter:
       name: Gangblanc_21
       rect:
         serializedVersion: 2
-        x: 0
-        y: 32
-        width: 17
+        x: 16
+        y: 48
+        width: 16
         height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -728,10 +767,10 @@ TextureImporter:
       name: Gangblanc_22
       rect:
         serializedVersion: 2
-        x: 15
+        x: 32
         y: 48
-        width: 17
-        height: 17
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -750,10 +789,10 @@ TextureImporter:
       name: Gangblanc_23
       rect:
         serializedVersion: 2
-        x: 16
-        y: 32
-        width: 17
-        height: 17
+        x: 48
+        y: 48
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -772,10 +811,10 @@ TextureImporter:
       name: Gangblanc_24
       rect:
         serializedVersion: 2
-        x: 31
-        y: 47
-        width: 17
-        height: 17
+        x: 64
+        y: 48
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -794,9 +833,9 @@ TextureImporter:
       name: Gangblanc_25
       rect:
         serializedVersion: 2
-        x: 32
-        y: 32
-        width: 17
+        x: 80
+        y: 48
+        width: 16
         height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -816,9 +855,9 @@ TextureImporter:
       name: Gangblanc_26
       rect:
         serializedVersion: 2
-        x: 48
-        y: 32
-        width: 15
+        x: 96
+        y: 48
+        width: 16
         height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -838,10 +877,10 @@ TextureImporter:
       name: Gangblanc_27
       rect:
         serializedVersion: 2
-        x: 49
-        y: 47
-        width: 15
-        height: 17
+        x: 112
+        y: 48
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -860,9 +899,9 @@ TextureImporter:
       name: Gangblanc_28
       rect:
         serializedVersion: 2
-        x: 63
-        y: 48
-        width: 17
+        x: 0
+        y: 32
+        width: 16
         height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -882,9 +921,9 @@ TextureImporter:
       name: Gangblanc_29
       rect:
         serializedVersion: 2
-        x: 64
+        x: 16
         y: 32
-        width: 49
+        width: 16
         height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -904,9 +943,9 @@ TextureImporter:
       name: Gangblanc_30
       rect:
         serializedVersion: 2
-        x: 79
-        y: 48
-        width: 18
+        x: 32
+        y: 32
+        width: 16
         height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -926,10 +965,10 @@ TextureImporter:
       name: Gangblanc_31
       rect:
         serializedVersion: 2
-        x: 95
-        y: 47
-        width: 33
-        height: 18
+        x: 48
+        y: 32
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -948,7 +987,7 @@ TextureImporter:
       name: Gangblanc_32
       rect:
         serializedVersion: 2
-        x: 112
+        x: 64
         y: 32
         width: 16
         height: 16
@@ -970,9 +1009,9 @@ TextureImporter:
       name: Gangblanc_33
       rect:
         serializedVersion: 2
-        x: 0
-        y: 16
-        width: 15
+        x: 80
+        y: 32
+        width: 16
         height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -992,10 +1031,10 @@ TextureImporter:
       name: Gangblanc_34
       rect:
         serializedVersion: 2
-        x: 15
-        y: 16
+        x: 96
+        y: 32
         width: 16
-        height: 17
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1014,10 +1053,10 @@ TextureImporter:
       name: Gangblanc_35
       rect:
         serializedVersion: 2
-        x: 17
-        y: 0
+        x: 112
+        y: 32
         width: 16
-        height: 17
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1036,9 +1075,9 @@ TextureImporter:
       name: Gangblanc_36
       rect:
         serializedVersion: 2
-        x: 31
+        x: 0
         y: 16
-        width: 34
+        width: 16
         height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -1058,8 +1097,8 @@ TextureImporter:
       name: Gangblanc_37
       rect:
         serializedVersion: 2
-        x: 63
-        y: 17
+        x: 16
+        y: 16
         width: 16
         height: 16
       alignment: 0
@@ -1080,7 +1119,7 @@ TextureImporter:
       name: Gangblanc_38
       rect:
         serializedVersion: 2
-        x: 79
+        x: 32
         y: 16
         width: 16
         height: 16
@@ -1102,10 +1141,10 @@ TextureImporter:
       name: Gangblanc_39
       rect:
         serializedVersion: 2
-        x: 95
-        y: 15
-        width: 15
-        height: 17
+        x: 48
+        y: 16
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1124,7 +1163,7 @@ TextureImporter:
       name: Gangblanc_40
       rect:
         serializedVersion: 2
-        x: 111
+        x: 64
         y: 16
         width: 16
         height: 16
@@ -1146,8 +1185,8 @@ TextureImporter:
       name: Gangblanc_41
       rect:
         serializedVersion: 2
-        x: 1
-        y: 0
+        x: 80
+        y: 16
         width: 16
         height: 16
       alignment: 0
@@ -1168,9 +1207,9 @@ TextureImporter:
       name: Gangblanc_42
       rect:
         serializedVersion: 2
-        x: 31
-        y: 0
-        width: 18
+        x: 96
+        y: 16
+        width: 16
         height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -1190,9 +1229,9 @@ TextureImporter:
       name: Gangblanc_43
       rect:
         serializedVersion: 2
-        x: 47
-        y: 0
-        width: 18
+        x: 112
+        y: 16
+        width: 16
         height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -1212,7 +1251,7 @@ TextureImporter:
       name: Gangblanc_44
       rect:
         serializedVersion: 2
-        x: 65
+        x: 0
         y: 0
         width: 16
         height: 16
@@ -1234,7 +1273,7 @@ TextureImporter:
       name: Gangblanc_45
       rect:
         serializedVersion: 2
-        x: 81
+        x: 16
         y: 0
         width: 16
         height: 16
@@ -1256,9 +1295,9 @@ TextureImporter:
       name: Gangblanc_46
       rect:
         serializedVersion: 2
-        x: 98
+        x: 32
         y: 0
-        width: 15
+        width: 16
         height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -1278,9 +1317,9 @@ TextureImporter:
       name: Gangblanc_47
       rect:
         serializedVersion: 2
-        x: 113
+        x: 48
         y: 0
-        width: 15
+        width: 16
         height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -1296,11 +1335,99 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: Gangblanc_48
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6befd38d56cfbdb4c8d342fb56f1dec1
+      internalID: -133371758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gangblanc_49
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 166a0082e97f78e44953089091bed291
+      internalID: 2047963902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gangblanc_50
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ead3360d79de1074b81878aed04c1f0b
+      internalID: -324783485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gangblanc_51
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee983856dc4d3db438d823deb7db8563
+      internalID: -1401190889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 7887f7381ea3f9748a37644b0aeb702f
     internalID: 0
     vertices: []
     indices: 
@@ -1353,7 +1480,11 @@ TextureImporter:
       Gangblanc_45: -4966614383684525730
       Gangblanc_46: 1019245846664937166
       Gangblanc_47: 4655436697851629603
+      Gangblanc_48: -133371758
+      Gangblanc_49: 2047963902
       Gangblanc_5: 5946922545091675242
+      Gangblanc_50: -324783485
+      Gangblanc_51: -1401190889
       Gangblanc_6: 4839268137295074030
       Gangblanc_7: -4845707080250649219
       Gangblanc_8: -7110502011232805905

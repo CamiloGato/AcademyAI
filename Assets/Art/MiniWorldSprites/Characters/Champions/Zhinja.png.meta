@@ -192,6 +192,45 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -200,9 +239,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 111
-        width: 81
-        height: 18
+        y: 128
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -221,9 +260,9 @@ TextureImporter:
       name: Zhinja_1
       rect:
         serializedVersion: 2
-        x: 3
+        x: 16
         y: 128
-        width: 12
+        width: 16
         height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -243,9 +282,9 @@ TextureImporter:
       name: Zhinja_2
       rect:
         serializedVersion: 2
-        x: 19
+        x: 32
         y: 128
-        width: 12
+        width: 16
         height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -265,10 +304,10 @@ TextureImporter:
       name: Zhinja_3
       rect:
         serializedVersion: 2
-        x: 35
-        y: 127
-        width: 12
-        height: 17
+        x: 48
+        y: 128
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -287,9 +326,9 @@ TextureImporter:
       name: Zhinja_4
       rect:
         serializedVersion: 2
-        x: 51
+        x: 64
         y: 128
-        width: 12
+        width: 16
         height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -309,10 +348,10 @@ TextureImporter:
       name: Zhinja_5
       rect:
         serializedVersion: 2
-        x: 67
-        y: 127
-        width: 12
-        height: 17
+        x: 0
+        y: 112
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -331,10 +370,10 @@ TextureImporter:
       name: Zhinja_6
       rect:
         serializedVersion: 2
-        x: 0
-        y: 95
-        width: 81
-        height: 18
+        x: 16
+        y: 112
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -353,9 +392,9 @@ TextureImporter:
       name: Zhinja_7
       rect:
         serializedVersion: 2
-        x: 1
-        y: 80
-        width: 12
+        x: 32
+        y: 112
+        width: 16
         height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -375,10 +414,10 @@ TextureImporter:
       name: Zhinja_8
       rect:
         serializedVersion: 2
-        x: 17
-        y: 80
-        width: 12
-        height: 17
+        x: 48
+        y: 112
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -397,10 +436,10 @@ TextureImporter:
       name: Zhinja_9
       rect:
         serializedVersion: 2
-        x: 33
-        y: 79
-        width: 12
-        height: 17
+        x: 64
+        y: 112
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -419,10 +458,10 @@ TextureImporter:
       name: Zhinja_10
       rect:
         serializedVersion: 2
-        x: 49
-        y: 80
-        width: 12
-        height: 17
+        x: 0
+        y: 96
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -441,10 +480,10 @@ TextureImporter:
       name: Zhinja_11
       rect:
         serializedVersion: 2
-        x: 65
-        y: 79
-        width: 12
-        height: 17
+        x: 16
+        y: 96
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -463,10 +502,10 @@ TextureImporter:
       name: Zhinja_12
       rect:
         serializedVersion: 2
-        x: 0
-        y: 32
-        width: 33
-        height: 33
+        x: 32
+        y: 96
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -485,9 +524,9 @@ TextureImporter:
       name: Zhinja_13
       rect:
         serializedVersion: 2
-        x: 3
-        y: 64
-        width: 12
+        x: 48
+        y: 96
+        width: 16
         height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -507,10 +546,10 @@ TextureImporter:
       name: Zhinja_14
       rect:
         serializedVersion: 2
-        x: 19
-        y: 64
-        width: 12
-        height: 17
+        x: 64
+        y: 96
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -529,10 +568,10 @@ TextureImporter:
       name: Zhinja_15
       rect:
         serializedVersion: 2
-        x: 34
-        y: 32
-        width: 60
-        height: 33
+        x: 0
+        y: 80
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -551,10 +590,10 @@ TextureImporter:
       name: Zhinja_16
       rect:
         serializedVersion: 2
-        x: 35
-        y: 63
-        width: 12
-        height: 17
+        x: 16
+        y: 80
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -573,10 +612,10 @@ TextureImporter:
       name: Zhinja_17
       rect:
         serializedVersion: 2
-        x: 51
-        y: 64
-        width: 12
-        height: 17
+        x: 32
+        y: 80
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -595,10 +634,10 @@ TextureImporter:
       name: Zhinja_18
       rect:
         serializedVersion: 2
-        x: 67
-        y: 63
-        width: 12
-        height: 17
+        x: 48
+        y: 80
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -617,10 +656,10 @@ TextureImporter:
       name: Zhinja_19
       rect:
         serializedVersion: 2
-        x: 1
-        y: 16
-        width: 12
-        height: 17
+        x: 64
+        y: 80
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -639,8 +678,8 @@ TextureImporter:
       name: Zhinja_20
       rect:
         serializedVersion: 2
-        x: 17
-        y: 16
+        x: 0
+        y: 64
         width: 16
         height: 16
       alignment: 0
@@ -661,9 +700,9 @@ TextureImporter:
       name: Zhinja_21
       rect:
         serializedVersion: 2
-        x: 31
-        y: 32
-        width: 15
+        x: 16
+        y: 64
+        width: 16
         height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -683,8 +722,8 @@ TextureImporter:
       name: Zhinja_22
       rect:
         serializedVersion: 2
-        x: 33
-        y: 16
+        x: 32
+        y: 64
         width: 16
         height: 16
       alignment: 0
@@ -705,10 +744,10 @@ TextureImporter:
       name: Zhinja_23
       rect:
         serializedVersion: 2
-        x: 49
-        y: 16
-        width: 12
-        height: 17
+        x: 48
+        y: 64
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -727,8 +766,8 @@ TextureImporter:
       name: Zhinja_24
       rect:
         serializedVersion: 2
-        x: 65
-        y: 16
+        x: 64
+        y: 64
         width: 16
         height: 16
       alignment: 0
@@ -749,9 +788,9 @@ TextureImporter:
       name: Zhinja_25
       rect:
         serializedVersion: 2
-        x: 81
-        y: 16
-        width: 15
+        x: 0
+        y: 48
+        width: 16
         height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -771,9 +810,9 @@ TextureImporter:
       name: Zhinja_26
       rect:
         serializedVersion: 2
-        x: 82
-        y: 32
-        width: 14
+        x: 16
+        y: 48
+        width: 16
         height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -793,10 +832,10 @@ TextureImporter:
       name: Zhinja_27
       rect:
         serializedVersion: 2
-        x: 3
-        y: 0
-        width: 12
-        height: 17
+        x: 32
+        y: 48
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -815,8 +854,8 @@ TextureImporter:
       name: Zhinja_28
       rect:
         serializedVersion: 2
-        x: 15
-        y: 0
+        x: 48
+        y: 48
         width: 16
         height: 16
       alignment: 0
@@ -837,8 +876,8 @@ TextureImporter:
       name: Zhinja_29
       rect:
         serializedVersion: 2
-        x: 31
-        y: 0
+        x: 64
+        y: 48
         width: 16
         height: 16
       alignment: 0
@@ -859,10 +898,10 @@ TextureImporter:
       name: Zhinja_30
       rect:
         serializedVersion: 2
-        x: 51
-        y: 0
-        width: 12
-        height: 17
+        x: 80
+        y: 48
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -881,8 +920,8 @@ TextureImporter:
       name: Zhinja_31
       rect:
         serializedVersion: 2
-        x: 63
-        y: 0
+        x: 0
+        y: 32
         width: 16
         height: 16
       alignment: 0
@@ -903,8 +942,8 @@ TextureImporter:
       name: Zhinja_32
       rect:
         serializedVersion: 2
-        x: 79
-        y: 0
+        x: 16
+        y: 32
         width: 16
         height: 16
       alignment: 0
@@ -921,11 +960,363 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: Zhinja_33
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa3aae4c4e84dc247b33c834414eaa5c
+      internalID: 632350184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zhinja_34
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 497b4dee2867f3e49941ba13def15d33
+      internalID: -1298404474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zhinja_35
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e9cd71431420544d8d803e207f2ee0a
+      internalID: -2027888737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zhinja_36
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d0ee54e60846a7409f90282e3338ca9
+      internalID: -2109351172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zhinja_37
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c3cb334ab403f64a86bd339a30ea96b
+      internalID: 1055646838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zhinja_38
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a81ac21fc17c7a443a4abfcc131b3421
+      internalID: -27183536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zhinja_39
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cbd986a98503924f994fde70ebc0baa
+      internalID: 2027009346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zhinja_40
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b6b011acb568cf4aae3a69dca241a3b
+      internalID: 1146619786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zhinja_41
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff3670a5b82edbf4d937a3be2dddf0c3
+      internalID: -778325229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zhinja_42
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cfceca4fcfc75c429e2e30ee1f3ba0c
+      internalID: -442441974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zhinja_43
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99c49446715955c45be4ceda6dc8a7aa
+      internalID: -40363195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zhinja_44
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6397b56aec68d874bb8dad3825e77b8e
+      internalID: -300114339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zhinja_45
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 908093227fcb472478b677150faf0376
+      internalID: 1933299849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zhinja_46
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9868daeb609ead4fbd88fd97b49da32
+      internalID: -1498707354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zhinja_47
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b948f842cbc89d44b999837eccfe4e00
+      internalID: -541703904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Zhinja_48
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e901a021740b31c47bfd4621eafae103
+      internalID: 271290524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 85801cdec15c1ab46adf156b17a56ebf
     internalID: 0
     vertices: []
     indices: 
@@ -962,7 +1353,23 @@ TextureImporter:
       Zhinja_30: -1369150339910151517
       Zhinja_31: 2102322252295117393
       Zhinja_32: 817643842061173332
+      Zhinja_33: 632350184
+      Zhinja_34: -1298404474
+      Zhinja_35: -2027888737
+      Zhinja_36: -2109351172
+      Zhinja_37: 1055646838
+      Zhinja_38: -27183536
+      Zhinja_39: 2027009346
       Zhinja_4: -7667260292683347997
+      Zhinja_40: 1146619786
+      Zhinja_41: -778325229
+      Zhinja_42: -442441974
+      Zhinja_43: -40363195
+      Zhinja_44: -300114339
+      Zhinja_45: 1933299849
+      Zhinja_46: -1498707354
+      Zhinja_47: -541703904
+      Zhinja_48: 271290524
       Zhinja_5: 3488945684802147910
       Zhinja_6: 5548724642740212765
       Zhinja_7: -31554899162245004

@@ -141,6 +141,45 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -148,10 +187,10 @@ TextureImporter:
       name: WinterTrees_0
       rect:
         serializedVersion: 2
-        x: 4
+        x: 0
         y: 48
-        width: 8
-        height: 9
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -170,9 +209,9 @@ TextureImporter:
       name: WinterTrees_1
       rect:
         serializedVersion: 2
-        x: 17
+        x: 16
         y: 48
-        width: 14
+        width: 16
         height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -192,9 +231,9 @@ TextureImporter:
       name: WinterTrees_2
       rect:
         serializedVersion: 2
-        x: 17
-        y: 32
-        width: 14
+        x: 32
+        y: 48
+        width: 16
         height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -214,9 +253,9 @@ TextureImporter:
       name: WinterTrees_3
       rect:
         serializedVersion: 2
-        x: 33
+        x: 48
         y: 48
-        width: 14
+        width: 16
         height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -236,10 +275,10 @@ TextureImporter:
       name: WinterTrees_4
       rect:
         serializedVersion: 2
-        x: 33
+        x: 0
         y: 32
-        width: 14
-        height: 17
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -258,8 +297,8 @@ TextureImporter:
       name: WinterTrees_5
       rect:
         serializedVersion: 2
-        x: 48
-        y: 48
+        x: 16
+        y: 32
         width: 16
         height: 16
       alignment: 0
@@ -280,7 +319,7 @@ TextureImporter:
       name: WinterTrees_6
       rect:
         serializedVersion: 2
-        x: 48
+        x: 32
         y: 32
         width: 16
         height: 16
@@ -302,10 +341,10 @@ TextureImporter:
       name: WinterTrees_7
       rect:
         serializedVersion: 2
-        x: 4
+        x: 48
         y: 32
-        width: 8
-        height: 9
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -324,9 +363,9 @@ TextureImporter:
       name: WinterTrees_8
       rect:
         serializedVersion: 2
-        x: 17
+        x: 0
         y: 16
-        width: 14
+        width: 16
         height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -346,10 +385,10 @@ TextureImporter:
       name: WinterTrees_9
       rect:
         serializedVersion: 2
-        x: 33
+        x: 16
         y: 16
-        width: 14
-        height: 17
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -368,7 +407,7 @@ TextureImporter:
       name: WinterTrees_10
       rect:
         serializedVersion: 2
-        x: 48
+        x: 32
         y: 16
         width: 16
         height: 16
@@ -390,10 +429,10 @@ TextureImporter:
       name: WinterTrees_11
       rect:
         serializedVersion: 2
-        x: 4
+        x: 48
         y: 16
-        width: 8
-        height: 9
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -412,9 +451,9 @@ TextureImporter:
       name: WinterTrees_12
       rect:
         serializedVersion: 2
-        x: 17
+        x: 0
         y: 0
-        width: 14
+        width: 16
         height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -434,10 +473,10 @@ TextureImporter:
       name: WinterTrees_13
       rect:
         serializedVersion: 2
-        x: 33
+        x: 16
         y: 0
-        width: 14
-        height: 17
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -456,7 +495,7 @@ TextureImporter:
       name: WinterTrees_14
       rect:
         serializedVersion: 2
-        x: 48
+        x: 32
         y: 0
         width: 16
         height: 16
@@ -478,10 +517,10 @@ TextureImporter:
       name: WinterTrees_15
       rect:
         serializedVersion: 2
-        x: 4
+        x: 48
         y: 0
-        width: 8
-        height: 9
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -500,7 +539,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 7c0d8b9240a25974aba54e9851cdfa2a
     internalID: 0
     vertices: []
     indices: 

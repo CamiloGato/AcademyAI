@@ -153,6 +153,45 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -160,10 +199,10 @@ TextureImporter:
       name: MarineAnimals_0
       rect:
         serializedVersion: 2
-        x: 1
-        y: 49
-        width: 14
-        height: 15
+        x: 0
+        y: 48
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -185,7 +224,7 @@ TextureImporter:
         x: 16
         y: 48
         width: 16
-        height: 15
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -204,10 +243,10 @@ TextureImporter:
       name: MarineAnimals_2
       rect:
         serializedVersion: 2
-        x: 35
-        y: 50
-        width: 10
-        height: 12
+        x: 32
+        y: 48
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -226,10 +265,10 @@ TextureImporter:
       name: MarineAnimals_3
       rect:
         serializedVersion: 2
-        x: 51
-        y: 50
-        width: 10
-        height: 12
+        x: 48
+        y: 48
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -248,10 +287,10 @@ TextureImporter:
       name: MarineAnimals_4
       rect:
         serializedVersion: 2
-        x: 67
-        y: 50
-        width: 10
-        height: 12
+        x: 64
+        y: 48
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -271,9 +310,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 33
-        width: 15
-        height: 14
+        y: 32
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -292,10 +331,10 @@ TextureImporter:
       name: MarineAnimals_6
       rect:
         serializedVersion: 2
-        x: 17
-        y: 33
-        width: 15
-        height: 14
+        x: 16
+        y: 32
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -314,10 +353,10 @@ TextureImporter:
       name: MarineAnimals_7
       rect:
         serializedVersion: 2
-        x: 34
-        y: 35
-        width: 12
-        height: 10
+        x: 32
+        y: 32
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -336,10 +375,10 @@ TextureImporter:
       name: MarineAnimals_8
       rect:
         serializedVersion: 2
-        x: 50
-        y: 35
-        width: 12
-        height: 10
+        x: 48
+        y: 32
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -358,10 +397,10 @@ TextureImporter:
       name: MarineAnimals_9
       rect:
         serializedVersion: 2
-        x: 66
-        y: 35
-        width: 12
-        height: 10
+        x: 64
+        y: 32
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -380,9 +419,9 @@ TextureImporter:
       name: MarineAnimals_10
       rect:
         serializedVersion: 2
-        x: 1
+        x: 0
         y: 16
-        width: 15
+        width: 16
         height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -404,7 +443,7 @@ TextureImporter:
         serializedVersion: 2
         x: 16
         y: 16
-        width: 15
+        width: 16
         height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -424,10 +463,10 @@ TextureImporter:
       name: MarineAnimals_12
       rect:
         serializedVersion: 2
-        x: 34
-        y: 19
-        width: 12
-        height: 10
+        x: 32
+        y: 16
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -446,10 +485,10 @@ TextureImporter:
       name: MarineAnimals_13
       rect:
         serializedVersion: 2
-        x: 50
-        y: 19
-        width: 12
-        height: 10
+        x: 48
+        y: 16
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -468,10 +507,10 @@ TextureImporter:
       name: MarineAnimals_14
       rect:
         serializedVersion: 2
-        x: 66
-        y: 19
-        width: 12
-        height: 10
+        x: 64
+        y: 16
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -490,10 +529,10 @@ TextureImporter:
       name: MarineAnimals_15
       rect:
         serializedVersion: 2
-        x: 1
+        x: 0
         y: 0
-        width: 14
-        height: 15
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -513,9 +552,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 16
-        y: 1
+        y: 0
         width: 16
-        height: 15
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -534,10 +573,10 @@ TextureImporter:
       name: MarineAnimals_17
       rect:
         serializedVersion: 2
-        x: 35
-        y: 2
-        width: 10
-        height: 12
+        x: 32
+        y: 0
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -556,10 +595,10 @@ TextureImporter:
       name: MarineAnimals_18
       rect:
         serializedVersion: 2
-        x: 51
-        y: 2
-        width: 10
-        height: 12
+        x: 48
+        y: 0
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -578,10 +617,10 @@ TextureImporter:
       name: MarineAnimals_19
       rect:
         serializedVersion: 2
-        x: 67
-        y: 2
-        width: 10
-        height: 12
+        x: 64
+        y: 0
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -600,7 +639,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 236f8f5439291a047ae16b735960a9a6
     internalID: 0
     vertices: []
     indices: 

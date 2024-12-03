@@ -207,6 +207,45 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -215,7 +254,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 111
+        y: 112
         width: 16
         height: 16
       alignment: 0
@@ -236,9 +275,9 @@ TextureImporter:
       name: Arthax_1
       rect:
         serializedVersion: 2
-        x: 15
+        x: 16
         y: 112
-        width: 17
+        width: 16
         height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -258,9 +297,9 @@ TextureImporter:
       name: Arthax_2
       rect:
         serializedVersion: 2
-        x: 16
-        y: 96
-        width: 17
+        x: 32
+        y: 112
+        width: 16
         height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -280,9 +319,9 @@ TextureImporter:
       name: Arthax_3
       rect:
         serializedVersion: 2
-        x: 31
-        y: 111
-        width: 17
+        x: 48
+        y: 112
+        width: 16
         height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -302,9 +341,9 @@ TextureImporter:
       name: Arthax_4
       rect:
         serializedVersion: 2
-        x: 47
+        x: 64
         y: 112
-        width: 17
+        width: 16
         height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -324,9 +363,9 @@ TextureImporter:
       name: Arthax_5
       rect:
         serializedVersion: 2
-        x: 48
+        x: 0
         y: 96
-        width: 17
+        width: 16
         height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -346,9 +385,9 @@ TextureImporter:
       name: Arthax_6
       rect:
         serializedVersion: 2
-        x: 63
-        y: 111
-        width: 17
+        x: 16
+        y: 96
+        width: 16
         height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -368,9 +407,9 @@ TextureImporter:
       name: Arthax_7
       rect:
         serializedVersion: 2
-        x: 0
-        y: 95
-        width: 17
+        x: 32
+        y: 96
+        width: 16
         height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -390,8 +429,8 @@ TextureImporter:
       name: Arthax_8
       rect:
         serializedVersion: 2
-        x: 0
-        y: 79
+        x: 48
+        y: 96
         width: 16
         height: 16
       alignment: 0
@@ -412,8 +451,8 @@ TextureImporter:
       name: Arthax_9
       rect:
         serializedVersion: 2
-        x: 16
-        y: 80
+        x: 64
+        y: 96
         width: 16
         height: 16
       alignment: 0
@@ -434,9 +473,9 @@ TextureImporter:
       name: Arthax_10
       rect:
         serializedVersion: 2
-        x: 32
-        y: 95
-        width: 17
+        x: 0
+        y: 80
+        width: 16
         height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -456,8 +495,8 @@ TextureImporter:
       name: Arthax_11
       rect:
         serializedVersion: 2
-        x: 32
-        y: 79
+        x: 16
+        y: 80
         width: 16
         height: 16
       alignment: 0
@@ -478,7 +517,7 @@ TextureImporter:
       name: Arthax_12
       rect:
         serializedVersion: 2
-        x: 48
+        x: 32
         y: 80
         width: 16
         height: 16
@@ -500,8 +539,8 @@ TextureImporter:
       name: Arthax_13
       rect:
         serializedVersion: 2
-        x: 64
-        y: 95
+        x: 48
+        y: 80
         width: 16
         height: 16
       alignment: 0
@@ -523,7 +562,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 64
-        y: 79
+        y: 80
         width: 16
         height: 16
       alignment: 0
@@ -545,7 +584,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 63
+        y: 64
         width: 16
         height: 16
       alignment: 0
@@ -566,8 +605,8 @@ TextureImporter:
       name: Arthax_16
       rect:
         serializedVersion: 2
-        x: 0
-        y: 48
+        x: 16
+        y: 64
         width: 16
         height: 16
       alignment: 0
@@ -588,7 +627,7 @@ TextureImporter:
       name: Arthax_17
       rect:
         serializedVersion: 2
-        x: 16
+        x: 32
         y: 64
         width: 16
         height: 16
@@ -610,10 +649,10 @@ TextureImporter:
       name: Arthax_18
       rect:
         serializedVersion: 2
-        x: 16
-        y: 48
+        x: 48
+        y: 64
         width: 16
-        height: 17
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -632,10 +671,10 @@ TextureImporter:
       name: Arthax_19
       rect:
         serializedVersion: 2
-        x: 31
-        y: 47
-        width: 17
-        height: 32
+        x: 64
+        y: 64
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -654,8 +693,8 @@ TextureImporter:
       name: Arthax_20
       rect:
         serializedVersion: 2
-        x: 48
-        y: 64
+        x: 0
+        y: 48
         width: 16
         height: 16
       alignment: 0
@@ -676,8 +715,8 @@ TextureImporter:
       name: Arthax_21
       rect:
         serializedVersion: 2
-        x: 64
-        y: 63
+        x: 16
+        y: 48
         width: 16
         height: 16
       alignment: 0
@@ -698,7 +737,7 @@ TextureImporter:
       name: Arthax_22
       rect:
         serializedVersion: 2
-        x: 64
+        x: 32
         y: 48
         width: 16
         height: 16
@@ -720,8 +759,8 @@ TextureImporter:
       name: Arthax_23
       rect:
         serializedVersion: 2
-        x: 0
-        y: 32
+        x: 48
+        y: 48
         width: 16
         height: 16
       alignment: 0
@@ -742,10 +781,10 @@ TextureImporter:
       name: Arthax_24
       rect:
         serializedVersion: 2
-        x: 16
-        y: 32
+        x: 64
+        y: 48
         width: 16
-        height: 17
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -764,10 +803,10 @@ TextureImporter:
       name: Arthax_25
       rect:
         serializedVersion: 2
-        x: 32
+        x: 0
         y: 32
-        width: 17
-        height: 17
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -786,8 +825,8 @@ TextureImporter:
       name: Arthax_26
       rect:
         serializedVersion: 2
-        x: 48
-        y: 47
+        x: 16
+        y: 32
         width: 16
         height: 16
       alignment: 0
@@ -808,10 +847,10 @@ TextureImporter:
       name: Arthax_27
       rect:
         serializedVersion: 2
-        x: 48
+        x: 32
         y: 32
         width: 16
-        height: 15
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -830,7 +869,7 @@ TextureImporter:
       name: Arthax_28
       rect:
         serializedVersion: 2
-        x: 64
+        x: 48
         y: 32
         width: 16
         height: 16
@@ -852,9 +891,9 @@ TextureImporter:
       name: Arthax_29
       rect:
         serializedVersion: 2
-        x: 1
-        y: 16
-        width: 13
+        x: 64
+        y: 32
+        width: 16
         height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -874,9 +913,9 @@ TextureImporter:
       name: Arthax_30
       rect:
         serializedVersion: 2
-        x: 2
-        y: 0
-        width: 13
+        x: 0
+        y: 16
+        width: 16
         height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -896,10 +935,10 @@ TextureImporter:
       name: Arthax_31
       rect:
         serializedVersion: 2
-        x: 17
+        x: 16
         y: 16
-        width: 13
-        height: 17
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -918,10 +957,10 @@ TextureImporter:
       name: Arthax_32
       rect:
         serializedVersion: 2
-        x: 18
-        y: 0
-        width: 13
-        height: 17
+        x: 32
+        y: 16
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -940,9 +979,9 @@ TextureImporter:
       name: Arthax_33
       rect:
         serializedVersion: 2
-        x: 31
-        y: 0
-        width: 17
+        x: 48
+        y: 16
+        width: 16
         height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -962,10 +1001,10 @@ TextureImporter:
       name: Arthax_34
       rect:
         serializedVersion: 2
-        x: 32
-        y: 15
-        width: 33
-        height: 17
+        x: 64
+        y: 16
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -984,8 +1023,8 @@ TextureImporter:
       name: Arthax_35
       rect:
         serializedVersion: 2
-        x: 64
-        y: 15
+        x: 0
+        y: 0
         width: 16
         height: 16
       alignment: 0
@@ -1006,10 +1045,10 @@ TextureImporter:
       name: Arthax_36
       rect:
         serializedVersion: 2
-        x: 47
+        x: 16
         y: 0
-        width: 18
-        height: 15
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1028,10 +1067,10 @@ TextureImporter:
       name: Arthax_37
       rect:
         serializedVersion: 2
-        x: 64
+        x: 32
         y: 0
         width: 16
-        height: 15
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1046,11 +1085,55 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: Arthax_38
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fec1f66b9dbf5fe4bb5a1c36a331ec4d
+      internalID: -2115649457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arthax_39
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88a4a1eab4ee87a41b9b2b5ac5f5a341
+      internalID: -1917731166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: d0fcafe6041b5c04883cdf2762ffdc0a
     internalID: 0
     vertices: []
     indices: 
@@ -1092,6 +1175,8 @@ TextureImporter:
       Arthax_35: -7683375624757253744
       Arthax_36: 4883858987160173096
       Arthax_37: 7245128821978997636
+      Arthax_38: -2115649457
+      Arthax_39: -1917731166
       Arthax_4: 1831094768453196107
       Arthax_5: -954041518471037300
       Arthax_6: -4541541384832256771

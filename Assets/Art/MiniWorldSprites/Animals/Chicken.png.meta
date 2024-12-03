@@ -141,6 +141,45 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -148,10 +187,10 @@ TextureImporter:
       name: Chicken_0
       rect:
         serializedVersion: 2
-        x: 3
-        y: 50
-        width: 10
-        height: 11
+        x: 0
+        y: 48
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -170,10 +209,10 @@ TextureImporter:
       name: Chicken_1
       rect:
         serializedVersion: 2
-        x: 19
+        x: 16
         y: 48
-        width: 10
-        height: 12
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -192,10 +231,10 @@ TextureImporter:
       name: Chicken_2
       rect:
         serializedVersion: 2
-        x: 35
-        y: 50
-        width: 10
-        height: 11
+        x: 32
+        y: 48
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -214,10 +253,10 @@ TextureImporter:
       name: Chicken_3
       rect:
         serializedVersion: 2
-        x: 51
+        x: 48
         y: 48
-        width: 10
-        height: 12
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -236,10 +275,10 @@ TextureImporter:
       name: Chicken_4
       rect:
         serializedVersion: 2
-        x: 3
-        y: 34
-        width: 10
-        height: 11
+        x: 0
+        y: 32
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -258,10 +297,10 @@ TextureImporter:
       name: Chicken_5
       rect:
         serializedVersion: 2
-        x: 19
+        x: 16
         y: 32
-        width: 10
-        height: 12
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -280,10 +319,10 @@ TextureImporter:
       name: Chicken_6
       rect:
         serializedVersion: 2
-        x: 35
-        y: 34
-        width: 10
-        height: 11
+        x: 32
+        y: 32
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -302,10 +341,10 @@ TextureImporter:
       name: Chicken_7
       rect:
         serializedVersion: 2
-        x: 51
+        x: 48
         y: 32
-        width: 10
-        height: 12
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -324,10 +363,10 @@ TextureImporter:
       name: Chicken_8
       rect:
         serializedVersion: 2
-        x: 2
-        y: 17
-        width: 12
-        height: 12
+        x: 0
+        y: 16
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -346,10 +385,10 @@ TextureImporter:
       name: Chicken_9
       rect:
         serializedVersion: 2
-        x: 18
+        x: 16
         y: 16
-        width: 12
-        height: 12
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -368,10 +407,10 @@ TextureImporter:
       name: Chicken_10
       rect:
         serializedVersion: 2
-        x: 34
-        y: 17
-        width: 12
-        height: 12
+        x: 32
+        y: 16
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -390,10 +429,10 @@ TextureImporter:
       name: Chicken_11
       rect:
         serializedVersion: 2
-        x: 50
+        x: 48
         y: 16
-        width: 12
-        height: 12
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -412,10 +451,10 @@ TextureImporter:
       name: Chicken_12
       rect:
         serializedVersion: 2
-        x: 2
-        y: 1
-        width: 12
-        height: 12
+        x: 0
+        y: 0
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -434,10 +473,10 @@ TextureImporter:
       name: Chicken_13
       rect:
         serializedVersion: 2
-        x: 18
+        x: 16
         y: 0
-        width: 12
-        height: 12
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -456,10 +495,10 @@ TextureImporter:
       name: Chicken_14
       rect:
         serializedVersion: 2
-        x: 34
-        y: 1
-        width: 12
-        height: 12
+        x: 32
+        y: 0
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -478,10 +517,10 @@ TextureImporter:
       name: Chicken_15
       rect:
         serializedVersion: 2
-        x: 50
+        x: 48
         y: 0
-        width: 12
-        height: 12
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -500,7 +539,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: ec6606bfffe988b4ba4e73e39f2bc819
     internalID: 0
     vertices: []
     indices: 

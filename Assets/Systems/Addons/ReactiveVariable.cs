@@ -13,9 +13,15 @@ namespace Systems.Addons
             get => _value;
             set
             {
+                if (Equals(_value, value)) return;
                 _value = value;
                 OnValueChanged?.Invoke(value);
             }
+        }
+
+        public static implicit operator T(ReactiveVariable<T> value)
+        {
+            return value.Value;
         }
     }
 }

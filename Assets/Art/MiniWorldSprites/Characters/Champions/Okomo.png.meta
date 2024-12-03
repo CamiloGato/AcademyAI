@@ -198,6 +198,45 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -206,9 +245,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 175
-        width: 80
-        height: 17
+        y: 176
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -227,10 +266,10 @@ TextureImporter:
       name: Okomo_1
       rect:
         serializedVersion: 2
-        x: 0
-        y: 159
-        width: 80
-        height: 17
+        x: 16
+        y: 176
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -249,10 +288,10 @@ TextureImporter:
       name: Okomo_2
       rect:
         serializedVersion: 2
-        x: 3
-        y: 144
-        width: 12
-        height: 15
+        x: 32
+        y: 176
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -271,9 +310,9 @@ TextureImporter:
       name: Okomo_3
       rect:
         serializedVersion: 2
-        x: 17
-        y: 128
-        width: 12
+        x: 48
+        y: 176
+        width: 16
         height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -293,9 +332,9 @@ TextureImporter:
       name: Okomo_4
       rect:
         serializedVersion: 2
-        x: 19
-        y: 144
-        width: 12
+        x: 64
+        y: 176
+        width: 16
         height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -315,9 +354,9 @@ TextureImporter:
       name: Okomo_5
       rect:
         serializedVersion: 2
-        x: 35
-        y: 143
-        width: 12
+        x: 0
+        y: 160
+        width: 16
         height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -337,9 +376,9 @@ TextureImporter:
       name: Okomo_6
       rect:
         serializedVersion: 2
-        x: 49
-        y: 128
-        width: 12
+        x: 16
+        y: 160
+        width: 16
         height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -359,9 +398,9 @@ TextureImporter:
       name: Okomo_7
       rect:
         serializedVersion: 2
-        x: 51
-        y: 144
-        width: 12
+        x: 32
+        y: 160
+        width: 16
         height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -381,9 +420,9 @@ TextureImporter:
       name: Okomo_8
       rect:
         serializedVersion: 2
-        x: 67
-        y: 143
-        width: 12
+        x: 48
+        y: 160
+        width: 16
         height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -403,10 +442,10 @@ TextureImporter:
       name: Okomo_9
       rect:
         serializedVersion: 2
-        x: 1
-        y: 128
-        width: 12
-        height: 15
+        x: 64
+        y: 160
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -425,8 +464,8 @@ TextureImporter:
       name: Okomo_10
       rect:
         serializedVersion: 2
-        x: 15
-        y: 112
+        x: 0
+        y: 144
         width: 16
         height: 16
       alignment: 0
@@ -447,9 +486,9 @@ TextureImporter:
       name: Okomo_11
       rect:
         serializedVersion: 2
-        x: 33
-        y: 127
-        width: 12
+        x: 16
+        y: 144
+        width: 16
         height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -469,9 +508,9 @@ TextureImporter:
       name: Okomo_12
       rect:
         serializedVersion: 2
-        x: 65
-        y: 127
-        width: 12
+        x: 32
+        y: 144
+        width: 16
         height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -491,10 +530,10 @@ TextureImporter:
       name: Okomo_13
       rect:
         serializedVersion: 2
-        x: 0
-        y: 112
-        width: 15
-        height: 15
+        x: 48
+        y: 144
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -513,9 +552,9 @@ TextureImporter:
       name: Okomo_14
       rect:
         serializedVersion: 2
-        x: 17
-        y: 96
-        width: 31
+        x: 64
+        y: 144
+        width: 16
         height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -535,8 +574,8 @@ TextureImporter:
       name: Okomo_15
       rect:
         serializedVersion: 2
-        x: 31
-        y: 111
+        x: 0
+        y: 128
         width: 16
         height: 16
       alignment: 0
@@ -557,9 +596,9 @@ TextureImporter:
       name: Okomo_16
       rect:
         serializedVersion: 2
-        x: 50
-        y: 111
-        width: 13
+        x: 16
+        y: 128
+        width: 16
         height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -579,10 +618,10 @@ TextureImporter:
       name: Okomo_17
       rect:
         serializedVersion: 2
-        x: 1
-        y: 96
+        x: 32
+        y: 128
         width: 16
-        height: 15
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -601,10 +640,10 @@ TextureImporter:
       name: Okomo_18
       rect:
         serializedVersion: 2
-        x: 19
-        y: 80
-        width: 12
-        height: 17
+        x: 48
+        y: 128
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -623,10 +662,10 @@ TextureImporter:
       name: Okomo_19
       rect:
         serializedVersion: 2
-        x: 31
-        y: 80
+        x: 64
+        y: 128
         width: 16
-        height: 17
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -645,10 +684,10 @@ TextureImporter:
       name: Okomo_20
       rect:
         serializedVersion: 2
-        x: 47
-        y: 96
-        width: 15
-        height: 15
+        x: 0
+        y: 112
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -667,10 +706,10 @@ TextureImporter:
       name: Okomo_21
       rect:
         serializedVersion: 2
-        x: 3
-        y: 80
-        width: 12
-        height: 15
+        x: 16
+        y: 112
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -689,10 +728,10 @@ TextureImporter:
       name: Okomo_22
       rect:
         serializedVersion: 2
-        x: 17
-        y: 64
-        width: 12
-        height: 17
+        x: 32
+        y: 112
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -711,10 +750,10 @@ TextureImporter:
       name: Okomo_23
       rect:
         serializedVersion: 2
-        x: 33
-        y: 64
+        x: 48
+        y: 112
         width: 16
-        height: 17
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -733,10 +772,10 @@ TextureImporter:
       name: Okomo_24
       rect:
         serializedVersion: 2
-        x: 47
-        y: 80
+        x: 0
+        y: 96
         width: 16
-        height: 15
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -755,10 +794,10 @@ TextureImporter:
       name: Okomo_25
       rect:
         serializedVersion: 2
-        x: 1
-        y: 64
-        width: 12
-        height: 15
+        x: 16
+        y: 96
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -777,10 +816,10 @@ TextureImporter:
       name: Okomo_26
       rect:
         serializedVersion: 2
-        x: 15
-        y: 48
+        x: 32
+        y: 96
         width: 16
-        height: 17
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -799,10 +838,10 @@ TextureImporter:
       name: Okomo_27
       rect:
         serializedVersion: 2
-        x: 49
-        y: 64
+        x: 48
+        y: 96
         width: 16
-        height: 15
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -822,9 +861,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 48
-        width: 15
-        height: 15
+        y: 80
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -843,10 +882,10 @@ TextureImporter:
       name: Okomo_29
       rect:
         serializedVersion: 2
-        x: 17
-        y: 32
+        x: 16
+        y: 80
         width: 16
-        height: 17
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -865,10 +904,10 @@ TextureImporter:
       name: Okomo_30
       rect:
         serializedVersion: 2
-        x: 1
-        y: 32
+        x: 32
+        y: 80
         width: 16
-        height: 15
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -887,10 +926,10 @@ TextureImporter:
       name: Okomo_31
       rect:
         serializedVersion: 2
-        x: 19
-        y: 16
-        width: 12
-        height: 17
+        x: 48
+        y: 80
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -909,10 +948,10 @@ TextureImporter:
       name: Okomo_32
       rect:
         serializedVersion: 2
-        x: 3
-        y: 16
-        width: 12
-        height: 15
+        x: 0
+        y: 64
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -931,10 +970,10 @@ TextureImporter:
       name: Okomo_33
       rect:
         serializedVersion: 2
-        x: 17
-        y: 0
-        width: 12
-        height: 17
+        x: 16
+        y: 64
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -953,10 +992,10 @@ TextureImporter:
       name: Okomo_34
       rect:
         serializedVersion: 2
-        x: 1
-        y: 0
-        width: 12
-        height: 15
+        x: 32
+        y: 64
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -971,11 +1010,209 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: Okomo_35
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52d77c9f2bce1bc4094caa897bc1bd7a
+      internalID: 2145930060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Okomo_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 012e1ee3cd32edd43a6562b124a53505
+      internalID: -2025669391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Okomo_37
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 48
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eca03a4bd0736424fa36d2b25b206cf5
+      internalID: -1655215771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Okomo_38
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1fa57f75ecbf40419c211b77cdb8931
+      internalID: -9791917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Okomo_39
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32dbfb47bf9e3ff4f94aa3bb12f372d2
+      internalID: -918130346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Okomo_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bf4931ff546be146b973e336f512198
+      internalID: -1073429337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Okomo_41
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ce3d1bd098be8a4688981238414d55a
+      internalID: 565969267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Okomo_42
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e07ccc721700cf479b55b7297300b18
+      internalID: 273308215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Okomo_43
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa229a88429b4874cb787d891fbe8321
+      internalID: 1895672842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: ab8d2c54c8ee1eb42b86bcfaeaa9c6fb
     internalID: 0
     vertices: []
     indices: 
@@ -1014,7 +1251,16 @@ TextureImporter:
       Okomo_32: -1281986727415439756
       Okomo_33: -4733577760645699912
       Okomo_34: 1407879965361554723
+      Okomo_35: 2145930060
+      Okomo_36: -2025669391
+      Okomo_37: -1655215771
+      Okomo_38: -9791917
+      Okomo_39: -918130346
       Okomo_4: -147641931292135126
+      Okomo_40: -1073429337
+      Okomo_41: 565969267
+      Okomo_42: 273308215
+      Okomo_43: 1895672842
       Okomo_5: -4074602781481108980
       Okomo_6: -1577318928745301034
       Okomo_7: 256237110795596760

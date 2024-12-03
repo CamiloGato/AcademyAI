@@ -141,6 +141,45 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -148,10 +187,10 @@ TextureImporter:
       name: Chick_0
       rect:
         serializedVersion: 2
-        x: 4
-        y: 50
-        width: 8
-        height: 8
+        x: 0
+        y: 48
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -170,10 +209,10 @@ TextureImporter:
       name: Chick_1
       rect:
         serializedVersion: 2
-        x: 20
+        x: 16
         y: 48
-        width: 8
-        height: 9
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -192,10 +231,10 @@ TextureImporter:
       name: Chick_2
       rect:
         serializedVersion: 2
-        x: 36
-        y: 50
-        width: 8
-        height: 8
+        x: 32
+        y: 48
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -214,10 +253,10 @@ TextureImporter:
       name: Chick_3
       rect:
         serializedVersion: 2
-        x: 52
+        x: 48
         y: 48
-        width: 8
-        height: 9
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -236,10 +275,10 @@ TextureImporter:
       name: Chick_4
       rect:
         serializedVersion: 2
-        x: 4
-        y: 34
-        width: 8
-        height: 8
+        x: 0
+        y: 32
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -258,10 +297,10 @@ TextureImporter:
       name: Chick_5
       rect:
         serializedVersion: 2
-        x: 20
+        x: 16
         y: 32
-        width: 8
-        height: 9
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -280,10 +319,10 @@ TextureImporter:
       name: Chick_6
       rect:
         serializedVersion: 2
-        x: 36
-        y: 34
-        width: 8
-        height: 8
+        x: 32
+        y: 32
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -302,10 +341,10 @@ TextureImporter:
       name: Chick_7
       rect:
         serializedVersion: 2
-        x: 52
+        x: 48
         y: 32
-        width: 8
-        height: 9
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -324,10 +363,10 @@ TextureImporter:
       name: Chick_8
       rect:
         serializedVersion: 2
-        x: 3
-        y: 18
-        width: 10
-        height: 8
+        x: 0
+        y: 16
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -346,10 +385,10 @@ TextureImporter:
       name: Chick_9
       rect:
         serializedVersion: 2
-        x: 19
-        y: 17
-        width: 10
-        height: 8
+        x: 16
+        y: 16
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -368,10 +407,10 @@ TextureImporter:
       name: Chick_10
       rect:
         serializedVersion: 2
-        x: 35
-        y: 18
-        width: 10
-        height: 8
+        x: 32
+        y: 16
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -390,10 +429,10 @@ TextureImporter:
       name: Chick_11
       rect:
         serializedVersion: 2
-        x: 51
-        y: 17
-        width: 10
-        height: 8
+        x: 48
+        y: 16
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -412,10 +451,10 @@ TextureImporter:
       name: Chick_12
       rect:
         serializedVersion: 2
-        x: 3
-        y: 2
-        width: 10
-        height: 8
+        x: 0
+        y: 0
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -434,10 +473,10 @@ TextureImporter:
       name: Chick_13
       rect:
         serializedVersion: 2
-        x: 19
-        y: 1
-        width: 10
-        height: 8
+        x: 16
+        y: 0
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -456,10 +495,10 @@ TextureImporter:
       name: Chick_14
       rect:
         serializedVersion: 2
-        x: 35
-        y: 2
-        width: 10
-        height: 8
+        x: 32
+        y: 0
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -478,10 +517,10 @@ TextureImporter:
       name: Chick_15
       rect:
         serializedVersion: 2
-        x: 51
-        y: 1
-        width: 10
-        height: 8
+        x: 48
+        y: 0
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -500,7 +539,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 981facd407c23704e97ab7299439566b
     internalID: 0
     vertices: []
     indices: 

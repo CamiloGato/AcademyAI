@@ -165,6 +165,45 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -172,10 +211,10 @@ TextureImporter:
       name: Horse(32x32)_0
       rect:
         serializedVersion: 2
-        x: 10
-        y: 166
-        width: 12
-        height: 18
+        x: 0
+        y: 160
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -194,10 +233,10 @@ TextureImporter:
       name: Horse(32x32)_1
       rect:
         serializedVersion: 2
-        x: 42
-        y: 165
-        width: 12
-        height: 18
+        x: 32
+        y: 160
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -216,10 +255,10 @@ TextureImporter:
       name: Horse(32x32)_2
       rect:
         serializedVersion: 2
-        x: 74
-        y: 166
-        width: 12
-        height: 18
+        x: 64
+        y: 160
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -238,10 +277,10 @@ TextureImporter:
       name: Horse(32x32)_3
       rect:
         serializedVersion: 2
-        x: 106
-        y: 165
-        width: 12
-        height: 18
+        x: 96
+        y: 160
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -260,10 +299,10 @@ TextureImporter:
       name: Horse(32x32)_4
       rect:
         serializedVersion: 2
-        x: 10
-        y: 134
-        width: 12
-        height: 18
+        x: 0
+        y: 128
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -282,10 +321,10 @@ TextureImporter:
       name: Horse(32x32)_5
       rect:
         serializedVersion: 2
-        x: 42
-        y: 132
-        width: 12
-        height: 19
+        x: 32
+        y: 128
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -304,10 +343,10 @@ TextureImporter:
       name: Horse(32x32)_6
       rect:
         serializedVersion: 2
-        x: 74
-        y: 134
-        width: 12
-        height: 18
+        x: 64
+        y: 128
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -326,10 +365,10 @@ TextureImporter:
       name: Horse(32x32)_7
       rect:
         serializedVersion: 2
-        x: 106
-        y: 136
-        width: 12
-        height: 17
+        x: 96
+        y: 128
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -348,10 +387,10 @@ TextureImporter:
       name: Horse(32x32)_8
       rect:
         serializedVersion: 2
-        x: 8
-        y: 103
-        width: 19
-        height: 16
+        x: 0
+        y: 96
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -370,10 +409,10 @@ TextureImporter:
       name: Horse(32x32)_9
       rect:
         serializedVersion: 2
-        x: 40
-        y: 102
-        width: 19
-        height: 16
+        x: 32
+        y: 96
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -392,10 +431,10 @@ TextureImporter:
       name: Horse(32x32)_10
       rect:
         serializedVersion: 2
-        x: 72
-        y: 103
-        width: 19
-        height: 16
+        x: 64
+        y: 96
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -414,10 +453,10 @@ TextureImporter:
       name: Horse(32x32)_11
       rect:
         serializedVersion: 2
-        x: 104
-        y: 102
-        width: 19
-        height: 16
+        x: 96
+        y: 96
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -436,10 +475,10 @@ TextureImporter:
       name: Horse(32x32)_12
       rect:
         serializedVersion: 2
-        x: 8
-        y: 71
-        width: 19
-        height: 16
+        x: 0
+        y: 64
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -458,10 +497,10 @@ TextureImporter:
       name: Horse(32x32)_13
       rect:
         serializedVersion: 2
-        x: 40
-        y: 72
-        width: 19
-        height: 17
+        x: 32
+        y: 64
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -480,10 +519,10 @@ TextureImporter:
       name: Horse(32x32)_14
       rect:
         serializedVersion: 2
-        x: 72
-        y: 71
-        width: 19
-        height: 16
+        x: 64
+        y: 64
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -502,10 +541,10 @@ TextureImporter:
       name: Horse(32x32)_15
       rect:
         serializedVersion: 2
-        x: 104
-        y: 69
-        width: 19
-        height: 16
+        x: 96
+        y: 64
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -524,10 +563,10 @@ TextureImporter:
       name: Horse(32x32)_16
       rect:
         serializedVersion: 2
-        x: 10
-        y: 39
-        width: 12
-        height: 17
+        x: 0
+        y: 32
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -546,10 +585,10 @@ TextureImporter:
       name: Horse(32x32)_17
       rect:
         serializedVersion: 2
-        x: 42
-        y: 38
-        width: 12
-        height: 17
+        x: 32
+        y: 32
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -568,10 +607,10 @@ TextureImporter:
       name: Horse(32x32)_18
       rect:
         serializedVersion: 2
-        x: 74
-        y: 39
-        width: 12
-        height: 17
+        x: 64
+        y: 32
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -590,10 +629,10 @@ TextureImporter:
       name: Horse(32x32)_19
       rect:
         serializedVersion: 2
-        x: 106
-        y: 38
-        width: 12
-        height: 17
+        x: 96
+        y: 32
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -612,10 +651,10 @@ TextureImporter:
       name: Horse(32x32)_20
       rect:
         serializedVersion: 2
-        x: 10
-        y: 7
-        width: 12
-        height: 17
+        x: 0
+        y: 0
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -634,10 +673,10 @@ TextureImporter:
       name: Horse(32x32)_21
       rect:
         serializedVersion: 2
-        x: 42
-        y: 8
-        width: 12
-        height: 18
+        x: 32
+        y: 0
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -656,10 +695,10 @@ TextureImporter:
       name: Horse(32x32)_22
       rect:
         serializedVersion: 2
-        x: 74
-        y: 7
-        width: 12
-        height: 17
+        x: 64
+        y: 0
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -678,10 +717,10 @@ TextureImporter:
       name: Horse(32x32)_23
       rect:
         serializedVersion: 2
-        x: 106
-        y: 7
-        width: 12
-        height: 16
+        x: 96
+        y: 0
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -700,7 +739,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 11eec7dfff399cf45aa2eda30f7dbd54
     internalID: 0
     vertices: []
     indices: 

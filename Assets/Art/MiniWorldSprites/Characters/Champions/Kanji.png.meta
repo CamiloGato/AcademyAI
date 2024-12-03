@@ -192,6 +192,45 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -201,7 +240,7 @@ TextureImporter:
         serializedVersion: 2
         x: 0
         y: 112
-        width: 81
+        width: 16
         height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -221,9 +260,9 @@ TextureImporter:
       name: Kanji_1
       rect:
         serializedVersion: 2
-        x: 0
-        y: 96
-        width: 81
+        x: 16
+        y: 112
+        width: 16
         height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -243,10 +282,10 @@ TextureImporter:
       name: Kanji_2
       rect:
         serializedVersion: 2
-        x: 1
-        y: 81
-        width: 13
-        height: 14
+        x: 32
+        y: 112
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -265,10 +304,10 @@ TextureImporter:
       name: Kanji_3
       rect:
         serializedVersion: 2
-        x: 17
-        y: 81
-        width: 13
-        height: 15
+        x: 48
+        y: 112
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -287,10 +326,10 @@ TextureImporter:
       name: Kanji_4
       rect:
         serializedVersion: 2
-        x: 33
-        y: 80
-        width: 13
-        height: 15
+        x: 64
+        y: 112
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -309,10 +348,10 @@ TextureImporter:
       name: Kanji_5
       rect:
         serializedVersion: 2
-        x: 49
-        y: 81
-        width: 13
-        height: 15
+        x: 0
+        y: 96
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -331,10 +370,10 @@ TextureImporter:
       name: Kanji_6
       rect:
         serializedVersion: 2
-        x: 65
-        y: 80
-        width: 13
-        height: 15
+        x: 16
+        y: 96
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -353,9 +392,9 @@ TextureImporter:
       name: Kanji_7
       rect:
         serializedVersion: 2
-        x: 0
-        y: 49
-        width: 14
+        x: 32
+        y: 96
+        width: 16
         height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -375,10 +414,10 @@ TextureImporter:
       name: Kanji_8
       rect:
         serializedVersion: 2
-        x: 2
-        y: 65
-        width: 13
-        height: 14
+        x: 48
+        y: 96
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -397,10 +436,10 @@ TextureImporter:
       name: Kanji_9
       rect:
         serializedVersion: 2
-        x: 18
-        y: 65
-        width: 13
-        height: 15
+        x: 64
+        y: 96
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -419,10 +458,10 @@ TextureImporter:
       name: Kanji_10
       rect:
         serializedVersion: 2
-        x: 34
-        y: 64
-        width: 13
-        height: 15
+        x: 0
+        y: 80
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -441,10 +480,10 @@ TextureImporter:
       name: Kanji_11
       rect:
         serializedVersion: 2
-        x: 50
-        y: 65
-        width: 13
-        height: 15
+        x: 16
+        y: 80
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -463,9 +502,9 @@ TextureImporter:
       name: Kanji_12
       rect:
         serializedVersion: 2
-        x: 50
-        y: 49
-        width: 15
+        x: 32
+        y: 80
+        width: 16
         height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -485,10 +524,10 @@ TextureImporter:
       name: Kanji_13
       rect:
         serializedVersion: 2
-        x: 66
-        y: 64
-        width: 13
-        height: 15
+        x: 48
+        y: 80
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -507,9 +546,9 @@ TextureImporter:
       name: Kanji_14
       rect:
         serializedVersion: 2
-        x: 0
-        y: 33
-        width: 14
+        x: 64
+        y: 80
+        width: 16
         height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -529,10 +568,10 @@ TextureImporter:
       name: Kanji_15
       rect:
         serializedVersion: 2
-        x: 15
-        y: 33
-        width: 18
-        height: 30
+        x: 0
+        y: 64
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -551,9 +590,9 @@ TextureImporter:
       name: Kanji_16
       rect:
         serializedVersion: 2
-        x: 34
-        y: 47
-        width: 13
+        x: 16
+        y: 64
+        width: 16
         height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -573,10 +612,10 @@ TextureImporter:
       name: Kanji_17
       rect:
         serializedVersion: 2
-        x: 34
-        y: 33
-        width: 15
-        height: 14
+        x: 32
+        y: 64
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -595,10 +634,10 @@ TextureImporter:
       name: Kanji_18
       rect:
         serializedVersion: 2
-        x: 50
-        y: 33
-        width: 31
-        height: 30
+        x: 48
+        y: 64
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -617,10 +656,10 @@ TextureImporter:
       name: Kanji_19
       rect:
         serializedVersion: 2
-        x: 79
-        y: 33
-        width: 15
-        height: 14
+        x: 64
+        y: 64
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -639,9 +678,9 @@ TextureImporter:
       name: Kanji_20
       rect:
         serializedVersion: 2
-        x: 81
-        y: 47
-        width: 13
+        x: 0
+        y: 48
+        width: 16
         height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -661,9 +700,9 @@ TextureImporter:
       name: Kanji_21
       rect:
         serializedVersion: 2
-        x: 1
-        y: 17
-        width: 13
+        x: 16
+        y: 48
+        width: 16
         height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -683,9 +722,9 @@ TextureImporter:
       name: Kanji_22
       rect:
         serializedVersion: 2
-        x: 2
-        y: 1
-        width: 13
+        x: 32
+        y: 48
+        width: 16
         height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -705,8 +744,8 @@ TextureImporter:
       name: Kanji_23
       rect:
         serializedVersion: 2
-        x: 15
-        y: 1
+        x: 48
+        y: 48
         width: 16
         height: 16
       alignment: 0
@@ -727,8 +766,8 @@ TextureImporter:
       name: Kanji_24
       rect:
         serializedVersion: 2
-        x: 17
-        y: 17
+        x: 64
+        y: 48
         width: 16
         height: 16
       alignment: 0
@@ -749,10 +788,10 @@ TextureImporter:
       name: Kanji_25
       rect:
         serializedVersion: 2
-        x: 33
-        y: 17
+        x: 80
+        y: 48
         width: 16
-        height: 14
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -771,9 +810,9 @@ TextureImporter:
       name: Kanji_26
       rect:
         serializedVersion: 2
-        x: 49
-        y: 17
-        width: 13
+        x: 0
+        y: 32
+        width: 16
         height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -793,9 +832,9 @@ TextureImporter:
       name: Kanji_27
       rect:
         serializedVersion: 2
-        x: 50
-        y: 1
-        width: 13
+        x: 16
+        y: 32
+        width: 16
         height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -815,10 +854,10 @@ TextureImporter:
       name: Kanji_28
       rect:
         serializedVersion: 2
-        x: 65
-        y: 17
+        x: 32
+        y: 32
         width: 16
-        height: 15
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -837,10 +876,10 @@ TextureImporter:
       name: Kanji_29
       rect:
         serializedVersion: 2
-        x: 81
-        y: 17
-        width: 15
-        height: 14
+        x: 48
+        y: 32
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -859,10 +898,10 @@ TextureImporter:
       name: Kanji_30
       rect:
         serializedVersion: 2
-        x: 31
-        y: 1
+        x: 64
+        y: 32
         width: 16
-        height: 14
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -881,10 +920,10 @@ TextureImporter:
       name: Kanji_31
       rect:
         serializedVersion: 2
-        x: 63
-        y: 1
+        x: 80
+        y: 32
         width: 16
-        height: 15
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -903,10 +942,10 @@ TextureImporter:
       name: Kanji_32
       rect:
         serializedVersion: 2
-        x: 79
-        y: 1
+        x: 0
+        y: 16
         width: 16
-        height: 14
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -921,11 +960,253 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: Kanji_33
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c19352775cb897641a972c80dfb0e568
+      internalID: -1952118567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kanji_34
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 330e31b98bdd71d4982dfab7e9546e23
+      internalID: 1248672892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kanji_35
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b8cbc2da699a9a43ab8415a2792738e
+      internalID: 1925990336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kanji_36
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fb95e7dcf0c7a14baf1430a04be35b9
+      internalID: 509111095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kanji_37
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 16
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8694bfc414207f247af1f5ac3863bf76
+      internalID: -844053591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kanji_38
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d277304876cc14d4da035fbdfd280258
+      internalID: 648835424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kanji_39
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69081186649fbb3438f2fd0e04c4ab7d
+      internalID: 1158856447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kanji_40
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d52f0737b7147334795c5ca98fb13cc7
+      internalID: -83810799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kanji_41
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb228684c16f2484fba80c3dbec12cbd
+      internalID: 1744076034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kanji_42
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 277bc4569a1afe64fb2bddc12aa1d887
+      internalID: -1840643718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kanji_43
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 0
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e287cc24828a2084db433b1f32839037
+      internalID: 385629628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 9768097c00bd9604ba21f0565dc48b1f
     internalID: 0
     vertices: []
     indices: 
@@ -962,7 +1243,18 @@ TextureImporter:
       Kanji_30: -1543140828260984842
       Kanji_31: -3939728236315698087
       Kanji_32: -761596664485113860
+      Kanji_33: -1952118567
+      Kanji_34: 1248672892
+      Kanji_35: 1925990336
+      Kanji_36: 509111095
+      Kanji_37: -844053591
+      Kanji_38: 648835424
+      Kanji_39: 1158856447
       Kanji_4: 3475214436975232270
+      Kanji_40: -83810799
+      Kanji_41: 1744076034
+      Kanji_42: -1840643718
+      Kanji_43: 385629628
       Kanji_5: -4421540375022885357
       Kanji_6: 3439192546391644555
       Kanji_7: 6302517314597659513
