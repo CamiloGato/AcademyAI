@@ -52,7 +52,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -66,7 +66,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 16
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -259,7 +259,13 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      CoconutTrees_0: -910778585992575559
+      CoconutTrees_1: 3415166823269376677
+      CoconutTrees_2: -257271700657658089
+      CoconutTrees_3: -1343632623540666984
+      CoconutTrees_4: -7260907634994330529
+      CoconutTrees_5: 7782543942288593759
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
