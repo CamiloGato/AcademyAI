@@ -1,0 +1,4 @@
+namespace Tools.Extension.Exceptions
+{
+
+}
