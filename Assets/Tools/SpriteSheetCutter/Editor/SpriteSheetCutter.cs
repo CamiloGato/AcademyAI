@@ -1,20 +1,23 @@
+using System.Collections.Generic;
+using System.Linq;
 using Tools.Extension;
+using Tools.Objects;
+using Tools.Objects.Mappers;
 using UnityEditor;
 using UnityEngine;
 
 namespace Tools.SpriteSheetCutter.Editor
 {
-    public class Texture2DList : ListWrapper<Texture2D>{}
-
     public class SpriteSheetCutter : EditorWindow
     {
-        private Texture2DList _spriteSheets;
         private Texture2DCutData _cutData;
-
         private SerializedObject _cutDataSerializedObject;
 
+        private Texture2DList _spriteSheets;
         private SerializedObject _spriteSheetsSerializedObject;
         private SerializedProperty _spriteSheetsProperty;
+
+        private List<int> _totalSpritesColumns;
 
         [MenuItem("Tools/CamiloGato/Sprite Sheet Cutter")]
         public static void ShowWindow()
@@ -31,7 +34,7 @@ namespace Tools.SpriteSheetCutter.Editor
                 _spriteSheets = CreateInstance<Texture2DList>();
             }
 
-            if (_cutData == null)
+            if (!_cutData)
             {
                 _cutData = CreateInstance<Texture2DCutData>();
             }
@@ -44,11 +47,7 @@ namespace Tools.SpriteSheetCutter.Editor
 
         private void OnGUI()
         {
-            if (_spriteSheetsSerializedObject == null || _spriteSheetsProperty == null)
-            {
-                EditorGUILayout.HelpBox("Error initializing Sprite Sheet Cutter", MessageType.Error);
-                return;
-            }
+            // TODO: Use from DTO instead of entity and then remove the Mapper
 
             _cutDataSerializedObject.Update();
             EditorGUILayout.LabelField("Cut Data Settings", EditorStyles.boldLabel);
@@ -74,6 +73,26 @@ namespace Tools.SpriteSheetCutter.Editor
             {
                 CutSpritesWithProgress();
             }
+
+            if (GUILayout.Button("Create Sprite Sheet Info"))
+            {
+                string path = EditorUtility.SaveFilePanelInProject("Save Sprite Sheet Info", "SpriteSheetInfo", "asset", "Save Sprite Sheet Info");
+                if (!string.IsNullOrEmpty(path))
+                {
+                    _spriteSheets.elements.FirstOrDefault()?.CutSpriteSheet(_cutData);
+                    SpriteSheetInfo spriteSheetInfo = CreateInstance<SpriteSheetInfo>();
+                    spriteSheetInfo.elements = new List<int>(_totalSpritesColumns);
+                    spriteSheetInfo.texture2DCutDataDto = Texture2DCutDataMapper.ToDto(_cutData);
+                    AssetDatabase.CreateAsset(spriteSheetInfo, path);
+                    AssetDatabase.SaveAssets();
+                    AssetDatabase.Refresh();
+                }
+            }
+
+            if (_spriteSheets.Count > 0)
+            {
+                EditorGUILayout.HelpBox("If you create the Sprite Sheet Info, you will save the last sprite sheet.", MessageType.Info);
+            }
         }
 
         private void CutSpritesWithProgress()
@@ -93,7 +112,9 @@ namespace Tools.SpriteSheetCutter.Editor
                         (float)currentSheetIndex / totalSheets
                     );
 
-                    if (!spriteSheet.CutSpriteSheet(_cutData))
+                    _totalSpritesColumns = new List<int>(Texture2DExtensions.LastTotalSpritesColumns);
+
+                    if(!spriteSheet.CutSpriteSheet(_cutData))
                     {
                         return;
                     }

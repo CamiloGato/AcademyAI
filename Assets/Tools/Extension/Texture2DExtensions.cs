@@ -17,6 +17,8 @@ namespace Tools.Extension
 
     public static class Texture2DExtensions
     {
+        public static List<int> LastTotalSpritesColumns = new List<int>();
+
         public static bool IsRectEmpty(this Texture2D spriteSheet, Rect rect)
         {
             int x = Mathf.FloorToInt(rect.x);
@@ -71,16 +73,20 @@ namespace Tools.Extension
             int columns = (spriteSheet.width - cutData.offsetX + cutData.paddingX) / (cutData.gridWidth + cutData.paddingX);
             int rows = (spriteSheet.height - cutData.offsetY + cutData.paddingY) / (cutData.gridHeight + cutData.paddingY);
 
+            LastTotalSpritesColumns = new List<int>();
             for (int y = 0; y < rows; y++)
             {
+                int totalSpritesColumns = 0;
                 for (int x = 0; x < columns; x++)
                 {
                     SpriteRect spriteRect = spriteSheet.CreateSpriteRectFromCoordinates(x, y, cutData);
                     if (spriteRect != null)
                     {
+                        totalSpritesColumns++;
                         spriteRects.Add(spriteRect);
                     }
                 }
+                LastTotalSpritesColumns.Add(totalSpritesColumns);
             }
 
             return spriteRects;
@@ -106,6 +112,24 @@ namespace Tools.Extension
             textureImporter.SaveAndReimport();
 
             return true;
+        }
+
+        public static Sprite[] GetSpritesFromSheet(this Texture2D spriteSheet)
+        {
+            List<Sprite> sprites = new List<Sprite>();
+
+            string path = AssetDatabase.GetAssetPath(spriteSheet);
+            Object[] objects = AssetDatabase.LoadAllAssetsAtPath(path);
+
+            foreach (Object obj in objects)
+            {
+                if (obj is Sprite sprite)
+                {
+                    sprites.Add(sprite);
+                }
+            }
+
+            return sprites.ToArray();
         }
     }
 }
