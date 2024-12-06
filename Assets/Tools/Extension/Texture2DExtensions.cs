@@ -114,6 +114,11 @@ namespace Tools.Extension
             return true;
         }
 
+        public static List<Sprite> GetSpritesFromSheet(this Texture2D spriteSheet, int startIndex, int endIndex)
+        {
+            return new List<Sprite>(GetSpritesFromSheet(spriteSheet)).GetRange(startIndex, endIndex - startIndex + 1);
+        }
+
         public static Sprite[] GetSpritesFromSheet(this Texture2D spriteSheet)
         {
             List<Sprite> sprites = new List<Sprite>();
