@@ -167,15 +167,15 @@ namespace Tools.SpriteAnimator.Editor
                 float progress = 0f;
                 float progressStep = 1f / _animationClipData.elements.Count;
 
+                if (string.IsNullOrEmpty(path))
+                {
+                    return;
+                }
+
                 foreach (AnimationClipData clipData in _animationClipData.elements)
                 {
                     Sprite[] sprites = spriteSheet.GetSpritesFromSheet();
                     AnimationClip animationClip = sprites.CreateAnimationClip(clipData.startIndex, clipData.endIndex, clipData.frameRate);
-
-                    if (string.IsNullOrEmpty(path))
-                    {
-                        continue;
-                    }
 
                     string filePath = $"{path}/{clipData.name}.anim";
 
