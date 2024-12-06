@@ -1,0 +1,74 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 747086aa1bc644f499b078d08bb194a4, type: 3}
+  m_Name: Male Elven Ears1
+  m_EditorClassIdentifier: 
+  spriteAnimationData:
+  - animationName: Idle
+    spriteSheets:
+    - {fileID: -5209606256581667399, guid: 5e89d74bdba1ab949b413dbe14d86507, type: 3}
+    - {fileID: 5823975320945511388, guid: 5e89d74bdba1ab949b413dbe14d86507, type: 3}
+    - {fileID: -269493508528171109, guid: 5e89d74bdba1ab949b413dbe14d86507, type: 3}
+    - {fileID: 1235940400140286721, guid: 5e89d74bdba1ab949b413dbe14d86507, type: 3}
+    - {fileID: 4698522535874199077, guid: 5e89d74bdba1ab949b413dbe14d86507, type: 3}
+  - animationName: Walk
+    spriteSheets:
+    - {fileID: 6121512621482464881, guid: 5e89d74bdba1ab949b413dbe14d86507, type: 3}
+    - {fileID: -2540293230929309818, guid: 5e89d74bdba1ab949b413dbe14d86507, type: 3}
+    - {fileID: -7109069354822823931, guid: 5e89d74bdba1ab949b413dbe14d86507, type: 3}
+    - {fileID: 4392725461951348105, guid: 5e89d74bdba1ab949b413dbe14d86507, type: 3}
+    - {fileID: 5181054219626136645, guid: 5e89d74bdba1ab949b413dbe14d86507, type: 3}
+    - {fileID: 695703751608035104, guid: 5e89d74bdba1ab949b413dbe14d86507, type: 3}
+    - {fileID: 7145489950268893949, guid: 5e89d74bdba1ab949b413dbe14d86507, type: 3}
+    - {fileID: -6183718280614322627, guid: 5e89d74bdba1ab949b413dbe14d86507, type: 3}
+  - animationName: Sprint
+    spriteSheets:
+    - {fileID: -2702566844540216898, guid: 5e89d74bdba1ab949b413dbe14d86507, type: 3}
+    - {fileID: -5985501428928317984, guid: 5e89d74bdba1ab949b413dbe14d86507, type: 3}
+    - {fileID: 2829882874717302321, guid: 5e89d74bdba1ab949b413dbe14d86507, type: 3}
+    - {fileID: -6278515808174047828, guid: 5e89d74bdba1ab949b413dbe14d86507, type: 3}
+    - {fileID: 7927882876394003065, guid: 5e89d74bdba1ab949b413dbe14d86507, type: 3}
+    - {fileID: 5847816857975036396, guid: 5e89d74bdba1ab949b413dbe14d86507, type: 3}
+    - {fileID: 9176618856921139988, guid: 5e89d74bdba1ab949b413dbe14d86507, type: 3}
+    - {fileID: 7837541570461470706, guid: 5e89d74bdba1ab949b413dbe14d86507, type: 3}
+  - animationName: Jump
+    spriteSheets:
+    - {fileID: 9017546269911400129, guid: 5e89d74bdba1ab949b413dbe14d86507, type: 3}
+    - {fileID: 3646194435659531985, guid: 5e89d74bdba1ab949b413dbe14d86507, type: 3}
+    - {fileID: -6159191279435588654, guid: 5e89d74bdba1ab949b413dbe14d86507, type: 3}
+    - {fileID: -3618904111783908331, guid: 5e89d74bdba1ab949b413dbe14d86507, type: 3}
+  - animationName: Fall
+    spriteSheets:
+    - {fileID: -3972074927131419543, guid: 5e89d74bdba1ab949b413dbe14d86507, type: 3}
+    - {fileID: -8523681513710728073, guid: 5e89d74bdba1ab949b413dbe14d86507, type: 3}
+    - {fileID: -7465979951910519251, guid: 5e89d74bdba1ab949b413dbe14d86507, type: 3}
+    - {fileID: 5838400048411057032, guid: 5e89d74bdba1ab949b413dbe14d86507, type: 3}
+  - animationName: Attack
+    spriteSheets:
+    - {fileID: -1735475143, guid: 5e89d74bdba1ab949b413dbe14d86507, type: 3}
+    - {fileID: 1378931218, guid: 5e89d74bdba1ab949b413dbe14d86507, type: 3}
+    - {fileID: -434605608, guid: 5e89d74bdba1ab949b413dbe14d86507, type: 3}
+    - {fileID: -1060073139, guid: 5e89d74bdba1ab949b413dbe14d86507, type: 3}
+    - {fileID: -745635128, guid: 5e89d74bdba1ab949b413dbe14d86507, type: 3}
+    - {fileID: -1979033245, guid: 5e89d74bdba1ab949b413dbe14d86507, type: 3}
+  - animationName: Die
+    spriteSheets:
+    - {fileID: -705695229, guid: 5e89d74bdba1ab949b413dbe14d86507, type: 3}
+    - {fileID: 856386822, guid: 5e89d74bdba1ab949b413dbe14d86507, type: 3}
+    - {fileID: 1204115954, guid: 5e89d74bdba1ab949b413dbe14d86507, type: 3}
+    - {fileID: -1885786530, guid: 5e89d74bdba1ab949b413dbe14d86507, type: 3}
+    - {fileID: 85597434, guid: 5e89d74bdba1ab949b413dbe14d86507, type: 3}
+    - {fileID: -164718013, guid: 5e89d74bdba1ab949b413dbe14d86507, type: 3}
+    - {fileID: 598821778, guid: 5e89d74bdba1ab949b413dbe14d86507, type: 3}
+    - {fileID: 2035789910, guid: 5e89d74bdba1ab949b413dbe14d86507, type: 3}
+    - {fileID: 2054989258, guid: 5e89d74bdba1ab949b413dbe14d86507, type: 3}
+    - {fileID: 2054989258, guid: 5e89d74bdba1ab949b413dbe14d86507, type: 3}

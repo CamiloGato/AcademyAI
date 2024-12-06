@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 747086aa1bc644f499b078d08bb194a4, type: 3}
+  m_Name: Character effects debuff
+  m_EditorClassIdentifier: 
+  spriteAnimationData:
+  - animationName: Idle
+    spriteSheets:
+    - {fileID: 7433561827830385514, guid: ecd9523d7d4d17c458a06cedd756af69, type: 3}
+    - {fileID: -7607898622419648462, guid: ecd9523d7d4d17c458a06cedd756af69, type: 3}
+    - {fileID: 5378852275296889082, guid: ecd9523d7d4d17c458a06cedd756af69, type: 3}
+    - {fileID: 8843698119308906588, guid: ecd9523d7d4d17c458a06cedd756af69, type: 3}
+    - {fileID: 1022626213719261210, guid: ecd9523d7d4d17c458a06cedd756af69, type: 3}
+  - animationName: Walk
+    spriteSheets: []
+  - animationName: Sprint
+    spriteSheets: []
+  - animationName: Jump
+    spriteSheets: []
+  - animationName: Fall
+    spriteSheets: []
+  - animationName: Attack
+    spriteSheets: []
+  - animationName: Die
+    spriteSheets: []

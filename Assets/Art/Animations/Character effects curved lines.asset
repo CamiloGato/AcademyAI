@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 747086aa1bc644f499b078d08bb194a4, type: 3}
+  m_Name: Character effects curved lines
+  m_EditorClassIdentifier: 
+  spriteAnimationData:
+  - animationName: Idle
+    spriteSheets:
+    - {fileID: -6882959440197507362, guid: 30778830f5cd7964792d0f1387690266, type: 3}
+    - {fileID: 6317513700536557128, guid: 30778830f5cd7964792d0f1387690266, type: 3}
+    - {fileID: -4586287904826914835, guid: 30778830f5cd7964792d0f1387690266, type: 3}
+    - {fileID: -6286846209220312883, guid: 30778830f5cd7964792d0f1387690266, type: 3}
+    - {fileID: -9207930091700434738, guid: 30778830f5cd7964792d0f1387690266, type: 3}
+  - animationName: Walk
+    spriteSheets: []
+  - animationName: Sprint
+    spriteSheets: []
+  - animationName: Jump
+    spriteSheets: []
+  - animationName: Fall
+    spriteSheets: []
+  - animationName: Attack
+    spriteSheets: []
+  - animationName: Die
+    spriteSheets: []
