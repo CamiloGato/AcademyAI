@@ -123,11 +123,10 @@ namespace Tools.SpriteDynamicRenderer.Editor
                     );
 
                     string renderDataFolder = path.Substring(0, path.LastIndexOf('/'));
-                    renderDataFolder += $"/{spriteSheet.name}";
 
                     if (!AssetDatabase.IsValidFolder(renderDataFolder))
                     {
-                        AssetDatabase.CreateFolder(renderDataFolder.Substring(0, path.LastIndexOf('/')), spriteSheet.name);
+                        AssetDatabase.CreateFolder("Assets", renderDataFolder);
                     }
 
                     CreateRenderData(spriteSheet, renderDataFolder);

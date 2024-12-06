@@ -161,6 +161,21 @@ namespace Tools.Extension
 
         public static List<Sprite> GetSpritesFromSheet(this Texture2D spriteSheet, int startIndex, int endIndex)
         {
+            int length = spriteSheet.GetSpritesFromSheet().Length;
+            if (endIndex == length)
+            {
+                Debug.LogWarning($"End index is greater than the total number of sprites on {spriteSheet.name}. Given : {startIndex} TO {endIndex} - Total: {length} But the last sprite will be added as EMPTY.");
+                List<Sprite> sprites = new List<Sprite>(GetSpritesFromSheet(spriteSheet)).GetRange(startIndex, length - startIndex);
+                sprites.Add(sprites[^1]);
+                return sprites;
+            }
+
+            if (endIndex > length - 1)
+            {
+                Debug.LogError($"End index is greater than the total number of sprites on {spriteSheet.name}. Given : {startIndex} TO {endIndex} - Total: {length}");
+                return null;
+            }
+
             return new List<Sprite>(GetSpritesFromSheet(spriteSheet)).GetRange(startIndex, endIndex - startIndex + 1);
         }
 

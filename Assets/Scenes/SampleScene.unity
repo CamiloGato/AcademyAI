@@ -348,13 +348,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 127352856}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2984c3f9090743789ad0e38f530d4f70, type: 3}
+  m_Script: {fileID: 11500000, guid: b2bba992c56646cd8e6ba5232fe3afd5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  renderers:
-  - {fileID: 11400000, guid: 38d01a1d1f8ac3e429e83508584af298, type: 2}
+  spriteData: {fileID: 0}
   frameRate: 12
-  spriteAnimationData: []
 --- !u!1 &287438718
 GameObject:
   m_ObjectHideFlags: 0
