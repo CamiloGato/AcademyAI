@@ -17,8 +17,6 @@ namespace Tools.SpriteSheetCutter.Editor
         private SerializedObject _spriteSheetsSerializedObject;
         private SerializedProperty _spriteSheetsProperty;
 
-        private List<int> _totalSpritesColumns;
-
         [MenuItem("Tools/CamiloGato/Sprite Sheet Cutter")]
         public static void ShowWindow()
         {
@@ -81,7 +79,7 @@ namespace Tools.SpriteSheetCutter.Editor
                 {
                     _spriteSheets.elements.FirstOrDefault()?.CutSpriteSheet(_cutData);
                     SpriteSheetInfo spriteSheetInfo = CreateInstance<SpriteSheetInfo>();
-                    spriteSheetInfo.elements = new List<int>(_totalSpritesColumns);
+                    spriteSheetInfo.elements = new List<int>(Texture2DExtensions.LastTotalSpritesColumns);
                     spriteSheetInfo.texture2DCutDataDto = Texture2DCutDataMapper.ToDto(_cutData);
                     AssetDatabase.CreateAsset(spriteSheetInfo, path);
                     AssetDatabase.SaveAssets();
@@ -111,8 +109,6 @@ namespace Tools.SpriteSheetCutter.Editor
                         $"Processing {spriteSheet.name} ({currentSheetIndex}/{totalSheets})",
                         (float)currentSheetIndex / totalSheets
                     );
-
-                    _totalSpritesColumns = new List<int>(Texture2DExtensions.LastTotalSpritesColumns);
 
                     if(!spriteSheet.CutSpriteSheet(_cutData))
                     {
