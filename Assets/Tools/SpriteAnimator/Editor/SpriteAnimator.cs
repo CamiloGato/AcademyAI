@@ -148,7 +148,9 @@ namespace Tools.SpriteAnimator.Editor
 
                     if (!AssetDatabase.IsValidFolder(animationFolder))
                     {
-                        AssetDatabase.CreateFolder(animationFolder.Substring(0, path.LastIndexOf('/')), spriteSheet.name);
+                        string parentFolder = animationFolder.Substring(0, animationFolder.LastIndexOf('/'));
+                        string newFolderName = spriteSheet.name;
+                        AssetDatabase.CreateFolder(parentFolder, newFolderName);
                     }
 
                     CreateAnimation(spriteSheet, animationFolder);

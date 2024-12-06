@@ -92,6 +92,51 @@ namespace Tools.Extension
             return spriteRects;
         }
 
+        public static void SetReadAndWrite(this Texture2D spriteSheet, bool value)
+        {
+            string path = AssetDatabase.GetAssetPath(spriteSheet);
+            TextureImporter textureImporter = AssetImporter.GetAtPath(path) as TextureImporter;
+
+            if (!textureImporter) return;
+
+            textureImporter.isReadable = value;
+            textureImporter.SaveAndReimport();
+        }
+
+        public static void SetTextureType(this Texture2D spriteSheet, TextureImporterType type)
+        {
+            string path = AssetDatabase.GetAssetPath(spriteSheet);
+            TextureImporter textureImporter = AssetImporter.GetAtPath(path) as TextureImporter;
+
+            if (!textureImporter) return;
+
+            textureImporter.textureType = type;
+            textureImporter.SaveAndReimport();
+        }
+
+        public static void SetSpriteImporterMode(this Texture2D spriteSheet, SpriteImportMode mode)
+        {
+            string path = AssetDatabase.GetAssetPath(spriteSheet);
+            TextureImporter textureImporter = AssetImporter.GetAtPath(path) as TextureImporter;
+
+            if (!textureImporter) return;
+
+            textureImporter.textureCompression = TextureImporterCompression.Uncompressed;
+            textureImporter.spriteImportMode = mode;
+            textureImporter.SaveAndReimport();
+        }
+
+        public static void SetFilterMode(this Texture2D spriteSheet, FilterMode filterMode)
+        {
+            string path = AssetDatabase.GetAssetPath(spriteSheet);
+            TextureImporter textureImporter = AssetImporter.GetAtPath(path) as TextureImporter;
+
+            if (!textureImporter) return;
+
+            textureImporter.filterMode = filterMode;
+            textureImporter.SaveAndReimport();
+        }
+
         public static bool CutSpriteSheet(this Texture2D spriteSheet, Texture2DCutData cutData)
         {
             string path = AssetDatabase.GetAssetPath(spriteSheet);

@@ -110,6 +110,11 @@ namespace Tools.SpriteSheetCutter.Editor
                         (float)currentSheetIndex / totalSheets
                     );
 
+                    spriteSheet.SetReadAndWrite(true);
+                    spriteSheet.SetTextureType(TextureImporterType.Sprite);
+                    spriteSheet.SetSpriteImporterMode(SpriteImportMode.Multiple);
+                    spriteSheet.SetFilterMode(FilterMode.Point);
+
                     if(!spriteSheet.CutSpriteSheet(_cutData))
                     {
                         return;
