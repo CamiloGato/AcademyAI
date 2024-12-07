@@ -261,7 +261,6 @@ GameObject:
   m_Component:
   - component: {fileID: 127352858}
   - component: {fileID: 127352857}
-  - component: {fileID: 127352859}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -339,20 +338,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &127352859
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 127352856}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b2bba992c56646cd8e6ba5232fe3afd5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  spriteData: {fileID: 0}
-  frameRate: 12
 --- !u!1 &287438718
 GameObject:
   m_ObjectHideFlags: 0
@@ -401,6 +386,7 @@ GameObject:
   - component: {fileID: 319193473}
   - component: {fileID: 319193475}
   - component: {fileID: 319193474}
+  - component: {fileID: 319193476}
   m_Layer: 5
   m_Name: DialogPanel
   m_TagString: Untagged
@@ -468,6 +454,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 319193472}
   m_CullTransparentMesh: 1
+--- !u!114 &319193476
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 319193472}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d718bc428cd4a27b189b6dafb25e664, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &352161504
 GameObject:
   m_ObjectHideFlags: 0
@@ -4128,7 +4126,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1651124637
 RectTransform:
   m_ObjectHideFlags: 0

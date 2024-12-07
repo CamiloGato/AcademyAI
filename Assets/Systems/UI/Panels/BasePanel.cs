@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-namespace Systems.UI.Panel
+namespace Systems.UI.Panels
 {
     public abstract class BasePanel : MonoBehaviour
     {

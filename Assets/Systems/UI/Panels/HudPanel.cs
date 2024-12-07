@@ -1,7 +1,7 @@
 ﻿using Systems.UI.Components;
 using UnityEngine;
 
-namespace Systems.UI.Panel
+namespace Systems.UI.Panels
 {
     public class HudPanel : BasePanel
     {

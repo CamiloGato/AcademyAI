@@ -1,5 +1,5 @@
 ﻿using System;
-using Systems.UI.Panel;
+using Systems.UI.Panels;
 using UnityEngine;
 
 namespace Systems.Game
