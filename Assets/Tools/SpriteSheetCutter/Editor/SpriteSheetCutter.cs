@@ -46,8 +46,6 @@ namespace Tools.SpriteSheetCutter.Editor
 
         private void OnGUI()
         {
-            // TODO: Use from DTO instead of entity and then remove the Mapper
-
             _cutDataSerializedObject.Update();
             EditorGUILayout.LabelField("Cut Data Settings", EditorStyles.boldLabel);
             SerializedProperty gridWidth = _cutDataSerializedObject.FindProperty(nameof(Texture2DCutData.gridWidth));

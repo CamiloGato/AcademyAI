@@ -1,21 +1,15 @@
 using System;
+using Tools.SpriteParallaxBackground.Data;
 using UnityEngine;
 
 namespace Tools.SpriteParallaxBackground.Runtime
 {
     public class SimpleParallax : MonoBehaviour
     {
-        [Serializable]
-        public class ParallaxLayer
-        {
-            public Transform layerTransform;
-            [Range(0f, 1f)] public float depthMultiplier;
-        }
-
-        [SerializeField] private ParallaxLayer[] layers;
-        [SerializeField] private float baseSpeed = 1f;
-        [SerializeField] private float layerSpeedMultiplier = 0.5f;
-        [SerializeField] private Camera mainCamera;
+        public ParallaxBackgroundData data;
+        public Transform[] layers;
+        public Camera mainCamera;
+        public bool useMainCamera = true;
 
         private Vector3 _previousCameraPosition;
 
@@ -29,20 +23,40 @@ namespace Tools.SpriteParallaxBackground.Runtime
             _previousCameraPosition = mainCamera?.transform.position ?? Vector3.zero;
         }
 
+        private void Start()
+        {
+            for (int index = 0; index < data.layers.Length; index++)
+            {
+                ParallaxBackgroundData.ParallaxLayer parallaxLayer = data.layers[index];
+                Transform layerTransform = layers[index];
+
+                if (!layerTransform) continue;
+
+                SpriteRenderer spriteRenderer = layerTransform.GetComponent<SpriteRenderer>();
+                if (spriteRenderer)
+                {
+                    spriteRenderer.sprite = parallaxLayer.sprite;
+                }
+            }
+        }
+
         private void LateUpdate()
         {
             Vector3 cameraDelta = mainCamera.transform.position - _previousCameraPosition;
 
-            foreach (var layer in layers)
+            for (int index = 0; index < data.layers.Length; index++)
             {
-                if (!layer.layerTransform) continue;
+                ParallaxBackgroundData.ParallaxLayer parallaxLayer = data.layers[index];
+                Transform layerTransform = layers[index];
 
-                float layerSpeed = baseSpeed * (1f - layer.depthMultiplier) * layerSpeedMultiplier;
+                if (!layerTransform) continue;
 
-                Vector3 newPosition = layer.layerTransform.position;
+                float layerSpeed = data.baseSpeed * (1f - parallaxLayer.depthMultiplier) * data.layerSpeedMultiplier;
+
+                Vector3 newPosition = layerTransform.position;
                 newPosition.x += cameraDelta.x * layerSpeed;
                 newPosition.y += cameraDelta.y * layerSpeed;
-                layer.layerTransform.position = newPosition;
+                layerTransform.position = newPosition;
             }
 
             _previousCameraPosition = mainCamera.transform.position;
