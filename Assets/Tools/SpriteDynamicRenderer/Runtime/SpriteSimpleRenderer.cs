@@ -9,14 +9,13 @@ namespace Tools.SpriteDynamicRenderer.Runtime
     public class SpriteSimpleRenderer : MonoBehaviour
     {
         [SerializeField] private SpriteDynamicRendererData spriteData;
-        private SpriteRenderer _spriteRenderer;
+        [SerializeField]private string currentAnimation;
+        [SerializeField] private int frameRate = 12;
 
-        private string _currentAnimation;
+        private SpriteRenderer _spriteRenderer;
         private List<Sprite> _currentFrames;
         private int _currentFrameIndex;
         private float _frameTimer;
-
-        [SerializeField] private int frameRate = 12;
 
         private void Awake()
         {
@@ -25,7 +24,7 @@ namespace Tools.SpriteDynamicRenderer.Runtime
 
         private void Update()
         {
-            if (string.IsNullOrEmpty(_currentAnimation) || _currentFrames == null || _currentFrames.Count == 0)
+            if (string.IsNullOrEmpty(currentAnimation) || _currentFrames == null || _currentFrames.Count == 0)
             {
                 return;
             }
@@ -37,6 +36,12 @@ namespace Tools.SpriteDynamicRenderer.Runtime
                 _currentFrameIndex = (_currentFrameIndex + 1) % _currentFrames.Count;
                 _spriteRenderer.sprite = _currentFrames[_currentFrameIndex];
             }
+        }
+
+        [ContextMenu("Test")]
+        public void Test()
+        {
+            SetAnimation(currentAnimation);
         }
 
         /// <summary>
@@ -59,7 +64,7 @@ namespace Tools.SpriteDynamicRenderer.Runtime
                 return;
             }
 
-            _currentAnimation = animationName;
+            currentAnimation = animationName;
             _currentFrames = animationData.spriteSheets;
             _currentFrameIndex = 0;
         }
@@ -69,7 +74,7 @@ namespace Tools.SpriteDynamicRenderer.Runtime
         /// </summary>
         public void StopAnimation()
         {
-            _currentAnimation = null;
+            currentAnimation = null;
             _currentFrames = null;
             _currentFrameIndex = 0;
         }
