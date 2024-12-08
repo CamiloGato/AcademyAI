@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace Tools.Objects
+namespace Tools.SpriteDynamicRenderer.Data
 {
     [Serializable]
     public class SpriteAnimationData

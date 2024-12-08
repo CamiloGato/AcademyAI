@@ -1,5 +1,5 @@
 ﻿using System.Collections.Generic;
-using Tools.Objects;
+using Tools.SpriteDynamicRenderer.Data;
 using UnityEngine;
 
 namespace Tools.SpriteDynamicRenderer.Runtime

@@ -1,7 +1,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace Tools.Objects
+namespace Tools.Objects.Wrapper
 {
     public class ListWrapper<T> : ScriptableObject {
         public List<T> elements = new ();

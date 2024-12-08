@@ -1,5 +1,4 @@
-﻿using System;
-using Systems.UI.Panels;
+﻿using Systems.UI.Panels;
 using UnityEngine;
 
 namespace Systems.Game

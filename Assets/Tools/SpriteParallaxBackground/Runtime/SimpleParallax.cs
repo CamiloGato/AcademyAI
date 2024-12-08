@@ -1,7 +1,7 @@
 using System;
 using UnityEngine;
 
-namespace Tools.SpriteParallaxBackground
+namespace Tools.SpriteParallaxBackground.Runtime
 {
     public class SimpleParallax : MonoBehaviour
     {

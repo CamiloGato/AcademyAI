@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Systems.Addons
+namespace Tools.Addons
 {
     [Serializable]
     public class ReactiveVariable<T>

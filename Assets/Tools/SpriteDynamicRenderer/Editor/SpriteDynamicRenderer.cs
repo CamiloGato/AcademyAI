@@ -1,7 +1,9 @@
 ﻿using System.Collections.Generic;
 using Tools.Extension;
 using Tools.Objects;
+using Tools.Objects.Wrapper;
 using Tools.SpriteAnimator.Editor;
+using Tools.SpriteDynamicRenderer.Data;
 using UnityEditor;
 using UnityEngine;
 

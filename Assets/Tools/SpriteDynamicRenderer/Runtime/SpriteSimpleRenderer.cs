@@ -1,6 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using Tools.Objects;
+﻿using System.Collections.Generic;
+using Tools.SpriteDynamicRenderer.Data;
 using UnityEngine;
 
 namespace Tools.SpriteDynamicRenderer.Runtime
