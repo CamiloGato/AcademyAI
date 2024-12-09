@@ -180,7 +180,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 32
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -268,13 +268,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Golden Axe_0
+      name: Female Hand Golden Axe_0
       rect:
         serializedVersion: 2
         x: 0
         y: 384
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -283,20 +283,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ebe08ffd9e3a199449de03d03e0ecd5b
-      internalID: 8526024072198370066
+      spriteID: e94693ebd0ceba44a8e9f2d6d790c3d1
+      internalID: -32406724
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Golden Axe_1
+      name: Female Hand Golden Axe_1
       rect:
         serializedVersion: 2
         x: 80
         y: 384
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -305,20 +305,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 60687f5a89308584d95a515811adb42d
-      internalID: -8745820617512976869
+      spriteID: d08dfee67ed60784898d7c519af71173
+      internalID: 790768319
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Golden Axe_2
+      name: Female Hand Golden Axe_2
       rect:
         serializedVersion: 2
         x: 160
         y: 384
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -327,20 +327,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 58932230e81c2fa4a831320c512d89ea
-      internalID: 1342821326249892295
+      spriteID: 0eff3a0d4503d3048b2d7bb1a8d6d79a
+      internalID: -101592346
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Golden Axe_3
+      name: Female Hand Golden Axe_3
       rect:
         serializedVersion: 2
         x: 240
         y: 384
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -349,20 +349,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 414f747d43b3f7043bb069effc9419c6
-      internalID: 7656263571179703689
+      spriteID: b5d5473e40fb97845bfb050695ac8986
+      internalID: -833934533
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Golden Axe_4
+      name: Female Hand Golden Axe_4
       rect:
         serializedVersion: 2
         x: 320
         y: 384
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -371,20 +371,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c36206bdc402e8a4195205167bc57fd1
-      internalID: 3187298154470003087
+      spriteID: ffed80961283fa2429bcf6c1cb3c579c
+      internalID: -2081098780
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Golden Axe_10
+      name: Female Hand Golden Axe_10
       rect:
         serializedVersion: 2
         x: 0
         y: 320
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -393,20 +393,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f6f7bbab6995416489fc6827e38a40ec
-      internalID: 4382780620775027008
+      spriteID: b2a3bc42c5b1f1746bd80b4377ad6dd8
+      internalID: -881676774
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Golden Axe_11
+      name: Female Hand Golden Axe_11
       rect:
         serializedVersion: 2
         x: 80
         y: 320
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -415,20 +415,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ba7774d1e1cb5c1409867711a22830d3
-      internalID: 7606754822695098610
+      spriteID: e747f0d238ccdbb449eb0e18c345c6c0
+      internalID: 277364877
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Golden Axe_12
+      name: Female Hand Golden Axe_12
       rect:
         serializedVersion: 2
         x: 160
         y: 320
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -437,20 +437,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d3e2825f3f5a8e843b2a08b86d248880
-      internalID: 275676086295316468
+      spriteID: 05c7cff84adb6144698aa399c9d64663
+      internalID: 374921622
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Golden Axe_13
+      name: Female Hand Golden Axe_13
       rect:
         serializedVersion: 2
         x: 240
         y: 320
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -459,20 +459,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fbb0f79607cc3b048ae32800e96860da
-      internalID: -2571319001100475664
+      spriteID: 094170833a5e79f4a98a132dde74e428
+      internalID: 1462454916
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Golden Axe_14
+      name: Female Hand Golden Axe_14
       rect:
         serializedVersion: 2
         x: 320
         y: 320
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -481,20 +481,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 79e0499433822e144ad7aeed4bfe23a2
-      internalID: 1319279523266925525
+      spriteID: adeb3a36594862e479ac54c2dfa7309e
+      internalID: -1190535775
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Golden Axe_15
+      name: Female Hand Golden Axe_15
       rect:
         serializedVersion: 2
         x: 400
         y: 320
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -503,20 +503,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d43f9e240b9861b478414d52c1f7b7af
-      internalID: -5649384577206089238
+      spriteID: 2a54f7e7c65e47b479389e7b7ffd60e8
+      internalID: 425603906
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Golden Axe_16
+      name: Female Hand Golden Axe_16
       rect:
         serializedVersion: 2
         x: 480
         y: 320
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -525,20 +525,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6a374ab20bfe1004db47d298738193d9
-      internalID: 1794672360008155913
+      spriteID: 1e4d1ba841500964683b219e6dd201e5
+      internalID: -1630002927
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Golden Axe_17
+      name: Female Hand Golden Axe_17
       rect:
         serializedVersion: 2
         x: 560
         y: 320
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -547,20 +547,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1fb51ce070522ba4388e639ab3ad8dd7
-      internalID: 7715994818987667685
+      spriteID: c85def5cedc8f7244b0967fca7242816
+      internalID: -1648070932
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Golden Axe_20
+      name: Female Hand Golden Axe_20
       rect:
         serializedVersion: 2
         x: 0
         y: 256
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -569,20 +569,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bc445b7c74efcbc48b8cdad95d565fdb
-      internalID: 8690334549209167377
+      spriteID: 100589c2d3532184186dc016ab702df0
+      internalID: 2091007623
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Golden Axe_21
+      name: Female Hand Golden Axe_21
       rect:
         serializedVersion: 2
         x: 80
         y: 256
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -591,20 +591,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1dd31d6618c861a4a9b8735c80761600
-      internalID: -138189799640398948
+      spriteID: 611a1a2957108b44cb010e247e1dc31e
+      internalID: 46358096
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Golden Axe_22
+      name: Female Hand Golden Axe_22
       rect:
         serializedVersion: 2
         x: 160
         y: 256
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -613,20 +613,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8b1d37055fd070e448102f37b270dbb4
-      internalID: 5772007876582853522
+      spriteID: e70babc071672404ca36979ed5341924
+      internalID: -950086528
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Golden Axe_23
+      name: Female Hand Golden Axe_23
       rect:
         serializedVersion: 2
         x: 240
         y: 256
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -635,20 +635,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5b20dd66cf46b4146940a1fac96f0459
-      internalID: -4593606927542431216
+      spriteID: 370fb2818acbcf445b209fc9284cba4d
+      internalID: 431959692
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Golden Axe_24
+      name: Female Hand Golden Axe_24
       rect:
         serializedVersion: 2
         x: 320
         y: 256
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -657,20 +657,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c2573dd7cbeab9b479ccf66632f51f62
-      internalID: -2655662215148218770
+      spriteID: e7da1602111d48d48ac00e4944f78dc8
+      internalID: 1621323779
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Golden Axe_25
+      name: Female Hand Golden Axe_25
       rect:
         serializedVersion: 2
         x: 400
         y: 256
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -679,20 +679,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d538a6b2e4e27484f8132e68e709b083
-      internalID: 4239359491988062700
+      spriteID: b7f9371991e90b14ab9ccfa6b9d90e45
+      internalID: 1893968991
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Golden Axe_26
+      name: Female Hand Golden Axe_26
       rect:
         serializedVersion: 2
         x: 480
         y: 256
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -701,20 +701,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f23293faaf32c6148ba8c050dfe6045c
-      internalID: 8476141795654995650
+      spriteID: e740f98381ed78b48a94a1bbecbac86d
+      internalID: -808765512
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Golden Axe_27
+      name: Female Hand Golden Axe_27
       rect:
         serializedVersion: 2
         x: 560
         y: 256
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -723,20 +723,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 332660a6c29bcd14dad2860380a47903
-      internalID: 5576847836366842626
+      spriteID: f7ad632de2fe894499368a9e732c6eaa
+      internalID: 1128459159
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Golden Axe_30
+      name: Female Hand Golden Axe_30
       rect:
         serializedVersion: 2
         x: 0
         y: 192
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -745,20 +745,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: efebb90daa908f04da73b111b45bf1ea
-      internalID: -2510298170586947070
+      spriteID: 2edd7dc2b799dc848b67d3361c9b6d54
+      internalID: 1126082288
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Golden Axe_31
+      name: Female Hand Golden Axe_31
       rect:
         serializedVersion: 2
         x: 80
         y: 192
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -767,20 +767,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 05703c37ea8fdc74884221be22420412
-      internalID: 8903199788863464250
+      spriteID: ede58e14eabd08c47a29b7585809d585
+      internalID: 201477798
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Golden Axe_32
+      name: Female Hand Golden Axe_32
       rect:
         serializedVersion: 2
         x: 160
         y: 192
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -789,20 +789,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8ff7cea23a9f2c240bdebfadbbfdb3a3
-      internalID: 8562900071604680209
+      spriteID: 31ad2fa021cdbac4881969a35e952269
+      internalID: -1062543248
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Golden Axe_33
+      name: Female Hand Golden Axe_33
       rect:
         serializedVersion: 2
         x: 240
         y: 192
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -811,20 +811,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fe8fda01c8f7de248bda3346f3b69acd
-      internalID: 1818672671170673021
+      spriteID: 935c267821a105e4eb918c53238451c7
+      internalID: 316860419
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Golden Axe_40
+      name: Female Hand Golden Axe_40
       rect:
         serializedVersion: 2
         x: 0
         y: 128
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -833,20 +833,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 281b351f418285d4d88d84e84f48fd95
-      internalID: 690007006548411591
+      spriteID: 6d62ac1b1ba6e9c47924f6fe0577d5e0
+      internalID: 1480012660
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Golden Axe_41
+      name: Female Hand Golden Axe_41
       rect:
         serializedVersion: 2
         x: 80
         y: 128
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -855,20 +855,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 14ba7b7538f7f8845a24266f68d4e3a9
-      internalID: 7201016689265045123
+      spriteID: 0db69c6c4e27df0458a1c4b6d308d82c
+      internalID: 323065424
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Golden Axe_42
+      name: Female Hand Golden Axe_42
       rect:
         serializedVersion: 2
         x: 160
         y: 128
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -877,20 +877,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d6344280a7433d3428c85e9b994f6a1f
-      internalID: -2624817518444368511
+      spriteID: 362727f2eb55a704daeba2a5d4e1352e
+      internalID: 747085925
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Golden Axe_43
+      name: Female Hand Golden Axe_43
       rect:
         serializedVersion: 2
         x: 240
         y: 128
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -899,20 +899,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8a5167ba80563f1409f9f4489b58c882
-      internalID: 5431612104947249951
+      spriteID: 5c0767a3595d7334387cfe469c752119
+      internalID: 810898066
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Golden Axe_50
+      name: Female Hand Golden Axe_50
       rect:
         serializedVersion: 2
         x: 0
         y: 64
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -921,20 +921,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cc31cdc33c2fe9e43ba64b9df7f75f90
-      internalID: -326485537
+      spriteID: b89e89785eeeadd41a2b95c4ef7100c2
+      internalID: -2060870247
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Golden Axe_51
+      name: Female Hand Golden Axe_51
       rect:
         serializedVersion: 2
         x: 80
         y: 64
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -943,20 +943,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 930a0a969db2297449fcca241e9f3669
-      internalID: -1470083111
+      spriteID: 6f4a25c0187b98441bd8b5f86fc57e4a
+      internalID: 1879215148
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Golden Axe_52
+      name: Female Hand Golden Axe_52
       rect:
         serializedVersion: 2
         x: 160
         y: 64
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -965,20 +965,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9e9ce79a6a577744095c54e75dd680f5
-      internalID: -1978284594
+      spriteID: 2a6872aad742a954d85bcaad245f7ad8
+      internalID: -1767852068
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Golden Axe_53
+      name: Female Hand Golden Axe_53
       rect:
         serializedVersion: 2
         x: 240
         y: 64
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -987,20 +987,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 86de3b59f5de22d4fb2ca7127120015d
-      internalID: -260871917
+      spriteID: 35e0c266408f68c47a7224976c547b16
+      internalID: 53363638
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Golden Axe_54
+      name: Female Hand Golden Axe_54
       rect:
         serializedVersion: 2
         x: 320
         y: 64
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1009,20 +1009,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 676365b35d58ad444bc272349168a1f8
-      internalID: 302245574
+      spriteID: 8558880cb98bf224886261ead3eb8f24
+      internalID: -137272578
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Golden Axe_55
+      name: Female Hand Golden Axe_55
       rect:
         serializedVersion: 2
         x: 400
         y: 64
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1031,20 +1031,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f4d6e898956ed0847b3e67d3f71e0830
-      internalID: 160837278
+      spriteID: fc51eced0a7b28f459926eb43bd01987
+      internalID: 1202630297
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Golden Axe_60
+      name: Female Hand Golden Axe_60
       rect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1053,20 +1053,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 33d6d2112d65fed49bf7f35744f84b59
-      internalID: -932675172
+      spriteID: 23aeb79c3b681cd40bbd2eef3f65cafc
+      internalID: 636149410
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Golden Axe_61
+      name: Female Hand Golden Axe_61
       rect:
         serializedVersion: 2
         x: 80
         y: 0
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1075,20 +1075,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7c33c8595095acc47bbbce4308d0ac78
-      internalID: 973089789
+      spriteID: b02992dd8bb3c674f898e4b5048eaa92
+      internalID: -1916404940
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Golden Axe_62
+      name: Female Hand Golden Axe_62
       rect:
         serializedVersion: 2
         x: 160
         y: 0
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1097,20 +1097,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 11456d30b4e702e4abbc982370a7c000
-      internalID: 1990887763
+      spriteID: 20a2c4a89847ca04fa836db8926eeb48
+      internalID: 928515665
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Golden Axe_63
+      name: Female Hand Golden Axe_63
       rect:
         serializedVersion: 2
         x: 240
         y: 0
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1119,20 +1119,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 82995d1c919ff7d4eb916b2112c9ef47
-      internalID: -982536922
+      spriteID: 036a941d7fb97c6488d589a96882ac81
+      internalID: -1893572431
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Golden Axe_64
+      name: Female Hand Golden Axe_64
       rect:
         serializedVersion: 2
         x: 320
         y: 0
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1141,20 +1141,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b0a40c4ab72fc60488b9a9883171d6a6
-      internalID: 657158511
+      spriteID: 95957ae89631f174aa693db209068cd3
+      internalID: -1266914226
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Golden Axe_65
+      name: Female Hand Golden Axe_65
       rect:
         serializedVersion: 2
         x: 400
         y: 0
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1163,20 +1163,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 31579752d9e944f41a1131a6c20632e6
-      internalID: -235309365
+      spriteID: 81df2f9c9ee97b24c8cf557fe3f20f07
+      internalID: 551647203
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Golden Axe_66
+      name: Female Hand Golden Axe_66
       rect:
         serializedVersion: 2
         x: 480
         y: 0
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1185,20 +1185,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 87a168cd70b300149b866f382beb397d
-      internalID: 1697628176
+      spriteID: 1e45cca169322774286936d56eb94bdf
+      internalID: -1316409729
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Golden Axe_67
+      name: Female Hand Golden Axe_67
       rect:
         serializedVersion: 2
         x: 560
         y: 0
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1207,20 +1207,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3eae17f5fabf904419f5771645e7831b
-      internalID: 1358568081
+      spriteID: 76c0adc2c534caf4aacef0bc1c964549
+      internalID: 599925532
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Golden Axe_68
+      name: Female Hand Golden Axe_68
       rect:
         serializedVersion: 2
         x: 640
         y: 0
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1229,20 +1229,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 16a06c1cd122b64449e7c0b3129c25e5
-      internalID: -1045762571
+      spriteID: 15ce158a1a9ca7d478cd9e0fd14629b8
+      internalID: 374263954
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Golden Axe_69
+      name: Female Hand Golden Axe_69
       rect:
         serializedVersion: 2
         x: 720
         y: 0
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1251,8 +1251,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bbfb2ca9e2dfe7a4cb59a1656cdcb67d
-      internalID: -108750741
+      spriteID: 6c703c483357eb4459eb05471fb682f0
+      internalID: 1992077933
       vertices: []
       indices: 
       edges: []

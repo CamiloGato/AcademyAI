@@ -180,7 +180,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 32
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -268,13 +268,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Elven Ears1_0
+      name: Female Elven Ears1_0
       rect:
         serializedVersion: 2
         x: 0
         y: 384
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -283,20 +283,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9d49bccba1b84a944983cc2cd361c3c0
-      internalID: -5209606256581667399
+      spriteID: 23bfdfb1084e1a24dafe81168f96c662
+      internalID: -1906980581
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Elven Ears1_1
+      name: Female Elven Ears1_1
       rect:
         serializedVersion: 2
         x: 80
         y: 384
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -305,20 +305,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 735ff2cea3331354e9b382b2d506d514
-      internalID: 5823975320945511388
+      spriteID: ad5e4b39a0a7bf24db14284a5802113d
+      internalID: 1255787972
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Elven Ears1_2
+      name: Female Elven Ears1_2
       rect:
         serializedVersion: 2
         x: 160
         y: 384
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -327,20 +327,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 82ff542284ea7bd4f88096122e66d7ec
-      internalID: -269493508528171109
+      spriteID: 4fdd06c7e12605b45bd32bb4d4e779b4
+      internalID: 1175712278
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Elven Ears1_3
+      name: Female Elven Ears1_3
       rect:
         serializedVersion: 2
         x: 240
         y: 384
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -349,20 +349,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 055ecb93b8596a745b13788a07e5c581
-      internalID: 1235940400140286721
+      spriteID: 3e0e911805e90c74ebfd7fbe5b1be210
+      internalID: 786615140
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Elven Ears1_4
+      name: Female Elven Ears1_4
       rect:
         serializedVersion: 2
         x: 320
         y: 384
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -371,20 +371,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9c8a9aec4f2072242933af4d233da866
-      internalID: 4698522535874199077
+      spriteID: 32258faf710febc47a253bf6594f45c1
+      internalID: 289789278
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Elven Ears1_9
+      name: Female Elven Ears1_9
       rect:
         serializedVersion: 2
         x: 0
         y: 320
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -393,20 +393,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 40cdf76fd4f68f54aa2c43d8ee6d6973
-      internalID: 6121512621482464881
+      spriteID: 190e3a85cbac82547bcc2160a353f569
+      internalID: 1137812264
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Elven Ears1_10
+      name: Female Elven Ears1_10
       rect:
         serializedVersion: 2
         x: 80
         y: 320
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -415,20 +415,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fb41e935b3dd6c04ea95c58ecb1356e1
-      internalID: -2540293230929309818
+      spriteID: 98577575694656845a7ac5bf79a29190
+      internalID: 809449389
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Elven Ears1_11
+      name: Female Elven Ears1_11
       rect:
         serializedVersion: 2
         x: 160
         y: 320
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -437,20 +437,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b41b472fa703abb4c84f395eb0490b01
-      internalID: -7109069354822823931
+      spriteID: 86283b7bc1005884091e8740c6f67457
+      internalID: -352073816
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Elven Ears1_12
+      name: Female Elven Ears1_12
       rect:
         serializedVersion: 2
         x: 240
         y: 320
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -459,20 +459,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 27e1cd6c11193584ba29e60bdae46490
-      internalID: 4392725461951348105
+      spriteID: 3358a1a1741d77740801cc43552affa2
+      internalID: -947304955
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Elven Ears1_13
+      name: Female Elven Ears1_13
       rect:
         serializedVersion: 2
         x: 320
         y: 320
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -481,20 +481,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d0bae7a132b1f4a4797bce1c004fe09c
-      internalID: 5181054219626136645
+      spriteID: e83b3a09521620341ab36ec8cd532b8c
+      internalID: -35560958
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Elven Ears1_14
+      name: Female Elven Ears1_14
       rect:
         serializedVersion: 2
         x: 400
         y: 320
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -503,20 +503,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3deb617d87b73b447b7b78391495b394
-      internalID: 695703751608035104
+      spriteID: e9792e14767e07a43b1431e57d0acb3a
+      internalID: 196913297
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Elven Ears1_15
+      name: Female Elven Ears1_15
       rect:
         serializedVersion: 2
         x: 480
         y: 320
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -525,20 +525,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 88f9026742c75b545906f4faf7ed05dd
-      internalID: 7145489950268893949
+      spriteID: 6faed0400f923cd45b6e662b129d3946
+      internalID: 2116488710
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Elven Ears1_16
+      name: Female Elven Ears1_16
       rect:
         serializedVersion: 2
         x: 560
         y: 320
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -547,20 +547,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8022a20e94eb232449a7af3a4fecf903
-      internalID: -6183718280614322627
+      spriteID: 80d12e5161abb0149ac64f8522555216
+      internalID: -1612364255
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Elven Ears1_18
+      name: Female Elven Ears1_18
       rect:
         serializedVersion: 2
         x: 0
         y: 256
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -569,20 +569,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0f78facba0c736e469af62894a25bcb3
-      internalID: -2702566844540216898
+      spriteID: 0ba066d1851139a42b30a3c96e39e4aa
+      internalID: 1903161876
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Elven Ears1_19
+      name: Female Elven Ears1_19
       rect:
         serializedVersion: 2
         x: 80
         y: 256
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -591,20 +591,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2ef507c609395ca4abe89f55e3fbfcff
-      internalID: -5985501428928317984
+      spriteID: b1fdd1505ad6ef0459ed8c8a242ca2a6
+      internalID: -133057351
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Elven Ears1_20
+      name: Female Elven Ears1_20
       rect:
         serializedVersion: 2
         x: 160
         y: 256
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -613,20 +613,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ed16701a1623d4146817689552b18979
-      internalID: 2829882874717302321
+      spriteID: d759a48920c47d54bb793c2a41c68008
+      internalID: 265994688
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Elven Ears1_21
+      name: Female Elven Ears1_21
       rect:
         serializedVersion: 2
         x: 240
         y: 256
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -635,20 +635,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d0cc169b345e94b4b9438db9bd874d00
-      internalID: -6278515808174047828
+      spriteID: 3543d68db6f850e49b2db3366f216912
+      internalID: -1021159449
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Elven Ears1_22
+      name: Female Elven Ears1_22
       rect:
         serializedVersion: 2
         x: 320
         y: 256
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -657,20 +657,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 102ee534867d9ba4e9384bd6091850fb
-      internalID: 7927882876394003065
+      spriteID: f2d97d0987742114381e91b437038207
+      internalID: 1131255903
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Elven Ears1_23
+      name: Female Elven Ears1_23
       rect:
         serializedVersion: 2
         x: 400
         y: 256
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -679,20 +679,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 326fdc2d4fdcb30448ceb85403355d26
-      internalID: 5847816857975036396
+      spriteID: 7ba351865f491d043b8112f055ec1a62
+      internalID: 1786826308
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Elven Ears1_24
+      name: Female Elven Ears1_24
       rect:
         serializedVersion: 2
         x: 480
         y: 256
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -701,20 +701,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 994e5d454485a094a9f96eb46d2a5541
-      internalID: 9176618856921139988
+      spriteID: 45da07b3720212240b2f62a11c3482cc
+      internalID: -1737735030
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Elven Ears1_25
+      name: Female Elven Ears1_25
       rect:
         serializedVersion: 2
         x: 560
         y: 256
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -723,20 +723,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 14ccc74bc12265b468e21ae10e94dcd3
-      internalID: 7837541570461470706
+      spriteID: c2d59b9eab0f46545b1256ab73513ace
+      internalID: 643880584
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Elven Ears1_27
+      name: Female Elven Ears1_27
       rect:
         serializedVersion: 2
         x: 0
         y: 192
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -745,20 +745,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 454505a24051a7342919321daf5a4f21
-      internalID: 9017546269911400129
+      spriteID: ac54c26f93211bb4082759e2ed13a261
+      internalID: -442518419
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Elven Ears1_28
+      name: Female Elven Ears1_28
       rect:
         serializedVersion: 2
         x: 80
         y: 192
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -767,20 +767,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 356fb4e80b117bd4bac305354e558f61
-      internalID: 3646194435659531985
+      spriteID: dd504c122bf74b0428f8c1553178a664
+      internalID: 1692680122
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Elven Ears1_29
+      name: Female Elven Ears1_29
       rect:
         serializedVersion: 2
         x: 160
         y: 192
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -789,20 +789,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fb0a686518f5bbe49997375be5d332de
-      internalID: -6159191279435588654
+      spriteID: 74b80fa4b0a063342bcae54adcd119fa
+      internalID: -385267913
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Elven Ears1_30
+      name: Female Elven Ears1_30
       rect:
         serializedVersion: 2
         x: 240
         y: 192
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -811,20 +811,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 23b5907e66b5c7047b5836573f4f8b11
-      internalID: -3618904111783908331
+      spriteID: 046c158c8a8e79641a62de8eb4f2520f
+      internalID: 760187806
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Elven Ears1_36
+      name: Female Elven Ears1_36
       rect:
         serializedVersion: 2
         x: 0
         y: 128
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -833,20 +833,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 069961fecdf496f40b73477a5c11520f
-      internalID: -3972074927131419543
+      spriteID: 98cafe83b5b8c4d458692df47b01da6e
+      internalID: 1505568640
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Elven Ears1_37
+      name: Female Elven Ears1_37
       rect:
         serializedVersion: 2
         x: 80
         y: 128
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -855,20 +855,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 728f69d186a030a4ea1e83ce8dfeb21f
-      internalID: -8523681513710728073
+      spriteID: df1d51d969d217b4e9b8a21403e15d27
+      internalID: -1547160759
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Elven Ears1_38
+      name: Female Elven Ears1_38
       rect:
         serializedVersion: 2
         x: 160
         y: 128
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -877,20 +877,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a6b6176c137436740b75216bffb8af56
-      internalID: -7465979951910519251
+      spriteID: 7f02d629c9e0860468fad03522964aee
+      internalID: 204914027
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Elven Ears1_39
+      name: Female Elven Ears1_39
       rect:
         serializedVersion: 2
         x: 240
         y: 128
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -899,20 +899,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5a992bda794e2bc4caa121f89d6b10b0
-      internalID: 5838400048411057032
+      spriteID: e8d3ade8f6868274ba3d8219f15a331b
+      internalID: 637319369
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Elven Ears1_45
+      name: Female Elven Ears1_45
       rect:
         serializedVersion: 2
         x: 0
         y: 64
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -921,20 +921,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ffe3d51c586b21242aac655da39d268e
-      internalID: 75458070
+      spriteID: fb93a8a9e66fee74c8c421f75e91208e
+      internalID: 385721940
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Elven Ears1_46
+      name: Female Elven Ears1_46
       rect:
         serializedVersion: 2
         x: 80
         y: 64
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -943,20 +943,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3cc61156ceb22724fad8d7ddafcac409
-      internalID: 833989210
+      spriteID: e32d980d091f6ee4e8eeadd7256f93df
+      internalID: -880530014
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Elven Ears1_47
+      name: Female Elven Ears1_47
       rect:
         serializedVersion: 2
         x: 160
         y: 64
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -965,20 +965,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 67927c18fd7ec6b4d9143b034e93f9fd
-      internalID: -1432101100
+      spriteID: 1e67429b8056be042a635efb6858506c
+      internalID: 1970597537
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Elven Ears1_48
+      name: Female Elven Ears1_48
       rect:
         serializedVersion: 2
         x: 240
         y: 64
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -987,20 +987,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 948f4bfac74609c4fa1e9522790e4ab3
-      internalID: -994267835
+      spriteID: a90c34eee69d474469190dabaebb6b23
+      internalID: 1993695416
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Elven Ears1_49
+      name: Female Elven Ears1_49
       rect:
         serializedVersion: 2
         x: 320
         y: 64
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1009,20 +1009,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 463fb02928a2523439fd378cc8b87bcf
-      internalID: 2036518053
+      spriteID: e41fe0b26f803064a97cf2d59c9ee606
+      internalID: 1330011419
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Elven Ears1_50
+      name: Female Elven Ears1_50
       rect:
         serializedVersion: 2
         x: 400
         y: 64
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1031,20 +1031,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3c4fa6eaa0d6fe745811d58030cb3415
-      internalID: 2049424927
+      spriteID: 27bc77924e4e7f44eb1414554395a0ce
+      internalID: -2027291652
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Elven Ears1_54
+      name: Female Elven Ears1_54
       rect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1053,20 +1053,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6a2bc386918a7ac42afe6b5ce882c3c3
-      internalID: 1904518939
+      spriteID: 603024335042c264aa6de6df9258edfa
+      internalID: -1152697336
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Elven Ears1_55
+      name: Female Elven Ears1_55
       rect:
         serializedVersion: 2
         x: 80
         y: 0
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1075,20 +1075,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f774f9ef899d8d2478aeb26cd7897e19
-      internalID: -252707275
+      spriteID: aaf5320b214bb374094885e7f63e3161
+      internalID: -1209127537
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Elven Ears1_56
+      name: Female Elven Ears1_56
       rect:
         serializedVersion: 2
         x: 160
         y: 0
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1097,20 +1097,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4768bd1ede5098a4b8994b3388c11234
-      internalID: 433989614
+      spriteID: 6102148ad742a5940a1d3bce9636526e
+      internalID: 1246738706
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Elven Ears1_57
+      name: Female Elven Ears1_57
       rect:
         serializedVersion: 2
         x: 240
         y: 0
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1119,20 +1119,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5e6e90e311e07874389ead078cd9947b
-      internalID: 1152319775
+      spriteID: 093563ee78040964fb3537cba27cae7e
+      internalID: -1194809362
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Elven Ears1_58
+      name: Female Elven Ears1_58
       rect:
         serializedVersion: 2
         x: 320
         y: 0
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1141,20 +1141,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2d135ab0b0e92424ea74f3c596b15a23
-      internalID: -343546418
+      spriteID: c34ec8cb985e8834cb4088254f21014a
+      internalID: 336950445
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Elven Ears1_59
+      name: Female Elven Ears1_59
       rect:
         serializedVersion: 2
         x: 400
         y: 0
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1163,20 +1163,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c65061640356eab4fa52987dc0d07b3e
-      internalID: 656718939
+      spriteID: e795df9afea1a2d49b15ae1686776176
+      internalID: 1219586100
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Elven Ears1_60
+      name: Female Elven Ears1_60
       rect:
         serializedVersion: 2
         x: 480
         y: 0
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1185,20 +1185,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 516b5a6490785f74b8ae11c00d508a8b
-      internalID: 1537549511
+      spriteID: e9d5f9439b8ff3d47b1063cb0b1f7c6f
+      internalID: 798643716
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Elven Ears1_61
+      name: Female Elven Ears1_61
       rect:
         serializedVersion: 2
         x: 560
         y: 0
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1207,20 +1207,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a5af06e25e042ba41b118ea86fd962dc
-      internalID: 759710724
+      spriteID: 472693e9ed0e9734c915aff42acb0ed3
+      internalID: -2015290060
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Elven Ears1_62
+      name: Female Elven Ears1_62
       rect:
         serializedVersion: 2
         x: 640
         y: 0
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1229,8 +1229,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9f33a9fa9a0007048a15864840e49450
-      internalID: -1050487776
+      spriteID: 9ce208f210a96e643834fd3a956fb5ac
+      internalID: -919134
       vertices: []
       indices: 
       edges: []

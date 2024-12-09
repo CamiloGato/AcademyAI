@@ -180,7 +180,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 32
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -268,13 +268,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Diamond Pickaxe_0
+      name: Male Hand Diamond Pickaxe_0
       rect:
         serializedVersion: 2
         x: 0
         y: 384
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -283,20 +283,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b6353508b2184f54fab58b680dec2f42
-      internalID: -8552274440466809386
+      spriteID: 6a574ad7878e60641b1b6752033cc0bd
+      internalID: 1211421523
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Diamond Pickaxe_1
+      name: Male Hand Diamond Pickaxe_1
       rect:
         serializedVersion: 2
         x: 80
         y: 384
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -305,20 +305,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e7498cc0d6085344d95c70d7cac9835d
-      internalID: -5067185483854337132
+      spriteID: 227cae46493ada34b9daf175f012c0d1
+      internalID: 2023551718
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Diamond Pickaxe_2
+      name: Male Hand Diamond Pickaxe_2
       rect:
         serializedVersion: 2
         x: 160
         y: 384
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -327,20 +327,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 884c7e2f8c1ecec4bbbd5b5746184a66
-      internalID: -2112761412719292310
+      spriteID: 7dc2719a29c800441adbde5e26368c60
+      internalID: -1383673386
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Diamond Pickaxe_3
+      name: Male Hand Diamond Pickaxe_3
       rect:
         serializedVersion: 2
         x: 240
         y: 384
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -349,20 +349,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9dec6e3ec97f4c647a2dd66b5ab3dc5a
-      internalID: -7970340569461296628
+      spriteID: 752195258b923a049a53caa88f85c35b
+      internalID: -1832565122
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Diamond Pickaxe_4
+      name: Male Hand Diamond Pickaxe_4
       rect:
         serializedVersion: 2
         x: 320
         y: 384
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -371,20 +371,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: db161046f115d4e4d8654a968dc1f61a
-      internalID: -6449720473284439370
+      spriteID: 30a71573f9f50b843b3046e5fe819ac1
+      internalID: 1468183808
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Diamond Pickaxe_10
+      name: Male Hand Diamond Pickaxe_10
       rect:
         serializedVersion: 2
         x: 0
         y: 320
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -393,20 +393,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5397028347051c440b8893533ae3d8a2
-      internalID: 3957879837981108678
+      spriteID: 74bdf49f7587b9041bfeb9ddb43bd8bd
+      internalID: -987943614
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Diamond Pickaxe_11
+      name: Male Hand Diamond Pickaxe_11
       rect:
         serializedVersion: 2
         x: 80
         y: 320
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -415,20 +415,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 20e8fa36e71a65e4a948de69600e800c
-      internalID: 8167431501359763500
+      spriteID: c2c7fb14af97d0c41a1414ee6be047e9
+      internalID: -1075721515
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Diamond Pickaxe_12
+      name: Male Hand Diamond Pickaxe_12
       rect:
         serializedVersion: 2
         x: 160
         y: 320
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -437,20 +437,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7f70b46c97edf254cb58ccd6577e77f5
-      internalID: 1698854616408473041
+      spriteID: 6e85288c2c2be71489fbbe1960ef090f
+      internalID: -1499658862
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Diamond Pickaxe_13
+      name: Male Hand Diamond Pickaxe_13
       rect:
         serializedVersion: 2
         x: 240
         y: 320
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -459,20 +459,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0a22b31d1e9d03c4e9f3992622d5d171
-      internalID: -2134987152612912599
+      spriteID: bcc1915dec4cbd545aa6cea89d19664c
+      internalID: -1781232943
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Diamond Pickaxe_14
+      name: Male Hand Diamond Pickaxe_14
       rect:
         serializedVersion: 2
         x: 320
         y: 320
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -481,20 +481,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c5a2af35edb6aa940a2e497874166ab3
-      internalID: 9053922061234347060
+      spriteID: f22875012ed12484c88f59406b2463ca
+      internalID: 1022582587
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Diamond Pickaxe_15
+      name: Male Hand Diamond Pickaxe_15
       rect:
         serializedVersion: 2
         x: 400
         y: 320
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -503,20 +503,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4c189a990538481449a8de7d49581a30
-      internalID: -3551430775280704231
+      spriteID: 4f16bd1621899c94f8f134829e636dd4
+      internalID: 638573524
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Diamond Pickaxe_16
+      name: Male Hand Diamond Pickaxe_16
       rect:
         serializedVersion: 2
         x: 480
         y: 320
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -525,20 +525,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3aff75838142e8f45a31751d77d8c3db
-      internalID: 6082404359254625646
+      spriteID: 673ce8cc1e337e642b9aa4df778914f1
+      internalID: -918993702
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Diamond Pickaxe_17
+      name: Male Hand Diamond Pickaxe_17
       rect:
         serializedVersion: 2
         x: 560
         y: 320
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -547,20 +547,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a019ac8da97b60049b68c5b27d46284a
-      internalID: -361945847153331195
+      spriteID: 8bee5c9c32b559740b8df88d67a4f741
+      internalID: -690743499
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Diamond Pickaxe_20
+      name: Male Hand Diamond Pickaxe_20
       rect:
         serializedVersion: 2
         x: 0
         y: 256
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -569,20 +569,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: be6b57036d6bc9b4d9aab96a599c2d73
-      internalID: -8532112645435133681
+      spriteID: 6d3014d1f75adfe42a94b1f216d2744e
+      internalID: -1223799518
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Diamond Pickaxe_21
+      name: Male Hand Diamond Pickaxe_21
       rect:
         serializedVersion: 2
         x: 80
         y: 256
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -591,20 +591,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d0bd8a6bc479e0746afd00dbf0359905
-      internalID: -8947815105854542864
+      spriteID: 58361d2606610c2478d58df2788b5a36
+      internalID: -1849976283
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Diamond Pickaxe_22
+      name: Male Hand Diamond Pickaxe_22
       rect:
         serializedVersion: 2
         x: 160
         y: 256
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -613,20 +613,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4b2fdedd68ebfaa4c8ea4d1104173922
-      internalID: 5026535671965819437
+      spriteID: 934cef61156e1d64da701183623ca5f9
+      internalID: -397918765
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Diamond Pickaxe_23
+      name: Male Hand Diamond Pickaxe_23
       rect:
         serializedVersion: 2
         x: 240
         y: 256
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -635,20 +635,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 90f858cf16ab3a348a7969d949d0a9c9
-      internalID: -4729893446998580108
+      spriteID: 66e223934c04c304ebd8ea7b6c782809
+      internalID: -792022422
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Diamond Pickaxe_24
+      name: Male Hand Diamond Pickaxe_24
       rect:
         serializedVersion: 2
         x: 320
         y: 256
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -657,20 +657,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b253308b6ea7e314cbfea1735636d86f
-      internalID: 1050694210694847191
+      spriteID: 4387d7cd4153a6045bfe6a5dc33468ac
+      internalID: 139958845
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Diamond Pickaxe_25
+      name: Male Hand Diamond Pickaxe_25
       rect:
         serializedVersion: 2
         x: 400
         y: 256
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -679,20 +679,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3a8ba662ab0299b4a8251c76c037775d
-      internalID: 2313816247100941400
+      spriteID: fb7be2ca4eb0d5143bb5960326f24684
+      internalID: -1674257510
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Diamond Pickaxe_26
+      name: Male Hand Diamond Pickaxe_26
       rect:
         serializedVersion: 2
         x: 480
         y: 256
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -701,20 +701,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bec619afadda30f438a4016b99529339
-      internalID: 3266368809362021076
+      spriteID: aa8537948096520439bcb9e795ac61a3
+      internalID: -1221416028
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Diamond Pickaxe_27
+      name: Male Hand Diamond Pickaxe_27
       rect:
         serializedVersion: 2
         x: 560
         y: 256
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -723,20 +723,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b05a42346d0d51f48abe579675e71270
-      internalID: -2524398973706826050
+      spriteID: 21c794c7c91a891429c95304e0caa9b2
+      internalID: -404442254
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Diamond Pickaxe_30
+      name: Male Hand Diamond Pickaxe_30
       rect:
         serializedVersion: 2
         x: 0
         y: 192
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -745,20 +745,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0779bf1a9b4c0f141ba45f6d4eaa2cb3
-      internalID: 1331741498391056563
+      spriteID: cde0fec8125efd54c9cf6e8fb73e6031
+      internalID: -1615456822
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Diamond Pickaxe_31
+      name: Male Hand Diamond Pickaxe_31
       rect:
         serializedVersion: 2
         x: 80
         y: 192
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -767,20 +767,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d4ae99db72b975349af1bca918d6342d
-      internalID: -3906959789457506617
+      spriteID: 2e63250c1f59ac348a1b7e2927465618
+      internalID: 596701449
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Diamond Pickaxe_32
+      name: Male Hand Diamond Pickaxe_32
       rect:
         serializedVersion: 2
         x: 160
         y: 192
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -789,20 +789,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c3ab0140308b3cf46a7cf3f34642fd01
-      internalID: 8697774188868204966
+      spriteID: 9694c9451723aa34bb7ce88566d02ea3
+      internalID: 1239377861
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Diamond Pickaxe_33
+      name: Male Hand Diamond Pickaxe_33
       rect:
         serializedVersion: 2
         x: 240
         y: 192
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -811,20 +811,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a6b182afb92b88f47af537f084b204d6
-      internalID: -789321354899088239
+      spriteID: 755a0e6dcc4cbc0499d40ee44fc5a698
+      internalID: -1883502450
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Diamond Pickaxe_40
+      name: Male Hand Diamond Pickaxe_40
       rect:
         serializedVersion: 2
         x: 0
         y: 128
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -833,20 +833,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 164d9ac096936f24baeca2ce5f78de35
-      internalID: 1079372224544686939
+      spriteID: 47472cdab8cdb4a4bb99b376540542b5
+      internalID: -1993689603
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Diamond Pickaxe_41
+      name: Male Hand Diamond Pickaxe_41
       rect:
         serializedVersion: 2
         x: 80
         y: 128
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -855,20 +855,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 78d14ddfef9239e4393e9b92bd7ec9a8
-      internalID: -6638576869357253530
+      spriteID: e45b8e52a6c4a9d40a8674febd5da392
+      internalID: 1046082055
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Diamond Pickaxe_42
+      name: Male Hand Diamond Pickaxe_42
       rect:
         serializedVersion: 2
         x: 160
         y: 128
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -877,20 +877,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fb59bb989eaf1c6498ea565211d05290
-      internalID: 6904067706582802082
+      spriteID: 6b8ee38070fecf440b1ecf7968e2e604
+      internalID: -348257065
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Diamond Pickaxe_43
+      name: Male Hand Diamond Pickaxe_43
       rect:
         serializedVersion: 2
         x: 240
         y: 128
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -899,20 +899,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3ce5e08b434d8154189432c514a67c16
-      internalID: 2285727781281343940
+      spriteID: ab12a7e59b66b924194d4e5899f1a6f0
+      internalID: -987941537
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Diamond Pickaxe_50
+      name: Male Hand Diamond Pickaxe_50
       rect:
         serializedVersion: 2
         x: 0
         y: 64
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -921,20 +921,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b2ac948682734ed4480980d2e47b7432
-      internalID: 1041647261
+      spriteID: 063d7c75854ba1546b1b877ca10b826f
+      internalID: -1430147572
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Diamond Pickaxe_51
+      name: Male Hand Diamond Pickaxe_51
       rect:
         serializedVersion: 2
         x: 80
         y: 64
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -943,20 +943,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 38bfd61dc4ae70b4aac2b2228d07aaa5
-      internalID: 214528217
+      spriteID: 875b1a23d45393b41ba0ba73eb5792e2
+      internalID: 1209470558
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Diamond Pickaxe_52
+      name: Male Hand Diamond Pickaxe_52
       rect:
         serializedVersion: 2
         x: 160
         y: 64
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -965,20 +965,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 02239a0c9f57ab1479ae4a289c99bd80
-      internalID: -2138284637
+      spriteID: c313e686e837c5944b3b0d297adb2c6a
+      internalID: -2031129103
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Diamond Pickaxe_53
+      name: Male Hand Diamond Pickaxe_53
       rect:
         serializedVersion: 2
         x: 240
         y: 64
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -987,20 +987,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d0246a5fea6e5864992aa3bffd12cd27
-      internalID: 87108101
+      spriteID: 212e6d292a5f321459dd8a9bb78b647d
+      internalID: 2091151586
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Diamond Pickaxe_54
+      name: Male Hand Diamond Pickaxe_54
       rect:
         serializedVersion: 2
         x: 320
         y: 64
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1009,20 +1009,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a97209138e8f9a54da82b04376bf6a40
-      internalID: 1601430068
+      spriteID: 17f252336a366124184f13f93c71fcfe
+      internalID: 1886210693
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Diamond Pickaxe_55
+      name: Male Hand Diamond Pickaxe_55
       rect:
         serializedVersion: 2
         x: 400
         y: 64
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1031,20 +1031,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5fb53cb88d4b49c4e81497317c949ee3
-      internalID: 1104716824
+      spriteID: 948c98da401b6a84884de4379b3c8ab5
+      internalID: -1764764728
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Diamond Pickaxe_60
+      name: Male Hand Diamond Pickaxe_60
       rect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1053,20 +1053,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9e9dae15dea7b494cbeb2342c08b1b61
-      internalID: -1807954792
+      spriteID: f1f5d3763e651024dbee5238954dfc8f
+      internalID: -1601217040
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Diamond Pickaxe_61
+      name: Male Hand Diamond Pickaxe_61
       rect:
         serializedVersion: 2
         x: 80
         y: 0
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1075,20 +1075,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 30f60f954ca30224ab11ad112588e9f8
-      internalID: -1265889845
+      spriteID: b5112b0febe781743a3c3246621ef697
+      internalID: 1546410640
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Diamond Pickaxe_62
+      name: Male Hand Diamond Pickaxe_62
       rect:
         serializedVersion: 2
         x: 160
         y: 0
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1097,20 +1097,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 095512d73970d474f89a1e8026546d99
-      internalID: -844877142
+      spriteID: 783fcc8568e328141bbe6763ec2eddc1
+      internalID: -1464336986
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Diamond Pickaxe_63
+      name: Male Hand Diamond Pickaxe_63
       rect:
         serializedVersion: 2
         x: 240
         y: 0
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1119,20 +1119,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 39e498529d8b41c48a2b3b1877306b84
-      internalID: 1174394001
+      spriteID: 04be7b178d1a1f54a99e8ac889086f89
+      internalID: 2099831586
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Diamond Pickaxe_64
+      name: Male Hand Diamond Pickaxe_64
       rect:
         serializedVersion: 2
         x: 320
         y: 0
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1141,20 +1141,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 10d4ae88ed9ab1b48bff35ac714c46c4
-      internalID: 1755351892
+      spriteID: 970b965db2e4c164c8e8d3747bde8667
+      internalID: 282303173
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Diamond Pickaxe_65
+      name: Male Hand Diamond Pickaxe_65
       rect:
         serializedVersion: 2
         x: 400
         y: 0
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1163,20 +1163,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 082c756572ac4ab488ee180f332a3ba4
-      internalID: -1066068380
+      spriteID: a0d7e352b41fa424e82c76bb6d14874f
+      internalID: -126631767
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Diamond Pickaxe_66
+      name: Male Hand Diamond Pickaxe_66
       rect:
         serializedVersion: 2
         x: 480
         y: 0
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1185,20 +1185,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 28fbdb701e923ba4aac11868af9ed680
-      internalID: -464748949
+      spriteID: 4445693671f9e2149953267898f13c10
+      internalID: 596857615
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Diamond Pickaxe_67
+      name: Male Hand Diamond Pickaxe_67
       rect:
         serializedVersion: 2
         x: 560
         y: 0
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1207,20 +1207,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: be8c11738d1c39846ad40a41308c9516
-      internalID: -1674273270
+      spriteID: 96d291a07f4e0a94ba44720468652817
+      internalID: 340191195
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Diamond Pickaxe_68
+      name: Male Hand Diamond Pickaxe_68
       rect:
         serializedVersion: 2
         x: 640
         y: 0
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1229,20 +1229,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d89044001fcc9ea4989569392a4b1216
-      internalID: -359413985
+      spriteID: 8950ea787652bfe4abd41e6d5e5c7d14
+      internalID: 1977682992
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Diamond Pickaxe_69
+      name: Male Hand Diamond Pickaxe_69
       rect:
         serializedVersion: 2
         x: 720
         y: 0
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1251,8 +1251,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 41e7a807e71a5fc4993bd7fb4bcfeb8a
-      internalID: -919060581
+      spriteID: 79836db1fd9c45241ac5d8662576bf0b
+      internalID: 292480467
       vertices: []
       indices: 
       edges: []

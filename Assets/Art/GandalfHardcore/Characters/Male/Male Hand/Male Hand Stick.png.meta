@@ -180,7 +180,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 32
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -268,13 +268,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Stick_0
+      name: Male Hand Stick_0
       rect:
         serializedVersion: 2
         x: 0
         y: 384
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -283,20 +283,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c2d58734cd7304a4297f5906e6ea4743
-      internalID: -7907951331658488048
+      spriteID: 3904631d25f63764ba5fe11aa21fdea0
+      internalID: 1453144552
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Stick_1
+      name: Male Hand Stick_1
       rect:
         serializedVersion: 2
         x: 80
         y: 384
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -305,20 +305,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bb9b4b223f6104b479ae9585f74903e4
-      internalID: -2120736070927482547
+      spriteID: 36c2d2cdcecaf1b4e976f671943f8bbb
+      internalID: 1849920372
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Stick_2
+      name: Male Hand Stick_2
       rect:
         serializedVersion: 2
         x: 160
         y: 384
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -327,20 +327,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cba60dfad0266a34e9968d4b4a8c83d7
-      internalID: -6379344409900553748
+      spriteID: e97c9a14297dfa44bbd9f6dd1ed8818b
+      internalID: -1702996142
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Stick_3
+      name: Male Hand Stick_3
       rect:
         serializedVersion: 2
         x: 240
         y: 384
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -349,20 +349,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 633d7b325f4f7f14991df15af7da2630
-      internalID: -8203422604325148938
+      spriteID: 29c9d4b7350f8f647afd029f10498b84
+      internalID: 980241883
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Stick_4
+      name: Male Hand Stick_4
       rect:
         serializedVersion: 2
         x: 320
         y: 384
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -371,20 +371,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e86f6a0a9b128fc49b3f0a4116661339
-      internalID: -3572902511387050885
+      spriteID: bb3964ee2772d7148b8910cabc530ae9
+      internalID: 1279630998
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Stick_10
+      name: Male Hand Stick_10
       rect:
         serializedVersion: 2
         x: 0
         y: 320
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -393,20 +393,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 094d41baf624eb441b85b9179fd0c186
-      internalID: 5113822284904008126
+      spriteID: e128e74de7a6b4e43b9f0946c37936cc
+      internalID: -259277165
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Stick_11
+      name: Male Hand Stick_11
       rect:
         serializedVersion: 2
         x: 80
         y: 320
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -415,20 +415,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b1de990ef36dced4fa00dd0eeb2323d6
-      internalID: -1890927881606329736
+      spriteID: 87ace65c1c1e2104d90124cfe55b8ef3
+      internalID: 1770233702
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Stick_12
+      name: Male Hand Stick_12
       rect:
         serializedVersion: 2
         x: 160
         y: 320
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -437,20 +437,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 751b6141440a16348b35f371ab046a3a
-      internalID: 7296064441171343483
+      spriteID: 74b2a2b43ed96f24fa9ef5aa016139c2
+      internalID: 475708507
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Stick_13
+      name: Male Hand Stick_13
       rect:
         serializedVersion: 2
         x: 240
         y: 320
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -459,20 +459,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 890b12b5e872dca4fafcb4c1a772be81
-      internalID: 2095464525681710317
+      spriteID: 9e118296686fcee4db58660a18ee52a9
+      internalID: -898396541
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Stick_14
+      name: Male Hand Stick_14
       rect:
         serializedVersion: 2
         x: 320
         y: 320
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -481,20 +481,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dfef99a2e58ef7f4ea7428929546a199
-      internalID: -7406054846628324774
+      spriteID: e107fdfdbb550604aa1f9f14c641de44
+      internalID: 1464643451
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Stick_15
+      name: Male Hand Stick_15
       rect:
         serializedVersion: 2
         x: 400
         y: 320
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -503,20 +503,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5533ee579d9e75f4cae317f0bebf8ef1
-      internalID: -7129927890715529938
+      spriteID: ff0292bcc7771b448ba9c0db2b00d89a
+      internalID: 1622379149
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Stick_16
+      name: Male Hand Stick_16
       rect:
         serializedVersion: 2
         x: 480
         y: 320
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -525,20 +525,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9ad232129fcfcfb4a9f18f51ef16b927
-      internalID: -6699819498482666540
+      spriteID: 70dcc5765c87c774293104992d55f8a7
+      internalID: 1745110
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Stick_17
+      name: Male Hand Stick_17
       rect:
         serializedVersion: 2
         x: 560
         y: 320
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -547,20 +547,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f8cb0b45e4cec1041ae3cd380c5627d6
-      internalID: 1178937244260861759
+      spriteID: c88613009aea36b4aa015b1b1ce0bcff
+      internalID: -1752762850
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Stick_20
+      name: Male Hand Stick_20
       rect:
         serializedVersion: 2
         x: 0
         y: 256
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -569,20 +569,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3e42f10f00f900f4f9fb06a4b9ab832f
-      internalID: 6491548785491158428
+      spriteID: 06e304f605f650548bae3499b65269ec
+      internalID: -1486038077
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Stick_21
+      name: Male Hand Stick_21
       rect:
         serializedVersion: 2
         x: 80
         y: 256
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -591,20 +591,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bbdd5c52dab546b408ce2739a526fdf0
-      internalID: 2250375404116288225
+      spriteID: 5351b433d53aed04bb6376de467e7283
+      internalID: 1451734783
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Stick_22
+      name: Male Hand Stick_22
       rect:
         serializedVersion: 2
         x: 160
         y: 256
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -613,20 +613,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 02ef321dd126c724ba9614793a78bf40
-      internalID: 7750769252546363752
+      spriteID: 5dc953143ece94a49b03b1c3f073623f
+      internalID: 756548760
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Stick_23
+      name: Male Hand Stick_23
       rect:
         serializedVersion: 2
         x: 240
         y: 256
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -635,20 +635,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3c97c809105beed4ba7395c6ab6ec74c
-      internalID: 7028730205707612395
+      spriteID: 113d6158230636c44b5ca835b87d99c4
+      internalID: 1071755680
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Stick_24
+      name: Male Hand Stick_24
       rect:
         serializedVersion: 2
         x: 320
         y: 256
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -657,20 +657,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bc77075356808f644b57e2df1e001eaf
-      internalID: -8548444624735080104
+      spriteID: d49e02ae03b78554cb9e167114de3ebb
+      internalID: 788481956
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Stick_25
+      name: Male Hand Stick_25
       rect:
         serializedVersion: 2
         x: 400
         y: 256
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -679,20 +679,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 75ce555a171779e43b6f69f9e4ed374c
-      internalID: -2369328178576786963
+      spriteID: 4e8d4b16f0bae5b42a8dc6843ee6c7e0
+      internalID: -1599968070
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Stick_26
+      name: Male Hand Stick_26
       rect:
         serializedVersion: 2
         x: 480
         y: 256
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -701,20 +701,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1055c97f386172a4f9fefff6f25c7891
-      internalID: 2426830790140613375
+      spriteID: 7e75340c66018db4cbbdd4b516e91901
+      internalID: 1245184544
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Stick_27
+      name: Male Hand Stick_27
       rect:
         serializedVersion: 2
         x: 560
         y: 256
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -723,20 +723,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0ce32258199d43c4e80522c0584a70f1
-      internalID: 5417241370441483681
+      spriteID: 029d45e1695a28244b77b60c3d52f755
+      internalID: -1354101423
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Stick_30
+      name: Male Hand Stick_30
       rect:
         serializedVersion: 2
         x: 0
         y: 192
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -745,20 +745,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6f1eb9e5989209249b7dc3b962a9a4e7
-      internalID: -8441298976845640288
+      spriteID: 0d8b03f75eea527498e4c72d0bae77f2
+      internalID: -41500376
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Stick_31
+      name: Male Hand Stick_31
       rect:
         serializedVersion: 2
         x: 80
         y: 192
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -767,20 +767,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9f63710de4eee8246952fc5af9cf0520
-      internalID: 652603858107329377
+      spriteID: c83a60a39b5a7a4418b6a9cbed2350d2
+      internalID: 84603198
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Stick_32
+      name: Male Hand Stick_32
       rect:
         serializedVersion: 2
         x: 160
         y: 192
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -789,20 +789,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7e4acc7c4da33664f82af25033daddbf
-      internalID: -3601117369759738785
+      spriteID: f0b17bb34df2fe0489297c8c7173ebf1
+      internalID: 1848269184
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Stick_33
+      name: Male Hand Stick_33
       rect:
         serializedVersion: 2
         x: 240
         y: 192
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -811,20 +811,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dd2d1fa151a286c4b988ace1a83e248e
-      internalID: -7577293158764750053
+      spriteID: 8572d40c0c4c38f47b9d16ec87b512b1
+      internalID: 1887667419
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Stick_40
+      name: Male Hand Stick_40
       rect:
         serializedVersion: 2
         x: 0
         y: 128
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -833,20 +833,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e7460b013f5579b4a9d5e73fc8c3f561
-      internalID: -2498316761371365035
+      spriteID: 5337bacf605791a429ce0e3bdd2a63fa
+      internalID: -1595540648
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Stick_41
+      name: Male Hand Stick_41
       rect:
         serializedVersion: 2
         x: 80
         y: 128
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -855,20 +855,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ceef59ab8fd7a0c4fb254bd5e6bef2a2
-      internalID: -6016161588885121423
+      spriteID: f5c2a643e57cba546aaefb5ee0b703f4
+      internalID: -2116353843
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Stick_42
+      name: Male Hand Stick_42
       rect:
         serializedVersion: 2
         x: 160
         y: 128
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -877,20 +877,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2a594d2fbbe6d5646b3a1f30d28dbb0e
-      internalID: 9023807430494345430
+      spriteID: 6a09af94481781343b9ae9604fae6e69
+      internalID: -691360151
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Stick_43
+      name: Male Hand Stick_43
       rect:
         serializedVersion: 2
         x: 240
         y: 128
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -899,20 +899,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a988e38dba2e4114c95c2f11cc22fbc4
-      internalID: 20659437201117165
+      spriteID: caa052bf3abe3d641b720c0f0b2671c0
+      internalID: 1226126730
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Stick_50
+      name: Male Hand Stick_50
       rect:
         serializedVersion: 2
         x: 0
         y: 64
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -921,20 +921,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 86572f3a72e6f104b8486b061a1a3ea3
-      internalID: -1098780375
+      spriteID: 096928eb73c5cec4fbaad4f4b13f532a
+      internalID: -1756838097
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Stick_51
+      name: Male Hand Stick_51
       rect:
         serializedVersion: 2
         x: 80
         y: 64
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -943,20 +943,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e494409841de7fd47b63a27076a632c9
-      internalID: 1836756878
+      spriteID: 09d472c0c94b9fd488a9aee5d1c0a83e
+      internalID: 1271512793
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Stick_52
+      name: Male Hand Stick_52
       rect:
         serializedVersion: 2
         x: 160
         y: 64
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -965,20 +965,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b4e4e9755158c734e946155a3b2b248e
-      internalID: 1417897519
+      spriteID: b29fc0403ccda3f4d86f717f4f72212b
+      internalID: 1131979337
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Stick_53
+      name: Male Hand Stick_53
       rect:
         serializedVersion: 2
         x: 240
         y: 64
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -987,20 +987,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fa0c347660444bc48a3cb01263ececd8
-      internalID: 1740577731
+      spriteID: ec3a46fd5b74e5745b61754cf38cfdb4
+      internalID: -565115243
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Stick_54
+      name: Male Hand Stick_54
       rect:
         serializedVersion: 2
         x: 320
         y: 64
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1009,20 +1009,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c88c86e788628be4eae40c4bc3eef487
-      internalID: 1529903390
+      spriteID: a4635a41c95b8ef438de4e7036b1584c
+      internalID: -2106849950
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Stick_55
+      name: Male Hand Stick_55
       rect:
         serializedVersion: 2
         x: 400
         y: 64
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1031,20 +1031,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 03e8c2cbcc8449441a75a067c5257352
-      internalID: 638051221
+      spriteID: e03371eb47a7ad84aa4aceea7651bc18
+      internalID: -1757341993
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Stick_60
+      name: Male Hand Stick_60
       rect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1053,20 +1053,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fd519d29b4e98d3499bb10030dd160df
-      internalID: 1385499389
+      spriteID: 133e5e224ae4f6245adf7ac31a7babe6
+      internalID: -8736639
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Stick_61
+      name: Male Hand Stick_61
       rect:
         serializedVersion: 2
         x: 80
         y: 0
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1075,20 +1075,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b3f04b97fc941114aae6d7556a75cc79
-      internalID: 495340340
+      spriteID: c7773eb1e04598a44b59fe993313f542
+      internalID: -1305584603
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Stick_62
+      name: Male Hand Stick_62
       rect:
         serializedVersion: 2
         x: 160
         y: 0
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1097,20 +1097,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e583002451d5b2d4dbddccafc20bff71
-      internalID: 1292772398
+      spriteID: 8a30adbfdc054394788c14cc61d6708b
+      internalID: 1514579160
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Stick_63
+      name: Male Hand Stick_63
       rect:
         serializedVersion: 2
         x: 240
         y: 0
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1119,20 +1119,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7088654630e9eb44d8f86a99c6fb02e2
-      internalID: -1750922979
+      spriteID: fecd7e1835789aa4ab961f6b1ae7e20e
+      internalID: -1525180253
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Stick_64
+      name: Male Hand Stick_64
       rect:
         serializedVersion: 2
         x: 320
         y: 0
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1141,20 +1141,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b36615d74ad78a641bf43af6c241d3a0
-      internalID: 77646714
+      spriteID: ab02588017407194b9fa101755c3d81e
+      internalID: -1385401255
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Stick_65
+      name: Male Hand Stick_65
       rect:
         serializedVersion: 2
         x: 400
         y: 0
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1163,20 +1163,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8215ddbed424a1647ab3fc6ae051b52a
-      internalID: 1323140448
+      spriteID: 8de9afcaf6ec4c448a661ce368122c76
+      internalID: -449381215
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Stick_66
+      name: Male Hand Stick_66
       rect:
         serializedVersion: 2
         x: 480
         y: 0
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1185,20 +1185,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ddf1374553a2d414a8c3c8d838f6d3d0
-      internalID: -703210723
+      spriteID: b3d13696f2708b04bb71e3b2060489fc
+      internalID: 1609014607
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Stick_67
+      name: Male Hand Stick_67
       rect:
         serializedVersion: 2
         x: 560
         y: 0
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1207,20 +1207,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 26f360de50eeda14cadcbe6e20173a72
-      internalID: -1875430703
+      spriteID: 1d295e1b42b7ec347837d1481a1f915f
+      internalID: -416710181
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Stick_68
+      name: Male Hand Stick_68
       rect:
         serializedVersion: 2
         x: 640
         y: 0
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1229,20 +1229,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9830a84ab03f7cd4f9ad5ba93801e830
-      internalID: 756068262
+      spriteID: 7c06aa136ec14074f98cf7a5579a5c10
+      internalID: 693039355
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Stick_69
+      name: Male Hand Stick_69
       rect:
         serializedVersion: 2
         x: 720
         y: 0
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1251,8 +1251,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cd08ec5e775c7424386c4362247787a5
-      internalID: 630990766
+      spriteID: 96c34854927e775408944dbf739d2a31
+      internalID: -2131138837
       vertices: []
       indices: 
       edges: []

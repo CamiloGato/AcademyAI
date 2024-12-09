@@ -180,7 +180,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 32
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -268,13 +268,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Wooden Sword_0
+      name: Male Hand Wooden Sword_0
       rect:
         serializedVersion: 2
         x: 0
         y: 384
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -283,20 +283,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 090fbaef81c06614fa4d1cc69dcf214c
-      internalID: 4476182205578675844
+      spriteID: 0259c880ce534c74589c4570307e3b8b
+      internalID: 109828102
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Wooden Sword_1
+      name: Male Hand Wooden Sword_1
       rect:
         serializedVersion: 2
         x: 80
         y: 384
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -305,20 +305,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 30de09fd268bf884cb8d691660b5c2ce
-      internalID: -7185555285436683542
+      spriteID: 46bb2996423e10443a3d9d9e56b4d9e2
+      internalID: 904534098
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Wooden Sword_2
+      name: Male Hand Wooden Sword_2
       rect:
         serializedVersion: 2
         x: 160
         y: 384
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -327,20 +327,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8ceedb2e8d33e9f438ff5325d459aaa2
-      internalID: 6627654367617968683
+      spriteID: f401da4471d010547a8a0740e29e7952
+      internalID: 1933924201
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Wooden Sword_3
+      name: Male Hand Wooden Sword_3
       rect:
         serializedVersion: 2
         x: 240
         y: 384
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -349,20 +349,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b1c668833e9d56647bb8314893af0067
-      internalID: 4940220272345004179
+      spriteID: ecff4af352ce61e4daa27ebbe12e43e4
+      internalID: 1921402444
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Wooden Sword_4
+      name: Male Hand Wooden Sword_4
       rect:
         serializedVersion: 2
         x: 320
         y: 384
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -371,20 +371,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5889b12dc816b6a4e92b11d56810ab47
-      internalID: -2532783528790616146
+      spriteID: 68d7a04b05478204ab7dca7392994d9e
+      internalID: 707803301
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Wooden Sword_10
+      name: Male Hand Wooden Sword_10
       rect:
         serializedVersion: 2
         x: 0
         y: 320
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -393,20 +393,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f29ce1ba292d43e48b9a2e7fcc2419b4
-      internalID: 7716136680329558021
+      spriteID: b34a45c4b887f164e9858f2abc7df8e1
+      internalID: 882264953
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Wooden Sword_11
+      name: Male Hand Wooden Sword_11
       rect:
         serializedVersion: 2
         x: 80
         y: 320
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -415,20 +415,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3b842826e8ac3544dba6b31b55119296
-      internalID: 29163977730206310
+      spriteID: d4739a377e4e57d46a03eae621e6aacd
+      internalID: 776929090
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Wooden Sword_12
+      name: Male Hand Wooden Sword_12
       rect:
         serializedVersion: 2
         x: 160
         y: 320
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -437,20 +437,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b8932453d527ecf4580658c2c062fb93
-      internalID: 1430427624396750223
+      spriteID: 81a9b4be3def2f0499f7f154603c038c
+      internalID: 1818869880
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Wooden Sword_13
+      name: Male Hand Wooden Sword_13
       rect:
         serializedVersion: 2
         x: 240
         y: 320
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -459,20 +459,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 78ec7d9f4d00b7148854f955937a90ac
-      internalID: 6522858580351016610
+      spriteID: f43fda6fed9b9b441a9950131b51ab8e
+      internalID: -1755566839
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Wooden Sword_14
+      name: Male Hand Wooden Sword_14
       rect:
         serializedVersion: 2
         x: 320
         y: 320
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -481,20 +481,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0726a5e8653ee224fb5b1c378ee3c5a3
-      internalID: -7598562198870771934
+      spriteID: c75152729aa397c488b29be510390586
+      internalID: 325007380
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Wooden Sword_15
+      name: Male Hand Wooden Sword_15
       rect:
         serializedVersion: 2
         x: 400
         y: 320
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -503,20 +503,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 61fa1a99c9c67a242af101a5d414e28c
-      internalID: -4745695191885303281
+      spriteID: d6c104ba4c756e6418177b6a88735154
+      internalID: 549353664
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Wooden Sword_16
+      name: Male Hand Wooden Sword_16
       rect:
         serializedVersion: 2
         x: 480
         y: 320
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -525,20 +525,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 699bb2b26a1c89b45b5ccfd330e6d0ef
-      internalID: 2493452216459316542
+      spriteID: b83603eb8daa3e044af7fa1f5149c3c5
+      internalID: -268755050
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Wooden Sword_17
+      name: Male Hand Wooden Sword_17
       rect:
         serializedVersion: 2
         x: 560
         y: 320
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -547,20 +547,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1459f0a40c27cf9459ae0a77b3ba968c
-      internalID: -7522855147783360012
+      spriteID: e4c3be2cad503e445877f4772be61cda
+      internalID: -938384809
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Wooden Sword_20
+      name: Male Hand Wooden Sword_20
       rect:
         serializedVersion: 2
         x: 0
         y: 256
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -569,20 +569,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bfaeccf85c6248042b09df42634269bf
-      internalID: -734779259692158532
+      spriteID: 7729aaeabe69a1047a0394d0d897b576
+      internalID: -142528618
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Wooden Sword_21
+      name: Male Hand Wooden Sword_21
       rect:
         serializedVersion: 2
         x: 80
         y: 256
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -591,20 +591,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8aa2a2ef04a8e064a836eec2667164ee
-      internalID: 686746359555786457
+      spriteID: c0e8c78ed4c5e284381dbdddc2b6d00f
+      internalID: 1485984042
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Wooden Sword_22
+      name: Male Hand Wooden Sword_22
       rect:
         serializedVersion: 2
         x: 160
         y: 256
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -613,20 +613,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b39337cb06dd1a74da0c1ba5b71c6421
-      internalID: -6030621390933012155
+      spriteID: fead6ee9be54b094fa5a853e3295add8
+      internalID: 1808635640
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Wooden Sword_23
+      name: Male Hand Wooden Sword_23
       rect:
         serializedVersion: 2
         x: 240
         y: 256
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -635,20 +635,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8aab52c7c59c1ef48a5737a2416ae1c5
-      internalID: 5962767623881333268
+      spriteID: 9d26dcbd36b39154c8c087d2aecdfba3
+      internalID: 1462280528
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Wooden Sword_24
+      name: Male Hand Wooden Sword_24
       rect:
         serializedVersion: 2
         x: 320
         y: 256
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -657,20 +657,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 02e9a4ccb50d65949970788e815e4d9e
-      internalID: -7077415383471105136
+      spriteID: 82a77124f6e724b4abdd45455a713709
+      internalID: 104726056
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Wooden Sword_25
+      name: Male Hand Wooden Sword_25
       rect:
         serializedVersion: 2
         x: 400
         y: 256
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -679,20 +679,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 37bf6fc6b126dd54e80d9d5dc48623aa
-      internalID: -9068071251025878646
+      spriteID: 18cc140456435d1469a1b3b0600d6bbb
+      internalID: 1520736064
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Wooden Sword_26
+      name: Male Hand Wooden Sword_26
       rect:
         serializedVersion: 2
         x: 480
         y: 256
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -701,20 +701,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f10e1c2623ba7974a9b84bafe9168f4a
-      internalID: -1972481513201480834
+      spriteID: a3067b5b171aa7e4192a2711646fde9f
+      internalID: -1157779080
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Wooden Sword_27
+      name: Male Hand Wooden Sword_27
       rect:
         serializedVersion: 2
         x: 560
         y: 256
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -723,20 +723,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 92a2cd0ff04325543b9e760c8d32e829
-      internalID: 2026562877462080632
+      spriteID: c950c0f2cf425174da95505133b122b4
+      internalID: -1250852886
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Wooden Sword_30
+      name: Male Hand Wooden Sword_30
       rect:
         serializedVersion: 2
         x: 0
         y: 192
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -745,20 +745,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ac7b15e7ada15f7499af170c4c90250a
-      internalID: -3988950829223224343
+      spriteID: d7c5bbfab9892904180971f5e5de206d
+      internalID: 11142081
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Wooden Sword_31
+      name: Male Hand Wooden Sword_31
       rect:
         serializedVersion: 2
         x: 80
         y: 192
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -767,20 +767,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ac1269a16ca602640bdc47a02214aa77
-      internalID: 8876594483380108877
+      spriteID: 07e9f9318321f2143a28b7e754c8daaf
+      internalID: 1863532810
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Wooden Sword_32
+      name: Male Hand Wooden Sword_32
       rect:
         serializedVersion: 2
         x: 160
         y: 192
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -789,20 +789,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c778103decc540f4a8654ff3111101cc
-      internalID: -7612248379916149777
+      spriteID: ed13b7bf1217379409c778e7b39964d6
+      internalID: 1301617812
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Wooden Sword_33
+      name: Male Hand Wooden Sword_33
       rect:
         serializedVersion: 2
         x: 240
         y: 192
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -811,20 +811,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 81e96f0759dca054d94ddaaed78e5f02
-      internalID: 7792879031894588313
+      spriteID: bd00ee15621f444478cc93eb386bd1b3
+      internalID: 351645049
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Wooden Sword_40
+      name: Male Hand Wooden Sword_40
       rect:
         serializedVersion: 2
         x: 0
         y: 128
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -833,20 +833,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3587a632e4c24b8408ae1198c15eab8f
-      internalID: -8785793495030092929
+      spriteID: bfe7634f9c455224ebcdbf4919f6d36f
+      internalID: -498677167
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Wooden Sword_41
+      name: Male Hand Wooden Sword_41
       rect:
         serializedVersion: 2
         x: 80
         y: 128
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -855,20 +855,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5529c6258102546438251fe36a46739a
-      internalID: -5539154614900097722
+      spriteID: 3be33151deb53db49b0f973baa4cd602
+      internalID: 1141842981
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Wooden Sword_42
+      name: Male Hand Wooden Sword_42
       rect:
         serializedVersion: 2
         x: 160
         y: 128
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -877,20 +877,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 363dfa2dda7777d40aee419653f914e8
-      internalID: 2551436076410838895
+      spriteID: b9a52b7a59ad26f479f36ec523bb2e46
+      internalID: -619824285
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Wooden Sword_43
+      name: Male Hand Wooden Sword_43
       rect:
         serializedVersion: 2
         x: 240
         y: 128
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -899,20 +899,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1de3f8be0f8378d4d877bf9299552a4f
-      internalID: 3094574982141788123
+      spriteID: 87f9a51f992cf3c479c01e8b664510f3
+      internalID: -1574298188
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Wooden Sword_50
+      name: Male Hand Wooden Sword_50
       rect:
         serializedVersion: 2
         x: 0
         y: 64
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -921,20 +921,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bdb667cdd763023428a140f0d31db3d6
-      internalID: 166209957
+      spriteID: 0933e4ec8bb1f4848afa778f63149b16
+      internalID: -999446826
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Wooden Sword_51
+      name: Male Hand Wooden Sword_51
       rect:
         serializedVersion: 2
         x: 80
         y: 64
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -943,20 +943,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 899cab8e34f2cc54da5f5d0651368863
-      internalID: -107636609
+      spriteID: b4f1031003369e848bbff5aeb12dc98b
+      internalID: 1656351060
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Wooden Sword_52
+      name: Male Hand Wooden Sword_52
       rect:
         serializedVersion: 2
         x: 160
         y: 64
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -965,20 +965,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 23d4df1915c0d1e48906646fb1781e81
-      internalID: -1237685056
+      spriteID: 899acda73bc7641449b6b67e848f16d6
+      internalID: -897100265
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Wooden Sword_53
+      name: Male Hand Wooden Sword_53
       rect:
         serializedVersion: 2
         x: 240
         y: 64
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -987,20 +987,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 277172d2b25883d498a47a1569105c20
-      internalID: -772119934
+      spriteID: a28ca351fea28da49af3c401b14ebe5b
+      internalID: 563127899
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Wooden Sword_54
+      name: Male Hand Wooden Sword_54
       rect:
         serializedVersion: 2
         x: 320
         y: 64
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1009,20 +1009,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fac4834617a101845847a20e14c7802e
-      internalID: -278915998
+      spriteID: 82d8fad6ca99ab041b86576dfe1c752b
+      internalID: -2094907698
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Wooden Sword_55
+      name: Male Hand Wooden Sword_55
       rect:
         serializedVersion: 2
         x: 400
         y: 64
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1031,20 +1031,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6dfc76ee3ec424442adfdf8282db5245
-      internalID: -1715986089
+      spriteID: ff204de50c5af7443a3b55350f75f11c
+      internalID: -447092396
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Wooden Sword_60
+      name: Male Hand Wooden Sword_60
       rect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1053,20 +1053,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ef777343195ccb34da66469fad693db0
-      internalID: 1336756020
+      spriteID: a83fb3afa40faa446adab2d094c165e7
+      internalID: -1028470017
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Wooden Sword_61
+      name: Male Hand Wooden Sword_61
       rect:
         serializedVersion: 2
         x: 80
         y: 0
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1075,20 +1075,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f532681d9bc5de449a291892787f1c5f
-      internalID: -1748835896
+      spriteID: d35013ca832ddf94e82fc2abb74b6114
+      internalID: -1495420356
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Wooden Sword_62
+      name: Male Hand Wooden Sword_62
       rect:
         serializedVersion: 2
         x: 160
         y: 0
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1097,20 +1097,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b10ee63959a86e440a5536a716903a63
-      internalID: 1074690715
+      spriteID: bf913220e0de4114abc1b7e798554dbd
+      internalID: -1029352046
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Wooden Sword_63
+      name: Male Hand Wooden Sword_63
       rect:
         serializedVersion: 2
         x: 240
         y: 0
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1119,20 +1119,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 540a427114673b74b805fa30a9f9900f
-      internalID: -12932779
+      spriteID: e6c63ebef8346aa4a9acc2df6b1a307c
+      internalID: -399630875
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Wooden Sword_64
+      name: Male Hand Wooden Sword_64
       rect:
         serializedVersion: 2
         x: 320
         y: 0
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1141,20 +1141,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ef96801cce27a8a4d936e2224d0f51ec
-      internalID: 962578631
+      spriteID: e4adbc1593563c24cb88fce342b47253
+      internalID: -2142900457
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Wooden Sword_65
+      name: Male Hand Wooden Sword_65
       rect:
         serializedVersion: 2
         x: 400
         y: 0
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1163,20 +1163,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a05ac4f8c2d4bec45b59be4b197def9d
-      internalID: -216930538
+      spriteID: 2e9581bcc02bd32408b2ecc716d2e698
+      internalID: -1652853241
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Wooden Sword_66
+      name: Male Hand Wooden Sword_66
       rect:
         serializedVersion: 2
         x: 480
         y: 0
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1185,20 +1185,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7be034408214f7c4fa6d78e9a2ed2c6c
-      internalID: 1899687074
+      spriteID: df86afa38879d004d9977e498daa2b8a
+      internalID: -1199563176
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Wooden Sword_67
+      name: Male Hand Wooden Sword_67
       rect:
         serializedVersion: 2
         x: 560
         y: 0
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1207,20 +1207,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 269104b364b9749469142a013ebec135
-      internalID: -1542819663
+      spriteID: 0dfdf0cfb34fbce4dabca78337281a92
+      internalID: -1140662039
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Wooden Sword_68
+      name: Male Hand Wooden Sword_68
       rect:
         serializedVersion: 2
         x: 640
         y: 0
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1229,20 +1229,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 60ec87b4a9d59ea4bb5bdcab3c9686aa
-      internalID: -317594064
+      spriteID: 282855ffd445c8b40a08fef6dabe93f9
+      internalID: -620390046
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Wooden Sword_69
+      name: Male Hand Wooden Sword_69
       rect:
         serializedVersion: 2
         x: 720
         y: 0
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1251,8 +1251,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4ab0ec8c2d398324392c1aa6d229985b
-      internalID: 336701716
+      spriteID: 8cb9eaed6b396fd43a75a56499e2f17c
+      internalID: -1136251528
       vertices: []
       indices: 
       edges: []

@@ -180,7 +180,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 32
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -268,13 +268,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Golden Sword_0
+      name: Male Hand Golden Sword_0
       rect:
         serializedVersion: 2
         x: 0
         y: 384
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -283,20 +283,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0a09353906c496a4e9a59b4feffe40a1
-      internalID: -2995627434062683977
+      spriteID: 133ff40eec9b8cc40944b6de7bc7e6ea
+      internalID: -944713748
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Golden Sword_1
+      name: Male Hand Golden Sword_1
       rect:
         serializedVersion: 2
         x: 80
         y: 384
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -305,20 +305,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 406a137df309d8540bb4d903d1090100
-      internalID: -6454522838605727000
+      spriteID: 59c6bb65013e9764dac436d59dc32fef
+      internalID: 1637033593
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Golden Sword_2
+      name: Male Hand Golden Sword_2
       rect:
         serializedVersion: 2
         x: 160
         y: 384
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -327,20 +327,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c5d0ca57845a00c4b91a5b7c002223f3
-      internalID: -7124714835191304812
+      spriteID: c26736e3ee7a6234383d4768c8655748
+      internalID: -1282038247
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Golden Sword_3
+      name: Male Hand Golden Sword_3
       rect:
         serializedVersion: 2
         x: 240
         y: 384
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -349,20 +349,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d86de1c848b7ba54f9f9b5c532510253
-      internalID: 255995484771406854
+      spriteID: 5aa7778d0b1dd4f4fb0e9f7ae66bcac1
+      internalID: 1710259156
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Golden Sword_4
+      name: Male Hand Golden Sword_4
       rect:
         serializedVersion: 2
         x: 320
         y: 384
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -371,20 +371,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bc2395b1fdebc1b46a3f4f006973ad2b
-      internalID: 6087520845101438284
+      spriteID: 0e6b94121d59fc24fae822e3d563bf89
+      internalID: 824038391
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Golden Sword_10
+      name: Male Hand Golden Sword_10
       rect:
         serializedVersion: 2
         x: 0
         y: 320
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -393,20 +393,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4cb77a4a44cef304bb21443b5c3fcb8e
-      internalID: 3123684983974888308
+      spriteID: 0bb518f87e6bab641864bbce16701af4
+      internalID: -111833021
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Golden Sword_11
+      name: Male Hand Golden Sword_11
       rect:
         serializedVersion: 2
         x: 80
         y: 320
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -415,20 +415,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6c4597ad6b90e224f959a7fafe6b3969
-      internalID: -4964131771928488013
+      spriteID: 58e9cdb73b63aca4eb5447ac8d77dae3
+      internalID: -1658328644
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Golden Sword_12
+      name: Male Hand Golden Sword_12
       rect:
         serializedVersion: 2
         x: 160
         y: 320
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -437,20 +437,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: be7ceae1ad23ed64d9ab1096de71ae52
-      internalID: 6838974996930676485
+      spriteID: e0aebd2bf4d943147baae1a7bb7ff549
+      internalID: 1363554257
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Golden Sword_13
+      name: Male Hand Golden Sword_13
       rect:
         serializedVersion: 2
         x: 240
         y: 320
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -459,20 +459,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 04aa323130b37014ca345aa05428c8ac
-      internalID: -1767052790904831695
+      spriteID: f0c610c62e46a57458f79a50631965e6
+      internalID: 1118268478
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Golden Sword_14
+      name: Male Hand Golden Sword_14
       rect:
         serializedVersion: 2
         x: 320
         y: 320
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -481,20 +481,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 06ce814997ab70a458d4dca59272ef10
-      internalID: 714506177861521412
+      spriteID: f24b5bccc1aec2147b92e5ddfcea6a8c
+      internalID: 864776507
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Golden Sword_15
+      name: Male Hand Golden Sword_15
       rect:
         serializedVersion: 2
         x: 400
         y: 320
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -503,20 +503,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f80ce90cbd8b1cf479bb9e4283aa034a
-      internalID: -2372179240725799675
+      spriteID: 2a8de132779ba584d879b6d9682b53b0
+      internalID: -578976494
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Golden Sword_16
+      name: Male Hand Golden Sword_16
       rect:
         serializedVersion: 2
         x: 480
         y: 320
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -525,20 +525,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 29d5fdb5c6b22204da1d2a2d9459e77f
-      internalID: -3078154549251685129
+      spriteID: 8df85a5591db50f4da11aba75eae528c
+      internalID: 1736225445
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Golden Sword_17
+      name: Male Hand Golden Sword_17
       rect:
         serializedVersion: 2
         x: 560
         y: 320
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -547,20 +547,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 210180cb04fdd514ea98e00eb32a40f8
-      internalID: 7872753040976831682
+      spriteID: 99f0fbca34f54654a886c23da9ac846d
+      internalID: -2005309074
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Golden Sword_20
+      name: Male Hand Golden Sword_20
       rect:
         serializedVersion: 2
         x: 0
         y: 256
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -569,20 +569,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5133a0e9901aa0e4ea75e092771fc20d
-      internalID: 7348466421667777489
+      spriteID: b4fd193631d571343a0d411a65ebad00
+      internalID: -1616103147
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Golden Sword_21
+      name: Male Hand Golden Sword_21
       rect:
         serializedVersion: 2
         x: 80
         y: 256
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -591,20 +591,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 94bab6e4ae717cd4d80af7c3fa2851b6
-      internalID: -7733014121970994004
+      spriteID: eea123ee8a9b29b46a4e2a8b75c349a3
+      internalID: -1546866601
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Golden Sword_22
+      name: Male Hand Golden Sword_22
       rect:
         serializedVersion: 2
         x: 160
         y: 256
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -613,20 +613,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a729606ec3a117048a6db76bf958bf5a
-      internalID: -6264798845627742595
+      spriteID: 18ea9e3dba8d4d64a9076ced6a91b14c
+      internalID: -999689022
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Golden Sword_23
+      name: Male Hand Golden Sword_23
       rect:
         serializedVersion: 2
         x: 240
         y: 256
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -635,20 +635,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a3601eb0dfda6884da3dca0721eabef6
-      internalID: -1285483690670148056
+      spriteID: a0c88a3e11156214a950c0fbc1619fc7
+      internalID: -292327659
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Golden Sword_24
+      name: Male Hand Golden Sword_24
       rect:
         serializedVersion: 2
         x: 320
         y: 256
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -657,20 +657,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 183cbf2bcb342f9479ca967e2b0fb607
-      internalID: -1674311075414748902
+      spriteID: 82aa8af877fc72147998585ac63d67d5
+      internalID: -201514376
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Golden Sword_25
+      name: Male Hand Golden Sword_25
       rect:
         serializedVersion: 2
         x: 400
         y: 256
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -679,20 +679,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e65938d9f0874c141af308a7786324f4
-      internalID: -3397148419284907018
+      spriteID: fd49a3b587fc7f44caccafa06f2e3265
+      internalID: 553688273
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Golden Sword_26
+      name: Male Hand Golden Sword_26
       rect:
         serializedVersion: 2
         x: 480
         y: 256
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -701,20 +701,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 44d2675080422e846a143d6ba06968cf
-      internalID: 4844326024135392663
+      spriteID: e0d73a2d7c190af4da1770a1f0e17d4c
+      internalID: 1650264159
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Golden Sword_27
+      name: Male Hand Golden Sword_27
       rect:
         serializedVersion: 2
         x: 560
         y: 256
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -723,20 +723,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2304f7f95aa8f3942b1129f683e43217
-      internalID: -670701092271871253
+      spriteID: 7f27df568bba0524b8972f95e4517e6f
+      internalID: 1803467810
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Golden Sword_30
+      name: Male Hand Golden Sword_30
       rect:
         serializedVersion: 2
         x: 0
         y: 192
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -745,20 +745,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b3728aa8c103c614d9f7f8a1fbea0025
-      internalID: -9075264654243300258
+      spriteID: 44060554c56cca24190a1c588c288aed
+      internalID: 1313609869
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Golden Sword_31
+      name: Male Hand Golden Sword_31
       rect:
         serializedVersion: 2
         x: 80
         y: 192
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -767,20 +767,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cca3cc958c0f7284ead4ce6ca634719d
-      internalID: 7639521034903297849
+      spriteID: 4c6a94c2e44f81b4b9d1843c3a904b05
+      internalID: 90913014
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Golden Sword_32
+      name: Male Hand Golden Sword_32
       rect:
         serializedVersion: 2
         x: 160
         y: 192
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -789,20 +789,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: aaf7ca5d61df3064f9a6fba0e137ea9d
-      internalID: 4823392762890147073
+      spriteID: 85f3a2a8eaa9fa74685775ff6efcd71f
+      internalID: -2084766050
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Golden Sword_33
+      name: Male Hand Golden Sword_33
       rect:
         serializedVersion: 2
         x: 240
         y: 192
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -811,20 +811,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 03114b30485cb4e4aa700726d6cca494
-      internalID: -2045706031654117364
+      spriteID: 2daec435e88e94e498aee01ed0344ad0
+      internalID: -542678220
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Golden Sword_40
+      name: Male Hand Golden Sword_40
       rect:
         serializedVersion: 2
         x: 0
         y: 128
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -833,20 +833,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8e38555944a0eac4c84b317cefb00fc4
-      internalID: 6422692561066780026
+      spriteID: 82ed35369c4d3d9488748c1d5ecd8097
+      internalID: 1915134308
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Golden Sword_41
+      name: Male Hand Golden Sword_41
       rect:
         serializedVersion: 2
         x: 80
         y: 128
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -855,20 +855,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ee4ddf1a3285a5147bc1bbf88edf2c72
-      internalID: 5385530285530729507
+      spriteID: ab7c7e191f054444cba03b55a0b95289
+      internalID: 1319172949
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Golden Sword_42
+      name: Male Hand Golden Sword_42
       rect:
         serializedVersion: 2
         x: 160
         y: 128
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -877,20 +877,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fb2560b41ff0ef84abec69b88b3328a7
-      internalID: 5140187663111317710
+      spriteID: 1d60dab4b9798434aaa00e16ea57de1d
+      internalID: -634971974
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Golden Sword_43
+      name: Male Hand Golden Sword_43
       rect:
         serializedVersion: 2
         x: 240
         y: 128
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -899,20 +899,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3abb1322484293947bcc82f8787f0220
-      internalID: 2884844401635886434
+      spriteID: 65fee5f62196a084dbfba6278a6421e5
+      internalID: 1622452677
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Golden Sword_50
+      name: Male Hand Golden Sword_50
       rect:
         serializedVersion: 2
         x: 0
         y: 64
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -921,20 +921,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 00aafe3bf56d5af44ba812ef03944166
-      internalID: -1653344757
+      spriteID: f84f4d4a18116ce4999954243ec0d050
+      internalID: 1980423556
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Golden Sword_51
+      name: Male Hand Golden Sword_51
       rect:
         serializedVersion: 2
         x: 80
         y: 64
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -943,20 +943,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e5d30f29c9a32af4ca125d4f5cb53864
-      internalID: 1921763811
+      spriteID: 94f63f8adaa57434f85096c77b2ba54c
+      internalID: 1603197948
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Golden Sword_52
+      name: Male Hand Golden Sword_52
       rect:
         serializedVersion: 2
         x: 160
         y: 64
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -965,20 +965,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0b7a78c76dc91494db41b282a1b78a23
-      internalID: 627492525
+      spriteID: 41d2a85fa378ba24bb8b508b33a4ef96
+      internalID: -564447158
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Golden Sword_53
+      name: Male Hand Golden Sword_53
       rect:
         serializedVersion: 2
         x: 240
         y: 64
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -987,20 +987,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 27418ae66e35adb43b03ecf5df030c1e
-      internalID: 1224233022
+      spriteID: e74ef9a6634a86644b7447dd70c0c666
+      internalID: -2021519789
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Golden Sword_54
+      name: Male Hand Golden Sword_54
       rect:
         serializedVersion: 2
         x: 320
         y: 64
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1009,20 +1009,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: eeb09b87912a24f4d9706e188d9e6d8f
-      internalID: -383590498
+      spriteID: 9e4553efaec92e94b984fda4c2576267
+      internalID: -358057820
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Golden Sword_55
+      name: Male Hand Golden Sword_55
       rect:
         serializedVersion: 2
         x: 400
         y: 64
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1031,20 +1031,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0e0c98a4a28aea0478997eb601398d05
-      internalID: 1968580625
+      spriteID: c1b423035a499394db824adbf5e66892
+      internalID: -1472740553
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Golden Sword_60
+      name: Male Hand Golden Sword_60
       rect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1053,20 +1053,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b32e815f2da08a546819ef82a43f57c7
-      internalID: -157957047
+      spriteID: e11bd492dac7ad6488597df11526aa44
+      internalID: -527796694
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Golden Sword_61
+      name: Male Hand Golden Sword_61
       rect:
         serializedVersion: 2
         x: 80
         y: 0
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1075,20 +1075,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6c28e828cc0c3994783862b154b9f7f9
-      internalID: 1176956
+      spriteID: 2121179a279870d4dbcfca123c03cdbe
+      internalID: -369265150
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Golden Sword_62
+      name: Male Hand Golden Sword_62
       rect:
         serializedVersion: 2
         x: 160
         y: 0
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1097,20 +1097,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 42c7ee312b71b4541bb5f9618fe896d8
-      internalID: 1410667883
+      spriteID: 2550feab636c1b242ab21f67314edc2d
+      internalID: -501543579
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Golden Sword_63
+      name: Male Hand Golden Sword_63
       rect:
         serializedVersion: 2
         x: 240
         y: 0
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1119,20 +1119,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4c8f440555a2e07479c2d9a9f4eec443
-      internalID: -1143684675
+      spriteID: 98d68e8c1b3874d4f890685260ebd5de
+      internalID: -1204276039
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Golden Sword_64
+      name: Male Hand Golden Sword_64
       rect:
         serializedVersion: 2
         x: 320
         y: 0
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1141,20 +1141,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 47a0331295093bd44803144c193daaa0
-      internalID: -1578999064
+      spriteID: be24011313e94954b86fda97b0c50706
+      internalID: 311735906
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Golden Sword_65
+      name: Male Hand Golden Sword_65
       rect:
         serializedVersion: 2
         x: 400
         y: 0
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1163,20 +1163,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e3b0324c97fec5847ab34b7db69c0fa9
-      internalID: 2134002447
+      spriteID: 8634d1cec4ebe8b4ebcb810647ed8507
+      internalID: 2106077302
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Golden Sword_66
+      name: Male Hand Golden Sword_66
       rect:
         serializedVersion: 2
         x: 480
         y: 0
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1185,20 +1185,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2fb436d6d2dc5454e84b6ab1b6a1f452
-      internalID: -210256294
+      spriteID: de7c0608690762e4d88e52ca8f081107
+      internalID: 1076852734
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Golden Sword_67
+      name: Male Hand Golden Sword_67
       rect:
         serializedVersion: 2
         x: 560
         y: 0
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1207,20 +1207,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 78faf789b1573e644a8442e15608eb82
-      internalID: 236386801
+      spriteID: 0843977143751464ca0cfc79a3240468
+      internalID: -1802518318
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Golden Sword_68
+      name: Male Hand Golden Sword_68
       rect:
         serializedVersion: 2
         x: 640
         y: 0
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1229,20 +1229,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 367143f6231dacb4d8e59cfffd695ac6
-      internalID: -299729197
+      spriteID: 5d7a76d2978d71749afe907aa8913c3c
+      internalID: -1097832409
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Golden Sword_69
+      name: Male Hand Golden Sword_69
       rect:
         serializedVersion: 2
         x: 720
         y: 0
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1251,8 +1251,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c21c33ec52a3fb84aa2f34ec13b28163
-      internalID: 1193839634
+      spriteID: 037a033ff283c5d4d84d8bc882f13752
+      internalID: -1419464850
       vertices: []
       indices: 
       edges: []

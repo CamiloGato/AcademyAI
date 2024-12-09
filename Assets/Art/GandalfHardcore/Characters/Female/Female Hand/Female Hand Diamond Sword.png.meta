@@ -180,7 +180,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 32
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -268,13 +268,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Diamond Sword_0
+      name: Female Hand Diamond Sword_0
       rect:
         serializedVersion: 2
         x: 0
         y: 384
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -283,20 +283,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2e6738a2254377146adc3169e942e96b
-      internalID: 2895525234317004964
+      spriteID: 6f57362b9f529114cb0e4e93d44da371
+      internalID: -454462858
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Diamond Sword_1
+      name: Female Hand Diamond Sword_1
       rect:
         serializedVersion: 2
         x: 80
         y: 384
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -305,20 +305,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3a7e2c11dbe435f4e981ddda5d48dc05
-      internalID: 4185164963574811573
+      spriteID: bde86da46e1ba5e4488235ec67685f87
+      internalID: -1556564901
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Diamond Sword_2
+      name: Female Hand Diamond Sword_2
       rect:
         serializedVersion: 2
         x: 160
         y: 384
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -327,20 +327,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0ca53f47288dfe642a27fdcabfe8004d
-      internalID: 2856588697310684378
+      spriteID: 3acca73ba68b9ad4680e14c3521dbacf
+      internalID: -1356690394
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Diamond Sword_3
+      name: Female Hand Diamond Sword_3
       rect:
         serializedVersion: 2
         x: 240
         y: 384
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -349,20 +349,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a252fc706790a8f47b0c29c176d70689
-      internalID: 264060090945831404
+      spriteID: dfc6e477928e90d4fa7f57ae40603db0
+      internalID: -1494880233
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Diamond Sword_4
+      name: Female Hand Diamond Sword_4
       rect:
         serializedVersion: 2
         x: 320
         y: 384
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -371,20 +371,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 90c0c8355fbb1a147a00716b4bf7cf80
-      internalID: 2466733070050941942
+      spriteID: 100653557a77ab64eb9b55cf78e891a1
+      internalID: -1261661845
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Diamond Sword_10
+      name: Female Hand Diamond Sword_10
       rect:
         serializedVersion: 2
         x: 0
         y: 320
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -393,20 +393,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c3a85bd0dd845ed41b8e0049055a175f
-      internalID: -4141127814779561518
+      spriteID: 339de10737f16194b8a4411362968023
+      internalID: -1512177739
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Diamond Sword_11
+      name: Female Hand Diamond Sword_11
       rect:
         serializedVersion: 2
         x: 80
         y: 320
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -415,20 +415,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 16fc2e5b03e7d7b409449952502da98c
-      internalID: 8959003419246328847
+      spriteID: b1dd90422c364c54ea7eb5f0a1fae739
+      internalID: -1181326351
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Diamond Sword_12
+      name: Female Hand Diamond Sword_12
       rect:
         serializedVersion: 2
         x: 160
         y: 320
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -437,20 +437,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: db580bdcecfb1084488b0179735b8fc7
-      internalID: 865457406981129099
+      spriteID: a87821a0e86e7a94cbd487f0d8624a00
+      internalID: -931411027
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Diamond Sword_13
+      name: Female Hand Diamond Sword_13
       rect:
         serializedVersion: 2
         x: 240
         y: 320
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -459,20 +459,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2dc28d1521dde8c4d9ed97cf6d223199
-      internalID: 8035928724097381592
+      spriteID: e72a6974057b4f2479c23fc675223554
+      internalID: -1203206462
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Diamond Sword_14
+      name: Female Hand Diamond Sword_14
       rect:
         serializedVersion: 2
         x: 320
         y: 320
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -481,20 +481,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 47c1705075b34034ba30121333b14451
-      internalID: -1558467409282329950
+      spriteID: 87dbd6d8873e9d64aa3ca2abe11fa722
+      internalID: 1107033308
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Diamond Sword_15
+      name: Female Hand Diamond Sword_15
       rect:
         serializedVersion: 2
         x: 400
         y: 320
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -503,20 +503,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 18b0159595311364c81146b430035def
-      internalID: -3548213497559983597
+      spriteID: f49bf636908e2de4db41c7101752db2e
+      internalID: 1918172226
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Diamond Sword_16
+      name: Female Hand Diamond Sword_16
       rect:
         serializedVersion: 2
         x: 480
         y: 320
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -525,20 +525,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 286aa3dedbd02c84691073ae8ac20fad
-      internalID: -1024458708667985997
+      spriteID: aa5ec5325927c18499b568cdd5b1c465
+      internalID: 2057161463
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Diamond Sword_17
+      name: Female Hand Diamond Sword_17
       rect:
         serializedVersion: 2
         x: 560
         y: 320
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -547,20 +547,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b822d2a6aa15dab4999b457386ae482d
-      internalID: -4983535417669072117
+      spriteID: 35129b6fb457b014898da16edd559d06
+      internalID: 1935910297
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Diamond Sword_20
+      name: Female Hand Diamond Sword_20
       rect:
         serializedVersion: 2
         x: 0
         y: 256
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -569,20 +569,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6700e96a2591f674a95017a6d706a243
-      internalID: -3209826386590644218
+      spriteID: e103ce08a21811e47b666b1a8a3f6b88
+      internalID: -556391513
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Diamond Sword_21
+      name: Female Hand Diamond Sword_21
       rect:
         serializedVersion: 2
         x: 80
         y: 256
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -591,20 +591,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2240a345d1e208446aa7bf9b29683881
-      internalID: -4261985003549862735
+      spriteID: a4d9090a11f3c634087222dc90c958a3
+      internalID: -653407294
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Diamond Sword_22
+      name: Female Hand Diamond Sword_22
       rect:
         serializedVersion: 2
         x: 160
         y: 256
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -613,20 +613,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2d1bd8ef08c98f948b891cc445a2a3d0
-      internalID: -159404522986722052
+      spriteID: 252ab8ddee50cc743b7408632700b6fb
+      internalID: -1753597335
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Diamond Sword_23
+      name: Female Hand Diamond Sword_23
       rect:
         serializedVersion: 2
         x: 240
         y: 256
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -635,20 +635,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fe3f9082f85e3af4bb18284ba881fd5e
-      internalID: -112487249229597107
+      spriteID: 28c4df499145a044a91e5fe5da8afb3d
+      internalID: 1677873844
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Diamond Sword_24
+      name: Female Hand Diamond Sword_24
       rect:
         serializedVersion: 2
         x: 320
         y: 256
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -657,20 +657,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 034934e10adf59c448e88ba06e602b9e
-      internalID: -6489018379164293618
+      spriteID: 3c4d3267014c77346b3da5ff5c7c9058
+      internalID: 794359900
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Diamond Sword_25
+      name: Female Hand Diamond Sword_25
       rect:
         serializedVersion: 2
         x: 400
         y: 256
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -679,20 +679,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d30caba2a75ff6a48a4932a628d6eb57
-      internalID: -6500207835503030105
+      spriteID: 8aff98982bd3db5428b6c7cd3a20934d
+      internalID: 1491885843
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Diamond Sword_26
+      name: Female Hand Diamond Sword_26
       rect:
         serializedVersion: 2
         x: 480
         y: 256
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -701,20 +701,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 971eb94548796544099269339c290791
-      internalID: 6252897334370355137
+      spriteID: 790ce3c19664c97439b538125fc3356e
+      internalID: 299737152
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Diamond Sword_27
+      name: Female Hand Diamond Sword_27
       rect:
         serializedVersion: 2
         x: 560
         y: 256
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -723,20 +723,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e4facca340fd33b4895b0e382918283f
-      internalID: 6888448537907389277
+      spriteID: 529d49d2c1fdfa943a2646c41138c9a3
+      internalID: 1100749347
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Diamond Sword_30
+      name: Female Hand Diamond Sword_30
       rect:
         serializedVersion: 2
         x: 0
         y: 192
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -745,20 +745,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2f68f27d190d03048a77428f16e41b61
-      internalID: -5649405955762542860
+      spriteID: 6c1fca13743c3fb41aa759e3b2057e98
+      internalID: -2020966481
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Diamond Sword_31
+      name: Female Hand Diamond Sword_31
       rect:
         serializedVersion: 2
         x: 80
         y: 192
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -767,20 +767,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 93365f74305ab3a4c92b56214cf7d227
-      internalID: 2773430593152988404
+      spriteID: c4ee8b3d9d9619e41b4cadc1b1b019c2
+      internalID: -610884181
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Diamond Sword_32
+      name: Female Hand Diamond Sword_32
       rect:
         serializedVersion: 2
         x: 160
         y: 192
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -789,20 +789,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e76c7437d18b1b148904cb984b6e3eb1
-      internalID: 9032402813639453611
+      spriteID: f14d1012469894d4aafe8d4295499c2d
+      internalID: 218631540
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Diamond Sword_33
+      name: Female Hand Diamond Sword_33
       rect:
         serializedVersion: 2
         x: 240
         y: 192
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -811,20 +811,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ee0adf5101608084893640f181a295ce
-      internalID: 7260935372871923560
+      spriteID: 8ae22372856bebf45899e4e7ad1528b8
+      internalID: 1382435403
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Diamond Sword_40
+      name: Female Hand Diamond Sword_40
       rect:
         serializedVersion: 2
         x: 0
         y: 128
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -833,20 +833,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 44cd68e5e672af54ca45c33d83781bd4
-      internalID: -5445475071613817341
+      spriteID: 19b5f1c25c6c67642adeb152b09e849e
+      internalID: 2082554073
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Diamond Sword_41
+      name: Female Hand Diamond Sword_41
       rect:
         serializedVersion: 2
         x: 80
         y: 128
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -855,20 +855,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8039e2ff46980ce4ab73357c631cbc35
-      internalID: -3776714275119313274
+      spriteID: 56c679bb75d9a8e43b582613c08fa0bb
+      internalID: -2054142747
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Diamond Sword_42
+      name: Female Hand Diamond Sword_42
       rect:
         serializedVersion: 2
         x: 160
         y: 128
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -877,20 +877,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 58e795f50469d9e43b931facbfc355f0
-      internalID: 5847486335149324306
+      spriteID: 9d2d1137170e1bf4f9f90655b7adc1c7
+      internalID: 1858463300
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Diamond Sword_43
+      name: Female Hand Diamond Sword_43
       rect:
         serializedVersion: 2
         x: 240
         y: 128
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -899,20 +899,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8b84acdf9faba5741b99b10e506bc95e
-      internalID: -316850116870296060
+      spriteID: 0ebe05459f7ad5944a837e62b2e5f7ba
+      internalID: -1335259962
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Diamond Sword_50
+      name: Female Hand Diamond Sword_50
       rect:
         serializedVersion: 2
         x: 0
         y: 64
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -921,20 +921,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c34b7f01557ab394ca541f19d1d26b19
-      internalID: -559238648
+      spriteID: 3db075cccdc1c694eb0d1bec45efa9a9
+      internalID: 946984009
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Diamond Sword_51
+      name: Female Hand Diamond Sword_51
       rect:
         serializedVersion: 2
         x: 80
         y: 64
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -943,20 +943,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 48d8e78a11773bb42aaad59de88dbf84
-      internalID: -445176215
+      spriteID: a5b9e364d27e4f1438bf55596873bc97
+      internalID: 2043774326
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Diamond Sword_52
+      name: Female Hand Diamond Sword_52
       rect:
         serializedVersion: 2
         x: 160
         y: 64
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -965,20 +965,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8164cd1975956034192bef9b91f4f251
-      internalID: -183603437
+      spriteID: 0d1dca5cce5c25344afe3ab4b80e1c00
+      internalID: -1807376317
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Diamond Sword_53
+      name: Female Hand Diamond Sword_53
       rect:
         serializedVersion: 2
         x: 240
         y: 64
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -987,20 +987,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 94d26e0aa13e00e489ceff12f3791687
-      internalID: 417561728
+      spriteID: 3b54320bd9d3f3c489318573caee3d08
+      internalID: 646553598
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Diamond Sword_54
+      name: Female Hand Diamond Sword_54
       rect:
         serializedVersion: 2
         x: 320
         y: 64
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1009,20 +1009,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 473e5e0cca00d3c4c83144903df60802
-      internalID: 717221383
+      spriteID: c84c27369cdd0e74b858ebf269a0e355
+      internalID: -1080037500
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Diamond Sword_55
+      name: Female Hand Diamond Sword_55
       rect:
         serializedVersion: 2
         x: 400
         y: 64
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1031,20 +1031,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 34e1641b513e3244f81120cfee99d4a1
-      internalID: 1907074159
+      spriteID: f346150a84476ce44838ca27c3276aec
+      internalID: -1807446845
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Diamond Sword_60
+      name: Female Hand Diamond Sword_60
       rect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1053,20 +1053,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5a39d151d303e2a4083505ce9d1c4f10
-      internalID: 379501413
+      spriteID: 237b44cb59f1d3e418d219b252e81174
+      internalID: -206741937
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Diamond Sword_61
+      name: Female Hand Diamond Sword_61
       rect:
         serializedVersion: 2
         x: 80
         y: 0
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1075,20 +1075,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fc065cc25350f894bb605ea1db02464d
-      internalID: -1197468548
+      spriteID: d6970e7630f84ef40a9e6f65848994b2
+      internalID: -1660912142
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Diamond Sword_62
+      name: Female Hand Diamond Sword_62
       rect:
         serializedVersion: 2
         x: 160
         y: 0
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1097,20 +1097,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dcbe974997688e3488b84c8599e27769
-      internalID: 1513127521
+      spriteID: a5a640d0d63eadc48a0ffeeee67b2025
+      internalID: 1062954993
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Diamond Sword_63
+      name: Female Hand Diamond Sword_63
       rect:
         serializedVersion: 2
         x: 240
         y: 0
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1119,20 +1119,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 78de030f77e45ed42898ceda5262e840
-      internalID: 1598444931
+      spriteID: c301e2fbf70ebf5468bba743a6f6f5f7
+      internalID: 433425271
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Diamond Sword_64
+      name: Female Hand Diamond Sword_64
       rect:
         serializedVersion: 2
         x: 320
         y: 0
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1141,20 +1141,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 45c112f6138c02c4383faf56fd705ce7
-      internalID: -1520992107
+      spriteID: 43f2d21bb1b62c74ea3f5392c102bd45
+      internalID: -563705243
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Diamond Sword_65
+      name: Female Hand Diamond Sword_65
       rect:
         serializedVersion: 2
         x: 400
         y: 0
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1163,20 +1163,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e1258785d987f214092e80b92f350bfb
-      internalID: -723486095
+      spriteID: 259dca3dc31af094e8eecc820f22a44e
+      internalID: -956020064
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Diamond Sword_66
+      name: Female Hand Diamond Sword_66
       rect:
         serializedVersion: 2
         x: 480
         y: 0
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1185,20 +1185,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 301eab6596a14b442908664c892efab1
-      internalID: -1128114932
+      spriteID: 0a3b23a06fb6df349b97844bd57785f0
+      internalID: 1533115110
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Diamond Sword_67
+      name: Female Hand Diamond Sword_67
       rect:
         serializedVersion: 2
         x: 560
         y: 0
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1207,20 +1207,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dbe6584b0290fc048904343e6bb0b759
-      internalID: -904574481
+      spriteID: a60043251748587428e2a5039b36394d
+      internalID: 126488904
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Diamond Sword_68
+      name: Female Hand Diamond Sword_68
       rect:
         serializedVersion: 2
         x: 640
         y: 0
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1229,20 +1229,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 00178d50e83e82940a2a5c3226e33691
-      internalID: -181446916
+      spriteID: 3d1a545eb9d68984fba7247dec08fe7e
+      internalID: -1116555927
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Diamond Sword_69
+      name: Female Hand Diamond Sword_69
       rect:
         serializedVersion: 2
         x: 720
         y: 0
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1251,8 +1251,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 260fe30daefe0494eaf1ed5b969b458a
-      internalID: 1204604687
+      spriteID: 57bc83205afdddc4c8fb66d24ebd6a19
+      internalID: 2045754444
       vertices: []
       indices: 
       edges: []

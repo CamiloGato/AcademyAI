@@ -66,7 +66,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 32
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -154,13 +154,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Glove red_0
+      name: Male Glove red_0
       rect:
         serializedVersion: 2
         x: 0
         y: 384
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -169,20 +169,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f7f4d965ec6502e41b3c8055bf9cca7f
-      internalID: 7341470918789515870
+      spriteID: cb7174dc4b03c6641bd2e5a46c771787
+      internalID: 962365459
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Glove red_1
+      name: Male Glove red_1
       rect:
         serializedVersion: 2
         x: 80
         y: 384
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -191,20 +191,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3092fb6eb8e759040b54e8a0ceb3d53f
-      internalID: 5459021837143154567
+      spriteID: 34831350eb9d61b418bd4c4820a425e1
+      internalID: -481453642
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Glove red_2
+      name: Male Glove red_2
       rect:
         serializedVersion: 2
         x: 160
         y: 384
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -213,20 +213,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9c9b3eb968225d84a8abece48780b9e3
-      internalID: 8607909365530199865
+      spriteID: 5e1ecb46f9efb6744b330c29c1f8f064
+      internalID: -319843850
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Glove red_3
+      name: Male Glove red_3
       rect:
         serializedVersion: 2
         x: 240
         y: 384
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -235,20 +235,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 231d5b398b46fc545bf3b9b2b88f0156
-      internalID: -4981014923910513830
+      spriteID: bf7e0ddaf251ad347b6ce09edc19bead
+      internalID: 803378038
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Glove red_4
+      name: Male Glove red_4
       rect:
         serializedVersion: 2
         x: 320
         y: 384
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -257,20 +257,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 391a1b4ff43ae4f47b42aa010d16f097
-      internalID: -1019797315140995776
+      spriteID: ff8ca7e085d805f40aad71306ca85db3
+      internalID: 829139845
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Glove red_10
+      name: Male Glove red_10
       rect:
         serializedVersion: 2
         x: 0
         y: 320
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -279,20 +279,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0993c5f4e49430246909802a42b60fc9
-      internalID: 946264308
+      spriteID: 706dcb919fbda5345a6f7641c6deb755
+      internalID: 1791206527
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Glove red_11
+      name: Male Glove red_11
       rect:
         serializedVersion: 2
         x: 80
         y: 320
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -301,20 +301,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0950fa38162896a428086e9437981ce9
-      internalID: -903508864
+      spriteID: e3f78ec724edc0b47812e40888e04f84
+      internalID: 1241483903
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Glove red_12
+      name: Male Glove red_12
       rect:
         serializedVersion: 2
         x: 160
         y: 320
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -323,20 +323,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7a18135fb5c4f2f4cbf20441f522dfe6
-      internalID: 1781728179
+      spriteID: 6216ed3e2e3e2b94bb22ec15ab482260
+      internalID: -1747381055
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Glove red_13
+      name: Male Glove red_13
       rect:
         serializedVersion: 2
         x: 240
         y: 320
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -345,20 +345,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 772dab16c99cf44459b32baefb97c19d
-      internalID: -754103143
+      spriteID: 789924add7f7a3142840f28db4180e97
+      internalID: 2055943991
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Glove red_14
+      name: Male Glove red_14
       rect:
         serializedVersion: 2
         x: 320
         y: 320
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -367,20 +367,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0d68edca16edc594aa763ab1ccfa67af
-      internalID: -849112985
+      spriteID: 00a201dc144c8284b8f90d55fad293e0
+      internalID: 286537761
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Glove red_15
+      name: Male Glove red_15
       rect:
         serializedVersion: 2
         x: 400
         y: 320
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -389,20 +389,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0f562be6b6e909648926b2982a8bfc75
-      internalID: 1424789497
+      spriteID: 02d841cf1c5077447b4d052d2ab0fe37
+      internalID: -919183184
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Glove red_16
+      name: Male Glove red_16
       rect:
         serializedVersion: 2
         x: 480
         y: 320
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -411,20 +411,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 74e16b7c92497bd4998decde590e178c
-      internalID: -631247134
+      spriteID: 5a401ad212a975849a117f1496822c29
+      internalID: -1364415044
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Glove red_17
+      name: Male Glove red_17
       rect:
         serializedVersion: 2
         x: 560
         y: 320
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -433,20 +433,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d34cb3f77720b9d479cfe1e22f378e02
-      internalID: 1134416639
+      spriteID: d009b8dd98cf7b64284b8bd7bc957d3d
+      internalID: 1466660593
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Glove red_20
+      name: Male Glove red_20
       rect:
         serializedVersion: 2
         x: 0
         y: 256
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -455,20 +455,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6a63852fd74cdcf4aaa229836cf74a98
-      internalID: -1331188865
+      spriteID: 764cd15e97f0ae94b82f73b1e9b1f103
+      internalID: -395623421
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Glove red_21
+      name: Male Glove red_21
       rect:
         serializedVersion: 2
         x: 80
         y: 256
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -477,20 +477,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 95fa0cb3b0b5b0f4892249de8aa6a2f2
-      internalID: 1454108414
+      spriteID: 91c5fbbf9109e73438fc29ade6c03af3
+      internalID: -983637235
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Glove red_22
+      name: Male Glove red_22
       rect:
         serializedVersion: 2
         x: 160
         y: 256
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -499,20 +499,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6cbf9483c9869da4395405bf510b0d3e
-      internalID: -640217296
+      spriteID: 30894e70bd854f04c97b20ea65ca37b6
+      internalID: -431233594
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Glove red_23
+      name: Male Glove red_23
       rect:
         serializedVersion: 2
         x: 240
         y: 256
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -521,20 +521,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 506662658cf18d64281430d74dd2aa95
-      internalID: -2116852897
+      spriteID: 803bdae839247544dbd1272f5b3e11c0
+      internalID: 1741164335
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Glove red_24
+      name: Male Glove red_24
       rect:
         serializedVersion: 2
         x: 320
         y: 256
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -543,20 +543,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f4282d4ba2605db4ab8d9f50c2c3c6f9
-      internalID: 247671631
+      spriteID: 38d04137a9b85594ba6ec180c09aa66d
+      internalID: 1103844102
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Glove red_25
+      name: Male Glove red_25
       rect:
         serializedVersion: 2
         x: 400
         y: 256
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -565,20 +565,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 13458abb1f12fcd4ca1c281ab2f8852f
-      internalID: -763146149
+      spriteID: dbf64fa820a2c24479f9f27f227d5e50
+      internalID: 1129065610
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Glove red_26
+      name: Male Glove red_26
       rect:
         serializedVersion: 2
         x: 480
         y: 256
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -587,20 +587,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f3b068877f269c044b6793487cace327
-      internalID: 1004486663
+      spriteID: eb3a17be3fa3f114595b019458787dca
+      internalID: -253489167
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Glove red_27
+      name: Male Glove red_27
       rect:
         serializedVersion: 2
         x: 560
         y: 256
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -609,20 +609,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c21cd711557d9c74db32f3d51c0e7a1c
-      internalID: 928315529
+      spriteID: 297bb844b7ca764499e64b1c27631f08
+      internalID: -1954753914
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Glove red_30
+      name: Male Glove red_30
       rect:
         serializedVersion: 2
         x: 0
         y: 192
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -631,20 +631,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b5642622a1161b944ada76499ae8cece
-      internalID: 1449045512
+      spriteID: 0ff8e2b0583f1c441a1e6cda182d2576
+      internalID: -1300991151
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Glove red_31
+      name: Male Glove red_31
       rect:
         serializedVersion: 2
         x: 80
         y: 192
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -653,20 +653,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2eb45f4a2bb32354eb2c03a6f97995e3
-      internalID: 759533825
+      spriteID: 9d12a3aa44fb3a644ad86c38d2e44283
+      internalID: -657645704
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Glove red_32
+      name: Male Glove red_32
       rect:
         serializedVersion: 2
         x: 160
         y: 192
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -675,20 +675,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cd348315d711d5c4982e72220c4b2038
-      internalID: 370001860
+      spriteID: a6f536492b1799e45892db8653f13afb
+      internalID: -1107649884
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Glove red_33
+      name: Male Glove red_33
       rect:
         serializedVersion: 2
         x: 240
         y: 192
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -697,20 +697,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fabce573cc1d0064cb7d5eb314f9f2fc
-      internalID: 824182162
+      spriteID: e11ca24f28f103e418324dba863d3eae
+      internalID: -811946279
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Glove red_40
+      name: Male Glove red_40
       rect:
         serializedVersion: 2
         x: 0
         y: 128
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -719,20 +719,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5b9c2ab3f97b12346b5fbd92bb480c13
-      internalID: -235015205
+      spriteID: fabec5b3277bf6f49a96ec99033a3a25
+      internalID: -1579005100
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Glove red_41
+      name: Male Glove red_41
       rect:
         serializedVersion: 2
         x: 80
         y: 128
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -741,20 +741,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7053855c7601e5b4b83eca50eb495603
-      internalID: -1470196891
+      spriteID: ed5b57e58771f2046b5c51082d6fe1c2
+      internalID: -1065561982
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Glove red_42
+      name: Male Glove red_42
       rect:
         serializedVersion: 2
         x: 160
         y: 128
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -763,20 +763,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6147ee18a987a5645a2a76b853e49ff5
-      internalID: -1781586840
+      spriteID: b71a3b005e151d447b244ea8bf1aa687
+      internalID: -424850022
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Glove red_43
+      name: Male Glove red_43
       rect:
         serializedVersion: 2
         x: 240
         y: 128
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -785,20 +785,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6c7bd14bc1d66954092b5b722724b203
-      internalID: 129343296
+      spriteID: b640c33f4309ffa4bb39d084eb99b2b9
+      internalID: 1837338474
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Glove red_50
+      name: Male Glove red_50
       rect:
         serializedVersion: 2
         x: 0
         y: 64
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -807,20 +807,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4875522b762bf4346b90faf65de6f9fc
-      internalID: 1252932568
+      spriteID: 7402912ea2fa511468902696f6a0d9b0
+      internalID: 2001629648
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Glove red_51
+      name: Male Glove red_51
       rect:
         serializedVersion: 2
         x: 80
         y: 64
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -829,20 +829,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ef423fcc46e2c9941b9144cba251dad6
-      internalID: 290108037
+      spriteID: 261fe4a952ea1fa45a6f2e3bf8f07423
+      internalID: -609091471
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Glove red_52
+      name: Male Glove red_52
       rect:
         serializedVersion: 2
         x: 160
         y: 64
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -851,20 +851,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a91f26caf46c60d4fb9bbe824dbabfc5
-      internalID: 1303617498
+      spriteID: 8f9cd304d728f834a848ee6b9c95f168
+      internalID: -1417678106
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Glove red_53
+      name: Male Glove red_53
       rect:
         serializedVersion: 2
         x: 240
         y: 64
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -873,20 +873,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8feed76931426824a9f8c5ea8314d0ae
-      internalID: 1130035113
+      spriteID: a120d9a2968289641a06b863740991aa
+      internalID: 1408663809
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Glove red_54
+      name: Male Glove red_54
       rect:
         serializedVersion: 2
         x: 320
         y: 64
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -895,20 +895,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3a86ee6e86ee5264791ad7a19f97588e
-      internalID: 1701000093
+      spriteID: 358d32343bb36bd44b9188ae67e0f726
+      internalID: -465492746
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Glove red_55
+      name: Male Glove red_55
       rect:
         serializedVersion: 2
         x: 400
         y: 64
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -917,20 +917,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fba7e0cc9d4ed7546ae6c968a111008a
-      internalID: 1557192302
+      spriteID: a0e0e2642a9b44c478d853f53fbe8568
+      internalID: -2125822072
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Glove red_60
+      name: Male Glove red_60
       rect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -939,20 +939,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 088f53243939b6b40b130de4fd0a3600
-      internalID: -1699815612
+      spriteID: adbc4af4a442dd143bd9a34afc80e260
+      internalID: -1581844992
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Glove red_61
+      name: Male Glove red_61
       rect:
         serializedVersion: 2
         x: 80
         y: 0
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -961,20 +961,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9965786f99039c742864e544270f0af4
-      internalID: 750700452
+      spriteID: 0ae366211819ac6409e3971169a4aee3
+      internalID: 215855631
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Glove red_62
+      name: Male Glove red_62
       rect:
         serializedVersion: 2
         x: 160
         y: 0
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -983,20 +983,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b1fac30466f766640b01226f16bca439
-      internalID: -1957072976
+      spriteID: 5828e6ed407e7634081427cfe9f7ec3e
+      internalID: 1941279891
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Glove red_63
+      name: Male Glove red_63
       rect:
         serializedVersion: 2
         x: 240
         y: 0
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1005,20 +1005,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 83f456e94cabde04d90a9338fa19d7ac
-      internalID: 1594805778
+      spriteID: 62c277df93e37f64bb25855607f709bf
+      internalID: 1866744544
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Glove red_64
+      name: Male Glove red_64
       rect:
         serializedVersion: 2
         x: 320
         y: 0
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1027,20 +1027,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9013dd84d333d1640b93b66369051104
-      internalID: -792758994
+      spriteID: 57d9820c220080347a658bf25ba769b2
+      internalID: -2119441819
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Glove red_65
+      name: Male Glove red_65
       rect:
         serializedVersion: 2
         x: 400
         y: 0
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1049,20 +1049,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8132ea91dea75fd418a97fc2f1f97086
-      internalID: 363598735
+      spriteID: 5fd3a2c7a90879344a6107ceaf09a935
+      internalID: -1717061707
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Glove red_66
+      name: Male Glove red_66
       rect:
         serializedVersion: 2
         x: 480
         y: 0
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1071,20 +1071,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3656f5a82592ce944b494b3295cac2cc
-      internalID: -2004379528
+      spriteID: 2ae8841ab6a9b9f40bbaf8b1fea780c9
+      internalID: -972858842
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Glove red_67
+      name: Male Glove red_67
       rect:
         serializedVersion: 2
         x: 560
         y: 0
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1093,20 +1093,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fe25158f9b11d1e4f88a7e5f6488ce0b
-      internalID: -1195805697
+      spriteID: 9906c78689c6e8243a67689c88780f05
+      internalID: 178069210
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Glove red_68
+      name: Male Glove red_68
       rect:
         serializedVersion: 2
         x: 640
         y: 0
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1115,20 +1115,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 47ab2b139b714574b9d5940d04890e56
-      internalID: -13136262
+      spriteID: d2026676f731a0443a2bf54cd71acacb
+      internalID: 935244804
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Glove red_69
+      name: Male Glove red_69
       rect:
         serializedVersion: 2
         x: 720
         y: 0
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1137,8 +1137,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f2c38bcf1741b714f8dda64c3c957474
-      internalID: -29650974
+      spriteID: 2774d2058ad2d6845a38511f8cf5cdde
+      internalID: -1955463525
       vertices: []
       indices: 
       edges: []

@@ -180,7 +180,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 32
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -268,13 +268,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Hoe F_0
+      name: Female Hand Hoe F_0
       rect:
         serializedVersion: 2
         x: 0
         y: 384
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -283,20 +283,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 55a8c830bfcff2248a4c39c97fcf6e72
-      internalID: -5334635947324995090
+      spriteID: bf269078914376d4290cb2c79899ddf3
+      internalID: 339111109
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hoe F_1
+      name: Female Hand Hoe F_1
       rect:
         serializedVersion: 2
         x: 80
         y: 384
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -305,20 +305,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b497028d8ae8aaa459858b79c1237e5d
-      internalID: -4768779299900889339
+      spriteID: c45c15c8a9ecec140b071e2d669b0097
+      internalID: -91243200
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hoe F_2
+      name: Female Hand Hoe F_2
       rect:
         serializedVersion: 2
         x: 160
         y: 384
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -327,20 +327,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fbe9478cee0d34e4d90eae958a56c7a0
-      internalID: 4079535548047733632
+      spriteID: 0f5d6a8560e115d43878a30ff62f4d2d
+      internalID: 1966489078
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hoe F_3
+      name: Female Hand Hoe F_3
       rect:
         serializedVersion: 2
         x: 240
         y: 384
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -349,20 +349,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b4a735f48f8129447b9dbe52da25fd01
-      internalID: 1029807367066398691
+      spriteID: ee16f0529365fc3448dcbfd98d941549
+      internalID: 88781155
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hoe F_4
+      name: Female Hand Hoe F_4
       rect:
         serializedVersion: 2
         x: 320
         y: 384
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -371,20 +371,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8ddecb469dadfa14384faad98ec1d3b2
-      internalID: 315727499978197008
+      spriteID: ea590282c941c764eab11f28f5a992ed
+      internalID: -517681117
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hoe F_10
+      name: Female Hand Hoe F_10
       rect:
         serializedVersion: 2
         x: 0
         y: 320
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -393,20 +393,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3936f1392178bdc4f86bee2f85134468
-      internalID: -830368937442311954
+      spriteID: 55cf0243add8f534a841c3ff9c0a719d
+      internalID: -1565269624
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hoe F_11
+      name: Female Hand Hoe F_11
       rect:
         serializedVersion: 2
         x: 80
         y: 320
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -415,20 +415,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6c0c73474a713ed48b074712d60b21fb
-      internalID: 4726250164222672457
+      spriteID: d4c8af76259a0924cb68feb9d204a5cf
+      internalID: -113001142
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hoe F_12
+      name: Female Hand Hoe F_12
       rect:
         serializedVersion: 2
         x: 160
         y: 320
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -437,20 +437,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b56e12432148ca842a1dfab042cde423
-      internalID: -109185296582575169
+      spriteID: cdf411cb25448cc4bbda63f1ae3ac1ed
+      internalID: -797650093
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hoe F_13
+      name: Female Hand Hoe F_13
       rect:
         serializedVersion: 2
         x: 240
         y: 320
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -459,20 +459,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9bb9692cdf576a54dabe091795eae1df
-      internalID: -1542349208583290372
+      spriteID: d8b78a3b9efac684eac7e7c325cfe927
+      internalID: 871650884
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hoe F_14
+      name: Female Hand Hoe F_14
       rect:
         serializedVersion: 2
         x: 320
         y: 320
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -481,20 +481,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ad80e24194da43f44b95f6b84f291541
-      internalID: -5747254950284593171
+      spriteID: 8324e98a9e8373546b8fa0e7cacd9990
+      internalID: 1766498275
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hoe F_15
+      name: Female Hand Hoe F_15
       rect:
         serializedVersion: 2
         x: 400
         y: 320
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -503,20 +503,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7d569fee8248eaf47b7eea70ca254520
-      internalID: -5515806373034324057
+      spriteID: 0163fef780fc2be48b82a7a4f7eec2c3
+      internalID: -1289417665
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hoe F_16
+      name: Female Hand Hoe F_16
       rect:
         serializedVersion: 2
         x: 480
         y: 320
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -525,20 +525,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5292dc9baa636cd48842351e5297dd94
-      internalID: 6972373305136859549
+      spriteID: 9a0b4120e2550c741a404ceeb6bae467
+      internalID: 1852894509
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hoe F_17
+      name: Female Hand Hoe F_17
       rect:
         serializedVersion: 2
         x: 560
         y: 320
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -547,20 +547,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 35627d80b61115345a2afb88b96f202e
-      internalID: -6201078664468631302
+      spriteID: 58aae611d173b3f40ae28f23bc9b54ed
+      internalID: 1876546647
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hoe F_20
+      name: Female Hand Hoe F_20
       rect:
         serializedVersion: 2
         x: 0
         y: 256
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -569,20 +569,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f37a93bcd6edeab4091423dbf89e5d9e
-      internalID: -684066107120003088
+      spriteID: 760538faccf6ee14c8712d9762738b36
+      internalID: -1128195331
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hoe F_21
+      name: Female Hand Hoe F_21
       rect:
         serializedVersion: 2
         x: 80
         y: 256
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -591,20 +591,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bbbe51a60a03cfa4c85cc38c0a256a4c
-      internalID: -583612729145067746
+      spriteID: cb0aac763c188de41947d0cda7f513b3
+      internalID: -542645104
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hoe F_22
+      name: Female Hand Hoe F_22
       rect:
         serializedVersion: 2
         x: 160
         y: 256
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -613,20 +613,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c77ab5ce082e9dc42aded5d0336e29e0
-      internalID: -7235555137111323291
+      spriteID: ad9ec43caf9ae194e9c205307cd7d103
+      internalID: 2047016857
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hoe F_23
+      name: Female Hand Hoe F_23
       rect:
         serializedVersion: 2
         x: 240
         y: 256
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -635,20 +635,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 001dd5a6cc2aa0041aa84274dcd2df2e
-      internalID: -5650657112627215820
+      spriteID: 61627a8dacaa7af478a32cc79142b383
+      internalID: 988398590
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hoe F_24
+      name: Female Hand Hoe F_24
       rect:
         serializedVersion: 2
         x: 320
         y: 256
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -657,20 +657,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ac98261d84297ed48939747441226de7
-      internalID: -4711665256862428442
+      spriteID: 528854471f26d884681f3a78315152ca
+      internalID: 367625165
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hoe F_25
+      name: Female Hand Hoe F_25
       rect:
         serializedVersion: 2
         x: 400
         y: 256
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -679,20 +679,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 040ff8df376773d438d4365c6ddda871
-      internalID: 7949795941103624545
+      spriteID: 4f1a467f1d16b934a861303d779f0b1c
+      internalID: -605310456
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hoe F_26
+      name: Female Hand Hoe F_26
       rect:
         serializedVersion: 2
         x: 480
         y: 256
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -701,20 +701,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 38435be44fcf16d46b8b7272ffe29afd
-      internalID: 1559650043647398182
+      spriteID: 7d2378f4ee657b64086ebdef293de592
+      internalID: 187570143
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hoe F_27
+      name: Female Hand Hoe F_27
       rect:
         serializedVersion: 2
         x: 560
         y: 256
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -723,20 +723,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b0cdb6278a29d4848a43f16849a9b033
-      internalID: 2307940107238847021
+      spriteID: a4c233509559d9748bf0fcba237bdb85
+      internalID: -372575991
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hoe F_30
+      name: Female Hand Hoe F_30
       rect:
         serializedVersion: 2
         x: 0
         y: 192
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -745,20 +745,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0b36b6966ee830e42944fa692de18b79
-      internalID: 1534228382556094238
+      spriteID: 2f1f09803f14b7f4d81e2d0999c53609
+      internalID: -1835504687
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hoe F_31
+      name: Female Hand Hoe F_31
       rect:
         serializedVersion: 2
         x: 80
         y: 192
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -767,20 +767,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2d3e30b0a1287e24693a720935a8ae47
-      internalID: -2381497427101912990
+      spriteID: 290e62e1a8ec55e4a9e7ed0f42cefedb
+      internalID: 1724486806
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hoe F_32
+      name: Female Hand Hoe F_32
       rect:
         serializedVersion: 2
         x: 160
         y: 192
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -789,20 +789,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 859ead129e0f88b4aba93a9a3876b25c
-      internalID: -716965300431730566
+      spriteID: d9fc710537b00834aa1981edbc7a7b5e
+      internalID: -346438461
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hoe F_33
+      name: Female Hand Hoe F_33
       rect:
         serializedVersion: 2
         x: 240
         y: 192
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -811,20 +811,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cfbd88b5c1c247b42991b30f01d16d99
-      internalID: 4478109213896089352
+      spriteID: 327a768d9b0725541ad26773e1566e4f
+      internalID: 455428101
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hoe F_40
+      name: Female Hand Hoe F_40
       rect:
         serializedVersion: 2
         x: 0
         y: 128
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -833,20 +833,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: efd6bfcafbc200f4ab1afa4c74bb0521
-      internalID: 8688325348745344063
+      spriteID: 5499fc08366999b448d33a73269c6af9
+      internalID: 521392644
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hoe F_41
+      name: Female Hand Hoe F_41
       rect:
         serializedVersion: 2
         x: 80
         y: 128
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -855,20 +855,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2ec36539064528943b996c00e217e5a9
-      internalID: 3249159070960624898
+      spriteID: 0fdc03ee016f08e4c8dcb16fe243fc90
+      internalID: -1680295662
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hoe F_42
+      name: Female Hand Hoe F_42
       rect:
         serializedVersion: 2
         x: 160
         y: 128
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -877,20 +877,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 081e865f8e2756b4db27d7294b766f9c
-      internalID: -7154139287218506058
+      spriteID: db296691fb895ea46bfe50403a8e64db
+      internalID: 575987035
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hoe F_43
+      name: Female Hand Hoe F_43
       rect:
         serializedVersion: 2
         x: 240
         y: 128
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -899,20 +899,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9e8cc2ffa20c5134892a0499537997ec
-      internalID: 2251185831388138383
+      spriteID: ba104cab99a84a649a882af60381d442
+      internalID: -281561061
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hoe F_50
+      name: Female Hand Hoe F_50
       rect:
         serializedVersion: 2
         x: 0
         y: 64
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -921,20 +921,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b4ca947501f2e7b42aed6c61c998043f
-      internalID: -615840735
+      spriteID: bcfe018d7b66ef74790f802499ccf15f
+      internalID: -174662054
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hoe F_51
+      name: Female Hand Hoe F_51
       rect:
         serializedVersion: 2
         x: 80
         y: 64
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -943,20 +943,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bb0fa87254e530144a73c386cd2faeae
-      internalID: 1856601346
+      spriteID: 5a28123707af35b4ebc36fdd53875eea
+      internalID: 1830863026
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hoe F_52
+      name: Female Hand Hoe F_52
       rect:
         serializedVersion: 2
         x: 160
         y: 64
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -965,20 +965,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 563880b1fc4e416488e2cdff9e9e2ca0
-      internalID: -1024994193
+      spriteID: 832ddb1dea2e95e43b5a94b80fcf6eb1
+      internalID: -1583516519
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hoe F_53
+      name: Female Hand Hoe F_53
       rect:
         serializedVersion: 2
         x: 240
         y: 64
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -987,20 +987,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2ab25a3f7f30a764b86da57f167d529e
-      internalID: 1272814747
+      spriteID: e24d25fe8b4834d43897a6b7d1909cab
+      internalID: -1324328692
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hoe F_54
+      name: Female Hand Hoe F_54
       rect:
         serializedVersion: 2
         x: 320
         y: 64
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1009,20 +1009,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 75c34116b560903408c741f226c5af05
-      internalID: 228600274
+      spriteID: 46873c6e60a3bbc459865cac8dc94588
+      internalID: 1633468459
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hoe F_55
+      name: Female Hand Hoe F_55
       rect:
         serializedVersion: 2
         x: 400
         y: 64
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1031,20 +1031,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d2ef76c47d547e748a3ea52842b75b56
-      internalID: 743946610
+      spriteID: 4ef4e1d865380d14ab39731a86251280
+      internalID: -694736248
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hoe F_60
+      name: Female Hand Hoe F_60
       rect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1053,20 +1053,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ceabc8a3ff6542144b4f403ff844a667
-      internalID: 1295614712
+      spriteID: 5d853f0f2d78d644b9c367d6b8b95275
+      internalID: -657799161
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hoe F_61
+      name: Female Hand Hoe F_61
       rect:
         serializedVersion: 2
         x: 80
         y: 0
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1075,20 +1075,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bb5012877d2335b49b6c58b177ff9d34
-      internalID: 1814529290
+      spriteID: 92e9d62a1ca6096468eb58945617696b
+      internalID: -797918529
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hoe F_62
+      name: Female Hand Hoe F_62
       rect:
         serializedVersion: 2
         x: 160
         y: 0
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1097,20 +1097,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bcbdeb1fe39f4bb4a86382e8ea0aa236
-      internalID: 1223245029
+      spriteID: 0d5807bf20f28ba4bb878d633d573ffc
+      internalID: -583497778
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hoe F_63
+      name: Female Hand Hoe F_63
       rect:
         serializedVersion: 2
         x: 240
         y: 0
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1119,20 +1119,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: df86e721829b0124b969473136cb1559
-      internalID: 204363533
+      spriteID: de7753b46ebb037468908fcbdcd4f3b3
+      internalID: 1364124204
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hoe F_64
+      name: Female Hand Hoe F_64
       rect:
         serializedVersion: 2
         x: 320
         y: 0
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1141,20 +1141,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 474a6d67c88930d458d0b184c34d4714
-      internalID: -969705771
+      spriteID: e797c4f3ec357b8498638b29c7dbc9d3
+      internalID: -1678831631
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hoe F_65
+      name: Female Hand Hoe F_65
       rect:
         serializedVersion: 2
         x: 400
         y: 0
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1163,20 +1163,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e0d8c36ca0b18db49b780e699dd54afb
-      internalID: -540924696
+      spriteID: 7c111cc2fd01a794f8ea991a3381d963
+      internalID: 1281516812
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hoe F_66
+      name: Female Hand Hoe F_66
       rect:
         serializedVersion: 2
         x: 480
         y: 0
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1185,20 +1185,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3dd25e2fdde8d064da1c958a14e4b8d1
-      internalID: -1996244542
+      spriteID: d9c7aa1eb955541428e63cdded5e1bd6
+      internalID: 2058269510
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hoe F_67
+      name: Female Hand Hoe F_67
       rect:
         serializedVersion: 2
         x: 560
         y: 0
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1207,20 +1207,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 192212623149129488408ea2cb3f73f4
-      internalID: 742372698
+      spriteID: 5de8af3f979b2f342a493d377d45abb6
+      internalID: -1201011083
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hoe F_68
+      name: Female Hand Hoe F_68
       rect:
         serializedVersion: 2
         x: 640
         y: 0
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1229,20 +1229,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bed15804d95bd6546a4841d016b07b6a
-      internalID: -1623613539
+      spriteID: 7f7e0f7a07315394b9a86ffacfb8f953
+      internalID: -1520978136
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Hoe F_69
+      name: Female Hand Hoe F_69
       rect:
         serializedVersion: 2
         x: 720
         y: 0
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1251,8 +1251,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bcea34cced82f504d960c094ce65aba2
-      internalID: 1384962860
+      spriteID: 980c0954bc54a0c4cba8dc6d10d4a1d7
+      internalID: -132804525
       vertices: []
       indices: 
       edges: []

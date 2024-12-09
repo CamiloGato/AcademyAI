@@ -180,7 +180,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 32
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -268,13 +268,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Bronze Axe_0
+      name: Male Hand Bronze Axe_0
       rect:
         serializedVersion: 2
         x: 0
         y: 384
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -283,20 +283,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 305b0285371efe4428a904e1e5519a21
-      internalID: 4088915821980470705
+      spriteID: 3cfe9f47c5b728041ae10ddc80aefec0
+      internalID: -1506167474
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Bronze Axe_1
+      name: Male Hand Bronze Axe_1
       rect:
         serializedVersion: 2
         x: 80
         y: 384
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -305,20 +305,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a64ecf12dc9717b42a0acd9978ecaeb2
-      internalID: -4961708056874907620
+      spriteID: c5322c53501c77e4eab20cb151c96671
+      internalID: 427152106
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Bronze Axe_2
+      name: Male Hand Bronze Axe_2
       rect:
         serializedVersion: 2
         x: 160
         y: 384
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -327,20 +327,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1ab9caecd3ea57348b5ef018f81234ae
-      internalID: -3678039709859721152
+      spriteID: 62ff826e1d4ca2d4687803654edd4011
+      internalID: -496102699
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Bronze Axe_3
+      name: Male Hand Bronze Axe_3
       rect:
         serializedVersion: 2
         x: 240
         y: 384
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -349,20 +349,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f95597c1679128140923382e6142e13b
-      internalID: 9180929808992096306
+      spriteID: dafb725b63c040240b53cc1b4edee94e
+      internalID: 1537642499
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Bronze Axe_4
+      name: Male Hand Bronze Axe_4
       rect:
         serializedVersion: 2
         x: 320
         y: 384
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -371,20 +371,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0197e522d3abb2241829046c2cd7e1ca
-      internalID: 3702976248734002266
+      spriteID: 7c09ece5fbe7aa94cb0726ffbb775ae3
+      internalID: -1810656781
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Bronze Axe_10
+      name: Male Hand Bronze Axe_10
       rect:
         serializedVersion: 2
         x: 0
         y: 320
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -393,20 +393,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c476a3e1866d71642987f5cf36e5f9fc
-      internalID: -2981683813423389604
+      spriteID: d01c3e8a98fa2da46b5526b69484fe23
+      internalID: -405196841
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Bronze Axe_11
+      name: Male Hand Bronze Axe_11
       rect:
         serializedVersion: 2
         x: 80
         y: 320
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -415,20 +415,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: de092410cf5e6f04eb3049d6e5edae44
-      internalID: 7679826604734701309
+      spriteID: 7b9796e3658bd414cadfc40921035dcb
+      internalID: -277284797
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Bronze Axe_12
+      name: Male Hand Bronze Axe_12
       rect:
         serializedVersion: 2
         x: 160
         y: 320
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -437,20 +437,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 41d26ce32919ecd45bdcca2f03c196db
-      internalID: 936556057171709923
+      spriteID: 6b7fd8a6c04715541905a610076a20c5
+      internalID: -124699217
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Bronze Axe_13
+      name: Male Hand Bronze Axe_13
       rect:
         serializedVersion: 2
         x: 240
         y: 320
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -459,20 +459,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9812f2b03c42a984c8a4ea82828ca6a8
-      internalID: 1116334111454138189
+      spriteID: d735942fcbcdb8640b3c9b71557a5103
+      internalID: -1699703288
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Bronze Axe_14
+      name: Male Hand Bronze Axe_14
       rect:
         serializedVersion: 2
         x: 320
         y: 320
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -481,20 +481,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3f50b9b2484c6da4e899f6d7483eb2b5
-      internalID: 2851250665911389722
+      spriteID: 3fa6afead0bbb1e4e8b527bd90c2a694
+      internalID: -427447835
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Bronze Axe_15
+      name: Male Hand Bronze Axe_15
       rect:
         serializedVersion: 2
         x: 400
         y: 320
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -503,20 +503,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6f1e9dfa30d6dd845abdaf82e06068d3
-      internalID: 8706335903983574141
+      spriteID: a37f2358e3a915048b2ccea80bfd8cc7
+      internalID: -1086906844
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Bronze Axe_16
+      name: Male Hand Bronze Axe_16
       rect:
         serializedVersion: 2
         x: 480
         y: 320
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -525,20 +525,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9e89376500aa7ea4f8225a6a1dd61da7
-      internalID: 6933306844205304028
+      spriteID: e7cfbd77985688e4aad428d72f55cb46
+      internalID: -2057664761
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Bronze Axe_17
+      name: Male Hand Bronze Axe_17
       rect:
         serializedVersion: 2
         x: 560
         y: 320
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -547,20 +547,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1eb006c116c5fbf4a9f7bc0c4e7b1187
-      internalID: 3079529255717775645
+      spriteID: 55ee5b448729aac46a6f902537448890
+      internalID: 1773164772
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Bronze Axe_20
+      name: Male Hand Bronze Axe_20
       rect:
         serializedVersion: 2
         x: 0
         y: 256
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -569,20 +569,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 73dd7c147d8733c49b9459a0f6a43e00
-      internalID: -2377383079590969678
+      spriteID: 6cbbe2d06f720044985d2c1f615f337a
+      internalID: -1497171125
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Bronze Axe_21
+      name: Male Hand Bronze Axe_21
       rect:
         serializedVersion: 2
         x: 80
         y: 256
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -591,20 +591,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 32ede9d0e20f42d4885b65efbae706b0
-      internalID: 3105271709991313445
+      spriteID: 9529e0fef38f0a34f99685107cbe7204
+      internalID: 1239121614
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Bronze Axe_22
+      name: Male Hand Bronze Axe_22
       rect:
         serializedVersion: 2
         x: 160
         y: 256
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -613,20 +613,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 588996840c35ee84380d65ba19943262
-      internalID: 7193270089098126589
+      spriteID: bdacb78d632cbc04da84fbdf45d9a89a
+      internalID: -881025268
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Bronze Axe_23
+      name: Male Hand Bronze Axe_23
       rect:
         serializedVersion: 2
         x: 240
         y: 256
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -635,20 +635,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 130fa5b49b08a454a82ff3ea739561a3
-      internalID: 6651866460841444150
+      spriteID: fc595c2e51c59084491a5c855712ae64
+      internalID: -1111074185
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Bronze Axe_24
+      name: Male Hand Bronze Axe_24
       rect:
         serializedVersion: 2
         x: 320
         y: 256
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -657,20 +657,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6fba6da7ff13b8e42b96c72d94a153b2
-      internalID: -1578983399383499569
+      spriteID: 7d2d0ee51bd212f4e92ccbc3d19db58d
+      internalID: -1883791871
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Bronze Axe_25
+      name: Male Hand Bronze Axe_25
       rect:
         serializedVersion: 2
         x: 400
         y: 256
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -679,20 +679,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5a4600e5eef5a1c4e88ab57d8310b105
-      internalID: -4535220306312901733
+      spriteID: db61b397748ea6147b61266cd2306474
+      internalID: 457543184
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Bronze Axe_26
+      name: Male Hand Bronze Axe_26
       rect:
         serializedVersion: 2
         x: 480
         y: 256
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -701,20 +701,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6c476866d22713c4e843bd857547004d
-      internalID: -5246480699067054909
+      spriteID: ec755268c5e595a48b11c4306a1aa972
+      internalID: 713241460
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Bronze Axe_27
+      name: Male Hand Bronze Axe_27
       rect:
         serializedVersion: 2
         x: 560
         y: 256
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -723,20 +723,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8a6841fc28ab46248a5912db51c73891
-      internalID: 2062397200295701814
+      spriteID: 5df29d54ec443094cb338eeea21b975c
+      internalID: 844255689
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Bronze Axe_30
+      name: Male Hand Bronze Axe_30
       rect:
         serializedVersion: 2
         x: 0
         y: 192
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -745,20 +745,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 94247efd211c4cd4194e4335bc861058
-      internalID: 8275035713459474008
+      spriteID: 399c39739044b2c41b046b9cdbe1315f
+      internalID: -979670698
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Bronze Axe_31
+      name: Male Hand Bronze Axe_31
       rect:
         serializedVersion: 2
         x: 80
         y: 192
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -767,20 +767,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c25992409ab47e0428745c426c94c71f
-      internalID: -5979356657738706599
+      spriteID: 8f2a59c994e33f8459f443891fef3312
+      internalID: -918265063
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Bronze Axe_32
+      name: Male Hand Bronze Axe_32
       rect:
         serializedVersion: 2
         x: 160
         y: 192
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -789,20 +789,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7cf19ab4a0afdcc4a8e1e51a79183faa
-      internalID: -2954480140699245166
+      spriteID: 1edb2b69f05ad2f47a3d1c54bf30f1fb
+      internalID: 78113858
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Bronze Axe_33
+      name: Male Hand Bronze Axe_33
       rect:
         serializedVersion: 2
         x: 240
         y: 192
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -811,20 +811,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e077d9eeabb09eb4fa0983ce3c945f86
-      internalID: 7402061807125632711
+      spriteID: 2882813c0691a00438b7a4a17dcfc6de
+      internalID: -23386326
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Bronze Axe_40
+      name: Male Hand Bronze Axe_40
       rect:
         serializedVersion: 2
         x: 0
         y: 128
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -833,20 +833,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6cbb063b4e067f34bb47411c9b95d85c
-      internalID: 7622664890496610593
+      spriteID: 24383c766ec68d5499dce39e87f0e44d
+      internalID: 1727190761
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Bronze Axe_41
+      name: Male Hand Bronze Axe_41
       rect:
         serializedVersion: 2
         x: 80
         y: 128
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -855,20 +855,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 84b0ea94a4aa65144af0e5340440c92c
-      internalID: 453948613477633753
+      spriteID: 8e6af2a97a6679b44a06e3af018740c2
+      internalID: -75931573
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Bronze Axe_42
+      name: Male Hand Bronze Axe_42
       rect:
         serializedVersion: 2
         x: 160
         y: 128
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -877,20 +877,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c54ed90d9d596434f8aa03e3a2896fa8
-      internalID: -7658775804097589920
+      spriteID: 6ecfb346396cb17479e7a00f6e7e5634
+      internalID: -261642160
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Bronze Axe_43
+      name: Male Hand Bronze Axe_43
       rect:
         serializedVersion: 2
         x: 240
         y: 128
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -899,20 +899,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cc3c199bda925714483a534580a4cc47
-      internalID: -9032063600376628580
+      spriteID: ccee4ca3d08b2cf4b8b5a97b8628086e
+      internalID: 1944573046
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Bronze Axe_50
+      name: Male Hand Bronze Axe_50
       rect:
         serializedVersion: 2
         x: 0
         y: 64
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -921,20 +921,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2c15b803e59ea50448a124d7e8b85b83
-      internalID: -960510978
+      spriteID: cd1f28a97cc0c0846bce6807e7930d14
+      internalID: -2049576965
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Bronze Axe_51
+      name: Male Hand Bronze Axe_51
       rect:
         serializedVersion: 2
         x: 80
         y: 64
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -943,20 +943,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 86d0f4732c2ccab4ca720202b640ccfb
-      internalID: 942659261
+      spriteID: 5db72291af85778428dc8302ce84bece
+      internalID: -237849691
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Bronze Axe_52
+      name: Male Hand Bronze Axe_52
       rect:
         serializedVersion: 2
         x: 160
         y: 64
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -965,20 +965,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f5e500a99a85340459c0807729bde4c8
-      internalID: 1333621737
+      spriteID: 03b3e147f88c0414f82c9e3fee5ca029
+      internalID: -531473118
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Bronze Axe_53
+      name: Male Hand Bronze Axe_53
       rect:
         serializedVersion: 2
         x: 240
         y: 64
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -987,20 +987,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f84e6bcac07532e40bc7b231cc0776c4
-      internalID: 1531886683
+      spriteID: 3cbd0ca8a72689b499976f90f035e7f4
+      internalID: -1438039569
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Bronze Axe_54
+      name: Male Hand Bronze Axe_54
       rect:
         serializedVersion: 2
         x: 320
         y: 64
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1009,20 +1009,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fe1a46f29531e074782bd502d29de1d5
-      internalID: -238665188
+      spriteID: 6aac908fea4c6bc46b501c189c5a1441
+      internalID: 1827104311
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Bronze Axe_55
+      name: Male Hand Bronze Axe_55
       rect:
         serializedVersion: 2
         x: 400
         y: 64
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1031,20 +1031,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b1f69fece0b2b17409eca1ed2e791e64
-      internalID: -872071093
+      spriteID: 47124c5c71bdd7848aa7d7b4153620e5
+      internalID: 2110787234
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Bronze Axe_60
+      name: Male Hand Bronze Axe_60
       rect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1053,20 +1053,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c28853952c75f2e4e8dbdc69e450e494
-      internalID: 1324914438
+      spriteID: 04afa1b2f3bfb764fa4d272aff9ceb66
+      internalID: -712995501
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Bronze Axe_61
+      name: Male Hand Bronze Axe_61
       rect:
         serializedVersion: 2
         x: 80
         y: 0
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1075,20 +1075,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 61ef46d114f56044a8502318f6281503
-      internalID: -860320278
+      spriteID: a28cc73ea79c67546a7c0220d9f6039b
+      internalID: 399054043
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Bronze Axe_62
+      name: Male Hand Bronze Axe_62
       rect:
         serializedVersion: 2
         x: 160
         y: 0
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1097,20 +1097,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 623e317b6ca86c146a60c48560069499
-      internalID: 513768656
+      spriteID: 5975607e44cdb8649a66a5f0dc3f4c8c
+      internalID: -324600107
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Bronze Axe_63
+      name: Male Hand Bronze Axe_63
       rect:
         serializedVersion: 2
         x: 240
         y: 0
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1119,20 +1119,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 84f740d084c925f458eb4f1c1ae5ffbc
-      internalID: -495089536
+      spriteID: 4f05427be0af55b44ba0733efc1fed9d
+      internalID: 1782243345
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Bronze Axe_64
+      name: Male Hand Bronze Axe_64
       rect:
         serializedVersion: 2
         x: 320
         y: 0
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1141,20 +1141,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fc34d9b56f009414b80a9f2a5a34ddd9
-      internalID: 2042578839
+      spriteID: 65745dbb43bdd4e4f98c1773ecd13ca1
+      internalID: -706631017
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Bronze Axe_65
+      name: Male Hand Bronze Axe_65
       rect:
         serializedVersion: 2
         x: 400
         y: 0
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1163,20 +1163,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 381b601966699be4fa49c41f5dbf71de
-      internalID: 1121666607
+      spriteID: 586040890d468994187c5c25ef9fba1e
+      internalID: 591444050
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Bronze Axe_66
+      name: Male Hand Bronze Axe_66
       rect:
         serializedVersion: 2
         x: 480
         y: 0
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1185,20 +1185,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 55054e4851b1ad6408ab82e21c308eec
-      internalID: -1143275739
+      spriteID: 3bef19bb62284f14c90aebfc6fd70255
+      internalID: -1234273765
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Bronze Axe_67
+      name: Male Hand Bronze Axe_67
       rect:
         serializedVersion: 2
         x: 560
         y: 0
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1207,20 +1207,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ec3c7e654660fee438a4c4c328ab39cf
-      internalID: 1286825303
+      spriteID: a24f77f4abd0de14ea415477ae36b26a
+      internalID: -1666400524
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Bronze Axe_68
+      name: Male Hand Bronze Axe_68
       rect:
         serializedVersion: 2
         x: 640
         y: 0
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1229,20 +1229,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 470a15054e659d945bc730dd2fb0e671
-      internalID: 1964685891
+      spriteID: 720c70a3b0dfd8d4d835c9b9614833c5
+      internalID: -1054754929
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Bronze Axe_69
+      name: Male Hand Bronze Axe_69
       rect:
         serializedVersion: 2
         x: 720
         y: 0
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1251,8 +1251,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b4c4c959e08e2a441bbf6c8dcc3591df
-      internalID: 1582598272
+      spriteID: 72437c3d26b741349820572ce3171599
+      internalID: 431923682
       vertices: []
       indices: 
       edges: []

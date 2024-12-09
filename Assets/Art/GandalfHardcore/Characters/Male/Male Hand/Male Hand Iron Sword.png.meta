@@ -180,7 +180,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 32
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -268,13 +268,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Iron Sword_0
+      name: Male Hand Iron Sword_0
       rect:
         serializedVersion: 2
         x: 0
         y: 384
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -283,20 +283,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bc83dcaa8a6b38143bcac7676c93e1ec
-      internalID: 6380105564640697137
+      spriteID: 2b9a5e58495bb394094a17228deaea9a
+      internalID: 1410156358
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Iron Sword_1
+      name: Male Hand Iron Sword_1
       rect:
         serializedVersion: 2
         x: 80
         y: 384
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -305,20 +305,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 30779b261e19e964192834ac32b73dd5
-      internalID: -2539484130121364258
+      spriteID: c2c1353472af08d409b11de0520f41fb
+      internalID: -174499162
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Iron Sword_2
+      name: Male Hand Iron Sword_2
       rect:
         serializedVersion: 2
         x: 160
         y: 384
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -327,20 +327,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 982b8d40aabde2641948503628b022f3
-      internalID: 5619444073149374802
+      spriteID: 53e2919e7772dfb4db237f711e8709cf
+      internalID: 2033791222
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Iron Sword_3
+      name: Male Hand Iron Sword_3
       rect:
         serializedVersion: 2
         x: 240
         y: 384
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -349,20 +349,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c19c5f686b89ab94e8049ae198c4851d
-      internalID: -6338601757296072672
+      spriteID: 01cc8d68112f99443b939bdcccbf319d
+      internalID: -94850518
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Iron Sword_4
+      name: Male Hand Iron Sword_4
       rect:
         serializedVersion: 2
         x: 320
         y: 384
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -371,20 +371,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 25f7082aae7466540aaa857f51059f80
-      internalID: 1848700083782583887
+      spriteID: a93f723e6f2e78243b2219ef10951a7e
+      internalID: 240694970
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Iron Sword_10
+      name: Male Hand Iron Sword_10
       rect:
         serializedVersion: 2
         x: 0
         y: 320
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -393,20 +393,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8d7260147b1f05c43b1edb8712fa66e8
-      internalID: -7386529293841083561
+      spriteID: 8fc80e919606e4b4888e6c5516c91499
+      internalID: -68551856
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Iron Sword_11
+      name: Male Hand Iron Sword_11
       rect:
         serializedVersion: 2
         x: 80
         y: 320
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -415,20 +415,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 97e65b7d8fd9d234d81fff7667ed3af2
-      internalID: 1307139154408067902
+      spriteID: cd2717d1566e84b4a889e3a038fc90a9
+      internalID: 1861489072
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Iron Sword_12
+      name: Male Hand Iron Sword_12
       rect:
         serializedVersion: 2
         x: 160
         y: 320
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -437,20 +437,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5ac2c65bd4150e540821817fe8ede68e
-      internalID: -4716615123289343473
+      spriteID: 0c44e9d34154af243ad4a2fa719fdd0d
+      internalID: 1995518380
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Iron Sword_13
+      name: Male Hand Iron Sword_13
       rect:
         serializedVersion: 2
         x: 240
         y: 320
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -459,20 +459,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 85645e7e35472804f9a1c7248fff01a7
-      internalID: -274056609378271576
+      spriteID: bdce0c43127f81947af8221606d0645d
+      internalID: -1551715347
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Iron Sword_14
+      name: Male Hand Iron Sword_14
       rect:
         serializedVersion: 2
         x: 320
         y: 320
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -481,20 +481,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: afc87f3c7a5a7f64286c8dd5090d1697
-      internalID: -3472303369333895256
+      spriteID: cea4e0dd4f8c55f4884d49af8df714af
+      internalID: 814689720
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Iron Sword_15
+      name: Male Hand Iron Sword_15
       rect:
         serializedVersion: 2
         x: 400
         y: 320
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -503,20 +503,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4c7477d74faaf5c449c5ef2a01e0f351
-      internalID: 2451452746068708402
+      spriteID: 91d5041c74350fe48bc0f6568276731a
+      internalID: -1091015022
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Iron Sword_16
+      name: Male Hand Iron Sword_16
       rect:
         serializedVersion: 2
         x: 480
         y: 320
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -525,20 +525,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5f65093b8b4a174498afcaac9558c8cf
-      internalID: 7826904741054120589
+      spriteID: 862212f74b542964796cfb7b8ae3e9ed
+      internalID: -1131220553
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Iron Sword_17
+      name: Male Hand Iron Sword_17
       rect:
         serializedVersion: 2
         x: 560
         y: 320
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -547,20 +547,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ec17a84b214fccc4682cd04c8be0a1da
-      internalID: 739383328040226379
+      spriteID: 72690d889dd79f1419ab54f8fed21f8a
+      internalID: 1891027136
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Iron Sword_20
+      name: Male Hand Iron Sword_20
       rect:
         serializedVersion: 2
         x: 0
         y: 256
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -569,20 +569,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a5bd2429bac7ace4699d7d02cc0bbadd
-      internalID: 6971150704079155000
+      spriteID: 47b34925ef8347249811dddf0b566bc8
+      internalID: -1649461457
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Iron Sword_21
+      name: Male Hand Iron Sword_21
       rect:
         serializedVersion: 2
         x: 80
         y: 256
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -591,20 +591,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9de4d669635857b42bb3781bdd9104f6
-      internalID: 3105231881494782933
+      spriteID: a9f91ce031c919e4ca56cc292a8cc3ff
+      internalID: 1723982159
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Iron Sword_22
+      name: Male Hand Iron Sword_22
       rect:
         serializedVersion: 2
         x: 160
         y: 256
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -613,20 +613,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e99e64f3039a7754ba55209df3e6ae09
-      internalID: -7425629857849470013
+      spriteID: 30e20ebad1a709b4dbab4250cb47da26
+      internalID: -412219457
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Iron Sword_23
+      name: Male Hand Iron Sword_23
       rect:
         serializedVersion: 2
         x: 240
         y: 256
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -635,20 +635,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 363e2d9ba6625374e8f45a23d1165cd4
-      internalID: 2016904460868357465
+      spriteID: eefcc9ff4bf2aab4f9ebc517a7504a0e
+      internalID: -1977526629
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Iron Sword_24
+      name: Male Hand Iron Sword_24
       rect:
         serializedVersion: 2
         x: 320
         y: 256
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -657,20 +657,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 59a9256cb70fe4c4c8491f65863fd172
-      internalID: -1614062454270392452
+      spriteID: 9a678123e66044e46b26f92f7c3b56a9
+      internalID: 102616114
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Iron Sword_25
+      name: Male Hand Iron Sword_25
       rect:
         serializedVersion: 2
         x: 400
         y: 256
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -679,20 +679,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7779165389733aa4c8d0926e6efc8621
-      internalID: -7658974494394915246
+      spriteID: 122af1757c944364893d0983e4fe7888
+      internalID: 1877518716
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Iron Sword_26
+      name: Male Hand Iron Sword_26
       rect:
         serializedVersion: 2
         x: 480
         y: 256
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -701,20 +701,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cf0e20390300bb940b300e086c11646c
-      internalID: -2905354714984902165
+      spriteID: 435eca415d233d54894adf567dac9c7f
+      internalID: 1467630390
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Iron Sword_27
+      name: Male Hand Iron Sword_27
       rect:
         serializedVersion: 2
         x: 560
         y: 256
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -723,20 +723,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3bcd6d59d8858474eb01513d9fe032f7
-      internalID: -2903821369940723705
+      spriteID: 7c55d7c394c4bc541a2dc4b954a68571
+      internalID: -597691574
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Iron Sword_30
+      name: Male Hand Iron Sword_30
       rect:
         serializedVersion: 2
         x: 0
         y: 192
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -745,20 +745,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 11440dd823d22e34fbf30dca888fd803
-      internalID: 7173351788034569539
+      spriteID: 93879cc2601124e4691ac7b1df880493
+      internalID: 1244634528
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Iron Sword_31
+      name: Male Hand Iron Sword_31
       rect:
         serializedVersion: 2
         x: 80
         y: 192
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -767,20 +767,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5ccfc9f5ed211144890e0c69d54142d2
-      internalID: -3027126639329372900
+      spriteID: addb7aca0de5a5e4ab8ea2ce7b50a42d
+      internalID: -826589097
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Iron Sword_32
+      name: Male Hand Iron Sword_32
       rect:
         serializedVersion: 2
         x: 160
         y: 192
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -789,20 +789,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e0db62f0acb6ec349944dac6aed587c3
-      internalID: -5151709766975699158
+      spriteID: f909620316c21b749ae9d416876b238f
+      internalID: -1829581441
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Iron Sword_33
+      name: Male Hand Iron Sword_33
       rect:
         serializedVersion: 2
         x: 240
         y: 192
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -811,20 +811,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 48ac674a0f03a9241a26554559a9c2a3
-      internalID: -7350334255434532691
+      spriteID: 58c0529a96bb4fb4baca8c60a5cc2b71
+      internalID: 1571736477
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Iron Sword_40
+      name: Male Hand Iron Sword_40
       rect:
         serializedVersion: 2
         x: 0
         y: 128
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -833,20 +833,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cdce6deb46e8b7848b840faaf30e3f9d
-      internalID: -7544976281639279336
+      spriteID: 4d85bc8de3b747b49bea720b4fe660b8
+      internalID: -933616645
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Iron Sword_41
+      name: Male Hand Iron Sword_41
       rect:
         serializedVersion: 2
         x: 80
         y: 128
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -855,20 +855,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d083ae967cfb77649a1455263fc46f25
-      internalID: 9004064352041183858
+      spriteID: f198ea613452b944fa475754409a3e8a
+      internalID: -1863206601
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Iron Sword_42
+      name: Male Hand Iron Sword_42
       rect:
         serializedVersion: 2
         x: 160
         y: 128
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -877,20 +877,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 310d931bd64bdfd4ab51668e45dfb45f
-      internalID: -2281621208230332896
+      spriteID: 4d2b44c836884d24baf557cc03ddb711
+      internalID: -1495132640
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Iron Sword_43
+      name: Male Hand Iron Sword_43
       rect:
         serializedVersion: 2
         x: 240
         y: 128
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -899,20 +899,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: aa69a19c32176f346a2342c578baa5c7
-      internalID: -1745156057473275482
+      spriteID: a3f2fd064903c9e4c8919aab95b01617
+      internalID: 1531464035
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Iron Sword_50
+      name: Male Hand Iron Sword_50
       rect:
         serializedVersion: 2
         x: 0
         y: 64
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -921,20 +921,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 995103a6d335f6146963f020ae25b18b
-      internalID: 746315740
+      spriteID: 2b9b2989cb7aae5448d293c681bf5bdb
+      internalID: -211094934
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Iron Sword_51
+      name: Male Hand Iron Sword_51
       rect:
         serializedVersion: 2
         x: 80
         y: 64
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -943,20 +943,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2290631073ec4a7479ad83f6d204b609
-      internalID: -1526258933
+      spriteID: c2d3d1e88815fe74793d137b81c31dd1
+      internalID: 449989007
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Iron Sword_52
+      name: Male Hand Iron Sword_52
       rect:
         serializedVersion: 2
         x: 160
         y: 64
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -965,20 +965,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3cc67738ca031cb43bf2c63b2b133994
-      internalID: -1073334530
+      spriteID: 1775da73880a58245bf0c37b576d6684
+      internalID: 447811905
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Iron Sword_53
+      name: Male Hand Iron Sword_53
       rect:
         serializedVersion: 2
         x: 240
         y: 64
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -987,20 +987,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ce11caa73d7beb0418c5201ccc7bfbff
-      internalID: -1033058506
+      spriteID: 38ce8e33000aef2489e6783a4c81030f
+      internalID: 186564035
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Iron Sword_54
+      name: Male Hand Iron Sword_54
       rect:
         serializedVersion: 2
         x: 320
         y: 64
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1009,20 +1009,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 41bdc31c8a2ec934a9b1a47836f7c2c5
-      internalID: 1035271309
+      spriteID: 88c67fc5c86f5fc409aeebf937341121
+      internalID: -106310969
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Iron Sword_55
+      name: Male Hand Iron Sword_55
       rect:
         serializedVersion: 2
         x: 400
         y: 64
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1031,20 +1031,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6bfa36a3e6f4c6840a2f8db221cbc221
-      internalID: -1117730590
+      spriteID: 859e72dba5cfb374ba736c272c014f3c
+      internalID: 1756457119
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Iron Sword_60
+      name: Male Hand Iron Sword_60
       rect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1053,20 +1053,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e5bb0b4cd823cdc45b4d77eb9a59c41e
-      internalID: 2000691227
+      spriteID: 5c8165ed82597d64099adc594fc0033c
+      internalID: -593067595
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Iron Sword_61
+      name: Male Hand Iron Sword_61
       rect:
         serializedVersion: 2
         x: 80
         y: 0
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1075,20 +1075,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 23e1a88a7ce995c4fb2003b868589950
-      internalID: 171065432
+      spriteID: cf5f3ad48679a2e43be7358aa305f8ac
+      internalID: 191845889
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Iron Sword_62
+      name: Male Hand Iron Sword_62
       rect:
         serializedVersion: 2
         x: 160
         y: 0
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1097,20 +1097,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7ca2b805269baad4d96ce1ea2d29136d
-      internalID: 1964750474
+      spriteID: a1ba55c157fd42546b1995c6d0ae9105
+      internalID: 392168676
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Iron Sword_63
+      name: Male Hand Iron Sword_63
       rect:
         serializedVersion: 2
         x: 240
         y: 0
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1119,20 +1119,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e2d3c995e6f9e4a44b15723871a20f9b
-      internalID: -40110741
+      spriteID: cb1721abc11358241a170aa3ca7eb158
+      internalID: 252279057
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Iron Sword_64
+      name: Male Hand Iron Sword_64
       rect:
         serializedVersion: 2
         x: 320
         y: 0
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1141,20 +1141,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: db0dbfd4f6d434a4dbbe2e0734b3120b
-      internalID: -1373801564
+      spriteID: 105438c32a950fe439d0f79eb27edebc
+      internalID: -288298853
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Iron Sword_65
+      name: Male Hand Iron Sword_65
       rect:
         serializedVersion: 2
         x: 400
         y: 0
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1163,20 +1163,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 81f09f1db3427994ba4ee047c0487bd9
-      internalID: 1663025808
+      spriteID: 430893da8ecf18d41ac153780b830881
+      internalID: 163852905
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Iron Sword_66
+      name: Male Hand Iron Sword_66
       rect:
         serializedVersion: 2
         x: 480
         y: 0
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1185,20 +1185,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 36eca6b25bacc37418d10e572ff49063
-      internalID: -1329920003
+      spriteID: a48e16896ac3ea64288bb479834bfa03
+      internalID: -1358286426
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Iron Sword_67
+      name: Male Hand Iron Sword_67
       rect:
         serializedVersion: 2
         x: 560
         y: 0
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1207,20 +1207,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3c94f90655541874584d66cb6ac46233
-      internalID: -960366875
+      spriteID: 3794f962be4b27346957a4c39e8f177c
+      internalID: -550407237
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Iron Sword_68
+      name: Male Hand Iron Sword_68
       rect:
         serializedVersion: 2
         x: 640
         y: 0
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1229,20 +1229,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7dc9b5378ddf8be48b45f8b5f20a7589
-      internalID: -1821695540
+      spriteID: e33b37f876d52f043a17261890343c74
+      internalID: -1628014945
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Iron Sword_69
+      name: Male Hand Iron Sword_69
       rect:
         serializedVersion: 2
         x: 720
         y: 0
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1251,8 +1251,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 07e523505ee05b046978bbd686e30753
-      internalID: 161493875
+      spriteID: 2cd4ff39f046e6641b06e9446c4b1fc9
+      internalID: 176071334
       vertices: []
       indices: 
       edges: []

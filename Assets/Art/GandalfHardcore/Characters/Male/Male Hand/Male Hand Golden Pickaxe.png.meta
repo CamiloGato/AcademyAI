@@ -180,7 +180,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 32
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -268,13 +268,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Golden Pickaxe_0
+      name: Male Hand Golden Pickaxe_0
       rect:
         serializedVersion: 2
         x: 0
         y: 384
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -283,20 +283,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 059942d7182f5ac429d3d196cebb63b7
-      internalID: -577418085591929928
+      spriteID: 95efa7fa891084b4788f50492fd48074
+      internalID: 396164116
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Golden Pickaxe_1
+      name: Male Hand Golden Pickaxe_1
       rect:
         serializedVersion: 2
         x: 80
         y: 384
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -305,20 +305,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 207d6fb3710f2c646987bbe63fe1e080
-      internalID: 7071203735144527539
+      spriteID: d432f1442f9a0774981bb55836a00b33
+      internalID: 1683777469
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Golden Pickaxe_2
+      name: Male Hand Golden Pickaxe_2
       rect:
         serializedVersion: 2
         x: 160
         y: 384
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -327,20 +327,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 27faca42f7db22c4f89afbaf72eb1677
-      internalID: -1722501469840455561
+      spriteID: 6154e8243b2a66145b4f9a4a326572fb
+      internalID: -327329297
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Golden Pickaxe_3
+      name: Male Hand Golden Pickaxe_3
       rect:
         serializedVersion: 2
         x: 240
         y: 384
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -349,20 +349,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 09373cbe73409134799ee258a8de6917
-      internalID: 7985799667518652774
+      spriteID: ceda6af978182ed4fb89fd09c660b088
+      internalID: 1398791020
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Golden Pickaxe_4
+      name: Male Hand Golden Pickaxe_4
       rect:
         serializedVersion: 2
         x: 320
         y: 384
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -371,20 +371,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 65564f1dcc595dc4db6bde09dc57e902
-      internalID: 2740456582574912196
+      spriteID: 08e1511998a172c49826329f31992271
+      internalID: -1523110817
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Golden Pickaxe_10
+      name: Male Hand Golden Pickaxe_10
       rect:
         serializedVersion: 2
         x: 0
         y: 320
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -393,20 +393,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9536b33ca48fc7c49a1254eec64bc504
-      internalID: 5822453621241280345
+      spriteID: fd14103c4fa99fb4c9f2a0d39d7a37ab
+      internalID: -927398174
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Golden Pickaxe_11
+      name: Male Hand Golden Pickaxe_11
       rect:
         serializedVersion: 2
         x: 80
         y: 320
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -415,20 +415,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3c5706ab9ba5c81439732c846009005a
-      internalID: -744125469539045177
+      spriteID: a9a453541a16f744bb328a5b37765bd5
+      internalID: 1779109519
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Golden Pickaxe_12
+      name: Male Hand Golden Pickaxe_12
       rect:
         serializedVersion: 2
         x: 160
         y: 320
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -437,20 +437,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 487950c34f4607744aba8b66226c5620
-      internalID: -4041028929277563163
+      spriteID: 05632af200001484bb7272860504e0c5
+      internalID: -730452289
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Golden Pickaxe_13
+      name: Male Hand Golden Pickaxe_13
       rect:
         serializedVersion: 2
         x: 240
         y: 320
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -459,20 +459,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7acbe6a7023ce1a49942f6457a1814d6
-      internalID: 1858037703547736877
+      spriteID: 503cd78eded06424695f26a4d695cecb
+      internalID: -1434880817
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Golden Pickaxe_14
+      name: Male Hand Golden Pickaxe_14
       rect:
         serializedVersion: 2
         x: 320
         y: 320
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -481,20 +481,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 32f7902d74f8f984f8ed522633d251fe
-      internalID: -4283582341817131662
+      spriteID: 7a51bf72526a04b44a60bb4848003c12
+      internalID: -2059132418
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Golden Pickaxe_15
+      name: Male Hand Golden Pickaxe_15
       rect:
         serializedVersion: 2
         x: 400
         y: 320
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -503,20 +503,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c68dbb1f07f4bc249ac2e6bf1289bccd
-      internalID: -4705283758249256182
+      spriteID: c7a3c350f4a4c2243b188b57354a6316
+      internalID: 904510551
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Golden Pickaxe_16
+      name: Male Hand Golden Pickaxe_16
       rect:
         serializedVersion: 2
         x: 480
         y: 320
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -525,20 +525,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a215f5128eb245c4eb182de6e7fdd9bc
-      internalID: -7062736057011001231
+      spriteID: 75a03932a8fee364a886ecc9e4f4879e
+      internalID: 127468661
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Golden Pickaxe_17
+      name: Male Hand Golden Pickaxe_17
       rect:
         serializedVersion: 2
         x: 560
         y: 320
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -547,20 +547,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 67d4d3534e11c234fa439d038be92775
-      internalID: 353684406419299805
+      spriteID: 6b7543413b1f1354ab926cdd4bbc54e8
+      internalID: -714603581
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Golden Pickaxe_20
+      name: Male Hand Golden Pickaxe_20
       rect:
         serializedVersion: 2
         x: 0
         y: 256
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -569,20 +569,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bbe1ece8485a7b7458d3c6cd488b3544
-      internalID: -4055519236459587046
+      spriteID: edd6cd7c6572e1b43bc0b19624afeac6
+      internalID: -429538875
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Golden Pickaxe_21
+      name: Male Hand Golden Pickaxe_21
       rect:
         serializedVersion: 2
         x: 80
         y: 256
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -591,20 +591,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f8a660da394ead74893db9cc1a94ba76
-      internalID: -7072204241843123991
+      spriteID: c00cc7eded7d1cc44ada600baa2c329b
+      internalID: -1495643828
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Golden Pickaxe_22
+      name: Male Hand Golden Pickaxe_22
       rect:
         serializedVersion: 2
         x: 160
         y: 256
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -613,20 +613,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7a5697b1a8fbaf24dad16ecccb6dc734
-      internalID: -5239776866777027840
+      spriteID: e329758c788f9584a80bbc5f640db514
+      internalID: 961512253
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Golden Pickaxe_23
+      name: Male Hand Golden Pickaxe_23
       rect:
         serializedVersion: 2
         x: 240
         y: 256
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -635,20 +635,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b3f7b51158bb2014da82a03a9b2302ce
-      internalID: -73106343869891558
+      spriteID: cef3cac5117e3544bbba1d514137996e
+      internalID: -1460041314
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Golden Pickaxe_24
+      name: Male Hand Golden Pickaxe_24
       rect:
         serializedVersion: 2
         x: 320
         y: 256
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -657,20 +657,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 085ca2cf9e5b05e47bbe7e414a8dddee
-      internalID: 4622604627373117508
+      spriteID: 8b050395871036049b6a3ed564c1f902
+      internalID: 1759570307
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Golden Pickaxe_25
+      name: Male Hand Golden Pickaxe_25
       rect:
         serializedVersion: 2
         x: 400
         y: 256
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -679,20 +679,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 935063de0d4faf44e82e4b1d47aa8113
-      internalID: -4074195442393592805
+      spriteID: 7ab68bdafc963ea4c851b7fb4054e642
+      internalID: -144870900
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Golden Pickaxe_26
+      name: Male Hand Golden Pickaxe_26
       rect:
         serializedVersion: 2
         x: 480
         y: 256
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -701,20 +701,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 29dee0dd15dd09447a6b91ded176cb38
-      internalID: 4931819951625550720
+      spriteID: ae29193368aaef14c8fa98731b1dce23
+      internalID: 1450774537
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Golden Pickaxe_27
+      name: Male Hand Golden Pickaxe_27
       rect:
         serializedVersion: 2
         x: 560
         y: 256
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -723,20 +723,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f20dc080be3fb204fbc1ef286aae9cfa
-      internalID: -671842314199097494
+      spriteID: ac9709ffafc7842499769407e7262df1
+      internalID: 1013119283
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Golden Pickaxe_30
+      name: Male Hand Golden Pickaxe_30
       rect:
         serializedVersion: 2
         x: 0
         y: 192
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -745,20 +745,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dc9cd42d9bdb2f5498bbd61ff4f34f78
-      internalID: 9047516708536300024
+      spriteID: 55fe5e1ffcbb8f44f9cf8ed407fdb549
+      internalID: -1850500427
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Golden Pickaxe_31
+      name: Male Hand Golden Pickaxe_31
       rect:
         serializedVersion: 2
         x: 80
         y: 192
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -767,20 +767,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 669754629d31912489b1cc56359c579e
-      internalID: 7450733838726055887
+      spriteID: c00511683434e254891d232fbbced59a
+      internalID: 2016015348
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Golden Pickaxe_32
+      name: Male Hand Golden Pickaxe_32
       rect:
         serializedVersion: 2
         x: 160
         y: 192
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -789,20 +789,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4bcc9f05a961fcb48b5e5e8ef990c772
-      internalID: -8773528441250959996
+      spriteID: 6b24dc45df1e4d84784d19e4faf5d748
+      internalID: 1726715343
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Golden Pickaxe_33
+      name: Male Hand Golden Pickaxe_33
       rect:
         serializedVersion: 2
         x: 240
         y: 192
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -811,20 +811,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3fd931875d65be64b967b2d2fb29a4a7
-      internalID: 3815455265075771501
+      spriteID: 5ae92e941363f7e429300b7079c88fe1
+      internalID: -1842734707
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Golden Pickaxe_40
+      name: Male Hand Golden Pickaxe_40
       rect:
         serializedVersion: 2
         x: 0
         y: 128
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -833,20 +833,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 27b472f1551d1a040a4b3fcd4f3ae5f2
-      internalID: 6334371592915804966
+      spriteID: 42cd356d58d06b34ba4fccb451f8f440
+      internalID: -1999896149
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Golden Pickaxe_41
+      name: Male Hand Golden Pickaxe_41
       rect:
         serializedVersion: 2
         x: 80
         y: 128
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -855,20 +855,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4839dfd89e4d25546ab0bbb640f5b1d3
-      internalID: -6011912317707414384
+      spriteID: 9b97a66c8a3f25e43b6fa4225b56c6bd
+      internalID: -335820121
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Golden Pickaxe_42
+      name: Male Hand Golden Pickaxe_42
       rect:
         serializedVersion: 2
         x: 160
         y: 128
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -877,20 +877,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 63b4d2168259b3744832eb9c25f6c283
-      internalID: -5791941733907074684
+      spriteID: 993f781f620f58c4a8d8e4b237c2bc7f
+      internalID: 200943706
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Golden Pickaxe_43
+      name: Male Hand Golden Pickaxe_43
       rect:
         serializedVersion: 2
         x: 240
         y: 128
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -899,20 +899,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9bbdc11993e60c948bb72033ec22fdb8
-      internalID: -1612702841148184769
+      spriteID: b2421923dcbd45f4e8705d7139ec3413
+      internalID: 324780151
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Golden Pickaxe_50
+      name: Male Hand Golden Pickaxe_50
       rect:
         serializedVersion: 2
         x: 0
         y: 64
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -921,20 +921,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9c6be57ce2326e74a8fc432c6bb65d8f
-      internalID: 525286631
+      spriteID: 3ee74a7112abbbe4cb20863b1f4979fd
+      internalID: -219699237
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Golden Pickaxe_51
+      name: Male Hand Golden Pickaxe_51
       rect:
         serializedVersion: 2
         x: 80
         y: 64
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -943,20 +943,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2f2d89f94584b8d4da42a2b8eeaec322
-      internalID: -1615243455
+      spriteID: 93543b42d7c3110458c39d7c64e6f5f6
+      internalID: 2056894815
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Golden Pickaxe_52
+      name: Male Hand Golden Pickaxe_52
       rect:
         serializedVersion: 2
         x: 160
         y: 64
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -965,20 +965,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 39aed715c031d9e47811a05432061b89
-      internalID: 1360562043
+      spriteID: 77ed13538f528e947ba48c5a5a6078c0
+      internalID: -930399035
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Golden Pickaxe_53
+      name: Male Hand Golden Pickaxe_53
       rect:
         serializedVersion: 2
         x: 240
         y: 64
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -987,20 +987,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 16df8693ae45e4147a115b62d0bc7d33
-      internalID: 494016705
+      spriteID: 91a87c730104ca949aa51269bb7e4341
+      internalID: -2074259677
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Golden Pickaxe_54
+      name: Male Hand Golden Pickaxe_54
       rect:
         serializedVersion: 2
         x: 320
         y: 64
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1009,20 +1009,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8e1bdc4f8ee8f9d469138d61438bb7b7
-      internalID: 1403598218
+      spriteID: d15fe8797f379a44fa7387f5c584c9b5
+      internalID: 540236441
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Golden Pickaxe_55
+      name: Male Hand Golden Pickaxe_55
       rect:
         serializedVersion: 2
         x: 400
         y: 64
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1031,20 +1031,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9bb70b437c66b6344923360cf5d5d51b
-      internalID: 1764722953
+      spriteID: 6e9f60fc380cabb4e8a32879f32f7b40
+      internalID: 560618532
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Golden Pickaxe_60
+      name: Male Hand Golden Pickaxe_60
       rect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1053,20 +1053,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 244a17c2f6df4094a9a17f2a133d8bbb
-      internalID: -2110830818
+      spriteID: 2a7bdf6eda221114f9d5671a12befe35
+      internalID: 752399621
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Golden Pickaxe_61
+      name: Male Hand Golden Pickaxe_61
       rect:
         serializedVersion: 2
         x: 80
         y: 0
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1075,20 +1075,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9b596d30b63db444abcf0a59a0a3b288
-      internalID: -503830762
+      spriteID: 40306c3376ef4ad43832825c614056c6
+      internalID: 909070514
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Golden Pickaxe_62
+      name: Male Hand Golden Pickaxe_62
       rect:
         serializedVersion: 2
         x: 160
         y: 0
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1097,20 +1097,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b7fb486643fd868429ac1389a1048c41
-      internalID: 1532438499
+      spriteID: 18199ac4034098d49964244cc661f24f
+      internalID: -688276
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Golden Pickaxe_63
+      name: Male Hand Golden Pickaxe_63
       rect:
         serializedVersion: 2
         x: 240
         y: 0
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1119,20 +1119,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 350e17de3b783a547a51288b1cc638d9
-      internalID: 1589037878
+      spriteID: 3397e1dd69e74004ea9329fe14a91c0a
+      internalID: 2025539974
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Golden Pickaxe_64
+      name: Male Hand Golden Pickaxe_64
       rect:
         serializedVersion: 2
         x: 320
         y: 0
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1141,20 +1141,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 34932f5e74508ef44a7696a8ba6ff3f7
-      internalID: 1443821599
+      spriteID: 6178e9800362e9e47a3815db8b00b805
+      internalID: -422537723
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Golden Pickaxe_65
+      name: Male Hand Golden Pickaxe_65
       rect:
         serializedVersion: 2
         x: 400
         y: 0
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1163,20 +1163,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: baa1a9ace45054a49b301d3d05a5ff49
-      internalID: -15285868
+      spriteID: fee287a4d6de3e94e9c93488639eec36
+      internalID: 2060884734
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Golden Pickaxe_66
+      name: Male Hand Golden Pickaxe_66
       rect:
         serializedVersion: 2
         x: 480
         y: 0
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1185,20 +1185,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bce947f2c6d80fc4f9fc8a258c584e33
-      internalID: -24301648
+      spriteID: 9eee154dd7520444bb9446993abf11ec
+      internalID: 1715577140
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Golden Pickaxe_67
+      name: Male Hand Golden Pickaxe_67
       rect:
         serializedVersion: 2
         x: 560
         y: 0
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1207,20 +1207,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 345760898f9d6104db49660d651fa963
-      internalID: -365014144
+      spriteID: d318399b8bd85fe47b7eeec5e698172c
+      internalID: -280775236
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Golden Pickaxe_68
+      name: Male Hand Golden Pickaxe_68
       rect:
         serializedVersion: 2
         x: 640
         y: 0
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1229,20 +1229,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5ef7748a791711c478b5759a2df56131
-      internalID: -853226697
+      spriteID: 325d32a7e0e4acd4cbeaeec01da6376c
+      internalID: 1942738596
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Golden Pickaxe_69
+      name: Male Hand Golden Pickaxe_69
       rect:
         serializedVersion: 2
         x: 720
         y: 0
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1251,8 +1251,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 466734a04b005f7438fe50eab94f0640
-      internalID: 425611868
+      spriteID: 9ca74f8dd8386134a85537ee9f32c689
+      internalID: 1687792595
       vertices: []
       indices: 
       edges: []

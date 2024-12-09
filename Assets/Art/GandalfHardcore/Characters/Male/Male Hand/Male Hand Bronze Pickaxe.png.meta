@@ -180,7 +180,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 32
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -268,13 +268,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Bronze Pickaxe_0
+      name: Male Hand Bronze Pickaxe_0
       rect:
         serializedVersion: 2
         x: 0
         y: 384
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -283,20 +283,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2d2a335d7b176e542973fa4219cf5705
-      internalID: 3103001835210985151
+      spriteID: c641595e0af39b34fa082e1b917256e6
+      internalID: 1577776958
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Bronze Pickaxe_1
+      name: Male Hand Bronze Pickaxe_1
       rect:
         serializedVersion: 2
         x: 80
         y: 384
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -305,20 +305,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 08930dacaae9c46469616912b85c11fd
-      internalID: 7821805051894162404
+      spriteID: 8f7e65d820ce066409a760f9f75abfcc
+      internalID: -1586984923
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Bronze Pickaxe_2
+      name: Male Hand Bronze Pickaxe_2
       rect:
         serializedVersion: 2
         x: 160
         y: 384
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -327,20 +327,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a6a8da7495328aa4588b1116ef6c25e3
-      internalID: -8772041744965899358
+      spriteID: 9cad01aa043e94d469c0408c527ab127
+      internalID: 1009146782
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Bronze Pickaxe_3
+      name: Male Hand Bronze Pickaxe_3
       rect:
         serializedVersion: 2
         x: 240
         y: 384
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -349,20 +349,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 924f137b2a292ae48baab1ba40635122
-      internalID: 4519384616810060199
+      spriteID: 998950c5c47e7174c9660f1dfd0348b9
+      internalID: -1215422710
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Bronze Pickaxe_4
+      name: Male Hand Bronze Pickaxe_4
       rect:
         serializedVersion: 2
         x: 320
         y: 384
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -371,20 +371,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 51164d2e96db97646a777a5e25faeb22
-      internalID: 8454238719346745272
+      spriteID: 326734e1193b34544b361f298756d6b2
+      internalID: -385269734
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Bronze Pickaxe_10
+      name: Male Hand Bronze Pickaxe_10
       rect:
         serializedVersion: 2
         x: 0
         y: 320
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -393,20 +393,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 125ce6aba87d1ba469f50e4be8022e0e
-      internalID: -7384941682421826225
+      spriteID: 5cfe8988d268e2943bd996b02ad59a70
+      internalID: -1247317535
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Bronze Pickaxe_11
+      name: Male Hand Bronze Pickaxe_11
       rect:
         serializedVersion: 2
         x: 80
         y: 320
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -415,20 +415,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fc92341074c3b0344a673374b177063f
-      internalID: -188389621376257655
+      spriteID: 56146969322f9834ebe176e07ed925de
+      internalID: 881158195
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Bronze Pickaxe_12
+      name: Male Hand Bronze Pickaxe_12
       rect:
         serializedVersion: 2
         x: 160
         y: 320
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -437,20 +437,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5c98cab26aa54214e96efa9b2ef62380
-      internalID: -6048786827128106854
+      spriteID: ace9da773e57c6e4b9d3905bf9574f41
+      internalID: 233002017
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Bronze Pickaxe_13
+      name: Male Hand Bronze Pickaxe_13
       rect:
         serializedVersion: 2
         x: 240
         y: 320
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -459,20 +459,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fe57f387e9bce9e4cabbb5908606a6f2
-      internalID: 1640935651581408391
+      spriteID: ff3778bf7b7b10243a7fafd52dc3441a
+      internalID: -414339783
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Bronze Pickaxe_14
+      name: Male Hand Bronze Pickaxe_14
       rect:
         serializedVersion: 2
         x: 320
         y: 320
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -481,20 +481,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f5bb1b5c16e08ac44b29a08bf7db4c9b
-      internalID: 6496275060239802922
+      spriteID: 532bd00a3a11c1542842af54ab45b9a7
+      internalID: 2023480946
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Bronze Pickaxe_15
+      name: Male Hand Bronze Pickaxe_15
       rect:
         serializedVersion: 2
         x: 400
         y: 320
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -503,20 +503,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9f1bec532465f6549be71946f0dc9cc4
-      internalID: -5180424708835090485
+      spriteID: 56f666f23fa5f4c4e9773c46dbf0bdf2
+      internalID: -507343463
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Bronze Pickaxe_16
+      name: Male Hand Bronze Pickaxe_16
       rect:
         serializedVersion: 2
         x: 480
         y: 320
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -525,20 +525,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 337c1592e508bb74a89b2737de0ddba6
-      internalID: -4986126650367877380
+      spriteID: 97d171ac40505a448bba5259ad5cb40f
+      internalID: -1690297269
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Bronze Pickaxe_17
+      name: Male Hand Bronze Pickaxe_17
       rect:
         serializedVersion: 2
         x: 560
         y: 320
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -547,20 +547,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e9e5ee8d06a51034a8b94af76e48249d
-      internalID: 5577224590002276607
+      spriteID: 2a5e5d6d6f5aaff4e92934bbc2c184a8
+      internalID: -868294666
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Bronze Pickaxe_20
+      name: Male Hand Bronze Pickaxe_20
       rect:
         serializedVersion: 2
         x: 0
         y: 256
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -569,20 +569,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 09f86bc9ef489fa459c56a35faa65ca0
-      internalID: -8010938729912298310
+      spriteID: 8cb28131124a133498aab15753d78a6c
+      internalID: -1326510727
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Bronze Pickaxe_21
+      name: Male Hand Bronze Pickaxe_21
       rect:
         serializedVersion: 2
         x: 80
         y: 256
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -591,20 +591,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9e776e5e6f125c14a868b4b5dc0aaeb9
-      internalID: 2618287029902973455
+      spriteID: 7e4a1fb6eec945a4fb6e056dbe9705cc
+      internalID: 818794237
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Bronze Pickaxe_22
+      name: Male Hand Bronze Pickaxe_22
       rect:
         serializedVersion: 2
         x: 160
         y: 256
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -613,20 +613,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 02c3e2f3ff1793744b8f7bae3c8f6855
-      internalID: 6532061992986123142
+      spriteID: 5fa99b8d68a851043a8439390efacceb
+      internalID: -762006808
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Bronze Pickaxe_23
+      name: Male Hand Bronze Pickaxe_23
       rect:
         serializedVersion: 2
         x: 240
         y: 256
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -635,20 +635,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3bee28bbf7d3a1248a119b59bb0233b4
-      internalID: 6496876706625350717
+      spriteID: eaee9934b4e1e2b40ab99b149b99b7a6
+      internalID: 1566990908
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Bronze Pickaxe_24
+      name: Male Hand Bronze Pickaxe_24
       rect:
         serializedVersion: 2
         x: 320
         y: 256
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -657,20 +657,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f746e2d5b536ff6439dc5471b9dfc3d4
-      internalID: 6333810489977447052
+      spriteID: cc733c668102962479b26ad103582d73
+      internalID: 2000315959
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Bronze Pickaxe_25
+      name: Male Hand Bronze Pickaxe_25
       rect:
         serializedVersion: 2
         x: 400
         y: 256
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -679,20 +679,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 21bcebb66aa680a4ea667f39d7ad86ee
-      internalID: -1564205084487518634
+      spriteID: 566a084e99df49a4c965185de9c9c8a4
+      internalID: -1236457238
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Bronze Pickaxe_26
+      name: Male Hand Bronze Pickaxe_26
       rect:
         serializedVersion: 2
         x: 480
         y: 256
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -701,20 +701,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 70b59401b62f5e445870a073fa6c1b87
-      internalID: -8603749592003895330
+      spriteID: ae317cd39afc792469ecfa20ae9dc76c
+      internalID: 1944935791
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Bronze Pickaxe_27
+      name: Male Hand Bronze Pickaxe_27
       rect:
         serializedVersion: 2
         x: 560
         y: 256
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -723,20 +723,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 97c85f90375d13148a1af1c8b54d0cc3
-      internalID: -6150065006949326568
+      spriteID: 9899ece3ce9beb847bf20e36437d00fd
+      internalID: 1906697854
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Bronze Pickaxe_30
+      name: Male Hand Bronze Pickaxe_30
       rect:
         serializedVersion: 2
         x: 0
         y: 192
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -745,20 +745,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 331f03bb6c876a945aa831014bfb1d66
-      internalID: 6574128652063617110
+      spriteID: 3eabbc16d1505194cbdc7e867c084722
+      internalID: 410826705
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Bronze Pickaxe_31
+      name: Male Hand Bronze Pickaxe_31
       rect:
         serializedVersion: 2
         x: 80
         y: 192
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -767,20 +767,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4ee5ae2479e3f3448bc821684e9fa3d5
-      internalID: -7577518079781480114
+      spriteID: a81bced28c887ab4f80288638d02fec9
+      internalID: 2032858417
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Bronze Pickaxe_32
+      name: Male Hand Bronze Pickaxe_32
       rect:
         serializedVersion: 2
         x: 160
         y: 192
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -789,20 +789,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d3f9ec2f368fa054a8a6d1405091f475
-      internalID: 370305913039712023
+      spriteID: 6dfd0e8f38e55bb4aaf7cbbd9eeee3cb
+      internalID: -691034082
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Bronze Pickaxe_33
+      name: Male Hand Bronze Pickaxe_33
       rect:
         serializedVersion: 2
         x: 240
         y: 192
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -811,20 +811,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 57dfcd5b9bc9ffc4394b8ab46eaae9c3
-      internalID: -8896215417150214016
+      spriteID: b70853873113c414da2fa3d5ca401aea
+      internalID: -942192143
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Bronze Pickaxe_40
+      name: Male Hand Bronze Pickaxe_40
       rect:
         serializedVersion: 2
         x: 0
         y: 128
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -833,20 +833,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c3524a8359e91494faf40232f50978fb
-      internalID: -8296542416449242882
+      spriteID: ef2d2d9778f21f842ba9aac8fb7107c1
+      internalID: 63637100
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Bronze Pickaxe_41
+      name: Male Hand Bronze Pickaxe_41
       rect:
         serializedVersion: 2
         x: 80
         y: 128
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -855,20 +855,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4f681f6edc0303c4ea4f2cb6c6b8ad46
-      internalID: -8211819771618605696
+      spriteID: cd1bdfabc4073704ba38cfc6b72046f6
+      internalID: 1285938996
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Bronze Pickaxe_42
+      name: Male Hand Bronze Pickaxe_42
       rect:
         serializedVersion: 2
         x: 160
         y: 128
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -877,20 +877,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c99b0f6ce1b0f5543b574b9a150529d7
-      internalID: 3832162314110341050
+      spriteID: 83445dddfd4a5c74280adc52f5dbddfd
+      internalID: 936195930
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Bronze Pickaxe_43
+      name: Male Hand Bronze Pickaxe_43
       rect:
         serializedVersion: 2
         x: 240
         y: 128
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -899,20 +899,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 23483940e453fe94faa55e7f0a98677d
-      internalID: -2595859371268658893
+      spriteID: 28be9ec9e9e94fa47bf15d2be380b0ad
+      internalID: -1258048999
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Bronze Pickaxe_50
+      name: Male Hand Bronze Pickaxe_50
       rect:
         serializedVersion: 2
         x: 0
         y: 64
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -921,20 +921,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 92052afb152824049b5b54c1052c05cf
-      internalID: 1927938617
+      spriteID: a3ff7c9af2fe4fd49a926225015770fc
+      internalID: 1303726528
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Bronze Pickaxe_51
+      name: Male Hand Bronze Pickaxe_51
       rect:
         serializedVersion: 2
         x: 80
         y: 64
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -943,20 +943,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ae9b20db4efe0a548bc0726a33b55442
-      internalID: -1736014515
+      spriteID: 502eda070105bba439e6091a9e50445d
+      internalID: 67181279
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Bronze Pickaxe_52
+      name: Male Hand Bronze Pickaxe_52
       rect:
         serializedVersion: 2
         x: 160
         y: 64
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -965,20 +965,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ed80ef88a616b6a4ca62477aed820abd
-      internalID: 1433363086
+      spriteID: bcac4492d2ecbfd40b832ed4659a01ca
+      internalID: -1046355948
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Bronze Pickaxe_53
+      name: Male Hand Bronze Pickaxe_53
       rect:
         serializedVersion: 2
         x: 240
         y: 64
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -987,20 +987,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0a89a1c5a72561641809d6a4465e4ad3
-      internalID: 1640876819
+      spriteID: 504070914f86ed94987c95bea0e952a2
+      internalID: 1668025682
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Bronze Pickaxe_54
+      name: Male Hand Bronze Pickaxe_54
       rect:
         serializedVersion: 2
         x: 320
         y: 64
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1009,20 +1009,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 98c1ec7cdb9c1ca44aa2d0677bd74020
-      internalID: 1751227307
+      spriteID: e46ce81614ebb6c4f80e058c00a7ca09
+      internalID: -387540364
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Bronze Pickaxe_55
+      name: Male Hand Bronze Pickaxe_55
       rect:
         serializedVersion: 2
         x: 400
         y: 64
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1031,20 +1031,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5083b7a8549bd37439ba2e755c1f7f17
-      internalID: -117036866
+      spriteID: 8d4acae9f53cc604f939605c81386217
+      internalID: 748545036
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Bronze Pickaxe_60
+      name: Male Hand Bronze Pickaxe_60
       rect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1053,20 +1053,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4ae124c34f2fb2c449814383312760d8
-      internalID: 2062901047
+      spriteID: aa529a3eaeaa39146a6b9ae2e7043d2e
+      internalID: 57198792
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Bronze Pickaxe_61
+      name: Male Hand Bronze Pickaxe_61
       rect:
         serializedVersion: 2
         x: 80
         y: 0
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1075,20 +1075,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d8c930bc2915e014b9bf740e0261e570
-      internalID: -323801932
+      spriteID: 5ed1bf6fcb5363a49bc3bdbaf3bb2a85
+      internalID: -1511901441
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Bronze Pickaxe_62
+      name: Male Hand Bronze Pickaxe_62
       rect:
         serializedVersion: 2
         x: 160
         y: 0
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1097,20 +1097,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d36716e737efa0443aa14e1c2668bf10
-      internalID: 379489455
+      spriteID: 5762d083e3d1bcc4190b10384186f7d8
+      internalID: -502201346
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Bronze Pickaxe_63
+      name: Male Hand Bronze Pickaxe_63
       rect:
         serializedVersion: 2
         x: 240
         y: 0
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1119,20 +1119,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c77f9553f2a69e94199fb5aa31a77508
-      internalID: 116862733
+      spriteID: 5ce30146946d2204db1dd65a4f8bdc7f
+      internalID: 392292837
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Bronze Pickaxe_64
+      name: Male Hand Bronze Pickaxe_64
       rect:
         serializedVersion: 2
         x: 320
         y: 0
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1141,20 +1141,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 96512a556cf41b14a95d5c303d3bb967
-      internalID: 1027885146
+      spriteID: f3ca5abf09ea3194fba4bc2320bef864
+      internalID: -2043268966
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Bronze Pickaxe_65
+      name: Male Hand Bronze Pickaxe_65
       rect:
         serializedVersion: 2
         x: 400
         y: 0
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1163,20 +1163,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b4d7396905f924349a9b4eeb7bde8c35
-      internalID: -843953467
+      spriteID: f2e0858babe6ce2488e84946dd987fce
+      internalID: -326330508
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Bronze Pickaxe_66
+      name: Male Hand Bronze Pickaxe_66
       rect:
         serializedVersion: 2
         x: 480
         y: 0
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1185,20 +1185,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 42f64ee17b535a4479d766a76dcf0ea3
-      internalID: -1850042106
+      spriteID: 4ff54eb3c86e84f40892cc4a87fbf1be
+      internalID: -2143969840
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Bronze Pickaxe_67
+      name: Male Hand Bronze Pickaxe_67
       rect:
         serializedVersion: 2
         x: 560
         y: 0
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1207,20 +1207,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 05d4f8a03e910c44b89683ee8d13dca0
-      internalID: -995269004
+      spriteID: 0fc0b738c04e06345b0faca5e372e97a
+      internalID: -2123219749
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Bronze Pickaxe_68
+      name: Male Hand Bronze Pickaxe_68
       rect:
         serializedVersion: 2
         x: 640
         y: 0
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1229,20 +1229,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 865a43f0a990c1a47992086eedc50b0e
-      internalID: 1288235847
+      spriteID: 4d97e7b2eeca44b4dba7ad215b3835ee
+      internalID: 1807374630
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Bronze Pickaxe_69
+      name: Male Hand Bronze Pickaxe_69
       rect:
         serializedVersion: 2
         x: 720
         y: 0
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1251,8 +1251,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3ff0f49a14ca6184699f16007ba33d31
-      internalID: 1874023647
+      spriteID: 7399e66c2dcd83d469e01cd18bca6ee6
+      internalID: 85529743
       vertices: []
       indices: 
       edges: []

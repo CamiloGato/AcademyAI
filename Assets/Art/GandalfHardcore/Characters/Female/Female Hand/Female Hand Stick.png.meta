@@ -180,7 +180,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 32
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -268,13 +268,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Stick_0
+      name: Female Hand Stick_0
       rect:
         serializedVersion: 2
         x: 0
         y: 384
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -283,20 +283,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 21f2447ea468d8c4885309b0959e5617
-      internalID: -7907951331658488048
+      spriteID: 576e80ee072a3da4cbeb3993cc388c09
+      internalID: 1608972337
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Stick_1
+      name: Female Hand Stick_1
       rect:
         serializedVersion: 2
         x: 80
         y: 384
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -305,20 +305,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 26f93feec072fb945803065d57fc3acf
-      internalID: -2120736070927482547
+      spriteID: 4b3d5761ff2d648409ec2529c4bc6056
+      internalID: 1360994063
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Stick_2
+      name: Female Hand Stick_2
       rect:
         serializedVersion: 2
         x: 160
         y: 384
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -327,20 +327,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 848a947c455784d428bd053f0b79689f
-      internalID: -6379344409900553748
+      spriteID: 013d4fae15183c74dab65d1f1fd21559
+      internalID: -991107887
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Stick_3
+      name: Female Hand Stick_3
       rect:
         serializedVersion: 2
         x: 240
         y: 384
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -349,20 +349,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ca5e0926d8a466b4cb24000c360130ab
-      internalID: -8203422604325148938
+      spriteID: 6741ce2ef5b69cb4f861098fb12fb607
+      internalID: -979843423
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Stick_4
+      name: Female Hand Stick_4
       rect:
         serializedVersion: 2
         x: 320
         y: 384
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -371,20 +371,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0df27f43f8da19a43b034efc9f934a5e
-      internalID: -3572902511387050885
+      spriteID: 097e6d549f7717d47b3003d1d05b850b
+      internalID: 1411457591
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Stick_10
+      name: Female Hand Stick_10
       rect:
         serializedVersion: 2
         x: 0
         y: 320
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -393,20 +393,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ceb0eacb9faccc1419d4580314886bb2
-      internalID: 5113822284904008126
+      spriteID: 9c9663b637fbb214bb66a1e15d5afebb
+      internalID: 1397191012
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Stick_11
+      name: Female Hand Stick_11
       rect:
         serializedVersion: 2
         x: 80
         y: 320
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -415,20 +415,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 88dc7f1b9ce5f7c4db142b01be62c1e7
-      internalID: -1890927881606329736
+      spriteID: 7dc44f50a6de1664999a9f8b59a3695b
+      internalID: 1452339601
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Stick_12
+      name: Female Hand Stick_12
       rect:
         serializedVersion: 2
         x: 160
         y: 320
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -437,20 +437,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6e8075a656f99d140873177270b500b0
-      internalID: 7296064441171343483
+      spriteID: 840e1ffbe47ebf54eba40bf1f2ede22d
+      internalID: 999807231
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Stick_13
+      name: Female Hand Stick_13
       rect:
         serializedVersion: 2
         x: 240
         y: 320
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -459,20 +459,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a48a411c10d2b274aa55f79eaba45b64
-      internalID: 2095464525681710317
+      spriteID: 66ee671f3533c2b48a3373557e86f7ae
+      internalID: -1862206758
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Stick_14
+      name: Female Hand Stick_14
       rect:
         serializedVersion: 2
         x: 320
         y: 320
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -481,20 +481,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fd77c27693707a14e9a793029306518e
-      internalID: -7406054846628324774
+      spriteID: 24108c44e53fe7f4f8283cfa65450375
+      internalID: -236617303
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Stick_15
+      name: Female Hand Stick_15
       rect:
         serializedVersion: 2
         x: 400
         y: 320
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -503,20 +503,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d2134910fbf15224cbb9e1a1e53c2aa4
-      internalID: -7129927890715529938
+      spriteID: 801d162f6e4dea94c9445dddc61e3b72
+      internalID: -1571379762
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Stick_16
+      name: Female Hand Stick_16
       rect:
         serializedVersion: 2
         x: 480
         y: 320
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -525,20 +525,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a68999d1b47e468419ac921d0d1a4707
-      internalID: -6699819498482666540
+      spriteID: 8f8397113fa24ce4f91242775e251a14
+      internalID: 1336078677
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Stick_17
+      name: Female Hand Stick_17
       rect:
         serializedVersion: 2
         x: 560
         y: 320
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -547,20 +547,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8f15b451ee41225419157fadf0121765
-      internalID: 1178937244260861759
+      spriteID: 9c0b80f355bcc9c4d98f353c25c6967d
+      internalID: -1871739125
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Stick_20
+      name: Female Hand Stick_20
       rect:
         serializedVersion: 2
         x: 0
         y: 256
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -569,20 +569,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 74af469a261e6954998127c3041e88f4
-      internalID: 6491548785491158428
+      spriteID: 32c493dc376495f488ce1cecf8204d3b
+      internalID: -22585677
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Stick_21
+      name: Female Hand Stick_21
       rect:
         serializedVersion: 2
         x: 80
         y: 256
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -591,20 +591,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fa8d18a8374a4e34b99cec530de40f44
-      internalID: 2250375404116288225
+      spriteID: db836a639ed36c54a8f3d841a6e71774
+      internalID: 487870744
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Stick_22
+      name: Female Hand Stick_22
       rect:
         serializedVersion: 2
         x: 160
         y: 256
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -613,20 +613,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 67bdf11cfe49c9e49872531d632f0e06
-      internalID: 7750769252546363752
+      spriteID: 6c60f68c05a464143b5fe605af64b6cf
+      internalID: -835682165
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Stick_23
+      name: Female Hand Stick_23
       rect:
         serializedVersion: 2
         x: 240
         y: 256
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -635,20 +635,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 35486e6442920304c97dedd14a406a5d
-      internalID: 7028730205707612395
+      spriteID: 0feda59d635e0fa46aa82177863f6625
+      internalID: -297027936
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Stick_24
+      name: Female Hand Stick_24
       rect:
         serializedVersion: 2
         x: 320
         y: 256
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -657,20 +657,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3d07b0e32f75b83488a5ba4f13e7c833
-      internalID: -8548444624735080104
+      spriteID: 887c1408920b92145902c1335365d422
+      internalID: -405924659
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Stick_25
+      name: Female Hand Stick_25
       rect:
         serializedVersion: 2
         x: 400
         y: 256
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -679,20 +679,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7feb2f2e801c49b4597860a9e3b39240
-      internalID: -2369328178576786963
+      spriteID: 76a87bdb9ad33864d90d118b6f03d6e8
+      internalID: 1141511037
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Stick_26
+      name: Female Hand Stick_26
       rect:
         serializedVersion: 2
         x: 480
         y: 256
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -701,20 +701,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fe6172e65e503d84884f87b20281e972
-      internalID: 2426830790140613375
+      spriteID: a4400487387b47e41a90240abfc58020
+      internalID: -1444113529
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Stick_27
+      name: Female Hand Stick_27
       rect:
         serializedVersion: 2
         x: 560
         y: 256
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -723,20 +723,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 150eb6fcbf25e134f9afc1f37a631020
-      internalID: 5417241370441483681
+      spriteID: b5eb5664627e9a541a0afc7833ae01dd
+      internalID: -2082909753
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Stick_30
+      name: Female Hand Stick_30
       rect:
         serializedVersion: 2
         x: 0
         y: 192
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -745,20 +745,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b4b37c95b18d2bc4aad1d10fc8767cd6
-      internalID: -8441298976845640288
+      spriteID: 79daf4ceca922854abccad8ea30addfc
+      internalID: -520790057
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Stick_31
+      name: Female Hand Stick_31
       rect:
         serializedVersion: 2
         x: 80
         y: 192
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -767,20 +767,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d71469c4139885f4d87ef71e57ea830b
-      internalID: 652603858107329377
+      spriteID: 96f080a68b98d0d4fb1b22809b38153c
+      internalID: 1873223047
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Stick_32
+      name: Female Hand Stick_32
       rect:
         serializedVersion: 2
         x: 160
         y: 192
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -789,20 +789,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 63c99f55bc8817b48b75ed4e923db867
-      internalID: -3601117369759738785
+      spriteID: 850c25cf5cf8c40458b5294bf57ae571
+      internalID: -1657079885
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Stick_33
+      name: Female Hand Stick_33
       rect:
         serializedVersion: 2
         x: 240
         y: 192
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -811,20 +811,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5c7c036e25d2a84479f4c4193e23eec9
-      internalID: -7577293158764750053
+      spriteID: 8dc3ce140509ab545b48680c6fcc82de
+      internalID: -1414400913
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Stick_40
+      name: Female Hand Stick_40
       rect:
         serializedVersion: 2
         x: 0
         y: 128
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -833,20 +833,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: df0a927585189bc4d970674c261c793f
-      internalID: -2498316761371365035
+      spriteID: 18561d4ecf8ea9d458fb2c5fb20bb930
+      internalID: 1142317043
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Stick_41
+      name: Female Hand Stick_41
       rect:
         serializedVersion: 2
         x: 80
         y: 128
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -855,20 +855,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8776473115716e64faeb9b4582db844f
-      internalID: -6016161588885121423
+      spriteID: d79a2f7e68baa3c48ab7ef97dedd135e
+      internalID: 1510403538
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Stick_42
+      name: Female Hand Stick_42
       rect:
         serializedVersion: 2
         x: 160
         y: 128
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -877,20 +877,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dab424efa833bc84e85c0db51fa56345
-      internalID: 9023807430494345430
+      spriteID: 1930f85c75988f349add07034407fd59
+      internalID: 1092867691
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Stick_43
+      name: Female Hand Stick_43
       rect:
         serializedVersion: 2
         x: 240
         y: 128
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -899,20 +899,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f2cc6a3e5c0b9bc44891a3e07777da53
-      internalID: 20659437201117165
+      spriteID: 870f8d3f65f5d614c9c0bfdbe5770f24
+      internalID: 2072212028
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Stick_50
+      name: Female Hand Stick_50
       rect:
         serializedVersion: 2
         x: 0
         y: 64
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -921,20 +921,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 27000e5ef2d69e841809b25105ffb463
-      internalID: -675026064
+      spriteID: c34c4b8dcbc269845ab25134973abf20
+      internalID: -2124808536
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Stick_51
+      name: Female Hand Stick_51
       rect:
         serializedVersion: 2
         x: 80
         y: 64
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -943,20 +943,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7dc6a19321e35fc40885b75d2d5e6891
-      internalID: 375184051
+      spriteID: 1340de77d0bc1d74c9478fc8c2c80576
+      internalID: -804418928
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Stick_52
+      name: Female Hand Stick_52
       rect:
         serializedVersion: 2
         x: 160
         y: 64
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -965,20 +965,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a7e255aac97875e49b9bce2563bce904
-      internalID: 19955477
+      spriteID: 021fb817257f69545be99f2a47f3c7a7
+      internalID: 1603795463
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Stick_53
+      name: Female Hand Stick_53
       rect:
         serializedVersion: 2
         x: 240
         y: 64
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -987,20 +987,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 98d0e8989155eef40ba4d4971d9c512a
-      internalID: 1236538509
+      spriteID: b4558f643c736c44895181ee13dbc86d
+      internalID: 20363141
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Stick_54
+      name: Female Hand Stick_54
       rect:
         serializedVersion: 2
         x: 320
         y: 64
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1009,20 +1009,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 576b3279627b2ea4396c0233dcc37089
-      internalID: -380962091
+      spriteID: 0d86dabf5b591cc4da6766803ef6ded4
+      internalID: 420626879
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Stick_55
+      name: Female Hand Stick_55
       rect:
         serializedVersion: 2
         x: 400
         y: 64
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1031,20 +1031,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5fb57268b9466bf46b7ebaa5b0514b94
-      internalID: -193182513
+      spriteID: cbdde01cbfc0d3d41a7f97d257fdaa39
+      internalID: -1329550505
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Stick_60
+      name: Female Hand Stick_60
       rect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1053,20 +1053,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e91f9ef2129b8624f9a53c0871da21c2
-      internalID: 1894257539
+      spriteID: 01ff52eb96a187345b77a29e9868e099
+      internalID: 1985093273
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Stick_61
+      name: Female Hand Stick_61
       rect:
         serializedVersion: 2
         x: 80
         y: 0
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1075,20 +1075,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 03731f3e2563e9f40b155ee6c37e88c1
-      internalID: 401102526
+      spriteID: 889f46defe471294eb9dc5f6bc2513b8
+      internalID: -828688790
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Stick_62
+      name: Female Hand Stick_62
       rect:
         serializedVersion: 2
         x: 160
         y: 0
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1097,20 +1097,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 755c61a4e2fd19e4bbcf3ab84e385691
-      internalID: -401266410
+      spriteID: e2f56c88afa12a147a0c293989bd1e35
+      internalID: -388026297
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Stick_63
+      name: Female Hand Stick_63
       rect:
         serializedVersion: 2
         x: 240
         y: 0
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1119,20 +1119,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d7a4981ae34958648b44c93f3bc2c804
-      internalID: -1627213676
+      spriteID: 4bd8053ce7d1c63468e378ed1ef8062f
+      internalID: 2089737957
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Stick_64
+      name: Female Hand Stick_64
       rect:
         serializedVersion: 2
         x: 320
         y: 0
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1141,20 +1141,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ace6435c48af9fd4da36c969e3ecc2b1
-      internalID: -2011686407
+      spriteID: acaa03f116f426a45a7aa83f82dbd8cd
+      internalID: -1211438510
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Stick_65
+      name: Female Hand Stick_65
       rect:
         serializedVersion: 2
         x: 400
         y: 0
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1163,20 +1163,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e2c715aa93e144345aa68471a07e1ad7
-      internalID: 814441924
+      spriteID: 7e9ce9b4621df734babce2b48ff59fb5
+      internalID: -149798958
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Stick_66
+      name: Female Hand Stick_66
       rect:
         serializedVersion: 2
         x: 480
         y: 0
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1185,20 +1185,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 01f2319948676d0478eb8ba342b31501
-      internalID: -671022013
+      spriteID: 18a430c5eef3161469ea844d14e8a320
+      internalID: 1664916892
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Stick_67
+      name: Female Hand Stick_67
       rect:
         serializedVersion: 2
         x: 560
         y: 0
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1207,20 +1207,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7f07c2b18f27cd8499de1b3f13511936
-      internalID: 386478535
+      spriteID: f917994544cd4cf4b8281c9cd49a5627
+      internalID: 927632429
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Stick_68
+      name: Female Hand Stick_68
       rect:
         serializedVersion: 2
         x: 640
         y: 0
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1229,20 +1229,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 89c04943082fe2d44a1d4b781fe3ae22
-      internalID: -376250179
+      spriteID: f2ab1644b1dbce64cac226df73e9ccfd
+      internalID: -1688517229
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Stick_69
+      name: Female Hand Stick_69
       rect:
         serializedVersion: 2
         x: 720
         y: 0
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1251,8 +1251,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e2e5db71d19436644842c27d8b8e48f7
-      internalID: -1294827913
+      spriteID: 933e91971a4d36e408df83abbc98aa96
+      internalID: -2122050769
       vertices: []
       indices: 
       edges: []

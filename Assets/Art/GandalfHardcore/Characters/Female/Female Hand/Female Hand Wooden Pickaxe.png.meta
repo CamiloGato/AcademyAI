@@ -180,7 +180,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 32
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -268,13 +268,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Wooden Pickaxe_0
+      name: Female Hand Wooden Pickaxe_0
       rect:
         serializedVersion: 2
         x: 0
         y: 384
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -283,20 +283,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4580927e142467243bc9dfe2d1e05698
-      internalID: 1249979982045014483
+      spriteID: 5ac843ffec2678b4b831478c2a75340a
+      internalID: 810406122
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Wooden Pickaxe_1
+      name: Female Hand Wooden Pickaxe_1
       rect:
         serializedVersion: 2
         x: 80
         y: 384
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -305,20 +305,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8a39672d4312b49449aa5040e8332a2b
-      internalID: 4548087775522254101
+      spriteID: e5c6128a8c2c6e041a1b64bd78913502
+      internalID: 1407131948
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Wooden Pickaxe_2
+      name: Female Hand Wooden Pickaxe_2
       rect:
         serializedVersion: 2
         x: 160
         y: 384
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -327,20 +327,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fb2dc50aaf9af1a40b1d4e2f366fff3c
-      internalID: 2255991592941915946
+      spriteID: 382eefad71ecf1a4db2e28d7a2804421
+      internalID: 2089792707
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Wooden Pickaxe_3
+      name: Female Hand Wooden Pickaxe_3
       rect:
         serializedVersion: 2
         x: 240
         y: 384
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -349,20 +349,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3d2781ccd1db5ed44940073e4eb8879f
-      internalID: 8784872484386147335
+      spriteID: 8445821dac86e164594a2fa849d8b1e4
+      internalID: 1562287031
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Wooden Pickaxe_4
+      name: Female Hand Wooden Pickaxe_4
       rect:
         serializedVersion: 2
         x: 320
         y: 384
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -371,20 +371,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b298d139fd50551449597c4ed852e119
-      internalID: 8518180717070437867
+      spriteID: 434e8f6d01154ab4086fce525b390364
+      internalID: 1362606049
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Wooden Pickaxe_10
+      name: Female Hand Wooden Pickaxe_10
       rect:
         serializedVersion: 2
         x: 0
         y: 320
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -393,20 +393,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8878d9e097e297e4eb78e42975abf13a
-      internalID: 5192624067722520820
+      spriteID: 4658b9ac13e91f7418fb7dcbc5a11bda
+      internalID: 33000764
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Wooden Pickaxe_11
+      name: Female Hand Wooden Pickaxe_11
       rect:
         serializedVersion: 2
         x: 80
         y: 320
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -415,20 +415,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 06fbd7b24b3729c46bfc4ac37064c214
-      internalID: 2620273434843830817
+      spriteID: d60d7fc8214a6a94488386ad1cc4b397
+      internalID: -1239608354
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Wooden Pickaxe_12
+      name: Female Hand Wooden Pickaxe_12
       rect:
         serializedVersion: 2
         x: 160
         y: 320
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -437,20 +437,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 53c97bc995d615e48b21b67d81bbd05a
-      internalID: 2580622441531578995
+      spriteID: ccd3b52a8d546624b8f068978e3a4a78
+      internalID: -58229925
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Wooden Pickaxe_13
+      name: Female Hand Wooden Pickaxe_13
       rect:
         serializedVersion: 2
         x: 240
         y: 320
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -459,20 +459,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e5e8e49fcbed8624db7068c43027b322
-      internalID: 640287007233307290
+      spriteID: eb0e1efece1e8a54da6e3d4bfe72b6dc
+      internalID: -110469940
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Wooden Pickaxe_14
+      name: Female Hand Wooden Pickaxe_14
       rect:
         serializedVersion: 2
         x: 320
         y: 320
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -481,20 +481,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5335d9542bcf090458f35439827fd5ed
-      internalID: -8013648018698551925
+      spriteID: 32db2361fe318e04799b1856494ee7e0
+      internalID: 1271120263
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Wooden Pickaxe_15
+      name: Female Hand Wooden Pickaxe_15
       rect:
         serializedVersion: 2
         x: 400
         y: 320
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -503,20 +503,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9546af36203ade14e8e68c84396da387
-      internalID: 7366920024743500338
+      spriteID: f2a58acb17c7eb843ad8d6f9aef4d563
+      internalID: 1394130783
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Wooden Pickaxe_16
+      name: Female Hand Wooden Pickaxe_16
       rect:
         serializedVersion: 2
         x: 480
         y: 320
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -525,20 +525,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 559fd83ee909b8d49b59437718a98d34
-      internalID: 4147068240962682563
+      spriteID: 3265f0369ee255a4fbcad3e1a6ef7115
+      internalID: 592783295
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Wooden Pickaxe_17
+      name: Female Hand Wooden Pickaxe_17
       rect:
         serializedVersion: 2
         x: 560
         y: 320
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -547,20 +547,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: eda9d59557f998d4a8b2e9be2fcd8e75
-      internalID: 8433289589993235063
+      spriteID: bc1066405f9cc34488266a85c28a72a1
+      internalID: -41259490
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Wooden Pickaxe_20
+      name: Female Hand Wooden Pickaxe_20
       rect:
         serializedVersion: 2
         x: 0
         y: 256
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -569,20 +569,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3e87205d90f6306488e3c3e28d047649
-      internalID: -7105386807675210926
+      spriteID: 142987b7555a89847bfe279317358a63
+      internalID: 928258866
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Wooden Pickaxe_21
+      name: Female Hand Wooden Pickaxe_21
       rect:
         serializedVersion: 2
         x: 80
         y: 256
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -591,20 +591,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cac92299116c98842bb80f935cafbd22
-      internalID: 5597065895290659185
+      spriteID: 61e9e9c8836440b4db8966e2a801607f
+      internalID: -668387267
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Wooden Pickaxe_22
+      name: Female Hand Wooden Pickaxe_22
       rect:
         serializedVersion: 2
         x: 160
         y: 256
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -613,20 +613,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8d8be50d3374a194399e39ffa7032095
-      internalID: -3226026974076827689
+      spriteID: 1abea40a792f0874e9f99528244a58d5
+      internalID: -828149954
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Wooden Pickaxe_23
+      name: Female Hand Wooden Pickaxe_23
       rect:
         serializedVersion: 2
         x: 240
         y: 256
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -635,20 +635,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f017a61698c382742a0b93997082a6be
-      internalID: 3512783520329315076
+      spriteID: 3981f3e12baa87144bc0f387d67d09f4
+      internalID: -663585828
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Wooden Pickaxe_24
+      name: Female Hand Wooden Pickaxe_24
       rect:
         serializedVersion: 2
         x: 320
         y: 256
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -657,20 +657,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7dfc7e450c676744ea5b9f5fe3605a28
-      internalID: 8608002609317988815
+      spriteID: 053970f1ccf3cdb4fa20c4df042fc503
+      internalID: 251990119
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Wooden Pickaxe_25
+      name: Female Hand Wooden Pickaxe_25
       rect:
         serializedVersion: 2
         x: 400
         y: 256
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -679,20 +679,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 233db818a1dcfda40bcffd2c2050a5a0
-      internalID: -6572858395518565498
+      spriteID: 7f1de40ee7293784987ed93fc8c65c8c
+      internalID: -1847267308
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Wooden Pickaxe_26
+      name: Female Hand Wooden Pickaxe_26
       rect:
         serializedVersion: 2
         x: 480
         y: 256
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -701,20 +701,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 85f45abe104af4f42a9b319f12457d5f
-      internalID: -1189915323069008527
+      spriteID: ae2e2fb8b3a3ef0418c8218b80107e6d
+      internalID: -1302243012
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Wooden Pickaxe_27
+      name: Female Hand Wooden Pickaxe_27
       rect:
         serializedVersion: 2
         x: 560
         y: 256
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -723,20 +723,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 15ed85de18c60d644a4f6a5e31cbc9c7
-      internalID: -1013037492859371713
+      spriteID: 09223cf20c8d5cc4b9d69812bd99a262
+      internalID: -48685548
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Wooden Pickaxe_30
+      name: Female Hand Wooden Pickaxe_30
       rect:
         serializedVersion: 2
         x: 0
         y: 192
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -745,20 +745,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 629912a6c36a02244a173e04fb24cb7a
-      internalID: -8388447412638369577
+      spriteID: dcd5476fa0f34a2409ae97fa32a4f003
+      internalID: -1387489528
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Wooden Pickaxe_31
+      name: Female Hand Wooden Pickaxe_31
       rect:
         serializedVersion: 2
         x: 80
         y: 192
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -767,20 +767,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5441b8be8b82b564882f8bb0da82f854
-      internalID: -4893948702076869383
+      spriteID: 024fb57fd7722e345a79a9d6c3b899cf
+      internalID: -85148336
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Wooden Pickaxe_32
+      name: Female Hand Wooden Pickaxe_32
       rect:
         serializedVersion: 2
         x: 160
         y: 192
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -789,20 +789,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c87dbde8e9afa814ca2a50bdb51467f7
-      internalID: -8388610398109134401
+      spriteID: 0634b2c8697aea74c9deecf7a247b2f4
+      internalID: -1169117488
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Wooden Pickaxe_33
+      name: Female Hand Wooden Pickaxe_33
       rect:
         serializedVersion: 2
         x: 240
         y: 192
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -811,20 +811,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bb067f552ecd13d498e1fe651878675c
-      internalID: 5579981843128418615
+      spriteID: e4357d34bc9f53a43863795844079155
+      internalID: -1551574506
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Wooden Pickaxe_40
+      name: Female Hand Wooden Pickaxe_40
       rect:
         serializedVersion: 2
         x: 0
         y: 128
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -833,20 +833,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0d88db4c068fd8c46b64633dd6a964b0
-      internalID: -1823658561648639913
+      spriteID: e2f22afae8cadc24da7ca14dc846e9e5
+      internalID: 194201181
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Wooden Pickaxe_41
+      name: Female Hand Wooden Pickaxe_41
       rect:
         serializedVersion: 2
         x: 80
         y: 128
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -855,20 +855,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1593607793a0ebc40864e81773012437
-      internalID: -4757380077166584312
+      spriteID: 42dcc13047e31c34fb13d2bbd852bc21
+      internalID: -1436984290
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Wooden Pickaxe_42
+      name: Female Hand Wooden Pickaxe_42
       rect:
         serializedVersion: 2
         x: 160
         y: 128
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -877,20 +877,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0900b3e378f537048ae0edeab936bb7a
-      internalID: -1623433170365900231
+      spriteID: 3942e6604913a104bb13005d56ae1306
+      internalID: -1439149719
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Wooden Pickaxe_43
+      name: Female Hand Wooden Pickaxe_43
       rect:
         serializedVersion: 2
         x: 240
         y: 128
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -899,20 +899,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 90235461154577444b9dc8ef8d341cbd
-      internalID: -3094771861689082258
+      spriteID: 5959db92e470eb345aa6f62e025305c3
+      internalID: 1991363678
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Wooden Pickaxe_50
+      name: Female Hand Wooden Pickaxe_50
       rect:
         serializedVersion: 2
         x: 0
         y: 64
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -921,20 +921,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6a03f7fb58bf66940ae535eb2b70d792
-      internalID: -1429555535
+      spriteID: c223917ae4484704aadfd05ddbd1dd90
+      internalID: 2101824093
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Wooden Pickaxe_51
+      name: Female Hand Wooden Pickaxe_51
       rect:
         serializedVersion: 2
         x: 80
         y: 64
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -943,20 +943,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cb17fe96321eca64b9e56116cde48fb8
-      internalID: 57775172
+      spriteID: 464f37a97b7383f49838d5f1cb6b2dde
+      internalID: 837993802
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Wooden Pickaxe_52
+      name: Female Hand Wooden Pickaxe_52
       rect:
         serializedVersion: 2
         x: 160
         y: 64
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -965,20 +965,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c04c5c2da7eaec740a0f586c25ed5e3b
-      internalID: -1881055260
+      spriteID: 1614c7bfefd85a849bea02af25410c4a
+      internalID: 1167620004
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Wooden Pickaxe_53
+      name: Female Hand Wooden Pickaxe_53
       rect:
         serializedVersion: 2
         x: 240
         y: 64
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -987,20 +987,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 429b17b398a2fe84bb324af1b8cc88f5
-      internalID: 564403729
+      spriteID: cbb8ad97ebc812444bb1066f5a35879e
+      internalID: -1503855741
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Wooden Pickaxe_54
+      name: Female Hand Wooden Pickaxe_54
       rect:
         serializedVersion: 2
         x: 320
         y: 64
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1009,20 +1009,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6d895e8341cff8c4e865b37b66d737f7
-      internalID: 231576378
+      spriteID: 863b82807f774de47ab32968034dd45d
+      internalID: 1687085492
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Wooden Pickaxe_55
+      name: Female Hand Wooden Pickaxe_55
       rect:
         serializedVersion: 2
         x: 400
         y: 64
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1031,20 +1031,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b7ed0b7590023c742a7a43b8f31d77b7
-      internalID: 106952659
+      spriteID: 8abab1686ed4afb45bbdeb90d9f6ca42
+      internalID: 2144365274
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Wooden Pickaxe_60
+      name: Female Hand Wooden Pickaxe_60
       rect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1053,20 +1053,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f0bbfcb8ce2181940a687cf12354c08d
-      internalID: 1306651221
+      spriteID: 3efd2a4dd439e584ab93b40965a10018
+      internalID: -265948338
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Wooden Pickaxe_61
+      name: Female Hand Wooden Pickaxe_61
       rect:
         serializedVersion: 2
         x: 80
         y: 0
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1075,20 +1075,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 94a62a6e92861464e88e744c8bfb464a
-      internalID: -1709406270
+      spriteID: 078804bd78c7b4e448a3c86d7ac5224c
+      internalID: -1177825884
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Wooden Pickaxe_62
+      name: Female Hand Wooden Pickaxe_62
       rect:
         serializedVersion: 2
         x: 160
         y: 0
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1097,20 +1097,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b5e5422b2bfacb14a9c0a989fbf0d397
-      internalID: -2033449848
+      spriteID: fed99067689dbbc429cd540efe08a151
+      internalID: -1247737032
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Wooden Pickaxe_63
+      name: Female Hand Wooden Pickaxe_63
       rect:
         serializedVersion: 2
         x: 240
         y: 0
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1119,20 +1119,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cf67d95672c9b85458febe6487209fa7
-      internalID: 1245035418
+      spriteID: d022fe26dca750f43a9edb6a79684f5d
+      internalID: -1586604068
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Wooden Pickaxe_64
+      name: Female Hand Wooden Pickaxe_64
       rect:
         serializedVersion: 2
         x: 320
         y: 0
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1141,20 +1141,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 795c9e9e68898b241b35e0b5d92ed4d3
-      internalID: 1300337157
+      spriteID: 6881ef7f451dd1049b384f4c50042ae2
+      internalID: 907438314
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Wooden Pickaxe_65
+      name: Female Hand Wooden Pickaxe_65
       rect:
         serializedVersion: 2
         x: 400
         y: 0
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1163,20 +1163,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 60a0aaa87f6233a4386b10bd5d45e9bb
-      internalID: -550703109
+      spriteID: a26285ce7c0608b4abff3414045476d3
+      internalID: -2044465121
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Wooden Pickaxe_66
+      name: Female Hand Wooden Pickaxe_66
       rect:
         serializedVersion: 2
         x: 480
         y: 0
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1185,20 +1185,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b7da695a07a89a1449e31c04d58dcd4f
-      internalID: 254899830
+      spriteID: 92c636bd08571fe4ab4cf1adc1a93e6b
+      internalID: -1773406541
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Wooden Pickaxe_67
+      name: Female Hand Wooden Pickaxe_67
       rect:
         serializedVersion: 2
         x: 560
         y: 0
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1207,20 +1207,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1ea264f10a53564439611e855fee5d8a
-      internalID: 1508769095
+      spriteID: af24d66b00d519547b6d1ba9037e2039
+      internalID: -1574266839
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Wooden Pickaxe_68
+      name: Female Hand Wooden Pickaxe_68
       rect:
         serializedVersion: 2
         x: 640
         y: 0
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1229,20 +1229,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5d264e4258763c947905bd136873b163
-      internalID: -1931254735
+      spriteID: 55258bd7cbdf0504ebf2785069001dfc
+      internalID: 824752477
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Wooden Pickaxe_69
+      name: Female Hand Wooden Pickaxe_69
       rect:
         serializedVersion: 2
         x: 720
         y: 0
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1251,8 +1251,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a2e2f527a3b03f34b809d29ac68f526e
-      internalID: 227465979
+      spriteID: 5985e0c72b766b548a5aebac2e229a74
+      internalID: -1244607551
       vertices: []
       indices: 
       edges: []

@@ -180,7 +180,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 32
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -268,13 +268,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Iron Axe_0
+      name: Female Hand Iron Axe_0
       rect:
         serializedVersion: 2
         x: 0
         y: 384
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -283,20 +283,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 739441518c4b9cb44b8a316278020493
-      internalID: 3361291436617588105
+      spriteID: 49a77d2bc9ad0f14eb6145873ab617a2
+      internalID: -1440715667
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Iron Axe_1
+      name: Female Hand Iron Axe_1
       rect:
         serializedVersion: 2
         x: 80
         y: 384
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -305,20 +305,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2d71a856f4e236e48a17c5d308f39624
-      internalID: 7733755407495939047
+      spriteID: 1b4e6978052c75e44b00b43ce8d6e7eb
+      internalID: -1324504233
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Iron Axe_2
+      name: Female Hand Iron Axe_2
       rect:
         serializedVersion: 2
         x: 160
         y: 384
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -327,20 +327,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c6687279f62785d468f3b7c14ad1ac08
-      internalID: 8560281986869768311
+      spriteID: 6838c32cff7c5c049b461356c018c8ea
+      internalID: 1267934328
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Iron Axe_3
+      name: Female Hand Iron Axe_3
       rect:
         serializedVersion: 2
         x: 240
         y: 384
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -349,20 +349,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8edd23876f7a5164d93bf825d1443e89
-      internalID: -5701381776104743862
+      spriteID: 05e22296152978342b83927b812268a5
+      internalID: 1789694699
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Iron Axe_4
+      name: Female Hand Iron Axe_4
       rect:
         serializedVersion: 2
         x: 320
         y: 384
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -371,20 +371,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 93116388ebe3af4439ae6660877d9f67
-      internalID: 7047310849901088398
+      spriteID: 6dae0bc2e8120084da2ec4c6a4845207
+      internalID: 444505939
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Iron Axe_10
+      name: Female Hand Iron Axe_10
       rect:
         serializedVersion: 2
         x: 0
         y: 320
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -393,20 +393,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2762a9c2534bbdf4aa5a8227945f5f5d
-      internalID: -5940849488390215626
+      spriteID: a4b7696bace12c94d82b571446cb2b21
+      internalID: -439017403
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Iron Axe_11
+      name: Female Hand Iron Axe_11
       rect:
         serializedVersion: 2
         x: 80
         y: 320
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -415,20 +415,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d43d5cc6ff70d8648870aa1e32f01feb
-      internalID: 4356712685299844914
+      spriteID: 884785909d24aef4aa1933e165d7a9e6
+      internalID: 1808126397
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Iron Axe_12
+      name: Female Hand Iron Axe_12
       rect:
         serializedVersion: 2
         x: 160
         y: 320
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -437,20 +437,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ad354cbdc0b64ef4f8d71c59f0185c95
-      internalID: -3944821583348131514
+      spriteID: a9b87cde99553804b9ea0a68d0016dd6
+      internalID: 23782089
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Iron Axe_13
+      name: Female Hand Iron Axe_13
       rect:
         serializedVersion: 2
         x: 240
         y: 320
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -459,20 +459,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f796dbff5a83945458286e5d409a74d8
-      internalID: 7615188372192688264
+      spriteID: 93cc3c13fcbbcb148be6ed2f2faeb436
+      internalID: 677582496
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Iron Axe_14
+      name: Female Hand Iron Axe_14
       rect:
         serializedVersion: 2
         x: 320
         y: 320
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -481,20 +481,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1d67701e6283c114a8321f250968a182
-      internalID: 1049335546097331343
+      spriteID: 928a08417ffe8d0468f1e8c02d13e98f
+      internalID: 4551070
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Iron Axe_15
+      name: Female Hand Iron Axe_15
       rect:
         serializedVersion: 2
         x: 400
         y: 320
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -503,20 +503,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8c90819615309234893b0901fee1395f
-      internalID: 4978805290956186082
+      spriteID: c5ef727f5a1ef59488eeb0fdc9b14490
+      internalID: 1618668101
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Iron Axe_16
+      name: Female Hand Iron Axe_16
       rect:
         serializedVersion: 2
         x: 480
         y: 320
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -525,20 +525,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9c199c809dc3c4e468b0efb7d6efad8f
-      internalID: 3851062731689149132
+      spriteID: 350ea71cfbfe89f4ea0ab4f8fa039c98
+      internalID: -910956895
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Iron Axe_17
+      name: Female Hand Iron Axe_17
       rect:
         serializedVersion: 2
         x: 560
         y: 320
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -547,20 +547,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 63d2e43ecc4e09a4f888677027512ac0
-      internalID: 5372601178049115974
+      spriteID: 4712ae1788d19d545b297f68f129b63b
+      internalID: -274320470
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Iron Axe_20
+      name: Female Hand Iron Axe_20
       rect:
         serializedVersion: 2
         x: 0
         y: 256
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -569,20 +569,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 73dd5a3a5573997478a7e6f5844ca5ab
-      internalID: 6702328323809850434
+      spriteID: 5500cd877b548f64fbb87548b704c908
+      internalID: -993977434
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Iron Axe_21
+      name: Female Hand Iron Axe_21
       rect:
         serializedVersion: 2
         x: 80
         y: 256
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -591,20 +591,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6a468bda12c585e47b8c9f0a519102f7
-      internalID: 8881845505144064476
+      spriteID: aeaca0f5c247f8c43bd39730fe270a14
+      internalID: -550059666
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Iron Axe_22
+      name: Female Hand Iron Axe_22
       rect:
         serializedVersion: 2
         x: 160
         y: 256
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -613,20 +613,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c8c3e61a0b3a0354ba5b019d0dfb6909
-      internalID: 2450437445175457390
+      spriteID: 3b7723e48a1ba6743b1be50d54e05751
+      internalID: 648105285
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Iron Axe_23
+      name: Female Hand Iron Axe_23
       rect:
         serializedVersion: 2
         x: 240
         y: 256
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -635,20 +635,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8a1be9909d513744081375ed08ad266e
-      internalID: 7029897772585894267
+      spriteID: fc72220eee42eec4c9a13ef61b7a2771
+      internalID: 982064672
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Iron Axe_24
+      name: Female Hand Iron Axe_24
       rect:
         serializedVersion: 2
         x: 320
         y: 256
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -657,20 +657,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c173ef7567a776240942dd3df3b111de
-      internalID: -2484567054812380494
+      spriteID: 5475079eba4a53c4ba1e53041daf8b81
+      internalID: -2018310364
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Iron Axe_25
+      name: Female Hand Iron Axe_25
       rect:
         serializedVersion: 2
         x: 400
         y: 256
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -679,20 +679,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c162186d05b67264dbf395abc02ce088
-      internalID: -2708577084381536666
+      spriteID: f30d3f0b343c7f4479537fb9b2cf089a
+      internalID: 951201232
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Iron Axe_26
+      name: Female Hand Iron Axe_26
       rect:
         serializedVersion: 2
         x: 480
         y: 256
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -701,20 +701,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: be38758367e582549a5566bb408eb50c
-      internalID: -7556259560361385549
+      spriteID: e167e16136e72134da0cc99bf1b86713
+      internalID: 681429251
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Iron Axe_27
+      name: Female Hand Iron Axe_27
       rect:
         serializedVersion: 2
         x: 560
         y: 256
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -723,20 +723,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 749876498fc9f2b4e931f23311d3abd2
-      internalID: -2842028567348883931
+      spriteID: 8f610a88bbd98d747a4970b3574287de
+      internalID: -956386283
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Iron Axe_30
+      name: Female Hand Iron Axe_30
       rect:
         serializedVersion: 2
         x: 0
         y: 192
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -745,20 +745,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6288411778bf0bc4b8df20c02d78eae6
-      internalID: 1149612625144891151
+      spriteID: 2d674d33c52d7da4294582e3777a74b1
+      internalID: 1497072779
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Iron Axe_31
+      name: Female Hand Iron Axe_31
       rect:
         serializedVersion: 2
         x: 80
         y: 192
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -767,20 +767,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a6b79844b43ba594584ce835b53a5bad
-      internalID: -2238581736654234492
+      spriteID: 0b9d9ebd94e020d4db85e5dec7d79186
+      internalID: 1476498436
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Iron Axe_32
+      name: Female Hand Iron Axe_32
       rect:
         serializedVersion: 2
         x: 160
         y: 192
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -789,20 +789,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7b42e020e59893f4e8227278bf9d4c1b
-      internalID: -729851762074128415
+      spriteID: f7efa94de0a8ea14c9d7d77b7be8dab7
+      internalID: -1473737674
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Iron Axe_33
+      name: Female Hand Iron Axe_33
       rect:
         serializedVersion: 2
         x: 240
         y: 192
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -811,20 +811,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9255641479b64eb4789e79082d326924
-      internalID: -3274595845547272629
+      spriteID: 0b60d6a0d38fd03498e833622bc082b6
+      internalID: -737085102
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Iron Axe_40
+      name: Female Hand Iron Axe_40
       rect:
         serializedVersion: 2
         x: 0
         y: 128
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -833,20 +833,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 11425286c7326ea4da6c1246a69ca210
-      internalID: -8405397922586567953
+      spriteID: e5b8d285b364ee44ab29717b9f32ea75
+      internalID: 1942231038
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Iron Axe_41
+      name: Female Hand Iron Axe_41
       rect:
         serializedVersion: 2
         x: 80
         y: 128
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -855,20 +855,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e53293ccbfbf0e548b00b36e4a5739e1
-      internalID: 3920633850026041455
+      spriteID: 1db49ca4c7ac08245b84ff2a71998a17
+      internalID: 1406606575
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Iron Axe_42
+      name: Female Hand Iron Axe_42
       rect:
         serializedVersion: 2
         x: 160
         y: 128
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -877,20 +877,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 47c2bf166c1ae0340bf4fb7b0aeab704
-      internalID: -7888677084979585821
+      spriteID: e73db23aeea938f4888e2b379d71227f
+      internalID: -57528007
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Iron Axe_43
+      name: Female Hand Iron Axe_43
       rect:
         serializedVersion: 2
         x: 240
         y: 128
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -899,20 +899,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 99c92a9514c7ecb4099a2013015c0e02
-      internalID: 1971848581627664678
+      spriteID: c7599b962ef910845ae21d7a70e94f82
+      internalID: 899999056
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Iron Axe_50
+      name: Female Hand Iron Axe_50
       rect:
         serializedVersion: 2
         x: 0
         y: 64
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -921,20 +921,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bda7ffc4aecba2f45a909c98c965d83d
-      internalID: 1649863000
+      spriteID: 177e35886d6d20e4a8640be76de6ab26
+      internalID: 1058334711
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Iron Axe_51
+      name: Female Hand Iron Axe_51
       rect:
         serializedVersion: 2
         x: 80
         y: 64
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -943,20 +943,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0a73c1c34cdac1045b75155c76bf300a
-      internalID: 914696266
+      spriteID: 92b6e03182095f245bd3640153b1ab54
+      internalID: 1426756489
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Iron Axe_52
+      name: Female Hand Iron Axe_52
       rect:
         serializedVersion: 2
         x: 160
         y: 64
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -965,20 +965,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 434dd885e61fc9a4199ead44da8667fe
-      internalID: 968930970
+      spriteID: 0b126cd6c52f948409fd0e26010d9a47
+      internalID: -479510996
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Iron Axe_53
+      name: Female Hand Iron Axe_53
       rect:
         serializedVersion: 2
         x: 240
         y: 64
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -987,20 +987,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a59eec6317c4516488767e3b99f66e62
-      internalID: 355660634
+      spriteID: 05c2dbd6f3fbc184e95907196abaa99e
+      internalID: 1161319551
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Iron Axe_54
+      name: Female Hand Iron Axe_54
       rect:
         serializedVersion: 2
         x: 320
         y: 64
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1009,20 +1009,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 22ced537c207d0849b01db1048d949bf
-      internalID: 1287817727
+      spriteID: 91744cef121820642bcd173d8c8bbe50
+      internalID: 709962534
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Iron Axe_55
+      name: Female Hand Iron Axe_55
       rect:
         serializedVersion: 2
         x: 400
         y: 64
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1031,20 +1031,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a66e36ffc61ce084ba3690d68b03c71b
-      internalID: 32210753
+      spriteID: f68d6d87509e466458ef33aa65c9db06
+      internalID: -2120334663
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Iron Axe_60
+      name: Female Hand Iron Axe_60
       rect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1053,20 +1053,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1aab6163b60f6b24fb6dc61bffb63ff0
-      internalID: -685773438
+      spriteID: ab97c31951ff9924da15030f1cd155c9
+      internalID: 1251082207
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Iron Axe_61
+      name: Female Hand Iron Axe_61
       rect:
         serializedVersion: 2
         x: 80
         y: 0
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1075,20 +1075,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 979ab41bf3e7a4b4b88aa835859baa03
-      internalID: 981319517
+      spriteID: f4b0beedf7018da4f9c11219e9b329e0
+      internalID: 1375391785
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Iron Axe_62
+      name: Female Hand Iron Axe_62
       rect:
         serializedVersion: 2
         x: 160
         y: 0
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1097,20 +1097,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 16971c394cc6dcd45b656d25693ff8d3
-      internalID: -1396506442
+      spriteID: 6f9bea6847a8da343b9c5222a185b38f
+      internalID: 1540262375
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Iron Axe_63
+      name: Female Hand Iron Axe_63
       rect:
         serializedVersion: 2
         x: 240
         y: 0
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1119,20 +1119,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 197e1d2781ecba24e97879923bad348d
-      internalID: 682568608
+      spriteID: 68f68fd64b029784280d085799ba8174
+      internalID: 930574441
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Iron Axe_64
+      name: Female Hand Iron Axe_64
       rect:
         serializedVersion: 2
         x: 320
         y: 0
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1141,20 +1141,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4a85dd8f13abb1f4a9674e02f444a907
-      internalID: -14166736
+      spriteID: ed7bd0218e8ec384da4c320086aaf7ce
+      internalID: 40131799
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Iron Axe_65
+      name: Female Hand Iron Axe_65
       rect:
         serializedVersion: 2
         x: 400
         y: 0
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1163,20 +1163,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8d630c6d8f720384cb34f3a331fc5ad2
-      internalID: -134295393
+      spriteID: 7cb5f91e35df7d04a83546aad044f2b1
+      internalID: -1698297289
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Iron Axe_66
+      name: Female Hand Iron Axe_66
       rect:
         serializedVersion: 2
         x: 480
         y: 0
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1185,20 +1185,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b5d5556ccb831a54a87c903b4a3bb285
-      internalID: -1861522483
+      spriteID: 34f5c2adcf26b0149a67acf97e767bbd
+      internalID: 1615578649
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Iron Axe_67
+      name: Female Hand Iron Axe_67
       rect:
         serializedVersion: 2
         x: 560
         y: 0
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1207,20 +1207,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 15984a3318e50934fb3f753f4c61392d
-      internalID: 1824677363
+      spriteID: eca7bb36823cc32459c74dd36feffefa
+      internalID: -1850194623
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Iron Axe_68
+      name: Female Hand Iron Axe_68
       rect:
         serializedVersion: 2
         x: 640
         y: 0
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1229,20 +1229,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d8e1c258c46407642a7baca2eb6f3b07
-      internalID: 875663257
+      spriteID: 4b9b66f1bda3914479c82cf2d15783a1
+      internalID: 1823180681
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Iron Axe_69
+      name: Female Hand Iron Axe_69
       rect:
         serializedVersion: 2
         x: 720
         y: 0
         width: 80
-        height: 64
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1251,8 +1251,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3cc2772fa94da0e4683492e2dea15762
-      internalID: -1923844034
+      spriteID: 6131f6a38cd13644f88cb697909ff4ed
+      internalID: -351850092
       vertices: []
       indices: 
       edges: []
