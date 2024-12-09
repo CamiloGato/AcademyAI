@@ -12,5 +12,10 @@ namespace Systems.UI.Panels
         {
 
         }
+
+        public void SetDialog()
+        {
+
+        }
     }
 }

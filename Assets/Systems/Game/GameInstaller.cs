@@ -8,13 +8,16 @@ namespace Systems.Game
     public class GameInstaller : MonoBehaviour
     {
         [SerializeField] private HudPanel hudPanel;
-        [SerializeField] private SpriteComposeRenderer playerComposeRenderer;
+        [SerializeField] private SpriteComposeRenderer[] playerComposeRenderer;
 
         private void Start()
         {
             hudPanel.OpenPanel();
 
-            playerComposeRenderer.SetAnimation("Idle");
+            foreach (SpriteComposeRenderer spriteComposeRenderer in playerComposeRenderer)
+            {
+                spriteComposeRenderer.SetAnimation("Idle");
+            }
 
         }
     }
