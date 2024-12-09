@@ -80,5 +80,10 @@ namespace Tools.SpriteDynamicRenderer.Runtime
         {
             frameRate = frames;
         }
+
+        public Texture2D GetTexture()
+        {
+            return spriteData.DefaultSprite.texture;
+        }
     }
 }

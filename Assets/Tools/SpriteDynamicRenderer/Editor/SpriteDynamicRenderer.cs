@@ -31,16 +31,18 @@ namespace Tools.SpriteDynamicRenderer.Editor
 
         private void OnEnable()
         {
-            if (!_spriteSheets)
-            {
-                _spriteSheets = CreateInstance<Texture2DList>();
-            }
+            InitializeData();
+            InitializeSerializedObjects();
+        }
 
-            if (!_animationClipData)
-            {
-                _animationClipData = CreateInstance<AnimationListClipData>();
-            }
+        private void InitializeData()
+        {
+            _spriteSheets ??= CreateInstance<Texture2DList>();
+            _animationClipData ??= CreateInstance<AnimationListClipData>();
+        }
 
+        private void InitializeSerializedObjects()
+        {
             _spriteSheetsSerializedObject = new SerializedObject(_spriteSheets);
             _spriteSheetsProperty = _spriteSheetsSerializedObject.FindProperty(nameof(Texture2DList.elements));
 
@@ -50,22 +52,19 @@ namespace Tools.SpriteDynamicRenderer.Editor
 
         private void OnGUI()
         {
-            _spriteSheetInfo = (SpriteSheetInfo)EditorGUILayout.ObjectField("Sprite Sheet Info", _spriteSheetInfo, typeof(SpriteSheetInfo), false);
+            DrawSpriteSheetInfoField();
 
             if (!_spriteSheetInfo)
             {
-                EditorGUILayout.HelpBox("Please select a Sprite Sheet Info", MessageType.Warning);
+                DisplayWarning("Please select a Sprite Sheet Info.");
                 return;
             }
 
-            _spriteSheetsSerializedObject.Update();
-            EditorGUILayout.LabelField("Sprite Sheets", EditorStyles.boldLabel);
-            EditorGUILayout.PropertyField(_spriteSheetsProperty, true);
-            _spriteSheetsSerializedObject.ApplyModifiedProperties();
+            DrawSpriteSheetsSection();
 
-            if(_spriteSheets.Count <= 0)
+            if (_spriteSheets.Count <= 0)
             {
-                EditorGUILayout.HelpBox("Please add at least one Sprite Sheet", MessageType.Warning);
+                DisplayWarning("Please add at least one Sprite Sheet.");
                 return;
             }
 
@@ -74,14 +73,36 @@ namespace Tools.SpriteDynamicRenderer.Editor
                 GenerateAnimationClipFromData();
             }
 
-            _animationClipDataSerializedObject.Update();
-            EditorGUILayout.PropertyField(_animationClipDataProperty, true);
-            _animationClipDataSerializedObject.ApplyModifiedProperties();
+            DrawAnimationClipDataSection();
 
             if (GUILayout.Button("Create Render Data for Dynamic Sprite Renderer"))
             {
                 CreateRenderDataWithProgressBar();
             }
+        }
+
+        private void DrawSpriteSheetInfoField()
+        {
+            _spriteSheetInfo = (SpriteSheetInfo)EditorGUILayout.ObjectField("Sprite Sheet Info", _spriteSheetInfo, typeof(SpriteSheetInfo), false);
+            EditorGUILayout.Space();
+        }
+
+        private void DrawSpriteSheetsSection()
+        {
+            _spriteSheetsSerializedObject.Update();
+            EditorGUILayout.LabelField("Sprite Sheets", EditorStyles.boldLabel);
+            EditorGUILayout.PropertyField(_spriteSheetsProperty, true);
+            _spriteSheetsSerializedObject.ApplyModifiedProperties();
+            EditorGUILayout.Space();
+        }
+
+        private void DrawAnimationClipDataSection()
+        {
+            _animationClipDataSerializedObject.Update();
+            EditorGUILayout.LabelField("Animation Clips", EditorStyles.boldLabel);
+            EditorGUILayout.PropertyField(_animationClipDataProperty, true);
+            _animationClipDataSerializedObject.ApplyModifiedProperties();
+            EditorGUILayout.Space();
         }
 
         private void GenerateAnimationClipFromData()
@@ -90,6 +111,7 @@ namespace Tools.SpriteDynamicRenderer.Editor
 
             int currentElement = 0;
             int currentRow = 0;
+
             foreach (int element in _spriteSheetInfo.elements)
             {
                 AnimationClipData clipData = new AnimationClipData
@@ -109,29 +131,19 @@ namespace Tools.SpriteDynamicRenderer.Editor
         {
             try
             {
+                string path = EditorUtility.SaveFilePanelInProject("Save Render Data", $"Render Data", "asset", "Save Render Data");
+                path = path.Substring(0, path.LastIndexOf('/'));
+
+                if (string.IsNullOrEmpty(path)) return;
+
                 int totalSheets = _spriteSheets.elements.Count;
                 int currentSheetIndex = 0;
-
-                string path = EditorUtility.SaveFilePanelInProject("Save Render Data", $"Render Data", "asset", "Save Render Data");
 
                 foreach (Texture2D spriteSheet in _spriteSheets.elements)
                 {
                     currentSheetIndex++;
-
-                    EditorUtility.DisplayProgressBar(
-                        "Creating Sprites Render Data",
-                        $"Processing {spriteSheet.name} ({currentSheetIndex}/{totalSheets})",
-                        (float)currentSheetIndex / totalSheets
-                    );
-
-                    string renderDataFolder = path.Substring(0, path.LastIndexOf('/'));
-
-                    if (!AssetDatabase.IsValidFolder(renderDataFolder))
-                    {
-                        AssetDatabase.CreateFolder("Assets", renderDataFolder);
-                    }
-
-                    CreateRenderData(spriteSheet, renderDataFolder);
+                    UpdateProgressBar(currentSheetIndex, totalSheets, spriteSheet.name);
+                    CreateRenderData(spriteSheet, path);
                 }
             }
             finally
@@ -147,14 +159,9 @@ namespace Tools.SpriteDynamicRenderer.Editor
                 float progress = 0f;
                 float progressStep = 1f / _animationClipData.elements.Count;
 
-                if (string.IsNullOrEmpty(path))
-                {
-                    throw new System.Exception("Path is empty");
-                }
-
                 string filePath = $"{path}/{spriteSheet.name}.asset";
 
-                SpriteDynamicRendererData spriteDynamicRendererData = CreateInstance<SpriteDynamicRendererData>();
+                var spriteDynamicRendererData = CreateInstance<SpriteDynamicRendererData>();
 
                 foreach (AnimationClipData clipData in _animationClipData.elements)
                 {
@@ -168,13 +175,22 @@ namespace Tools.SpriteDynamicRenderer.Editor
                 AssetDatabase.CreateAsset(spriteDynamicRendererData, filePath);
                 AssetDatabase.SaveAssets();
                 AssetDatabase.Refresh();
-
-                EditorUtility.ClearProgressBar();
             }
             finally
             {
                 EditorUtility.ClearProgressBar();
             }
+        }
+
+        private void UpdateProgressBar(int currentIndex, int total, string sheetName)
+        {
+            float progress = (float)currentIndex / total;
+            EditorUtility.DisplayProgressBar("Creating Sprites Render Data", $"Processing {sheetName} ({currentIndex}/{total})", progress);
+        }
+
+        private void DisplayWarning(string message)
+        {
+            EditorGUILayout.HelpBox(message, MessageType.Warning);
         }
     }
 }

@@ -1,0 +1,39 @@
+﻿#pragma kernel combine_sprites
+
+// Texture Input
+Texture2D<float4> input_textures[10];
+RWTexture2D<float4> output_texture;
+
+// Dimensions
+uint width;
+uint height;
+
+// Number Layers to Combine
+uint num_layers;
+
+[numthreads(8, 8, 1)]
+void combine_sprites(uint3 id : SV_DispatchThreadID)
+{
+    // Ensure we are within bounds
+    if (id.x >= width || id.y >= height) return;
+
+    float4 final_color = float4(0, 0, 0, 0);
+
+    // Combine layers (unrolled loop for Direct3D11 compatibility)
+    for (uint layer = 0; layer <= 10; layer++)
+    {
+        if (layer >= num_layers) break;
+
+        float4 layer_color = input_textures[layer][id.xy];
+
+        // Convert sRGB to linear
+        layer_color.rgb = max(layer_color.rgb, 0.0);
+
+        final_color.rgb = lerp(final_color.rgb, layer_color.rgb, layer_color.a);
+        final_color.a = saturate(final_color.a + layer_color.a * (1.0 - final_color.a));
+    }
+
+    final_color.rgb = pow(max(final_color.rgb, 0.0), 1.0 / 2.2);
+
+    output_texture[id.xy] = final_color;
+}

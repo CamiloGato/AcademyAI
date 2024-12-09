@@ -25,19 +25,34 @@ namespace Tools.SpriteParallaxBackground.Editor
         {
             serializedObject.Update();
 
-            EditorGUILayout.PropertyField(_dataProperty, new GUIContent("Parallax Background Data"));
+            DrawParallaxDataField();
             ParallaxBackgroundData parallaxData = _dataProperty.objectReferenceValue as ParallaxBackgroundData;
 
             if (!parallaxData)
             {
-                EditorGUILayout.HelpBox("Debes asignar un ParallaxBackgroundData para configurar el Parallax.", MessageType.Error);
+                DisplayError("You must assign a ParallaxBackgroundData to configure the parallax.");
                 serializedObject.ApplyModifiedProperties();
                 return;
             }
 
             EnsureLayersMatch(parallaxData);
 
+            DrawLayersSection(parallaxData);
+            DrawCameraSettings();
+
+            serializedObject.ApplyModifiedProperties();
+        }
+
+        private void DrawParallaxDataField()
+        {
+            EditorGUILayout.PropertyField(_dataProperty, new GUIContent("Parallax Background Data"));
+            EditorGUILayout.Space();
+        }
+
+        private void DrawLayersSection(ParallaxBackgroundData parallaxData)
+        {
             EditorGUILayout.LabelField("Parallax Layers", EditorStyles.boldLabel);
+            EditorGUILayout.HelpBox("Assign Transforms for each layer to configure the parallax behavior.", MessageType.Info);
 
             for (int i = 0; i < parallaxData.layers.Length; i++)
             {
@@ -51,14 +66,18 @@ namespace Tools.SpriteParallaxBackground.Editor
 
             if (AreAllLayersAssigned())
             {
-                EditorGUILayout.HelpBox("All layers are assigned.", MessageType.Info);
+                EditorGUILayout.HelpBox("All layers are properly assigned.", MessageType.Info);
             }
             else
             {
-                EditorGUILayout.HelpBox("Not all layers are assigned.", MessageType.Warning);
+                DisplayWarning("Some layers are missing. Please assign all layers.");
             }
 
             EditorGUILayout.Space();
+        }
+
+        private void DrawCameraSettings()
+        {
             EditorGUILayout.LabelField("Camera Settings", EditorStyles.boldLabel);
 
             EditorGUILayout.PropertyField(_useMainCamera, new GUIContent("Use Main Camera"));
@@ -66,14 +85,14 @@ namespace Tools.SpriteParallaxBackground.Editor
             if (!_useMainCamera.boolValue)
             {
                 EditorGUILayout.PropertyField(_mainCameraProperty, new GUIContent("Camera"));
+
+                if (!_mainCameraProperty.objectReferenceValue)
+                {
+                    DisplayWarning("Please assign a camera.");
+                }
             }
 
-            if (!_useMainCamera.boolValue && !_mainCameraProperty.objectReferenceValue)
-            {
-                EditorGUILayout.HelpBox("Please assign a camera.", MessageType.Warning);
-            }
-
-            serializedObject.ApplyModifiedProperties();
+            EditorGUILayout.Space();
         }
 
         private void EnsureLayersMatch(ParallaxBackgroundData parallaxData)
@@ -95,6 +114,16 @@ namespace Tools.SpriteParallaxBackground.Editor
                 }
             }
             return true;
+        }
+
+        private void DisplayError(string message)
+        {
+            EditorGUILayout.HelpBox(message, MessageType.Error);
+        }
+
+        private void DisplayWarning(string message)
+        {
+            EditorGUILayout.HelpBox(message, MessageType.Warning);
         }
     }
 }

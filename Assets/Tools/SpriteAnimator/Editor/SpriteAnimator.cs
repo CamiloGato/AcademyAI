@@ -1,5 +1,4 @@
 using System;
-using System.Linq;
 using Tools.Extension;
 using Tools.Objects;
 using Tools.Objects.Wrapper;
@@ -41,67 +40,70 @@ namespace Tools.SpriteAnimator.Editor
 
         private void OnEnable()
         {
-            if (!_animationClipData)
-            {
-                _animationClipData = CreateInstance<AnimationListClipData>();
-            }
+            InitializeData();
+            InitializeSerializedObjects();
+        }
 
+        private void InitializeData()
+        {
+            _animationClipData ??= CreateInstance<AnimationListClipData>();
+            _spriteSheets ??= CreateInstance<Texture2DList>();
+        }
+
+        private void InitializeSerializedObjects()
+        {
             _animationClipDataSerializedObject = new SerializedObject(_animationClipData);
             _animationClipDataProperty = _animationClipDataSerializedObject.FindProperty(nameof(AnimationListClipData.elements));
 
-            if (!_spriteSheets)
-            {
-                _spriteSheets = CreateInstance<Texture2DList>();
-            }
-
             _spriteSheetsSerializedObject = new SerializedObject(_spriteSheets);
             _spriteSheetsProperty = _spriteSheetsSerializedObject.FindProperty(nameof(Texture2DList.elements));
-
         }
 
         private void OnGUI()
         {
-            _spriteSheetInfo = (SpriteSheetInfo)EditorGUILayout.ObjectField("Sprite Sheet Info", _spriteSheetInfo, typeof(SpriteSheetInfo), false);
-
-            _spriteSheetsSerializedObject.Update();
-            EditorGUILayout.PropertyField(_spriteSheetsProperty, new GUIContent("Sprite Sheets"), true);
-            _spriteSheetsSerializedObject.ApplyModifiedProperties();
+            DrawSpriteSheetInfoField();
+            DrawSpriteSheetsSection();
 
             if (_spriteSheetInfo)
             {
-                EditorGUILayout.HelpBox("If you have a SpriteSheetInfo, you can use it to create the animation clip.", MessageType.Info);
+                EditorGUILayout.HelpBox("Use SpriteSheetInfo to generate animation clips.", MessageType.Info);
 
-                if (GUILayout.Button("Generate Animation Clip from Data"))
+                if (GUILayout.Button("Generate Animation Clip Data"))
                 {
                     GenerateAnimationClipFromData();
                 }
-
             }
 
-            _animationClipDataSerializedObject.Update();
-            EditorGUILayout.PropertyField(_animationClipDataProperty, true);
-            _animationClipDataSerializedObject.ApplyModifiedProperties();
+            DrawAnimationClipDataSection();
 
-            Texture2D spriteSheet = _spriteSheets.elements.FirstOrDefault();
-            if (_spriteSheets.Count <= 0 || !spriteSheet)
-            {
-                EditorGUILayout.HelpBox("Please assign a sprite sheet.", MessageType.Warning);
-                return;
-            }
-
-            foreach (AnimationClipData clipData in _animationClipData.elements)
-            {
-                if (clipData.startIndex < 0 || clipData.endIndex >= spriteSheet.width * spriteSheet.height || clipData.startIndex > clipData.endIndex)
-                {
-                    EditorGUILayout.HelpBox($"Invalid start and end indexes on {clipData.name}. Or NULL Sprite Sheet", MessageType.Warning);
-                    return;
-                }
-            }
-
-            if (GUILayout.Button("Create Animation Clip"))
+            if (GUILayout.Button("Create Animation Clips"))
             {
                 CreateAnimationsWithProgressBar();
             }
+        }
+
+        private void DrawSpriteSheetInfoField()
+        {
+            _spriteSheetInfo = (SpriteSheetInfo)EditorGUILayout.ObjectField("Sprite Sheet Info", _spriteSheetInfo, typeof(SpriteSheetInfo), false);
+            EditorGUILayout.Space();
+        }
+
+        private void DrawSpriteSheetsSection()
+        {
+            _spriteSheetsSerializedObject.Update();
+            EditorGUILayout.LabelField("Sprite Sheets", EditorStyles.boldLabel);
+            EditorGUILayout.PropertyField(_spriteSheetsProperty, true);
+            _spriteSheetsSerializedObject.ApplyModifiedProperties();
+            EditorGUILayout.Space();
+        }
+
+        private void DrawAnimationClipDataSection()
+        {
+            _animationClipDataSerializedObject.Update();
+            EditorGUILayout.LabelField("Animation Clips", EditorStyles.boldLabel);
+            EditorGUILayout.PropertyField(_animationClipDataProperty, true);
+            _animationClipDataSerializedObject.ApplyModifiedProperties();
+            EditorGUILayout.Space();
         }
 
         private void GenerateAnimationClipFromData()
@@ -110,6 +112,7 @@ namespace Tools.SpriteAnimator.Editor
 
             int currentElement = 0;
             int currentRow = 0;
+
             foreach (int element in _spriteSheetInfo.elements)
             {
                 AnimationClipData clipData = new AnimationClipData
@@ -117,12 +120,15 @@ namespace Tools.SpriteAnimator.Editor
                     name = $"AnimationClip {++currentRow}",
                     startIndex = currentElement,
                     endIndex = currentElement + (element - 1),
-                    frameRate = 12f,
+                    frameRate = 12f
                 };
 
                 currentElement += element;
                 _animationClipData.Add(clipData);
             }
+
+            _animationClipDataSerializedObject.Update();
+            _animationClipDataSerializedObject.ApplyModifiedProperties();
         }
 
         private void CreateAnimationsWithProgressBar()
@@ -132,29 +138,14 @@ namespace Tools.SpriteAnimator.Editor
                 int totalSheets = _spriteSheets.elements.Count;
                 int currentSheetIndex = 0;
 
-                string path = EditorUtility.SaveFilePanelInProject("Save Animation Clip", $"Animation Clip", "anim", "Save Animation Clip");
+                string path = EditorUtility.SaveFilePanelInProject("Save Animation Clip", "Animation Clip", "anim", "Save Animation Clip");
+                if (string.IsNullOrEmpty(path)) return;
 
                 foreach (Texture2D spriteSheet in _spriteSheets.elements)
                 {
                     currentSheetIndex++;
-
-                    EditorUtility.DisplayProgressBar(
-                        "Creating Animation Clips",
-                        $"Processing {spriteSheet.name} ({currentSheetIndex}/{totalSheets})",
-                        (float)currentSheetIndex / totalSheets
-                    );
-
-                    string animationFolder = path.Substring(0, path.LastIndexOf('/'));
-                    animationFolder += $"/{spriteSheet.name}";
-
-                    if (!AssetDatabase.IsValidFolder(animationFolder))
-                    {
-                        string parentFolder = animationFolder.Substring(0, animationFolder.LastIndexOf('/'));
-                        string newFolderName = spriteSheet.name;
-                        AssetDatabase.CreateFolder(parentFolder, newFolderName);
-                    }
-
-                    CreateAnimation(spriteSheet, animationFolder);
+                    UpdateProgressBar(currentSheetIndex, totalSheets, spriteSheet.name);
+                    CreateAnimation(spriteSheet, path);
                 }
             }
             finally
@@ -170,17 +161,15 @@ namespace Tools.SpriteAnimator.Editor
                 float progress = 0f;
                 float progressStep = 1f / _animationClipData.elements.Count;
 
-                if (string.IsNullOrEmpty(path))
-                {
-                    return;
-                }
+                string folderPath = $"{path}/{spriteSheet.name}";
+                CreateFolderIfNotExists(folderPath);
 
                 foreach (AnimationClipData clipData in _animationClipData.elements)
                 {
                     Sprite[] sprites = spriteSheet.GetSpritesFromSheet();
                     AnimationClip animationClip = sprites.CreateAnimationClip(clipData.startIndex, clipData.endIndex, clipData.frameRate);
 
-                    string filePath = $"{path}/{clipData.name}.anim";
+                    string filePath = $"{folderPath}/{clipData.name}.anim";
 
                     AssetDatabase.CreateAsset(animationClip, filePath);
                     AssetDatabase.SaveAssets();
@@ -189,12 +178,26 @@ namespace Tools.SpriteAnimator.Editor
                     progress += progressStep;
                     EditorUtility.DisplayProgressBar("Creating Animation Clips", $"Creating {clipData.name} Animation Clip", progress);
                 }
-
-                EditorUtility.ClearProgressBar();
             }
             finally
             {
                 EditorUtility.ClearProgressBar();
+            }
+        }
+
+        private void UpdateProgressBar(int currentIndex, int total, string sheetName)
+        {
+            float progress = (float)currentIndex / total;
+            EditorUtility.DisplayProgressBar("Creating Animation Clips", $"Processing {sheetName} ({currentIndex}/{total})", progress);
+        }
+
+        private void CreateFolderIfNotExists(string folderPath)
+        {
+            if (!AssetDatabase.IsValidFolder(folderPath))
+            {
+                string parentFolder = folderPath.Substring(0, folderPath.LastIndexOf('/'));
+                string newFolderName = folderPath.Substring(folderPath.LastIndexOf('/') + 1);
+                AssetDatabase.CreateFolder(parentFolder, newFolderName);
             }
         }
     }

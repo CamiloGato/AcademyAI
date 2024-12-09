@@ -19,6 +19,7 @@ namespace Tools.SpriteDynamicRenderer.Data
 
     public class SpriteDynamicRendererData : ScriptableObject
     {
+        public Sprite DefaultSprite => spriteAnimationData.Count > 0 ? spriteAnimationData[0].spriteSheets[0] : null;
         public List<SpriteAnimationData> spriteAnimationData = new List<SpriteAnimationData>();
 
         public void AddAnimation(string animationName, Sprite[] spriteSheets)

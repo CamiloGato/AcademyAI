@@ -30,16 +30,18 @@ namespace Tools.SpriteSheetCutter.Editor
 
         private void OnEnable()
         {
-            if (!_spriteSheets)
-            {
-                _spriteSheets = CreateInstance<Texture2DList>();
-            }
+            InitializeData();
+            InitializeSerializedObjects();
+        }
 
-            if (!_cutData)
-            {
-                _cutData = CreateInstance<Texture2DCutData>();
-            }
+        private void InitializeData()
+        {
+            _spriteSheets ??= CreateInstance<Texture2DList>();
+            _cutData ??= CreateInstance<Texture2DCutData>();
+        }
 
+        private void InitializeSerializedObjects()
+        {
             _spriteSheetsSerializedObject = new SerializedObject(_spriteSheets);
             _spriteSheetsProperty = _spriteSheetsSerializedObject.FindProperty(nameof(Texture2DList.elements));
 
@@ -48,44 +50,60 @@ namespace Tools.SpriteSheetCutter.Editor
 
         private void OnGUI()
         {
-            _cutDataSerializedObject.Update();
-            EditorGUILayout.LabelField("Cut Data Settings", EditorStyles.boldLabel);
-            SerializedProperty gridWidth = _cutDataSerializedObject.FindProperty(nameof(Texture2DCutData.gridWidth));
-            EditorGUILayout.PropertyField(gridWidth, new GUIContent("Grid Width"));
-            SerializedProperty gridHeight = _cutDataSerializedObject.FindProperty(nameof(Texture2DCutData.gridHeight));
-            EditorGUILayout.PropertyField(gridHeight, new GUIContent("Grid Height"));
-            SerializedProperty offsetX = _cutDataSerializedObject.FindProperty(nameof(Texture2DCutData.offsetX));
-            EditorGUILayout.PropertyField(offsetX, new GUIContent("Offset X"));
-            SerializedProperty offsetY = _cutDataSerializedObject.FindProperty(nameof(Texture2DCutData.offsetY));
-            EditorGUILayout.PropertyField(offsetY, new GUIContent("Offset Y"));
-            SerializedProperty paddingX = _cutDataSerializedObject.FindProperty(nameof(Texture2DCutData.paddingX));
-            EditorGUILayout.PropertyField(paddingX, new GUIContent("Padding X"));
-            SerializedProperty paddingY = _cutDataSerializedObject.FindProperty(nameof(Texture2DCutData.paddingY));
-            EditorGUILayout.PropertyField(paddingY, new GUIContent("Padding Y"));
-            SerializedProperty pixelsPerUnit = _cutDataSerializedObject.FindProperty(nameof(Texture2DCutData.pixelsPerUnit));
-            EditorGUILayout.PropertyField(pixelsPerUnit, new GUIContent("Pixels Per Unit"));
-            _cutDataSerializedObject.ApplyModifiedProperties();
+            DrawCutDataFields();
+            DrawSpriteSheetInfoField();
+            DrawSpriteSheetsField();
+            DrawButtons();
+        }
 
+        private void DrawCutDataFields()
+        {
+            _cutDataSerializedObject.Update();
+
+            EditorGUILayout.PropertyField(_cutDataSerializedObject.FindProperty(nameof(Texture2DCutData.gridWidth)));
+            EditorGUILayout.PropertyField(_cutDataSerializedObject.FindProperty(nameof(Texture2DCutData.gridHeight)));
+            EditorGUILayout.PropertyField(_cutDataSerializedObject.FindProperty(nameof(Texture2DCutData.offsetX)));
+            EditorGUILayout.PropertyField(_cutDataSerializedObject.FindProperty(nameof(Texture2DCutData.offsetY)));
+            EditorGUILayout.PropertyField(_cutDataSerializedObject.FindProperty(nameof(Texture2DCutData.paddingX)));
+            EditorGUILayout.PropertyField(_cutDataSerializedObject.FindProperty(nameof(Texture2DCutData.paddingY)));
+            EditorGUILayout.PropertyField(_cutDataSerializedObject.FindProperty(nameof(Texture2DCutData.pixelsPerUnit)));
+
+            _cutDataSerializedObject.ApplyModifiedProperties();
+        }
+
+        private void DrawSpriteSheetInfoField()
+        {
             _spriteSheetInfo = (SpriteSheetInfo)EditorGUILayout.ObjectField("Sprite Sheet Info", _spriteSheetInfo, typeof(SpriteSheetInfo), false);
 
             if (GUILayout.Button("Get Sprite Sheet Info"))
             {
-                if (_spriteSheetInfo)
-                {
-                    _cutDataSerializedObject.Update();
-                    _cutData = Texture2DCutDataMapper.ToEntity(_spriteSheetInfo.texture2DCutDataDto);
-                    _cutDataSerializedObject.ApplyModifiedProperties();
-                }
-                else
-                {
-                    EditorUtility.DisplayDialog("Error", "Sprite Sheet Info is not assigned.", "OK");
-                }
+                UpdateCutDataFromSpriteSheetInfo();
+            }
+        }
+
+        private void UpdateCutDataFromSpriteSheetInfo()
+        {
+            if (!_spriteSheetInfo)
+            {
+                EditorUtility.DisplayDialog("Error", "Sprite Sheet Info is not assigned.", "OK");
+                return;
             }
 
+            _cutDataSerializedObject.Update();
+            _cutData = Texture2DCutDataMapper.ToEntity(_spriteSheetInfo.texture2DCutDataDto);
+            InitializeSerializedObjects();
+            _cutDataSerializedObject.ApplyModifiedProperties();
+        }
+
+        private void DrawSpriteSheetsField()
+        {
             _spriteSheetsSerializedObject.Update();
             EditorGUILayout.PropertyField(_spriteSheetsProperty, new GUIContent("Sprite Sheets"), true);
             _spriteSheetsSerializedObject.ApplyModifiedProperties();
+        }
 
+        private void DrawButtons()
+        {
             if (GUILayout.Button("Cut Sprites"))
             {
                 CutSpritesWithProgress();
@@ -93,23 +111,29 @@ namespace Tools.SpriteSheetCutter.Editor
 
             if (GUILayout.Button("Create Sprite Sheet Info"))
             {
-                string path = EditorUtility.SaveFilePanelInProject("Save Sprite Sheet Info", "SpriteSheetInfo", "asset", "Save Sprite Sheet Info");
-                if (!string.IsNullOrEmpty(path))
-                {
-                    _spriteSheets.elements.FirstOrDefault()?.CutSpriteSheet(_cutData);
-                    SpriteSheetInfo spriteSheetInfo = CreateInstance<SpriteSheetInfo>();
-                    spriteSheetInfo.elements = new List<int>(Texture2DExtensions.LastTotalSpritesColumns);
-                    spriteSheetInfo.texture2DCutDataDto = Texture2DCutDataMapper.ToDto(_cutData);
-                    AssetDatabase.CreateAsset(spriteSheetInfo, path);
-                    AssetDatabase.SaveAssets();
-                    AssetDatabase.Refresh();
-                }
+                CreateSpriteSheetInfo();
             }
 
             if (_spriteSheets.Count > 0)
             {
                 EditorGUILayout.HelpBox("If you create the Sprite Sheet Info, you will save the last sprite sheet.", MessageType.Info);
             }
+        }
+
+        private void CreateSpriteSheetInfo()
+        {
+            string path = EditorUtility.SaveFilePanelInProject("Save Sprite Sheet Info", "SpriteSheetInfo", "asset", "Save Sprite Sheet Info");
+            if (string.IsNullOrEmpty(path)) return;
+
+            _spriteSheets.elements.FirstOrDefault()?.CutSpriteSheet(_cutData);
+
+            SpriteSheetInfo spriteSheetInfo = CreateInstance<SpriteSheetInfo>();
+            spriteSheetInfo.elements = new List<int>(Texture2DExtensions.LastTotalSpritesColumns);
+            spriteSheetInfo.texture2DCutDataDto = Texture2DCutDataMapper.ToDto(_cutData);
+
+            AssetDatabase.CreateAsset(spriteSheetInfo, path);
+            AssetDatabase.SaveAssets();
+            AssetDatabase.Refresh();
         }
 
         private void CutSpritesWithProgress()
@@ -122,30 +146,34 @@ namespace Tools.SpriteSheetCutter.Editor
                 foreach (Texture2D spriteSheet in _spriteSheets.elements)
                 {
                     currentSheetIndex++;
+                    UpdateProgressBar(currentSheetIndex, totalSheets, spriteSheet.name);
 
-                    EditorUtility.DisplayProgressBar(
-                        "Cutting Sprites",
-                        $"Processing {spriteSheet.name} ({currentSheetIndex}/{totalSheets})",
-                        (float)currentSheetIndex / totalSheets
-                    );
+                    ConfigureSpriteTexture(spriteSheet);
 
-                    spriteSheet.SetReadAndWrite(true);
-                    spriteSheet.SetTextureType(TextureImporterType.Sprite);
-                    spriteSheet.SetSpriteImporterMode(SpriteImportMode.Multiple);
-                    spriteSheet.SetFilterMode(FilterMode.Point, _cutData.pixelsPerUnit);
-
-                    if(!spriteSheet.CutSpriteSheet(_cutData))
+                    if (!spriteSheet.CutSpriteSheet(_cutData))
                     {
-                        return;
+                        break;
                     }
                 }
-
-                EditorUtility.ClearProgressBar();
             }
             finally
             {
                 EditorUtility.ClearProgressBar();
             }
+        }
+
+        private void UpdateProgressBar(int currentIndex, int total, string sheetName)
+        {
+            float progress = (float)currentIndex / total;
+            EditorUtility.DisplayProgressBar("Cutting Sprites", $"Processing {sheetName} ({currentIndex}/{total})", progress);
+        }
+
+        private void ConfigureSpriteTexture(Texture2D spriteSheet)
+        {
+            spriteSheet.SetReadAndWrite(true);
+            spriteSheet.SetTextureType(TextureImporterType.Sprite);
+            spriteSheet.SetSpriteImporterMode(SpriteImportMode.Multiple);
+            spriteSheet.SetFilterMode(FilterMode.Point, _cutData.pixelsPerUnit);
         }
     }
 }
