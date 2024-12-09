@@ -63,11 +63,7 @@ namespace Tools.SpriteParallaxBackground.Editor
 
             EditorGUILayout.PropertyField(_useMainCamera, new GUIContent("Use Main Camera"));
 
-            if (_useMainCamera.boolValue)
-            {
-                _mainCameraProperty.objectReferenceValue = null;
-            }
-            else
+            if (!_useMainCamera.boolValue)
             {
                 EditorGUILayout.PropertyField(_mainCameraProperty, new GUIContent("Camera"));
             }

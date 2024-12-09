@@ -13,6 +13,7 @@ namespace Tools.Extension
         public int offsetY;
         public int paddingX;
         public int paddingY;
+        public int pixelsPerUnit;
     }
 
     public static class Texture2DExtensions
@@ -126,7 +127,7 @@ namespace Tools.Extension
             textureImporter.SaveAndReimport();
         }
 
-        public static void SetFilterMode(this Texture2D spriteSheet, FilterMode filterMode)
+        public static void SetFilterMode(this Texture2D spriteSheet, FilterMode filterMode, int pixelsPerUnit = 100)
         {
             string path = AssetDatabase.GetAssetPath(spriteSheet);
             TextureImporter textureImporter = AssetImporter.GetAtPath(path) as TextureImporter;
@@ -134,6 +135,7 @@ namespace Tools.Extension
             if (!textureImporter) return;
 
             textureImporter.filterMode = filterMode;
+            textureImporter.spritePixelsPerUnit = pixelsPerUnit;
             textureImporter.SaveAndReimport();
         }
 
@@ -164,7 +166,7 @@ namespace Tools.Extension
             int length = spriteSheet.GetSpritesFromSheet().Length;
             if (endIndex == length)
             {
-                Debug.LogWarning($"End index is greater than the total number of sprites on {spriteSheet.name}. Given : {startIndex} TO {endIndex} - Total: {length} But the last sprite will be added as EMPTY.");
+                // Debug.LogWarning($"End index is greater than the total number of sprites on {spriteSheet.name}. Given : {startIndex} TO {endIndex} - Total: {length} But the last sprite will be added as EMPTY.");
                 List<Sprite> sprites = new List<Sprite>(GetSpritesFromSheet(spriteSheet)).GetRange(startIndex, length - startIndex);
                 sprites.Add(sprites[^1]);
                 return sprites;
@@ -172,7 +174,7 @@ namespace Tools.Extension
 
             if (endIndex > length - 1)
             {
-                Debug.LogError($"End index is greater than the total number of sprites on {spriteSheet.name}. Given : {startIndex} TO {endIndex} - Total: {length}");
+                // Debug.LogError($"End index is greater than the total number of sprites on {spriteSheet.name}. Given : {startIndex} TO {endIndex} - Total: {length}");
                 return null;
             }
 

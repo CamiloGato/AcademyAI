@@ -14,6 +14,8 @@ namespace Tools.SpriteSheetCutter.Editor
         private Texture2DCutData _cutData;
         private SerializedObject _cutDataSerializedObject;
 
+        private SpriteSheetInfo _spriteSheetInfo;
+
         private Texture2DList _spriteSheets;
         private SerializedObject _spriteSheetsSerializedObject;
         private SerializedProperty _spriteSheetsProperty;
@@ -60,7 +62,25 @@ namespace Tools.SpriteSheetCutter.Editor
             EditorGUILayout.PropertyField(paddingX, new GUIContent("Padding X"));
             SerializedProperty paddingY = _cutDataSerializedObject.FindProperty(nameof(Texture2DCutData.paddingY));
             EditorGUILayout.PropertyField(paddingY, new GUIContent("Padding Y"));
+            SerializedProperty pixelsPerUnit = _cutDataSerializedObject.FindProperty(nameof(Texture2DCutData.pixelsPerUnit));
+            EditorGUILayout.PropertyField(pixelsPerUnit, new GUIContent("Pixels Per Unit"));
             _cutDataSerializedObject.ApplyModifiedProperties();
+
+            _spriteSheetInfo = (SpriteSheetInfo)EditorGUILayout.ObjectField("Sprite Sheet Info", _spriteSheetInfo, typeof(SpriteSheetInfo), false);
+
+            if (GUILayout.Button("Get Sprite Sheet Info"))
+            {
+                if (_spriteSheetInfo)
+                {
+                    _cutDataSerializedObject.Update();
+                    _cutData = Texture2DCutDataMapper.ToEntity(_spriteSheetInfo.texture2DCutDataDto);
+                    _cutDataSerializedObject.ApplyModifiedProperties();
+                }
+                else
+                {
+                    EditorUtility.DisplayDialog("Error", "Sprite Sheet Info is not assigned.", "OK");
+                }
+            }
 
             _spriteSheetsSerializedObject.Update();
             EditorGUILayout.PropertyField(_spriteSheetsProperty, new GUIContent("Sprite Sheets"), true);
@@ -112,7 +132,7 @@ namespace Tools.SpriteSheetCutter.Editor
                     spriteSheet.SetReadAndWrite(true);
                     spriteSheet.SetTextureType(TextureImporterType.Sprite);
                     spriteSheet.SetSpriteImporterMode(SpriteImportMode.Multiple);
-                    spriteSheet.SetFilterMode(FilterMode.Point);
+                    spriteSheet.SetFilterMode(FilterMode.Point, _cutData.pixelsPerUnit);
 
                     if(!spriteSheet.CutSpriteSheet(_cutData))
                     {

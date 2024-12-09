@@ -1,4 +1,3 @@
-using System;
 using Tools.SpriteParallaxBackground.Data;
 using UnityEngine;
 
@@ -13,18 +12,15 @@ namespace Tools.SpriteParallaxBackground.Runtime
 
         private Vector3 _previousCameraPosition;
 
-        private void Awake()
+        private void Start()
         {
-            if (!mainCamera)
+            if (useMainCamera)
             {
                 mainCamera = Camera.main;
             }
 
             _previousCameraPosition = mainCamera?.transform.position ?? Vector3.zero;
-        }
 
-        private void Start()
-        {
             for (int index = 0; index < data.layers.Length; index++)
             {
                 ParallaxBackgroundData.ParallaxLayer parallaxLayer = data.layers[index];

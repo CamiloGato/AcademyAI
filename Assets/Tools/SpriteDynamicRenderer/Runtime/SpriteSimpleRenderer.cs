@@ -8,7 +8,7 @@ namespace Tools.SpriteDynamicRenderer.Runtime
     public class SpriteSimpleRenderer : MonoBehaviour
     {
         [SerializeField] private SpriteDynamicRendererData spriteData;
-        [SerializeField]private string currentAnimation;
+        [SerializeField] private string currentAnimation;
         [SerializeField] private int frameRate = 12;
 
         private SpriteRenderer _spriteRenderer;
@@ -23,7 +23,7 @@ namespace Tools.SpriteDynamicRenderer.Runtime
 
         private void Update()
         {
-            if (string.IsNullOrEmpty(currentAnimation) || _currentFrames == null || _currentFrames.Count == 0)
+            if (string.IsNullOrEmpty(currentAnimation) || _currentFrames == null || _currentFrames.Count == 0 || !spriteData)
             {
                 return;
             }
@@ -35,12 +35,6 @@ namespace Tools.SpriteDynamicRenderer.Runtime
                 _currentFrameIndex = (_currentFrameIndex + 1) % _currentFrames.Count;
                 _spriteRenderer.sprite = _currentFrames[_currentFrameIndex];
             }
-        }
-
-        [ContextMenu("Test")]
-        public void Test()
-        {
-            SetAnimation(currentAnimation);
         }
 
         /// <summary>
@@ -76,6 +70,15 @@ namespace Tools.SpriteDynamicRenderer.Runtime
             currentAnimation = null;
             _currentFrames = null;
             _currentFrameIndex = 0;
+        }
+
+        /// <summary>
+        /// Set the frame rate of the animation.
+        /// </summary>
+        /// <param name="frames">The number of frames per second.</param>
+        public void SetFrameRate(int frames)
+        {
+            frameRate = frames;
         }
     }
 }
