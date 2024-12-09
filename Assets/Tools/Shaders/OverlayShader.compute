@@ -1,0 +1,31 @@
+#pragma kernel cs_main
+
+Texture2D<float4> main_texture;
+Texture2D<float4> overlay_texture;
+RWTexture2D<float4> output_texture;
+
+float4 overlay_tint;
+
+[numthreads(8, 8, 1)]
+void cs_main (uint3 id : SV_DispatchThreadID)
+{
+    // Get texture dimensions
+    uint width, height;
+    main_texture.GetDimensions(width, height);
+
+    if (id.x >= width || id.y >= height)
+    {
+        return;
+    }
+
+    float4 mainPixel = main_texture[id.xy];
+    float4 overlayPixel = overlay_texture[id.xy];
+
+    overlayPixel *= overlay_tint;
+    overlayPixel.a *= overlay_tint.a;
+
+    float alpha = overlayPixel.a;
+    float4 result = lerp(mainPixel, overlayPixel, alpha);
+
+    output_texture[id.xy] = result;
+}
