@@ -1,0 +1,75 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 747086aa1bc644f499b078d08bb194a4, type: 3}
+  m_Name: Pink Thigh-High Boots
+  m_EditorClassIdentifier: 
+  spriteAnimationDictionary:
+    _serializedList:
+    - Key: Idle
+      Value:
+      - {fileID: 5309287273330234679, guid: 31d6066b67ebcae4ab1d8ebf700a4e80, type: 3}
+      - {fileID: 4184715725333424749, guid: 31d6066b67ebcae4ab1d8ebf700a4e80, type: 3}
+      - {fileID: -1148845833775577427, guid: 31d6066b67ebcae4ab1d8ebf700a4e80, type: 3}
+      - {fileID: 8805621290783336356, guid: 31d6066b67ebcae4ab1d8ebf700a4e80, type: 3}
+      - {fileID: -747528086712650905, guid: 31d6066b67ebcae4ab1d8ebf700a4e80, type: 3}
+    - Key: Walk
+      Value:
+      - {fileID: -5579734087303920021, guid: 31d6066b67ebcae4ab1d8ebf700a4e80, type: 3}
+      - {fileID: -8571094667008007725, guid: 31d6066b67ebcae4ab1d8ebf700a4e80, type: 3}
+      - {fileID: 5797588377713940589, guid: 31d6066b67ebcae4ab1d8ebf700a4e80, type: 3}
+      - {fileID: -1377319942497199539, guid: 31d6066b67ebcae4ab1d8ebf700a4e80, type: 3}
+      - {fileID: 9154815335333668416, guid: 31d6066b67ebcae4ab1d8ebf700a4e80, type: 3}
+      - {fileID: 5595098435886115488, guid: 31d6066b67ebcae4ab1d8ebf700a4e80, type: 3}
+      - {fileID: 330533851640809623, guid: 31d6066b67ebcae4ab1d8ebf700a4e80, type: 3}
+      - {fileID: -5026906268854495230, guid: 31d6066b67ebcae4ab1d8ebf700a4e80, type: 3}
+    - Key: Sprint
+      Value:
+      - {fileID: -6684010824915851492, guid: 31d6066b67ebcae4ab1d8ebf700a4e80, type: 3}
+      - {fileID: 5941881267887114161, guid: 31d6066b67ebcae4ab1d8ebf700a4e80, type: 3}
+      - {fileID: -7900108603559575535, guid: 31d6066b67ebcae4ab1d8ebf700a4e80, type: 3}
+      - {fileID: -7404506308800791889, guid: 31d6066b67ebcae4ab1d8ebf700a4e80, type: 3}
+      - {fileID: 567067214946451208, guid: 31d6066b67ebcae4ab1d8ebf700a4e80, type: 3}
+      - {fileID: 8186634712369909014, guid: 31d6066b67ebcae4ab1d8ebf700a4e80, type: 3}
+      - {fileID: -2964988254504248691, guid: 31d6066b67ebcae4ab1d8ebf700a4e80, type: 3}
+      - {fileID: -6420720541310318651, guid: 31d6066b67ebcae4ab1d8ebf700a4e80, type: 3}
+    - Key: Jump
+      Value:
+      - {fileID: 311851944615575838, guid: 31d6066b67ebcae4ab1d8ebf700a4e80, type: 3}
+      - {fileID: 9013090905061262905, guid: 31d6066b67ebcae4ab1d8ebf700a4e80, type: 3}
+      - {fileID: -2119360335074631182, guid: 31d6066b67ebcae4ab1d8ebf700a4e80, type: 3}
+      - {fileID: -6069014121301211909, guid: 31d6066b67ebcae4ab1d8ebf700a4e80, type: 3}
+    - Key: Fall
+      Value:
+      - {fileID: 4733530443063612795, guid: 31d6066b67ebcae4ab1d8ebf700a4e80, type: 3}
+      - {fileID: 2008867913468541897, guid: 31d6066b67ebcae4ab1d8ebf700a4e80, type: 3}
+      - {fileID: -610819277442807127, guid: 31d6066b67ebcae4ab1d8ebf700a4e80, type: 3}
+      - {fileID: 17028480054117700, guid: 31d6066b67ebcae4ab1d8ebf700a4e80, type: 3}
+    - Key: Attack
+      Value:
+      - {fileID: 8600655816519031901, guid: 31d6066b67ebcae4ab1d8ebf700a4e80, type: 3}
+      - {fileID: 6022244681691907917, guid: 31d6066b67ebcae4ab1d8ebf700a4e80, type: 3}
+      - {fileID: -2997022181697468701, guid: 31d6066b67ebcae4ab1d8ebf700a4e80, type: 3}
+      - {fileID: -7173296497744049408, guid: 31d6066b67ebcae4ab1d8ebf700a4e80, type: 3}
+      - {fileID: -3341218408700181921, guid: 31d6066b67ebcae4ab1d8ebf700a4e80, type: 3}
+      - {fileID: 346452619813480730, guid: 31d6066b67ebcae4ab1d8ebf700a4e80, type: 3}
+    - Key: Die
+      Value:
+      - {fileID: -8066317520461023990, guid: 31d6066b67ebcae4ab1d8ebf700a4e80, type: 3}
+      - {fileID: -147727988017615049, guid: 31d6066b67ebcae4ab1d8ebf700a4e80, type: 3}
+      - {fileID: 5138778812014864107, guid: 31d6066b67ebcae4ab1d8ebf700a4e80, type: 3}
+      - {fileID: -1159716513912614016, guid: 31d6066b67ebcae4ab1d8ebf700a4e80, type: 3}
+      - {fileID: 274761973937335536, guid: 31d6066b67ebcae4ab1d8ebf700a4e80, type: 3}
+      - {fileID: -8003168749613375717, guid: 31d6066b67ebcae4ab1d8ebf700a4e80, type: 3}
+      - {fileID: -1929661265590521352, guid: 31d6066b67ebcae4ab1d8ebf700a4e80, type: 3}
+      - {fileID: 6999045638294502089, guid: 31d6066b67ebcae4ab1d8ebf700a4e80, type: 3}
+      - {fileID: -50970031547098120, guid: 31d6066b67ebcae4ab1d8ebf700a4e80, type: 3}
+      - {fileID: -7010539511438604658, guid: 31d6066b67ebcae4ab1d8ebf700a4e80, type: 3}

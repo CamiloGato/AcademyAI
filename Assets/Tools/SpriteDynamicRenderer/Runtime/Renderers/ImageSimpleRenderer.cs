@@ -20,5 +20,11 @@ namespace Tools.SpriteDynamicRenderer.Runtime.Renderers
 
             SetAnimation("Default");
         }
+
+        [ContextMenu("Set Default Sprite")]
+        public void Test()
+        {
+            SetAnimation(CurrentAnimation);
+        }
     }
 }

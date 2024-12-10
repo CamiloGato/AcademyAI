@@ -1,0 +1,75 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 747086aa1bc644f499b078d08bb194a4, type: 3}
+  m_Name: Female Hand Iron Sword
+  m_EditorClassIdentifier: 
+  spriteAnimationDictionary:
+    _serializedList:
+    - Key: Idle
+      Value:
+      - {fileID: 471431019, guid: e26517fd9b6c1354ebc03235d7f1af52, type: 3}
+      - {fileID: -1662742180, guid: e26517fd9b6c1354ebc03235d7f1af52, type: 3}
+      - {fileID: 317569275, guid: e26517fd9b6c1354ebc03235d7f1af52, type: 3}
+      - {fileID: 312351615, guid: e26517fd9b6c1354ebc03235d7f1af52, type: 3}
+      - {fileID: 1549431801, guid: e26517fd9b6c1354ebc03235d7f1af52, type: 3}
+    - Key: Walk
+      Value:
+      - {fileID: 1506982014, guid: e26517fd9b6c1354ebc03235d7f1af52, type: 3}
+      - {fileID: 1537520430, guid: e26517fd9b6c1354ebc03235d7f1af52, type: 3}
+      - {fileID: -1808903832, guid: e26517fd9b6c1354ebc03235d7f1af52, type: 3}
+      - {fileID: -433326352, guid: e26517fd9b6c1354ebc03235d7f1af52, type: 3}
+      - {fileID: 17699683, guid: e26517fd9b6c1354ebc03235d7f1af52, type: 3}
+      - {fileID: 953678812, guid: e26517fd9b6c1354ebc03235d7f1af52, type: 3}
+      - {fileID: -627093736, guid: e26517fd9b6c1354ebc03235d7f1af52, type: 3}
+      - {fileID: -885041790, guid: e26517fd9b6c1354ebc03235d7f1af52, type: 3}
+    - Key: Sprint
+      Value:
+      - {fileID: 826157571, guid: e26517fd9b6c1354ebc03235d7f1af52, type: 3}
+      - {fileID: -147824749, guid: e26517fd9b6c1354ebc03235d7f1af52, type: 3}
+      - {fileID: -1137301277, guid: e26517fd9b6c1354ebc03235d7f1af52, type: 3}
+      - {fileID: 160346371, guid: e26517fd9b6c1354ebc03235d7f1af52, type: 3}
+      - {fileID: 776578792, guid: e26517fd9b6c1354ebc03235d7f1af52, type: 3}
+      - {fileID: -314802829, guid: e26517fd9b6c1354ebc03235d7f1af52, type: 3}
+      - {fileID: 1658444740, guid: e26517fd9b6c1354ebc03235d7f1af52, type: 3}
+      - {fileID: -1915915826, guid: e26517fd9b6c1354ebc03235d7f1af52, type: 3}
+    - Key: Jump
+      Value:
+      - {fileID: 1746676072, guid: e26517fd9b6c1354ebc03235d7f1af52, type: 3}
+      - {fileID: 1378664323, guid: e26517fd9b6c1354ebc03235d7f1af52, type: 3}
+      - {fileID: 2035574015, guid: e26517fd9b6c1354ebc03235d7f1af52, type: 3}
+      - {fileID: 889277119, guid: e26517fd9b6c1354ebc03235d7f1af52, type: 3}
+    - Key: Fall
+      Value:
+      - {fileID: 691242499, guid: e26517fd9b6c1354ebc03235d7f1af52, type: 3}
+      - {fileID: -317190466, guid: e26517fd9b6c1354ebc03235d7f1af52, type: 3}
+      - {fileID: 2103231471, guid: e26517fd9b6c1354ebc03235d7f1af52, type: 3}
+      - {fileID: -846140202, guid: e26517fd9b6c1354ebc03235d7f1af52, type: 3}
+    - Key: Attack
+      Value:
+      - {fileID: -1250315550, guid: e26517fd9b6c1354ebc03235d7f1af52, type: 3}
+      - {fileID: 976062396, guid: e26517fd9b6c1354ebc03235d7f1af52, type: 3}
+      - {fileID: 355311859, guid: e26517fd9b6c1354ebc03235d7f1af52, type: 3}
+      - {fileID: 1369880072, guid: e26517fd9b6c1354ebc03235d7f1af52, type: 3}
+      - {fileID: 1715518672, guid: e26517fd9b6c1354ebc03235d7f1af52, type: 3}
+      - {fileID: 1997714198, guid: e26517fd9b6c1354ebc03235d7f1af52, type: 3}
+    - Key: Die
+      Value:
+      - {fileID: 1463197451, guid: e26517fd9b6c1354ebc03235d7f1af52, type: 3}
+      - {fileID: -842829525, guid: e26517fd9b6c1354ebc03235d7f1af52, type: 3}
+      - {fileID: 413595096, guid: e26517fd9b6c1354ebc03235d7f1af52, type: 3}
+      - {fileID: 464777344, guid: e26517fd9b6c1354ebc03235d7f1af52, type: 3}
+      - {fileID: 120281641, guid: e26517fd9b6c1354ebc03235d7f1af52, type: 3}
+      - {fileID: 1739475491, guid: e26517fd9b6c1354ebc03235d7f1af52, type: 3}
+      - {fileID: 228844716, guid: e26517fd9b6c1354ebc03235d7f1af52, type: 3}
+      - {fileID: -1849235071, guid: e26517fd9b6c1354ebc03235d7f1af52, type: 3}
+      - {fileID: -567566506, guid: e26517fd9b6c1354ebc03235d7f1af52, type: 3}
+      - {fileID: -901725552, guid: e26517fd9b6c1354ebc03235d7f1af52, type: 3}

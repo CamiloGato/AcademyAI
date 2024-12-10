@@ -1,0 +1,75 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 747086aa1bc644f499b078d08bb194a4, type: 3}
+  m_Name: Male Glove blue
+  m_EditorClassIdentifier: 
+  spriteAnimationDictionary:
+    _serializedList:
+    - Key: Idle
+      Value:
+      - {fileID: -1943532425, guid: ea37ff567758b504e89ff81179cf73fb, type: 3}
+      - {fileID: -1088260361, guid: ea37ff567758b504e89ff81179cf73fb, type: 3}
+      - {fileID: 486791660, guid: ea37ff567758b504e89ff81179cf73fb, type: 3}
+      - {fileID: -619112085, guid: ea37ff567758b504e89ff81179cf73fb, type: 3}
+      - {fileID: -1363446021, guid: ea37ff567758b504e89ff81179cf73fb, type: 3}
+    - Key: Walk
+      Value:
+      - {fileID: 1093955009, guid: ea37ff567758b504e89ff81179cf73fb, type: 3}
+      - {fileID: 908530543, guid: ea37ff567758b504e89ff81179cf73fb, type: 3}
+      - {fileID: -501806918, guid: ea37ff567758b504e89ff81179cf73fb, type: 3}
+      - {fileID: -1606580122, guid: ea37ff567758b504e89ff81179cf73fb, type: 3}
+      - {fileID: 1437178886, guid: ea37ff567758b504e89ff81179cf73fb, type: 3}
+      - {fileID: 1709379666, guid: ea37ff567758b504e89ff81179cf73fb, type: 3}
+      - {fileID: 890438073, guid: ea37ff567758b504e89ff81179cf73fb, type: 3}
+      - {fileID: -1075046300, guid: ea37ff567758b504e89ff81179cf73fb, type: 3}
+    - Key: Sprint
+      Value:
+      - {fileID: -970906580, guid: ea37ff567758b504e89ff81179cf73fb, type: 3}
+      - {fileID: -41782760, guid: ea37ff567758b504e89ff81179cf73fb, type: 3}
+      - {fileID: 1548538706, guid: ea37ff567758b504e89ff81179cf73fb, type: 3}
+      - {fileID: 615689027, guid: ea37ff567758b504e89ff81179cf73fb, type: 3}
+      - {fileID: 1828619920, guid: ea37ff567758b504e89ff81179cf73fb, type: 3}
+      - {fileID: 2104742012, guid: ea37ff567758b504e89ff81179cf73fb, type: 3}
+      - {fileID: 70014602, guid: ea37ff567758b504e89ff81179cf73fb, type: 3}
+      - {fileID: -1177641062, guid: ea37ff567758b504e89ff81179cf73fb, type: 3}
+    - Key: Jump
+      Value:
+      - {fileID: 1819341562, guid: ea37ff567758b504e89ff81179cf73fb, type: 3}
+      - {fileID: 950317608, guid: ea37ff567758b504e89ff81179cf73fb, type: 3}
+      - {fileID: 27166877, guid: ea37ff567758b504e89ff81179cf73fb, type: 3}
+      - {fileID: -2055899438, guid: ea37ff567758b504e89ff81179cf73fb, type: 3}
+    - Key: Fall
+      Value:
+      - {fileID: 1531666596, guid: ea37ff567758b504e89ff81179cf73fb, type: 3}
+      - {fileID: 191955517, guid: ea37ff567758b504e89ff81179cf73fb, type: 3}
+      - {fileID: -601966105, guid: ea37ff567758b504e89ff81179cf73fb, type: 3}
+      - {fileID: -1115526214, guid: ea37ff567758b504e89ff81179cf73fb, type: 3}
+    - Key: Attack
+      Value:
+      - {fileID: 1288559274, guid: ea37ff567758b504e89ff81179cf73fb, type: 3}
+      - {fileID: -1031394160, guid: ea37ff567758b504e89ff81179cf73fb, type: 3}
+      - {fileID: -531032299, guid: ea37ff567758b504e89ff81179cf73fb, type: 3}
+      - {fileID: -46404891, guid: ea37ff567758b504e89ff81179cf73fb, type: 3}
+      - {fileID: -1403335168, guid: ea37ff567758b504e89ff81179cf73fb, type: 3}
+      - {fileID: 539340101, guid: ea37ff567758b504e89ff81179cf73fb, type: 3}
+    - Key: Die
+      Value:
+      - {fileID: -351493980, guid: ea37ff567758b504e89ff81179cf73fb, type: 3}
+      - {fileID: 525076520, guid: ea37ff567758b504e89ff81179cf73fb, type: 3}
+      - {fileID: 233279239, guid: ea37ff567758b504e89ff81179cf73fb, type: 3}
+      - {fileID: -1550833718, guid: ea37ff567758b504e89ff81179cf73fb, type: 3}
+      - {fileID: 950197230, guid: ea37ff567758b504e89ff81179cf73fb, type: 3}
+      - {fileID: -737144726, guid: ea37ff567758b504e89ff81179cf73fb, type: 3}
+      - {fileID: -439410623, guid: ea37ff567758b504e89ff81179cf73fb, type: 3}
+      - {fileID: 1084252985, guid: ea37ff567758b504e89ff81179cf73fb, type: 3}
+      - {fileID: -1491303258, guid: ea37ff567758b504e89ff81179cf73fb, type: 3}
+      - {fileID: 1429335783, guid: ea37ff567758b504e89ff81179cf73fb, type: 3}

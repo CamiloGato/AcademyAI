@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 747086aa1bc644f499b078d08bb194a4, type: 3}
+  m_Name: Selector
+  m_EditorClassIdentifier: 
+  spriteAnimationDictionary:
+    _serializedList:
+    - Key: Default
+      Value:
+      - {fileID: -1485787729, guid: 06c82a5712c9a9b4f8c93921d9508f36, type: 3}
+      - {fileID: -358984882, guid: 06c82a5712c9a9b4f8c93921d9508f36, type: 3}
+    - Key: None
+      Value:
+      - {fileID: -5258132437829971901, guid: 06c82a5712c9a9b4f8c93921d9508f36, type: 3}
+    - Key: Check
+      Value:
+      - {fileID: 1432112921, guid: 06c82a5712c9a9b4f8c93921d9508f36, type: 3}
+      - {fileID: -921843091, guid: 06c82a5712c9a9b4f8c93921d9508f36, type: 3}
+    - Key: Star
+      Value:
+      - {fileID: -289823420, guid: 06c82a5712c9a9b4f8c93921d9508f36, type: 3}
+      - {fileID: -814038792, guid: 06c82a5712c9a9b4f8c93921d9508f36, type: 3}
+    - Key: X
+      Value:
+      - {fileID: 641399740, guid: 06c82a5712c9a9b4f8c93921d9508f36, type: 3}
+      - {fileID: 1720205161, guid: 06c82a5712c9a9b4f8c93921d9508f36, type: 3}

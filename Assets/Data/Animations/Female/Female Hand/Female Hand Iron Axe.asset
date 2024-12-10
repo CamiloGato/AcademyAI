@@ -1,0 +1,75 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 747086aa1bc644f499b078d08bb194a4, type: 3}
+  m_Name: Female Hand Iron Axe
+  m_EditorClassIdentifier: 
+  spriteAnimationDictionary:
+    _serializedList:
+    - Key: Idle
+      Value:
+      - {fileID: -403053166, guid: 1da28b3c86717454088714269cdaecdd, type: 3}
+      - {fileID: 293815803, guid: 1da28b3c86717454088714269cdaecdd, type: 3}
+      - {fileID: 1552163029, guid: 1da28b3c86717454088714269cdaecdd, type: 3}
+      - {fileID: -245202479, guid: 1da28b3c86717454088714269cdaecdd, type: 3}
+      - {fileID: 1744776142, guid: 1da28b3c86717454088714269cdaecdd, type: 3}
+    - Key: Walk
+      Value:
+      - {fileID: 1987821117, guid: 1da28b3c86717454088714269cdaecdd, type: 3}
+      - {fileID: -794983758, guid: 1da28b3c86717454088714269cdaecdd, type: 3}
+      - {fileID: -1062792505, guid: 1da28b3c86717454088714269cdaecdd, type: 3}
+      - {fileID: 78737241, guid: 1da28b3c86717454088714269cdaecdd, type: 3}
+      - {fileID: 824535245, guid: 1da28b3c86717454088714269cdaecdd, type: 3}
+      - {fileID: 586989478, guid: 1da28b3c86717454088714269cdaecdd, type: 3}
+      - {fileID: 1164931405, guid: 1da28b3c86717454088714269cdaecdd, type: 3}
+      - {fileID: -3295508, guid: 1da28b3c86717454088714269cdaecdd, type: 3}
+    - Key: Sprint
+      Value:
+      - {fileID: 1866863617, guid: 1da28b3c86717454088714269cdaecdd, type: 3}
+      - {fileID: 550622378, guid: 1da28b3c86717454088714269cdaecdd, type: 3}
+      - {fileID: 170587617, guid: 1da28b3c86717454088714269cdaecdd, type: 3}
+      - {fileID: -1379933101, guid: 1da28b3c86717454088714269cdaecdd, type: 3}
+      - {fileID: -1950345558, guid: 1da28b3c86717454088714269cdaecdd, type: 3}
+      - {fileID: 917332500, guid: 1da28b3c86717454088714269cdaecdd, type: 3}
+      - {fileID: 1463349977, guid: 1da28b3c86717454088714269cdaecdd, type: 3}
+      - {fileID: -1156360673, guid: 1da28b3c86717454088714269cdaecdd, type: 3}
+    - Key: Jump
+      Value:
+      - {fileID: 1800823187, guid: 1da28b3c86717454088714269cdaecdd, type: 3}
+      - {fileID: 1429544035, guid: 1da28b3c86717454088714269cdaecdd, type: 3}
+      - {fileID: -204187499, guid: 1da28b3c86717454088714269cdaecdd, type: 3}
+      - {fileID: 1367715817, guid: 1da28b3c86717454088714269cdaecdd, type: 3}
+    - Key: Fall
+      Value:
+      - {fileID: -1666758458, guid: 1da28b3c86717454088714269cdaecdd, type: 3}
+      - {fileID: 357285481, guid: 1da28b3c86717454088714269cdaecdd, type: 3}
+      - {fileID: 1460887469, guid: 1da28b3c86717454088714269cdaecdd, type: 3}
+      - {fileID: 862899447, guid: 1da28b3c86717454088714269cdaecdd, type: 3}
+    - Key: Attack
+      Value:
+      - {fileID: -643192210, guid: 1da28b3c86717454088714269cdaecdd, type: 3}
+      - {fileID: -2049763677, guid: 1da28b3c86717454088714269cdaecdd, type: 3}
+      - {fileID: -183677872, guid: 1da28b3c86717454088714269cdaecdd, type: 3}
+      - {fileID: 453285108, guid: 1da28b3c86717454088714269cdaecdd, type: 3}
+      - {fileID: 1989460320, guid: 1da28b3c86717454088714269cdaecdd, type: 3}
+      - {fileID: 2083300224, guid: 1da28b3c86717454088714269cdaecdd, type: 3}
+    - Key: Die
+      Value:
+      - {fileID: 1883951109, guid: 1da28b3c86717454088714269cdaecdd, type: 3}
+      - {fileID: -2095139806, guid: 1da28b3c86717454088714269cdaecdd, type: 3}
+      - {fileID: -1950872979, guid: 1da28b3c86717454088714269cdaecdd, type: 3}
+      - {fileID: -1394832160, guid: 1da28b3c86717454088714269cdaecdd, type: 3}
+      - {fileID: -542042639, guid: 1da28b3c86717454088714269cdaecdd, type: 3}
+      - {fileID: 179293803, guid: 1da28b3c86717454088714269cdaecdd, type: 3}
+      - {fileID: 920213335, guid: 1da28b3c86717454088714269cdaecdd, type: 3}
+      - {fileID: -1815040717, guid: 1da28b3c86717454088714269cdaecdd, type: 3}
+      - {fileID: 346825788, guid: 1da28b3c86717454088714269cdaecdd, type: 3}
+      - {fileID: -1478665112, guid: 1da28b3c86717454088714269cdaecdd, type: 3}

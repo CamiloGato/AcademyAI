@@ -1,0 +1,75 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 747086aa1bc644f499b078d08bb194a4, type: 3}
+  m_Name: Male Hair13
+  m_EditorClassIdentifier: 
+  spriteAnimationDictionary:
+    _serializedList:
+    - Key: Idle
+      Value:
+      - {fileID: -3254579223499958730, guid: b8839f8595693d948837f29e52b84482, type: 3}
+      - {fileID: 5477897524123504747, guid: b8839f8595693d948837f29e52b84482, type: 3}
+      - {fileID: -23971977045964846, guid: b8839f8595693d948837f29e52b84482, type: 3}
+      - {fileID: -5299246861196210691, guid: b8839f8595693d948837f29e52b84482, type: 3}
+      - {fileID: 6745823606347232092, guid: b8839f8595693d948837f29e52b84482, type: 3}
+    - Key: Walk
+      Value:
+      - {fileID: 1127522217496658207, guid: b8839f8595693d948837f29e52b84482, type: 3}
+      - {fileID: 8173766732781943780, guid: b8839f8595693d948837f29e52b84482, type: 3}
+      - {fileID: 2444583112823112267, guid: b8839f8595693d948837f29e52b84482, type: 3}
+      - {fileID: -7904285826269335857, guid: b8839f8595693d948837f29e52b84482, type: 3}
+      - {fileID: -5759167428982530597, guid: b8839f8595693d948837f29e52b84482, type: 3}
+      - {fileID: -6935773425240959418, guid: b8839f8595693d948837f29e52b84482, type: 3}
+      - {fileID: -5219661388425125920, guid: b8839f8595693d948837f29e52b84482, type: 3}
+      - {fileID: 983381995244936031, guid: b8839f8595693d948837f29e52b84482, type: 3}
+    - Key: Sprint
+      Value:
+      - {fileID: -4715754269426703565, guid: b8839f8595693d948837f29e52b84482, type: 3}
+      - {fileID: 8640737011115421254, guid: b8839f8595693d948837f29e52b84482, type: 3}
+      - {fileID: -8465189769695364755, guid: b8839f8595693d948837f29e52b84482, type: 3}
+      - {fileID: -7044402888006748491, guid: b8839f8595693d948837f29e52b84482, type: 3}
+      - {fileID: 2548320574958625343, guid: b8839f8595693d948837f29e52b84482, type: 3}
+      - {fileID: 3990884404505829117, guid: b8839f8595693d948837f29e52b84482, type: 3}
+      - {fileID: 4278433501426654274, guid: b8839f8595693d948837f29e52b84482, type: 3}
+      - {fileID: 2841788241866331661, guid: b8839f8595693d948837f29e52b84482, type: 3}
+    - Key: Jump
+      Value:
+      - {fileID: 7844559855477854686, guid: b8839f8595693d948837f29e52b84482, type: 3}
+      - {fileID: -4745260544890141625, guid: b8839f8595693d948837f29e52b84482, type: 3}
+      - {fileID: 6974559229061452000, guid: b8839f8595693d948837f29e52b84482, type: 3}
+      - {fileID: -6036857365711741814, guid: b8839f8595693d948837f29e52b84482, type: 3}
+    - Key: Fall
+      Value:
+      - {fileID: -3766326006309275450, guid: b8839f8595693d948837f29e52b84482, type: 3}
+      - {fileID: -8513601650215736641, guid: b8839f8595693d948837f29e52b84482, type: 3}
+      - {fileID: 6222607171213867568, guid: b8839f8595693d948837f29e52b84482, type: 3}
+      - {fileID: 7663997724665894316, guid: b8839f8595693d948837f29e52b84482, type: 3}
+    - Key: Attack
+      Value:
+      - {fileID: -713585155, guid: b8839f8595693d948837f29e52b84482, type: 3}
+      - {fileID: -1651229017, guid: b8839f8595693d948837f29e52b84482, type: 3}
+      - {fileID: -1149238236, guid: b8839f8595693d948837f29e52b84482, type: 3}
+      - {fileID: -1569238891, guid: b8839f8595693d948837f29e52b84482, type: 3}
+      - {fileID: 811037355, guid: b8839f8595693d948837f29e52b84482, type: 3}
+      - {fileID: -135454707, guid: b8839f8595693d948837f29e52b84482, type: 3}
+    - Key: Die
+      Value:
+      - {fileID: -861184686, guid: b8839f8595693d948837f29e52b84482, type: 3}
+      - {fileID: 1715657340, guid: b8839f8595693d948837f29e52b84482, type: 3}
+      - {fileID: -1447987997, guid: b8839f8595693d948837f29e52b84482, type: 3}
+      - {fileID: -733317497, guid: b8839f8595693d948837f29e52b84482, type: 3}
+      - {fileID: 947987865, guid: b8839f8595693d948837f29e52b84482, type: 3}
+      - {fileID: -1399628292, guid: b8839f8595693d948837f29e52b84482, type: 3}
+      - {fileID: -1058044853, guid: b8839f8595693d948837f29e52b84482, type: 3}
+      - {fileID: 122197179, guid: b8839f8595693d948837f29e52b84482, type: 3}
+      - {fileID: 344748742, guid: b8839f8595693d948837f29e52b84482, type: 3}
+      - {fileID: -1386097777, guid: b8839f8595693d948837f29e52b84482, type: 3}
