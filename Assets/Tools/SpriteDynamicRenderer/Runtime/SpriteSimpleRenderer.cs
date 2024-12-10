@@ -10,6 +10,7 @@ namespace Tools.SpriteDynamicRenderer.Runtime
         [SerializeField] private SpriteDynamicRendererData spriteData;
         [SerializeField] private string currentAnimation;
         [SerializeField] private int frameRate = 12;
+        [SerializeField] private bool playOneShot;
 
         private SpriteRenderer _spriteRenderer;
         private List<Sprite> _currentFrames;
@@ -23,10 +24,8 @@ namespace Tools.SpriteDynamicRenderer.Runtime
 
         private void Update()
         {
-            if (string.IsNullOrEmpty(currentAnimation) || _currentFrames == null || _currentFrames.Count == 0 || !spriteData)
-            {
-                return;
-            }
+            if (CheckIsValid()) return;
+            if (CheckOneShot()) return;
 
             _frameTimer += Time.deltaTime;
             if (_frameTimer >= 1f / frameRate)
@@ -35,6 +34,17 @@ namespace Tools.SpriteDynamicRenderer.Runtime
                 _currentFrameIndex = (_currentFrameIndex + 1) % _currentFrames.Count;
                 _spriteRenderer.sprite = _currentFrames[_currentFrameIndex];
             }
+
+        }
+
+        private bool CheckIsValid()
+        {
+            return string.IsNullOrEmpty(currentAnimation) || _currentFrames == null || _currentFrames.Count == 0 || !spriteData;
+        }
+
+        private bool CheckOneShot()
+        {
+            return _currentFrameIndex >= _currentFrames.Count - 1 && playOneShot;
         }
 
         /// <summary>
@@ -49,26 +59,14 @@ namespace Tools.SpriteDynamicRenderer.Runtime
                 return;
             }
 
-            SpriteAnimationData animationData = spriteData.spriteAnimationData.Find(anim => anim.animationName == animationName);
-
-            if (animationData == null)
+            if (!spriteData.TryGetAnimation(animationName, out List<Sprite> animationData))
             {
                 Debug.LogWarning($"No found the animation with name: {animationName}");
                 return;
             }
 
             currentAnimation = animationName;
-            _currentFrames = animationData.spriteSheets;
-            _currentFrameIndex = 0;
-        }
-
-        /// <summary>
-        /// Stop the animation
-        /// </summary>
-        public void StopAnimation()
-        {
-            currentAnimation = null;
-            _currentFrames = null;
+            _currentFrames = animationData;
             _currentFrameIndex = 0;
         }
 
@@ -81,9 +79,25 @@ namespace Tools.SpriteDynamicRenderer.Runtime
             frameRate = frames;
         }
 
+        public void SetPlayOneShot(bool value)
+        {
+            playOneShot = value;
+        }
+
         public Texture2D GetTexture()
         {
             return spriteData.DefaultSprite.texture;
+        }
+
+        public void StopAnimation()
+        {
+            currentAnimation = string.Empty;
+        }
+
+        [ContextMenu("Set Default Sprite")]
+        public void Test()
+        {
+            SetAnimation(currentAnimation);
         }
     }
 }

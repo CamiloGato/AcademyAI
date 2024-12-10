@@ -1,0 +1,263 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 747086aa1bc644f499b078d08bb194a4, type: 3}
+  m_Name: bubble emotes july update
+  m_EditorClassIdentifier: 
+  spriteAnimationData:
+  - animationName: O
+    spriteSheets:
+    - {fileID: -2437031719742495961, guid: b4717a59d9190bd469a2e5d3cf59806c, type: 3}
+    - {fileID: -7072279555941965246, guid: b4717a59d9190bd469a2e5d3cf59806c, type: 3}
+    - {fileID: 8401637877751856281, guid: b4717a59d9190bd469a2e5d3cf59806c, type: 3}
+  - animationName: X
+    spriteSheets:
+    - {fileID: 623042661219316732, guid: b4717a59d9190bd469a2e5d3cf59806c, type: 3}
+    - {fileID: -5274037403950085060, guid: b4717a59d9190bd469a2e5d3cf59806c, type: 3}
+    - {fileID: -1246656971503637775, guid: b4717a59d9190bd469a2e5d3cf59806c, type: 3}
+  - animationName: Music
+    spriteSheets:
+    - {fileID: -3759277895688923426, guid: b4717a59d9190bd469a2e5d3cf59806c, type: 3}
+    - {fileID: -1490221186039758273, guid: b4717a59d9190bd469a2e5d3cf59806c, type: 3}
+    - {fileID: 2350736112299439981, guid: b4717a59d9190bd469a2e5d3cf59806c, type: 3}
+  - animationName: Confused
+    spriteSheets:
+    - {fileID: -4707188459386293929, guid: b4717a59d9190bd469a2e5d3cf59806c, type: 3}
+    - {fileID: -4810175781096252807, guid: b4717a59d9190bd469a2e5d3cf59806c, type: 3}
+    - {fileID: 6139641901788236473, guid: b4717a59d9190bd469a2e5d3cf59806c, type: 3}
+  - animationName: OSolo
+    spriteSheets:
+    - {fileID: 4731654330665605258, guid: b4717a59d9190bd469a2e5d3cf59806c, type: 3}
+    - {fileID: 5723916683759687014, guid: b4717a59d9190bd469a2e5d3cf59806c, type: 3}
+    - {fileID: -5711725671821999659, guid: b4717a59d9190bd469a2e5d3cf59806c, type: 3}
+  - animationName: XSolo
+    spriteSheets:
+    - {fileID: 4759111234118647165, guid: b4717a59d9190bd469a2e5d3cf59806c, type: 3}
+    - {fileID: -5801497912056464070, guid: b4717a59d9190bd469a2e5d3cf59806c, type: 3}
+    - {fileID: 3367620057887287103, guid: b4717a59d9190bd469a2e5d3cf59806c, type: 3}
+  - animationName: MusicSolo
+    spriteSheets:
+    - {fileID: -8718220592887175988, guid: b4717a59d9190bd469a2e5d3cf59806c, type: 3}
+    - {fileID: 120365485679308239, guid: b4717a59d9190bd469a2e5d3cf59806c, type: 3}
+    - {fileID: -4904028883002858214, guid: b4717a59d9190bd469a2e5d3cf59806c, type: 3}
+  - animationName: ConfusedSolo
+    spriteSheets:
+    - {fileID: -3795944656041461143, guid: b4717a59d9190bd469a2e5d3cf59806c, type: 3}
+    - {fileID: -4799424606741536093, guid: b4717a59d9190bd469a2e5d3cf59806c, type: 3}
+    - {fileID: 8264307775820411716, guid: b4717a59d9190bd469a2e5d3cf59806c, type: 3}
+  - animationName: Good
+    spriteSheets:
+    - {fileID: -851519236311385447, guid: b4717a59d9190bd469a2e5d3cf59806c, type: 3}
+    - {fileID: 7563297359332718393, guid: b4717a59d9190bd469a2e5d3cf59806c, type: 3}
+    - {fileID: -6897586687914276336, guid: b4717a59d9190bd469a2e5d3cf59806c, type: 3}
+  - animationName: Bad
+    spriteSheets:
+    - {fileID: 1505697053397224213, guid: b4717a59d9190bd469a2e5d3cf59806c, type: 3}
+    - {fileID: 2247237973832913387, guid: b4717a59d9190bd469a2e5d3cf59806c, type: 3}
+    - {fileID: -2468780082792479505, guid: b4717a59d9190bd469a2e5d3cf59806c, type: 3}
+  - animationName: Sad
+    spriteSheets:
+    - {fileID: -4019535776834472964, guid: b4717a59d9190bd469a2e5d3cf59806c, type: 3}
+    - {fileID: -8973111903116440782, guid: b4717a59d9190bd469a2e5d3cf59806c, type: 3}
+    - {fileID: -8215399718941861873, guid: b4717a59d9190bd469a2e5d3cf59806c, type: 3}
+  - animationName: Idea
+    spriteSheets:
+    - {fileID: -4335393498087382277, guid: b4717a59d9190bd469a2e5d3cf59806c, type: 3}
+    - {fileID: -8830773382174707889, guid: b4717a59d9190bd469a2e5d3cf59806c, type: 3}
+    - {fileID: -8800657247749664922, guid: b4717a59d9190bd469a2e5d3cf59806c, type: 3}
+  - animationName: GoodSolo
+    spriteSheets:
+    - {fileID: -4305967430766339067, guid: b4717a59d9190bd469a2e5d3cf59806c, type: 3}
+    - {fileID: 2371906249360235907, guid: b4717a59d9190bd469a2e5d3cf59806c, type: 3}
+    - {fileID: 2680733338796626818, guid: b4717a59d9190bd469a2e5d3cf59806c, type: 3}
+  - animationName: BadSolo
+    spriteSheets:
+    - {fileID: 791928860918866783, guid: b4717a59d9190bd469a2e5d3cf59806c, type: 3}
+    - {fileID: -8521432913810806982, guid: b4717a59d9190bd469a2e5d3cf59806c, type: 3}
+    - {fileID: 2777637652974910003, guid: b4717a59d9190bd469a2e5d3cf59806c, type: 3}
+  - animationName: SadSolo
+    spriteSheets:
+    - {fileID: -4662761269147009888, guid: b4717a59d9190bd469a2e5d3cf59806c, type: 3}
+    - {fileID: 199125826422485792, guid: b4717a59d9190bd469a2e5d3cf59806c, type: 3}
+    - {fileID: -2192548941936457224, guid: b4717a59d9190bd469a2e5d3cf59806c, type: 3}
+  - animationName: IdeaSolo
+    spriteSheets:
+    - {fileID: -5230074350403681596, guid: b4717a59d9190bd469a2e5d3cf59806c, type: 3}
+    - {fileID: -4192780729769349348, guid: b4717a59d9190bd469a2e5d3cf59806c, type: 3}
+    - {fileID: 8809552047195786244, guid: b4717a59d9190bd469a2e5d3cf59806c, type: 3}
+  - animationName: Down
+    spriteSheets:
+    - {fileID: 7798120554391698654, guid: b4717a59d9190bd469a2e5d3cf59806c, type: 3}
+    - {fileID: 2192114923900049892, guid: b4717a59d9190bd469a2e5d3cf59806c, type: 3}
+    - {fileID: -227550921408885086, guid: b4717a59d9190bd469a2e5d3cf59806c, type: 3}
+  - animationName: Up
+    spriteSheets:
+    - {fileID: 8494959238671389771, guid: b4717a59d9190bd469a2e5d3cf59806c, type: 3}
+    - {fileID: 8300032039496366229, guid: b4717a59d9190bd469a2e5d3cf59806c, type: 3}
+    - {fileID: 330479487001381954, guid: b4717a59d9190bd469a2e5d3cf59806c, type: 3}
+  - animationName: Zzz
+    spriteSheets:
+    - {fileID: -654286020493287959, guid: b4717a59d9190bd469a2e5d3cf59806c, type: 3}
+    - {fileID: 6621233049637435924, guid: b4717a59d9190bd469a2e5d3cf59806c, type: 3}
+    - {fileID: 199706529721041099, guid: b4717a59d9190bd469a2e5d3cf59806c, type: 3}
+  - animationName: Die
+    spriteSheets:
+    - {fileID: 8250013887644484433, guid: b4717a59d9190bd469a2e5d3cf59806c, type: 3}
+    - {fileID: 389222667070789618, guid: b4717a59d9190bd469a2e5d3cf59806c, type: 3}
+    - {fileID: -4803837724758153005, guid: b4717a59d9190bd469a2e5d3cf59806c, type: 3}
+  - animationName: DownSolo
+    spriteSheets:
+    - {fileID: -4419417691372980941, guid: b4717a59d9190bd469a2e5d3cf59806c, type: 3}
+    - {fileID: 5851872015806566771, guid: b4717a59d9190bd469a2e5d3cf59806c, type: 3}
+    - {fileID: 8005407899738515313, guid: b4717a59d9190bd469a2e5d3cf59806c, type: 3}
+  - animationName: UpSolo
+    spriteSheets:
+    - {fileID: 6356444857008323089, guid: b4717a59d9190bd469a2e5d3cf59806c, type: 3}
+    - {fileID: 8645033886845211813, guid: b4717a59d9190bd469a2e5d3cf59806c, type: 3}
+    - {fileID: 2095750211545929321, guid: b4717a59d9190bd469a2e5d3cf59806c, type: 3}
+  - animationName: ZzzSolo
+    spriteSheets:
+    - {fileID: -9159436275633634557, guid: b4717a59d9190bd469a2e5d3cf59806c, type: 3}
+    - {fileID: -7475961964418917923, guid: b4717a59d9190bd469a2e5d3cf59806c, type: 3}
+    - {fileID: -924801683389551140, guid: b4717a59d9190bd469a2e5d3cf59806c, type: 3}
+  - animationName: DieSolo
+    spriteSheets:
+    - {fileID: -1234202918025936295, guid: b4717a59d9190bd469a2e5d3cf59806c, type: 3}
+    - {fileID: 707156117051202553, guid: b4717a59d9190bd469a2e5d3cf59806c, type: 3}
+    - {fileID: -4927250194976761970, guid: b4717a59d9190bd469a2e5d3cf59806c, type: 3}
+  - animationName: <3
+    spriteSheets:
+    - {fileID: -3561708802142620751, guid: b4717a59d9190bd469a2e5d3cf59806c, type: 3}
+    - {fileID: -1227105621827643105, guid: b4717a59d9190bd469a2e5d3cf59806c, type: 3}
+    - {fileID: -2250596588475691281, guid: b4717a59d9190bd469a2e5d3cf59806c, type: 3}
+  - animationName: </3
+    spriteSheets:
+    - {fileID: 9219258774970136754, guid: b4717a59d9190bd469a2e5d3cf59806c, type: 3}
+    - {fileID: 3770330188985030069, guid: b4717a59d9190bd469a2e5d3cf59806c, type: 3}
+    - {fileID: 3529272409326036716, guid: b4717a59d9190bd469a2e5d3cf59806c, type: 3}
+  - animationName: Bloor
+    spriteSheets:
+    - {fileID: -5427162180384401316, guid: b4717a59d9190bd469a2e5d3cf59806c, type: 3}
+    - {fileID: 6008714430846369675, guid: b4717a59d9190bd469a2e5d3cf59806c, type: 3}
+    - {fileID: -7026761189880309867, guid: b4717a59d9190bd469a2e5d3cf59806c, type: 3}
+  - animationName: Angry
+    spriteSheets:
+    - {fileID: 5335442334147462180, guid: b4717a59d9190bd469a2e5d3cf59806c, type: 3}
+    - {fileID: -1342979024232420212, guid: b4717a59d9190bd469a2e5d3cf59806c, type: 3}
+    - {fileID: -516957517597523402, guid: b4717a59d9190bd469a2e5d3cf59806c, type: 3}
+  - animationName: <3Solo
+    spriteSheets:
+    - {fileID: -6957170281177610513, guid: b4717a59d9190bd469a2e5d3cf59806c, type: 3}
+    - {fileID: 3974096412654520654, guid: b4717a59d9190bd469a2e5d3cf59806c, type: 3}
+    - {fileID: -7740959297630918388, guid: b4717a59d9190bd469a2e5d3cf59806c, type: 3}
+  - animationName: </3Solo
+    spriteSheets:
+    - {fileID: -2606960243152465825, guid: b4717a59d9190bd469a2e5d3cf59806c, type: 3}
+    - {fileID: -7602818711810573422, guid: b4717a59d9190bd469a2e5d3cf59806c, type: 3}
+    - {fileID: 2141800902348756062, guid: b4717a59d9190bd469a2e5d3cf59806c, type: 3}
+  - animationName: BloorSolor
+    spriteSheets:
+    - {fileID: 1207921595911434335, guid: b4717a59d9190bd469a2e5d3cf59806c, type: 3}
+    - {fileID: 608305616, guid: b4717a59d9190bd469a2e5d3cf59806c, type: 3}
+    - {fileID: -1597214233, guid: b4717a59d9190bd469a2e5d3cf59806c, type: 3}
+  - animationName: AngrySolo
+    spriteSheets:
+    - {fileID: 979486597, guid: b4717a59d9190bd469a2e5d3cf59806c, type: 3}
+    - {fileID: 1923148301, guid: b4717a59d9190bd469a2e5d3cf59806c, type: 3}
+    - {fileID: -386813441, guid: b4717a59d9190bd469a2e5d3cf59806c, type: 3}
+  - animationName: '!'
+    spriteSheets:
+    - {fileID: -1357212266, guid: b4717a59d9190bd469a2e5d3cf59806c, type: 3}
+    - {fileID: 1935582862, guid: b4717a59d9190bd469a2e5d3cf59806c, type: 3}
+    - {fileID: 294099348, guid: b4717a59d9190bd469a2e5d3cf59806c, type: 3}
+  - animationName: '?'
+    spriteSheets:
+    - {fileID: 870563627, guid: b4717a59d9190bd469a2e5d3cf59806c, type: 3}
+    - {fileID: 392034813, guid: b4717a59d9190bd469a2e5d3cf59806c, type: 3}
+    - {fileID: 37308546, guid: b4717a59d9190bd469a2e5d3cf59806c, type: 3}
+  - animationName: Evil
+    spriteSheets:
+    - {fileID: 1324969488, guid: b4717a59d9190bd469a2e5d3cf59806c, type: 3}
+    - {fileID: -1259652572, guid: b4717a59d9190bd469a2e5d3cf59806c, type: 3}
+    - {fileID: 1033856295, guid: b4717a59d9190bd469a2e5d3cf59806c, type: 3}
+  - animationName: Hot
+    spriteSheets:
+    - {fileID: -695890189, guid: b4717a59d9190bd469a2e5d3cf59806c, type: 3}
+    - {fileID: 416279971, guid: b4717a59d9190bd469a2e5d3cf59806c, type: 3}
+    - {fileID: -462998426, guid: b4717a59d9190bd469a2e5d3cf59806c, type: 3}
+  - animationName: '!Solo'
+    spriteSheets:
+    - {fileID: 1262569255, guid: b4717a59d9190bd469a2e5d3cf59806c, type: 3}
+    - {fileID: 727512935, guid: b4717a59d9190bd469a2e5d3cf59806c, type: 3}
+    - {fileID: -73178837, guid: b4717a59d9190bd469a2e5d3cf59806c, type: 3}
+  - animationName: ?Solo
+    spriteSheets:
+    - {fileID: -91808397, guid: b4717a59d9190bd469a2e5d3cf59806c, type: 3}
+    - {fileID: -1563839103, guid: b4717a59d9190bd469a2e5d3cf59806c, type: 3}
+    - {fileID: -495999302, guid: b4717a59d9190bd469a2e5d3cf59806c, type: 3}
+  - animationName: EvilSolo
+    spriteSheets:
+    - {fileID: 159476592, guid: b4717a59d9190bd469a2e5d3cf59806c, type: 3}
+    - {fileID: 651101986, guid: b4717a59d9190bd469a2e5d3cf59806c, type: 3}
+    - {fileID: 2031528560, guid: b4717a59d9190bd469a2e5d3cf59806c, type: 3}
+  - animationName: HotSolo
+    spriteSheets:
+    - {fileID: -970403008, guid: b4717a59d9190bd469a2e5d3cf59806c, type: 3}
+    - {fileID: 200870687, guid: b4717a59d9190bd469a2e5d3cf59806c, type: 3}
+    - {fileID: 804942055, guid: b4717a59d9190bd469a2e5d3cf59806c, type: 3}
+  - animationName: '!?'
+    spriteSheets:
+    - {fileID: -936916813, guid: b4717a59d9190bd469a2e5d3cf59806c, type: 3}
+    - {fileID: -1763819438, guid: b4717a59d9190bd469a2e5d3cf59806c, type: 3}
+    - {fileID: -967441877, guid: b4717a59d9190bd469a2e5d3cf59806c, type: 3}
+  - animationName: ...
+    spriteSheets:
+    - {fileID: -1593002549, guid: b4717a59d9190bd469a2e5d3cf59806c, type: 3}
+    - {fileID: 1243490131, guid: b4717a59d9190bd469a2e5d3cf59806c, type: 3}
+    - {fileID: -1932592771, guid: b4717a59d9190bd469a2e5d3cf59806c, type: 3}
+  - animationName: Sun
+    spriteSheets:
+    - {fileID: -806636303, guid: b4717a59d9190bd469a2e5d3cf59806c, type: 3}
+    - {fileID: -1025476948, guid: b4717a59d9190bd469a2e5d3cf59806c, type: 3}
+    - {fileID: 1989677170, guid: b4717a59d9190bd469a2e5d3cf59806c, type: 3}
+  - animationName: Moon
+    spriteSheets:
+    - {fileID: -1216017558, guid: b4717a59d9190bd469a2e5d3cf59806c, type: 3}
+    - {fileID: 351481593, guid: b4717a59d9190bd469a2e5d3cf59806c, type: 3}
+    - {fileID: 654207114, guid: b4717a59d9190bd469a2e5d3cf59806c, type: 3}
+  - animationName: '!?Solo'
+    spriteSheets:
+    - {fileID: 722821444, guid: b4717a59d9190bd469a2e5d3cf59806c, type: 3}
+    - {fileID: 1308654920, guid: b4717a59d9190bd469a2e5d3cf59806c, type: 3}
+    - {fileID: -464729238, guid: b4717a59d9190bd469a2e5d3cf59806c, type: 3}
+  - animationName: ...Solo
+    spriteSheets:
+    - {fileID: 894980372, guid: b4717a59d9190bd469a2e5d3cf59806c, type: 3}
+    - {fileID: -1678803097, guid: b4717a59d9190bd469a2e5d3cf59806c, type: 3}
+    - {fileID: -650010873, guid: b4717a59d9190bd469a2e5d3cf59806c, type: 3}
+  - animationName: SunSolo
+    spriteSheets:
+    - {fileID: 310053917, guid: b4717a59d9190bd469a2e5d3cf59806c, type: 3}
+    - {fileID: 1360932218, guid: b4717a59d9190bd469a2e5d3cf59806c, type: 3}
+    - {fileID: 527025565, guid: b4717a59d9190bd469a2e5d3cf59806c, type: 3}
+  - animationName: MoonSolo
+    spriteSheets:
+    - {fileID: -558831714, guid: b4717a59d9190bd469a2e5d3cf59806c, type: 3}
+    - {fileID: -601181557, guid: b4717a59d9190bd469a2e5d3cf59806c, type: 3}
+    - {fileID: 557207044, guid: b4717a59d9190bd469a2e5d3cf59806c, type: 3}
+  - animationName: Base
+    spriteSheets:
+    - {fileID: 310251335, guid: b4717a59d9190bd469a2e5d3cf59806c, type: 3}
+    - {fileID: 380960051, guid: b4717a59d9190bd469a2e5d3cf59806c, type: 3}
+    - {fileID: 383590136, guid: b4717a59d9190bd469a2e5d3cf59806c, type: 3}
+    - {fileID: -42358590, guid: b4717a59d9190bd469a2e5d3cf59806c, type: 3}
+    - {fileID: -190535610, guid: b4717a59d9190bd469a2e5d3cf59806c, type: 3}
+    - {fileID: -1170626289, guid: b4717a59d9190bd469a2e5d3cf59806c, type: 3}
