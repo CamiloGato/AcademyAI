@@ -13,18 +13,12 @@ namespace Tools.SpriteDynamicRenderer.Runtime.Renderers
             Component.sprite = currentSprite;
         }
 
-        public void SetDefaultRenderer(List<Sprite> sprites)
+        public void SetDefaultAnimation(List<Sprite> sprites)
         {
             SpriteData = ScriptableObject.CreateInstance<SpriteDynamicRendererData>();
             SpriteData.AddAnimation("Default", sprites);
 
             SetAnimation("Default");
-        }
-
-        [ContextMenu("Set Default Sprite")]
-        public void Test()
-        {
-            SetAnimation(CurrentAnimation);
         }
     }
 }
