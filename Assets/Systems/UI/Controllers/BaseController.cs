@@ -7,8 +7,14 @@ namespace Systems.UI.Controllers
     {
         public TView view;
 
-        public abstract void StartController();
-        public abstract void CloseController();
+        public virtual void StartController()
+        {
+            view.OpenView();
+        }
+        public virtual void CloseController()
+        {
+            view.CloseView();
+        }
 
     }
 }
