@@ -16,28 +16,29 @@ namespace Tools.SpriteDynamicRenderer.Data
         public Texture2D Texture2D { get; private set; }
         public int DefaultAnimationFrames { get; private set; }
 
-        private void OnValidate()
+        private void OnEnable()
         {
             Initialize();
         }
 
         private void Initialize()
         {
-            if (spriteAnimationDictionary == null || spriteAnimationDictionary.Count == 0)
+            if (spriteAnimationDictionary == null)
             {
-                Texture2D = null;
-                DefaultAnimationFrames = 0;
-                return;
+                spriteAnimationDictionary = new AnimationDictionary();
             }
 
-            foreach (KeyValuePair<string, List<Sprite>> entry in spriteAnimationDictionary)
+            if (spriteAnimationDictionary.Count > 0)
             {
-                if (entry.Value == null || entry.Value.Count == 0) continue;
+                DefaultAnimationFrames = 0;
+                foreach (KeyValuePair<string, List<Sprite>> entry in spriteAnimationDictionary)
+                {
+                    if (entry.Value == null || entry.Value.Count == 0) continue;
 
-                Texture2D ??= entry.Value[0]?.texture;
-                DefaultAnimationFrames = DefaultAnimationFrames == 0 ? entry.Value.Count : DefaultAnimationFrames;
-
-                break;
+                    Texture2D ??= entry.Value[0]?.texture;
+                    DefaultAnimationFrames = DefaultAnimationFrames == 0 ? entry.Value.Count : DefaultAnimationFrames;
+                    break;
+                }
             }
         }
 
@@ -53,17 +54,15 @@ namespace Tools.SpriteDynamicRenderer.Data
                 throw new ArgumentException("Sprite list cannot be null or empty.");
             }
 
+            if (!spriteSheets[0]?.texture)
+            {
+                throw new ArgumentException("Sprite texture cannot be null.");
+            }
+
             spriteAnimationDictionary[animationName] = spriteSheets;
 
-            if (!Texture2D)
-            {
-                Texture2D = spriteSheets[0].texture;
-            }
-
-            if (DefaultAnimationFrames == 0)
-            {
-                DefaultAnimationFrames = spriteSheets.Count;
-            }
+            Texture2D ??= spriteSheets[0].texture;
+            DefaultAnimationFrames = DefaultAnimationFrames == 0 ? spriteSheets.Count : DefaultAnimationFrames;
         }
 
         public void RemoveAnimation(string animationName)
@@ -84,28 +83,18 @@ namespace Tools.SpriteDynamicRenderer.Data
 
         public Sprite GetDefaultSprite(string animationName)
         {
-            if (!spriteAnimationDictionary.TryGetValue(animationName, out var sprites) || sprites.Count == 0)
+            if (spriteAnimationDictionary.TryGetValue(animationName, out var sprites) && sprites.Count > 0)
             {
-                Debug.LogError($"Animation '{animationName}' does not exist or has no sprites.");
-                return null;
+                return sprites[0];
             }
 
-            return sprites[0];
+            Debug.LogError($"Animation '{animationName}' does not exist or has no sprites.");
+            return null;
         }
 
         public int GetAnimationFrameCount(string animationName)
         {
             return spriteAnimationDictionary.TryGetValue(animationName, out var sprites) ? sprites.Count : 0;
-        }
-
-        public int GetTotalAnimations()
-        {
-            return spriteAnimationDictionary.Count;
-        }
-
-        public IEnumerable<string> GetAllAnimationNames()
-        {
-            return spriteAnimationDictionary.Keys;
         }
     }
 }

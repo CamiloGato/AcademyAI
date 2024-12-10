@@ -1,4 +1,5 @@
 ﻿using System.Collections.Generic;
+using System.Linq;
 using Tools.Extension;
 using Tools.Objects;
 using Tools.Objects.Wrapper;
@@ -110,21 +111,24 @@ namespace Tools.SpriteDynamicRenderer.Editor
             _animationClipData.elements.Clear();
 
             int currentElement = 0;
-            int currentRow = 0;
 
-            foreach (int element in _spriteSheetInfo.elements)
+            for (int i = 0; i < _spriteSheetInfo.elements.Count; i++)
             {
+                int frameCount = _spriteSheetInfo.elements[i];
+
                 AnimationClipData clipData = new AnimationClipData
                 {
-                    name = $"AnimationClip {++currentRow}",
+                    name = $"AnimationClip {i + 1}",
                     startIndex = currentElement,
-                    endIndex = currentElement + (element - 1),
-                    frameRate = 12f,
+                    endIndex = currentElement + frameCount - 1,
+                    frameRate = 12,
                 };
 
-                currentElement += element;
+                currentElement += frameCount;
+
                 _animationClipData.Add(clipData);
             }
+
         }
 
         private void CreateRenderDataWithProgressBar()
@@ -161,7 +165,7 @@ namespace Tools.SpriteDynamicRenderer.Editor
 
                 string filePath = $"{path}/{spriteSheet.name}.asset";
 
-                var spriteDynamicRendererData = CreateInstance<SpriteDynamicRendererData>();
+                SpriteDynamicRendererData spriteDynamicRendererData = CreateInstance<SpriteDynamicRendererData>();
 
                 foreach (AnimationClipData clipData in _animationClipData.elements)
                 {

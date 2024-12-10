@@ -36,7 +36,6 @@ namespace Tools.SpriteDynamicRenderer.Runtime.Renderers
         {
             if (!IsValid())
             {
-                StopAnimation();
                 return;
             }
 

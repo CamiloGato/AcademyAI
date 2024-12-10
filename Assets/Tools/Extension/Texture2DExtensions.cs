@@ -1,7 +1,9 @@
+using System;
 using System.Collections.Generic;
 using UnityEditor;
 using UnityEditor.U2D.Sprites;
 using UnityEngine;
+using Object = UnityEngine.Object;
 
 namespace Tools.Extension
 {
@@ -70,21 +72,22 @@ namespace Tools.Extension
         public static List<SpriteRect> CreateSpriteRects(this Texture2D spriteSheet, Texture2DCutData cutData)
         {
             List<SpriteRect> spriteRects = new List<SpriteRect>();
+            LastTotalSpritesColumns = new List<int>();
 
             int columns = (spriteSheet.width - cutData.offsetX + cutData.paddingX) / (cutData.gridWidth + cutData.paddingX);
             int rows = (spriteSheet.height - cutData.offsetY + cutData.paddingY) / (cutData.gridHeight + cutData.paddingY);
 
-            LastTotalSpritesColumns = new List<int>();
             for (int y = 0; y < rows; y++)
             {
                 int totalSpritesColumns = 0;
                 for (int x = 0; x < columns; x++)
                 {
                     SpriteRect spriteRect = spriteSheet.CreateSpriteRectFromCoordinates(x, y, cutData);
+
                     if (spriteRect != null)
                     {
-                        totalSpritesColumns++;
                         spriteRects.Add(spriteRect);
+                        totalSpritesColumns++;
                     }
                 }
                 LastTotalSpritesColumns.Add(totalSpritesColumns);
@@ -196,7 +199,28 @@ namespace Tools.Extension
                 }
             }
 
+            sprites.Sort((a, b) =>
+            {
+                int numberA = ExtractNumberFromName(a.name);
+                int numberB = ExtractNumberFromName(b.name);
+                return numberA.CompareTo(numberB);
+            });
+
             return sprites.ToArray();
+        }
+
+        private static int ExtractNumberFromName(string name)
+        {
+            string numberString = string.Empty;
+            foreach (char c in name)
+            {
+                if (char.IsDigit(c))
+                {
+                    numberString += c;
+                }
+            }
+
+            return int.TryParse(numberString, out int number) ? number : 0;
         }
     }
 }

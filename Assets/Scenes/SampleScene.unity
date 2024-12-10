@@ -1197,9 +1197,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   spriteData: {fileID: 11400000, guid: ac0b172e3253687458e4d2f11676c49e, type: 2}
-  currentAnimation: '!?'
+  currentAnimation: AnimationClip 1
   frameRate: 5
-  playOneShot: 1
+  playOneShot: 0
 --- !u!1 &539574545
 GameObject:
   m_ObjectHideFlags: 0
@@ -8324,7 +8324,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dde2bf423add45fd8ba2c9f127a92ced, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  spriteData: {fileID: 11400000, guid: ac0b172e3253687458e4d2f11676c49e, type: 2}
+  spriteData: {fileID: 0}
   currentAnimation: ...
   frameRate: 4
   playOneShot: 0
