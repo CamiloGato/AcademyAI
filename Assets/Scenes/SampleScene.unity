@@ -5623,7 +5623,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c44b68c8699c4109881690c9440568d7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  image: {fileID: 2038773214}
+  imageRenderer: {fileID: 2038773216}
 --- !u!1 &1435396932
 GameObject:
   m_ObjectHideFlags: 0
@@ -8335,6 +8335,7 @@ GameObject:
   - component: {fileID: 1959299776}
   - component: {fileID: 1959299778}
   - component: {fileID: 1959299777}
+  - component: {fileID: 1959299779}
   m_Layer: 5
   m_Name: Emote
   m_TagString: Untagged
@@ -8399,6 +8400,22 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1959299775}
   m_CullTransparentMesh: 1
+--- !u!114 &1959299779
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1959299775}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dde2bf423add45fd8ba2c9f127a92ced, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  spriteData: {fileID: 11400000, guid: ac0b172e3253687458e4d2f11676c49e, type: 2}
+  currentAnimation: ...
+  frameRate: 4
+  playOneShot: 0
 --- !u!1 &1964413374
 GameObject:
   m_ObjectHideFlags: 0
@@ -8559,6 +8576,7 @@ GameObject:
   - component: {fileID: 2038773213}
   - component: {fileID: 2038773215}
   - component: {fileID: 2038773214}
+  - component: {fileID: 2038773216}
   m_Layer: 5
   m_Name: RenderImage
   m_TagString: Untagged
@@ -8623,6 +8641,22 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2038773212}
   m_CullTransparentMesh: 1
+--- !u!114 &2038773216
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2038773212}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dde2bf423add45fd8ba2c9f127a92ced, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  spriteData: {fileID: 0}
+  currentAnimation: 
+  frameRate: 8
+  playOneShot: 0
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

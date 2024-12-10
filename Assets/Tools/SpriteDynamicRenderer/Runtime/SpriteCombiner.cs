@@ -1,4 +1,5 @@
-﻿using Tools.Addons;
+﻿using System.Collections.Generic;
+using Tools.Addons;
 using UnityEngine;
 
 namespace Tools.SpriteDynamicRenderer.Runtime
@@ -15,7 +16,7 @@ namespace Tools.SpriteDynamicRenderer.Runtime
         private int _outputWidth;
         private int _outputHeight;
 
-        public Sprite CombineSprites(Texture2D[] inputSprites, int spriteWidth = 0, int spriteHeight = 0, float pixelsPerUnit = 100f)
+        public List<Sprite> CombineSprites(Texture2D[] inputSprites, int spriteWidth = 0, int spriteHeight = 0, float pixelsPerUnit = 100f, int frameAmount = 1)
         {
             if (inputSprites.Length == 0)
             {
@@ -69,16 +70,29 @@ namespace Tools.SpriteDynamicRenderer.Runtime
 
             outputTexture.Release();
 
+            List<Sprite> sprites = new List<Sprite>();
+
             if (spriteWidth > 0 && spriteHeight > 0)
             {
-                Rect firstSpriteRect = new Rect(0, finalTexture.height - spriteHeight, spriteWidth, spriteHeight);
-                Vector2 pivot = new Vector2(0.5f, 0.5f);
-                return Sprite.Create(finalTexture, firstSpriteRect, pivot, pixelsPerUnit);
+                for (int i = 0; i < frameAmount; i++)
+                {
+                    int columns = finalTexture.width / spriteWidth;
+                    int row = i / columns;
+                    int column = i % columns;
+                    Rect spriteRect = new Rect(column * spriteWidth, finalTexture.height - (row + 1) * spriteHeight, spriteWidth, spriteHeight);
+                    Vector2 pivot = new Vector2(0.5f, 0.5f);
+                    Sprite sprite = Sprite.Create(finalTexture, spriteRect, pivot, pixelsPerUnit);
+                    sprites.Add(sprite);
+                }
+
+                return sprites;
             }
 
             Rect fullRect = new Rect(0, 0, finalTexture.width, finalTexture.height);
             Vector2 fullPivot = new Vector2(0.5f, 0.5f);
-            return Sprite.Create(finalTexture, fullRect, fullPivot, pixelsPerUnit);
+            Sprite uniqueSprite = Sprite.Create(finalTexture, fullRect, fullPivot, pixelsPerUnit);
+            sprites.Add(uniqueSprite);
+            return sprites;
         }
 
     }

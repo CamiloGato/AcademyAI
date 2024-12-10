@@ -1,11 +1,13 @@
-﻿using UnityEngine;
+﻿using System.Collections.Generic;
+using Tools.SpriteDynamicRenderer.Runtime.Renderers;
+using UnityEngine;
 using UnityEngine.UI;
 
 namespace Tools.SpriteDynamicRenderer.Runtime
 {
     public class SpriteComposeRenderer : MonoBehaviour
     {
-        public Image image;
+        public ImageSimpleRenderer imageRenderer;
         private SpriteSimpleRenderer[] _spriteSimpleRenderers;
 
         private void Awake()
@@ -32,9 +34,11 @@ namespace Tools.SpriteDynamicRenderer.Runtime
         [ContextMenu("Create Render")]
         public void CreateRender()
         {
+            int defaultAnimationFrames = 0;
             Texture2D[] textures = new Texture2D[_spriteSimpleRenderers.Length];
             for (int i = 0; i < _spriteSimpleRenderers.Length; i++)
             {
+                defaultAnimationFrames = defaultAnimationFrames == 0 ? _spriteSimpleRenderers[i].GetDefaultAnimationFrames() : defaultAnimationFrames;
                 textures[i] = _spriteSimpleRenderers[i].GetTexture();
                 if (textures[i]) continue;
 
@@ -42,8 +46,9 @@ namespace Tools.SpriteDynamicRenderer.Runtime
                 return;
             }
 
-            Sprite sprite = SpriteCombiner.Instance.CombineSprites(textures, 80, 64, 32);
-            image.sprite = sprite;
+            List<Sprite> sprite = SpriteCombiner.Instance.CombineSprites(textures, 80, 64, 32, defaultAnimationFrames);
+            imageRenderer.SetFrameRate(_spriteSimpleRenderers[0].FrameRate);
+            imageRenderer.SetDefaultRenderer(sprite);
         }
     }
 }

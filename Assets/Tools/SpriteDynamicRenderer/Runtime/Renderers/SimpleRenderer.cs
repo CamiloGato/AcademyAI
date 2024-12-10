@@ -2,27 +2,35 @@
 using Tools.SpriteDynamicRenderer.Data;
 using UnityEngine;
 
-namespace Tools.SpriteDynamicRenderer.Runtime
+namespace Tools.SpriteDynamicRenderer.Runtime.Renderers
 {
-    [RequireComponent(typeof(SpriteRenderer))]
-    public class SpriteSimpleRenderer : MonoBehaviour
-    {
+    public abstract class SimpleRenderer<T> : MonoBehaviour where T : Object
+    {  
         [SerializeField] private SpriteDynamicRendererData spriteData;
         [SerializeField] private string currentAnimation;
         [SerializeField] private int frameRate = 12;
         [SerializeField] private bool playOneShot;
 
-        private SpriteRenderer _spriteRenderer;
+        private T _component;
         private List<Sprite> _currentFrames;
         private int _currentFrameIndex;
         private float _frameTimer;
 
-        private void Awake()
+        protected SpriteDynamicRendererData SpriteData
         {
-            _spriteRenderer = GetComponent<SpriteRenderer>();
+            get => spriteData;
+            set => spriteData = value;
+        }
+        protected T Component => _component;
+        public string CurrentAnimation => currentAnimation;
+        public int FrameRate => frameRate;
+
+        protected virtual void Awake()
+        {
+            _component = GetComponent<T>();
         }
 
-        private void Update()
+        protected virtual void Update()
         {
             if (CheckIsValid()) return;
             if (CheckOneShot()) return;
@@ -32,10 +40,11 @@ namespace Tools.SpriteDynamicRenderer.Runtime
             {
                 _frameTimer = 0f;
                 _currentFrameIndex = (_currentFrameIndex + 1) % _currentFrames.Count;
-                _spriteRenderer.sprite = _currentFrames[_currentFrameIndex];
+                UpdateComponent(_currentFrames[_currentFrameIndex]);
             }
-
         }
+
+        protected abstract void UpdateComponent(Sprite currentSprite);
 
         private bool CheckIsValid()
         {
@@ -47,10 +56,6 @@ namespace Tools.SpriteDynamicRenderer.Runtime
             return _currentFrameIndex >= _currentFrames.Count - 1 && playOneShot;
         }
 
-        /// <summary>
-        /// Change the current animation.
-        /// </summary>
-        /// <param name="animationName">The name of the animation to play.</param>
         public void SetAnimation(string animationName)
         {
             if (!spriteData)
@@ -70,10 +75,6 @@ namespace Tools.SpriteDynamicRenderer.Runtime
             _currentFrameIndex = 0;
         }
 
-        /// <summary>
-        /// Set the frame rate of the animation.
-        /// </summary>
-        /// <param name="frames">The number of frames per second.</param>
         public void SetFrameRate(int frames)
         {
             frameRate = frames;
@@ -86,18 +87,17 @@ namespace Tools.SpriteDynamicRenderer.Runtime
 
         public Texture2D GetTexture()
         {
-            return spriteData.DefaultSprite.texture;
+            return spriteData.Texture2D;
+        }
+
+        public int GetDefaultAnimationFrames()
+        {
+            return spriteData.DefaultAnimationFrames;
         }
 
         public void StopAnimation()
         {
             currentAnimation = string.Empty;
-        }
-
-        [ContextMenu("Set Default Sprite")]
-        public void Test()
-        {
-            SetAnimation(currentAnimation);
         }
     }
 }
