@@ -24,6 +24,7 @@ namespace Tools.SpriteDynamicRenderer.Runtime.Renderers
         protected T Component => _component;
         public string CurrentAnimation => currentAnimation;
         public int FrameRate => frameRate;
+        public int CurrentFrameIndex => _currentFrameIndex;
 
         protected virtual void Awake()
         {
@@ -98,6 +99,12 @@ namespace Tools.SpriteDynamicRenderer.Runtime.Renderers
         public void StopAnimation()
         {
             currentAnimation = string.Empty;
+        }
+
+        public void SetCurrentFrameIndex(int index)
+        {
+            _currentFrameIndex = index;
+            UpdateComponent(_currentFrames[_currentFrameIndex]);
         }
     }
 }

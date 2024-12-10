@@ -1,7 +1,6 @@
 ﻿using System.Collections.Generic;
 using Tools.SpriteDynamicRenderer.Runtime.Renderers;
 using UnityEngine;
-using UnityEngine.UI;
 
 namespace Tools.SpriteDynamicRenderer.Runtime
 {
@@ -49,6 +48,7 @@ namespace Tools.SpriteDynamicRenderer.Runtime
             List<Sprite> sprite = SpriteCombiner.Instance.CombineSprites(textures, 80, 64, 32, defaultAnimationFrames);
             imageRenderer.SetFrameRate(_spriteSimpleRenderers[0].FrameRate);
             imageRenderer.SetDefaultRenderer(sprite);
+            imageRenderer.SetCurrentFrameIndex(_spriteSimpleRenderers[0].CurrentFrameIndex);
         }
     }
 }
