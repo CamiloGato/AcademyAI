@@ -1,89 +1,111 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
+using AYellowpaper.SerializedCollections;
 using UnityEngine;
 
 namespace Tools.SpriteDynamicRenderer.Data
 {
-    [Serializable]
-    public class SpriteAnimationData
-    {
-        public string animationName;
-        public List<Sprite> spriteSheets;
-
-        public SpriteAnimationData(string animationName, List<Sprite> spriteSheets)
-        {
-            this.animationName = animationName;
-            this.spriteSheets = spriteSheets;
-        }
-    }
-
     public class SpriteDynamicRendererData : ScriptableObject
     {
-        private readonly Dictionary<string, List<Sprite>> _spritesSheetDictionary = new Dictionary<string, List<Sprite>>();
-        [Tooltip("You should not modify this list directly. Its just for debugging purposes.")]
-        [SerializeField] private List<SpriteAnimationData> spriteAnimationData = new List<SpriteAnimationData>();
+        [Serializable]
+        public class AnimationDictionary : SerializedDictionary<string, List<Sprite>> { }
 
-        public Texture2D Texture2D { get; private set; } = null;
-        public int DefaultAnimationFrames { get; private set; } = 0;
+        [SerializeField, Tooltip("Dictionary mapping animation names to sprite lists.")]
+        private AnimationDictionary spriteAnimationDictionary;
+
+        public Texture2D Texture2D { get; private set; }
+        public int DefaultAnimationFrames { get; private set; }
 
         private void OnValidate()
         {
-            DefaultAnimationFrames = 0;
-            Texture2D = null;
+            Initialize();
+        }
 
-            _spritesSheetDictionary.Clear();
-            foreach (SpriteAnimationData animationData in spriteAnimationData)
+        private void Initialize()
+        {
+            if (spriteAnimationDictionary == null || spriteAnimationDictionary.Count == 0)
             {
-                if (DefaultAnimationFrames == 0)
-                {
-                    DefaultAnimationFrames = animationData.spriteSheets.Count;
-                }
+                Texture2D = null;
+                DefaultAnimationFrames = 0;
+                return;
+            }
 
-                if (!Texture2D)
-                {
-                    Texture2D = animationData.spriteSheets[0].texture;
-                }
+            foreach (KeyValuePair<string, List<Sprite>> entry in spriteAnimationDictionary)
+            {
+                if (entry.Value == null || entry.Value.Count == 0) continue;
 
-                _spritesSheetDictionary[animationData.animationName] = animationData.spriteSheets;
+                Texture2D ??= entry.Value[0]?.texture;
+                DefaultAnimationFrames = DefaultAnimationFrames == 0 ? entry.Value.Count : DefaultAnimationFrames;
+
+                break;
             }
         }
 
-        public void AddAnimation(string animationName, List<Sprite> spriteSheetInfos)
+        public void AddAnimation(string animationName, List<Sprite> spriteSheets)
         {
-            if (DefaultAnimationFrames == 0)
+            if (string.IsNullOrEmpty(animationName))
             {
-                DefaultAnimationFrames = spriteSheetInfos.Count;
+                throw new ArgumentException("Animation name cannot be null or empty.");
             }
+
+            if (spriteSheets == null || spriteSheets.Count == 0)
+            {
+                throw new ArgumentException("Sprite list cannot be null or empty.");
+            }
+
+            spriteAnimationDictionary[animationName] = spriteSheets;
 
             if (!Texture2D)
             {
-                Texture2D = spriteSheetInfos[0].texture;
+                Texture2D = spriteSheets[0].texture;
             }
 
-            spriteAnimationData.Add(new SpriteAnimationData(animationName, spriteSheetInfos));
-            _spritesSheetDictionary[animationName] = spriteSheetInfos;
+            if (DefaultAnimationFrames == 0)
+            {
+                DefaultAnimationFrames = spriteSheets.Count;
+            }
         }
 
         public void RemoveAnimation(string animationName)
         {
-            spriteAnimationData.RemoveAll(animation => animation.animationName == animationName);
-            _spritesSheetDictionary.Remove(animationName);
+            if (!spriteAnimationDictionary.ContainsKey(animationName))
+            {
+                Debug.LogWarning($"Animation '{animationName}' does not exist.");
+                return;
+            }
+
+            spriteAnimationDictionary.Remove(animationName);
         }
 
         public bool TryGetAnimation(string animationName, out List<Sprite> spriteSheets)
         {
-            return _spritesSheetDictionary.TryGetValue(animationName, out spriteSheets);
+            return spriteAnimationDictionary.TryGetValue(animationName, out spriteSheets);
         }
 
         public Sprite GetDefaultSprite(string animationName)
         {
-            return _spritesSheetDictionary[animationName][0];
+            if (!spriteAnimationDictionary.TryGetValue(animationName, out var sprites) || sprites.Count == 0)
+            {
+                Debug.LogError($"Animation '{animationName}' does not exist or has no sprites.");
+                return null;
+            }
+
+            return sprites[0];
         }
 
-        public int GetAnimationCount(string animationName)
+        public int GetAnimationFrameCount(string animationName)
         {
-            return _spritesSheetDictionary[animationName].Count;
+            return spriteAnimationDictionary.TryGetValue(animationName, out var sprites) ? sprites.Count : 0;
+        }
+
+        public int GetTotalAnimations()
+        {
+            return spriteAnimationDictionary.Count;
+        }
+
+        public IEnumerable<string> GetAllAnimationNames()
+        {
+            return spriteAnimationDictionary.Keys;
         }
     }
 }
