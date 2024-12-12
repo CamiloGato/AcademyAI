@@ -71,13 +71,13 @@ namespace Tools.SpriteDynamicRenderer.Runtime
             combineShader.SetInt(LayerCount, inputSprites.Length);
             combineShader.SetTexture(kernelHandle, OutputTexture, outputTexture);
 
-            for (int i = 0; i < MaxTextures; i++)
+            for (int i = 0; i < inputSprites.Length; i++)
             {
-                var texture = i < inputSprites.Length && inputSprites[i] != null
-                    ? inputSprites[i]
-                    : Texture2D.blackTexture;
-
-                combineShader.SetTexture(kernelHandle, $"{InputTextures}[{i}]", texture);
+                Texture2D texture = inputSprites[i];
+                if (texture)
+                {
+                    combineShader.SetTexture(kernelHandle, $"{InputTextures}[{i}]", texture);
+                }
             }
 
             int threadGroupsX = Mathf.CeilToInt(_outputWidth / 8f);

@@ -74,7 +74,7 @@ namespace Tools.SpriteDynamicRenderer.Runtime
                 return;
             }
 
-            UpdateImageRenderer(combinedSprites, defaultAnimationFrames);
+            UpdateImageRenderer(combinedSprites);
         }
 
         private Texture2D[] GetTexturesFromRenderers(out int defaultAnimationFrames)
@@ -90,7 +90,7 @@ namespace Tools.SpriteDynamicRenderer.Runtime
                 if (!spriteData || !spriteData.Texture2D)
                 {
                     Debug.LogWarning($"Missing SpriteData or Texture2D on renderer: {_spriteSimpleRenderers[i].name}");
-                    return null;
+                    continue;
                 }
 
                 defaultAnimationFrames = defaultAnimationFrames == 0
@@ -103,7 +103,7 @@ namespace Tools.SpriteDynamicRenderer.Runtime
             return textures;
         }
 
-        private void UpdateImageRenderer(List<Sprite> combinedSprites, int defaultAnimationFrames)
+        private void UpdateImageRenderer(List<Sprite> combinedSprites)
         {
             if (!imageRenderer)
             {

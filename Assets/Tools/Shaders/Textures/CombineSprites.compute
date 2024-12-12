@@ -20,7 +20,8 @@ void combine_sprites(uint3 id : SV_DispatchThreadID)
     float4 final_color = float4(0, 0, 0, 0);
 
     // Combine layers (unrolled loop for Direct3D11 compatibility)
-    for (uint layer = 0; layer <= 10; layer++)
+    [unroll(10)]
+    for (uint layer = 0; layer <= num_layers; layer++)
     {
         if (layer >= num_layers) break;
 
