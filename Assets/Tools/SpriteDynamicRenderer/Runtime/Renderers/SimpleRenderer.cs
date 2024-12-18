@@ -90,6 +90,10 @@ namespace Tools.SpriteDynamicRenderer.Runtime.Renderers
             currentAnimation = animationName;
             _currentFrames = animationData;
             _currentFrameIndex = 0;
+        }
+
+        public void PlayAnimation()
+        {
             _isPlaying = true;
         }
 
