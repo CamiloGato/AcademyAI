@@ -8,7 +8,10 @@ namespace Systems.UI.Panels
         [Header("Components")]
         [SerializeField] private TimeComponent timeComponent;
         [SerializeField] private ButtonComponent buttonComponent;
-        
+
+        [Header("Dependencies")]
+        [SerializeField] private UIManager uiManager;
+
         public override void OpenPanel()
         {
             timeComponent.InitComponent();

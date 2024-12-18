@@ -5,43 +5,36 @@ using UnityEngine.EventSystems;
 
 namespace Systems.UI.Components
 {
-    [RequireComponent(typeof(ImageSimpleRenderer))]
     public class ButtonComponent : BaseComponent, IPointerClickHandler, IPointerEnterHandler, IPointerExitHandler
     {
         [SerializeField] private string animationName;
-        private ImageSimpleRenderer _buttonImageRenderer;
+        [SerializeField] private ImageSimpleRenderer buttonImageRenderer;
 
         public Action OnButtonClicked;
 
-        private void Awake()
-        {
-            _buttonImageRenderer = GetComponent<ImageSimpleRenderer>();
-        }
-
         public override void InitComponent()
         {
-            _buttonImageRenderer.SetAnimation(animationName);
-            _buttonImageRenderer.SetCurrentFrameIndex(0);
+            buttonImageRenderer.SetAnimation(animationName);
         }
 
         public override void CloseComponent()
         {
-            _buttonImageRenderer.StopAnimation();
+            buttonImageRenderer.StopAnimation();
         }
 
-        public void OnPointerClick(PointerEventData eventData)
+        public virtual void OnPointerClick(PointerEventData eventData)
         {
             OnButtonClicked?.Invoke();
         }
 
-        public void OnPointerEnter(PointerEventData eventData)
+        public virtual void OnPointerEnter(PointerEventData eventData)
         {
-            _buttonImageRenderer.SetAnimation(animationName);
+            buttonImageRenderer.PlayAnimation();
         }
 
-        public void OnPointerExit(PointerEventData eventData)
+        public virtual void OnPointerExit(PointerEventData eventData)
         {
-            _buttonImageRenderer.StopAnimation();
+            buttonImageRenderer.StopAnimation();
         }
     }
 }

@@ -1,4 +1,5 @@
 ﻿using System;
+using Systems.UI.Components;
 using UnityEngine;
 
 namespace Systems.UI.Views
@@ -17,18 +18,27 @@ namespace Systems.UI.Views
         private Vector3 _initialButtonsPosition;
         private Vector3 _initialTitlePosition;
 
+        private ButtonComponent[] _buttonComponents;
+
         private void Awake()
         {
             _initialContentPosition = contentSection.localPosition;
             _initialButtonsPosition = buttonsSection.localPosition;
             _initialTitlePosition = titleSection.localPosition;
+
+            _buttonComponents = buttonsSection.GetComponentsInChildren<ButtonComponent>();
+
+            foreach (ButtonComponent buttonComponent in _buttonComponents)
+            {
+                buttonComponent.InitComponent();
+            }
         }
 
         public override void OpenView()
         {
             contentSection.LeanMoveX(0, duration)
                 .setEase(LeanTweenType.easeInOutElastic);
-            buttonsSection.LeanMoveX(_initialButtonsPosition.x, duration)
+            buttonsSection.LeanMoveX(0, duration)
                 .setEase(LeanTweenType.easeInOutElastic);
             titleSection.LeanMoveY(_initialTitlePosition.y, duration)
                 .setEase(LeanTweenType.easeInOutElastic);
@@ -36,6 +46,11 @@ namespace Systems.UI.Views
 
         public override void CloseView()
         {
+            foreach (ButtonComponent buttonComponent in _buttonComponents)
+            {
+                buttonComponent.CloseComponent();
+            }
+
             contentSection.LeanMoveX(-multiplier, duration)
                 .setEase(LeanTweenType.easeInOutElastic);
             buttonsSection.LeanMoveX(_initialButtonsPosition.x + multiplier, duration)
