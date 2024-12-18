@@ -887,6 +887,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   timeComponent: {fileID: 1964413378}
+  buttonComponent: {fileID: 1730284704}
+  uiManager: {fileID: 0}
 --- !u!1 &425065586
 GameObject:
   m_ObjectHideFlags: 0
@@ -4641,6 +4643,7 @@ GameObject:
   - component: {fileID: 825405610}
   - component: {fileID: 825405612}
   - component: {fileID: 825405611}
+  - component: {fileID: 825405613}
   m_Layer: 5
   m_Name: Submit
   m_TagString: Untagged
@@ -4706,6 +4709,22 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 825405609}
   m_CullTransparentMesh: 1
+--- !u!114 &825405613
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 825405609}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 97951f81d0314e348d2a11053bbf5ff1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  animationName: Check
+  buttonImageRenderer: {fileID: 1605661108}
+  multiplier: 45
+  duration: 1
 --- !u!1 &826716204
 GameObject:
   m_ObjectHideFlags: 0
@@ -4835,6 +4854,7 @@ GameObject:
   - component: {fileID: 1117642984}
   - component: {fileID: 1117642986}
   - component: {fileID: 1117642985}
+  - component: {fileID: 1117642987}
   m_Layer: 5
   m_Name: Close
   m_TagString: Untagged
@@ -4900,6 +4920,22 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1117642983}
   m_CullTransparentMesh: 1
+--- !u!114 &1117642987
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1117642983}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 97951f81d0314e348d2a11053bbf5ff1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  animationName: X
+  buttonImageRenderer: {fileID: 1559267150}
+  multiplier: 45
+  duration: 1
 --- !u!1 &1304630649
 GameObject:
   m_ObjectHideFlags: 0
@@ -5573,7 +5609,7 @@ GameObject:
   - component: {fileID: 1488051308}
   - component: {fileID: 1488051310}
   m_Layer: 5
-  m_Name: Image
+  m_Name: MarkButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6233,7 +6269,7 @@ GameObject:
   - component: {fileID: 1559267148}
   - component: {fileID: 1559267150}
   m_Layer: 5
-  m_Name: Image
+  m_Name: CloseButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6788,7 +6824,7 @@ GameObject:
   - component: {fileID: 1605661106}
   - component: {fileID: 1605661108}
   m_Layer: 5
-  m_Name: Image
+  m_Name: SubmitButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7273,7 +7309,7 @@ GameObject:
   - component: {fileID: 1730284701}
   - component: {fileID: 1730284704}
   m_Layer: 5
-  m_Name: Button
+  m_Name: Murder
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7313,7 +7349,7 @@ MonoBehaviour:
   spriteData: {fileID: 11400000, guid: 729f3bb2caa47564cbc26ebdd5771d51, type: 2}
   currentAnimation: BrownBook
   frameRate: 2
-  playOneShot: 1
+  playOneShot: 0
 --- !u!114 &1730284702
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7334,7 +7370,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 1638325696, guid: 06c82a5712c9a9b4f8c93921d9508f36, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -7365,6 +7401,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animationName: BrownBook
+  buttonImageRenderer: {fileID: 1730284701}
 --- !u!1 &1751147814
 GameObject:
   m_ObjectHideFlags: 0
@@ -8531,6 +8568,7 @@ GameObject:
   - component: {fileID: 2140579336}
   - component: {fileID: 2140579338}
   - component: {fileID: 2140579337}
+  - component: {fileID: 2140579339}
   m_Layer: 5
   m_Name: Mark
   m_TagString: Untagged
@@ -8596,6 +8634,22 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2140579335}
   m_CullTransparentMesh: 1
+--- !u!114 &2140579339
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2140579335}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 97951f81d0314e348d2a11053bbf5ff1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  animationName: Star
+  buttonImageRenderer: {fileID: 1488051310}
+  multiplier: 45
+  duration: 1
 --- !u!1001 &1848177008546150768
 PrefabInstance:
   m_ObjectHideFlags: 0

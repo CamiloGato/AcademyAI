@@ -10,11 +10,14 @@ namespace Tools.SpriteDynamicRenderer.Data
         [Serializable]
         public class AnimationDictionary : SerializedDictionary<string, List<Sprite>> { }
 
+        [SerializeField] private string animationSectionName;
         [SerializeField, Tooltip("Dictionary mapping animation names to sprite lists.")]
         private AnimationDictionary spriteAnimationDictionary;
 
         public Texture2D Texture2D { get; private set; }
         public int DefaultAnimationFrames { get; private set; }
+
+        public string AnimationSectionName => animationSectionName;
 
         private void OnEnable()
         {
@@ -40,6 +43,11 @@ namespace Tools.SpriteDynamicRenderer.Data
                     break;
                 }
             }
+        }
+
+        public void SetAnimationName(string animationName)
+        {
+            animationSectionName = animationName;
         }
 
         public void AddAnimation(string animationName, List<Sprite> spriteSheets)

@@ -166,6 +166,7 @@ namespace Tools.SpriteDynamicRenderer.Editor
                 string filePath = $"{path}/{spriteSheet.name}.asset";
 
                 SpriteDynamicRendererData spriteDynamicRendererData = CreateInstance<SpriteDynamicRendererData>();
+                spriteDynamicRendererData.SetAnimationName(spriteSheet.name);
 
                 foreach (AnimationClipData clipData in _animationClipData.elements)
                 {
