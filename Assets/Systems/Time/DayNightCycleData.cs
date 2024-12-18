@@ -6,6 +6,7 @@ namespace Systems.Time
     [Serializable]
     public class TimeCycleData
     {
+        public string name;
         public int cycleHour;
         public int cycleMinute;
         public Color cycleColor;

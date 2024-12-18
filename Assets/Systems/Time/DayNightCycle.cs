@@ -16,7 +16,7 @@ namespace Systems.Time
             _dayNightCallables = FindObjectsByType<DayNightCallable>(FindObjectsSortMode.None);
         }
 
-        private void ChangeCycle(int time)
+        private void ChangeCycle(TimeData time)
         {
 
         }
