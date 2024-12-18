@@ -114,6 +114,7 @@ namespace Tools.SpriteDynamicRenderer.Runtime.Renderers
         public void SetCurrentFrameIndex(int index)
         {
             _currentFrameIndex = Mathf.Clamp(index, 0, _currentFrames.Count - 1);
+            UpdateComponent(_currentFrames[_currentFrameIndex]);
         }
     }
 }

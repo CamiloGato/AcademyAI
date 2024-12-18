@@ -7,9 +7,6 @@ namespace Tools.SpriteDynamicRenderer.Runtime
 {
     public class SpriteComposeRenderer : MonoBehaviour
     {
-        [Header("Dependencies")]
-        [SerializeField] private ImageSimpleRenderer imageRenderer;
-
         private SpriteSimpleRenderer[] _spriteSimpleRenderers;
 
         private void Awake()
@@ -47,17 +44,16 @@ namespace Tools.SpriteDynamicRenderer.Runtime
             }
         }
 
-        [ContextMenu("Create Render")]
-        public void CreateRender()
+        public List<Sprite> CreateRender()
         {
-            if (!ValidateRenderers()) return;
+            if (!ValidateRenderers()) return null;
 
             Texture2D[] textures = GetTexturesFromRenderers(out int defaultAnimationFrames);
 
             if (textures == null || textures.Length == 0)
             {
                 Debug.LogError("Failed to collect textures from SpriteSimpleRenderers.");
-                return;
+                return null;
             }
 
             List<Sprite> combinedSprites = SpriteCombiner.Instance.CombineSprites(
@@ -71,10 +67,10 @@ namespace Tools.SpriteDynamicRenderer.Runtime
             if (combinedSprites == null || combinedSprites.Count == 0)
             {
                 Debug.LogError("Failed to combine sprites.");
-                return;
+                return null;
             }
 
-            UpdateImageRenderer(combinedSprites);
+            return combinedSprites;
         }
 
         private Texture2D[] GetTexturesFromRenderers(out int defaultAnimationFrames)
@@ -101,25 +97,6 @@ namespace Tools.SpriteDynamicRenderer.Runtime
             }
 
             return textures;
-        }
-
-        private void UpdateImageRenderer(List<Sprite> combinedSprites)
-        {
-            if (!imageRenderer)
-            {
-                Debug.LogError("ImageRenderer is not assigned.");
-                return;
-            }
-
-            if (_spriteSimpleRenderers.Length == 0)
-            {
-                Debug.LogWarning("No SpriteSimpleRenderers found for frame rate reference.");
-                return;
-            }
-
-            imageRenderer.SetFrameRate(_spriteSimpleRenderers[0].FrameRate);
-            imageRenderer.SetDefaultAnimation(combinedSprites);
-            imageRenderer.SetCurrentFrameIndex(_spriteSimpleRenderers[0].CurrentFrameIndex);
         }
 
         private bool ValidateRenderers()
