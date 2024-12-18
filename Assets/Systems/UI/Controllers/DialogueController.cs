@@ -2,8 +2,8 @@
 
 namespace Systems.UI.Controllers
 {
-    public class ChatUserController : BaseController<ChatUserView>
+    public class DialogueController : BaseController<DialogueView>
     {
-
+        
     }
 }

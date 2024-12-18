@@ -1,23 +1,20 @@
-using Systems.UI.Views;
+using Systems.UI.Controllers;
 using UnityEngine;
 
 namespace Systems.UI.Panels
 {
     public class DialogPanel : BasePanel
     {
-        [SerializeField] private ChatNpcView npcView;
-        [SerializeField] private ChatUserView userView;
+        [SerializeField] private DialogueController dialogueController;
 
         public override void OpenPanel()
         {
-            npcView.CloseView();
-            userView.CloseView();
+            dialogueController.StartController();
         }
 
         public override void ClosePanel()
         {
-            npcView.CloseView();
-            userView.CloseView();
+            dialogueController.CloseController();
         }
 
     }

@@ -24,11 +24,9 @@ namespace Systems.UI.Components
             TimeManager.Instance.currentTime.OnValueChanged -= OnTimeChange;
         }
 
-        private void OnTimeChange(int time)
+        private void OnTimeChange(TimeData time)
         {
-            int minutes = time / 60;
-            int seconds = time % 60;
-            _text.text = $"{minutes:00}:{seconds:00}";
+            _text.text = $"{time.hour:00}:{time.minute:00}";
         }
     }
 }

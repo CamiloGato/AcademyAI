@@ -24,7 +24,11 @@ namespace Systems.UI.Components
         private Image _npcImage;
         private bool _isSelected;
 
-        private void OnEnable()
+        public EntityData NpcData { get; private set; }
+
+        public Action<EntityData> OnNpcSelected;
+
+        private void Start()
         {
             _npcImage = npcImageRenderer.GetComponent<Image>();
         }
@@ -45,13 +49,25 @@ namespace Systems.UI.Components
             npcImageRenderer.StopAnimation();
             npcNameText.text = "";
             SetColor(_disabledColor, instant: true);
+            OnNpcSelected = null;
         }
 
         public void SetUpNpc(EntityData data)
         {
+            NpcData = data;
+            npcImageRenderer.SetDefaultAnimation(data.entityAnim);
             npcImageRenderer.SetAnimation(DefaultAnimationName);
+            npcImageRenderer.SetCurrentFrameIndex(0);
+            npcSelectorImageRenderer.SetAnimation(NoneAnimationName);
             npcNameText.text = data.entityName;
             SetColor(_defaultColor, instant: true);
+        }
+
+        public void DeselectNpc()
+        {
+            npcSelectorImageRenderer.SetAnimation(NoneAnimationName);
+            SetColor(_disabledColor);
+            _isSelected = false;
         }
 
         public void SelectNpc()
@@ -59,6 +75,7 @@ namespace Systems.UI.Components
             npcSelectorImageRenderer.SetAnimation(SelectorAnimationName);
             SetColor(_defaultColor);
             _isSelected = true;
+            OnNpcSelected?.Invoke(NpcData);
         }
 
         public void OnPointerClick(PointerEventData eventData)

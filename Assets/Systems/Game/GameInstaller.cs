@@ -1,5 +1,4 @@
-﻿using System.Collections.Generic;
-using Systems.UI.Panels;
+﻿using Systems.UI;
 using Tools.SpriteDynamicRenderer.Runtime;
 using UnityEngine;
 
@@ -7,18 +6,11 @@ namespace Systems.Game
 {
     public class GameInstaller : MonoBehaviour
     {
-        [SerializeField] private HudPanel hudPanel;
-        [SerializeField] private SpriteComposeRenderer[] playerComposeRenderer;
+        [SerializeField] private UIManager uiManager;
 
         private void Start()
         {
-            hudPanel.OpenPanel();
-
-            foreach (SpriteComposeRenderer spriteComposeRenderer in playerComposeRenderer)
-            {
-                spriteComposeRenderer.SetAnimation("Idle");
-            }
-
+            uiManager.Initialize();
         }
     }
 }
