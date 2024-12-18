@@ -97,8 +97,8 @@ namespace Tools.SpriteDynamicRenderer.Runtime.Renderers
         {
             currentAnimation = string.Empty;
             _isPlaying = false;
-            _currentFrames = null;
             _currentFrameIndex = 0;
+            UpdateComponent(_currentFrames[_currentFrameIndex]);
         }
 
         public void SetFrameRate(int newFrameRate)
