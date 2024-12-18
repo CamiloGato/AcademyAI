@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using UnityEngine;
 
 namespace Systems.Entities
@@ -16,5 +17,6 @@ namespace Systems.Entities
     {
         public string entityName;
         public EntityType entityType;
+        public List<Sprite> entityAnim;
     }
 }
