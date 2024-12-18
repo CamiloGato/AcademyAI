@@ -99,7 +99,6 @@ namespace Tools.SpriteDynamicRenderer.Runtime.Renderers
 
         public void StopAnimation()
         {
-            currentAnimation = string.Empty;
             _isPlaying = false;
             _currentFrameIndex = 0;
             UpdateComponent(_currentFrames[_currentFrameIndex]);
