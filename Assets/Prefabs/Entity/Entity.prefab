@@ -320,6 +320,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 384f570e5cfb4cb0ac7cfc0cd0466b70, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  data: {fileID: 0}
+  composeRenderer: {fileID: 1156224517258869390}
 --- !u!1 &2243592331647380816
 GameObject:
   m_ObjectHideFlags: 0
@@ -1101,7 +1103,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c44b68c8699c4109881690c9440568d7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  imageRenderer: {fileID: 0}
 --- !u!1 &7298787465322341540
 GameObject:
   m_ObjectHideFlags: 0
