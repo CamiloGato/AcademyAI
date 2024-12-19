@@ -163,7 +163,7 @@ PlayerSettings:
   androidMaxAspectRatio: 2.4
   androidMinAspectRatio: 1
   applicationIdentifier:
-    Standalone: com.DefaultCompany.2D-URP
+    Standalone: com.DefaultCompany.IADemoGame
     iPhone: com.DefaultCompany.IADemoGame
   buildNumber:
     Standalone: 0
@@ -801,11 +801,11 @@ PlayerSettings:
   gcIncremental: 1
   gcWBarrierValidation: 0
   apiCompatibilityLevelPerPlatform: {}
-  editorAssembliesCompatibilityLevel: 3
+  editorAssembliesCompatibilityLevel: 2
   m_RenderingPath: 1
   m_MobileRenderingPath: 1
   metroPackageName: IADemoGame
-  metroPackageVersion: 
+  metroPackageVersion: 1.0.0.0
   metroCertificatePath: 
   metroCertificatePassword: 
   metroCertificateSubject: 
@@ -813,7 +813,7 @@ PlayerSettings:
   metroCertificateNotAfter: 0000000000000000
   metroApplicationDescription: IADemoGame
   wsaImages: {}
-  metroTileShortName: 
+  metroTileShortName: IADemoGame
   metroTileShowName: 0
   metroMediumTileShowName: 0
   metroLargeTileShowName: 0
