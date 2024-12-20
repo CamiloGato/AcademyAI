@@ -1,3 +1,4 @@
+using System.Collections.Generic;
 using Tools.SpriteDynamicRenderer.Runtime;
 using UnityEngine;
 
@@ -12,5 +13,16 @@ namespace Systems.Entities
         {
             data = entityData;
         }
+
+        public void SetAnimation(string animationName)
+        {
+            composeRenderer.SetAnimation(animationName);
+        }
+
+        public void SetSpriteDynamicRendererData(string category, List<Sprite> sprites)
+        {
+
+        }
+
     }
 }

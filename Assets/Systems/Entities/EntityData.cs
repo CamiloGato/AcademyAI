@@ -5,7 +5,7 @@ using UnityEngine;
 namespace Systems.Entities
 {
     [Serializable]
-    public enum EntityType
+    public enum EntityRole
     {
         Player,
         Npc,
@@ -16,7 +16,8 @@ namespace Systems.Entities
     public class EntityData : ScriptableObject
     {
         public string entityName;
-        public EntityType entityType;
+        public string context;
+        public EntityRole entityRole;
         public List<Sprite> entityAnim;
     }
 }
