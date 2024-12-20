@@ -163,6 +163,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 72bfa40983d84e84bc9eed48c67e6c89, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  conversationId: Context
+  clothsStorage:
+  - {fileID: 11400000, guid: 3e7db05fff7b26041a5a342d707ab294, type: 2}
+  - {fileID: 11400000, guid: 0f7fe23c0db681544990c5dcabc8cae7, type: 2}
+  openAiConfiguration: {fileID: 11400000, guid: 4a902fa5b2e32c24693a367195fc7018, type: 2}
   gameConfiguration: {fileID: 11400000, guid: 386977e6964925e45bf73748dd271c04, type: 2}
   uiManager: {fileID: 1833726779}
 --- !u!1 &81448380
