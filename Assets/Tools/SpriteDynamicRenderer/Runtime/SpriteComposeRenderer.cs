@@ -1,4 +1,5 @@
 ﻿using System.Collections.Generic;
+using AYellowpaper.SerializedCollections;
 using Tools.SpriteDynamicRenderer.Data;
 using Tools.SpriteDynamicRenderer.Runtime.Renderers;
 using UnityEngine;
@@ -7,7 +8,7 @@ namespace Tools.SpriteDynamicRenderer.Runtime
 {
     public class SpriteComposeRenderer : MonoBehaviour
     {
-        private SpriteSimpleRenderer[] _spriteSimpleRenderers;
+        private readonly SerializedDictionary<string, SpriteSimpleRenderer> _spriteRenderers = new SerializedDictionary<string, SpriteSimpleRenderer>();
 
         private void Awake()
         {
@@ -16,19 +17,29 @@ namespace Tools.SpriteDynamicRenderer.Runtime
 
         private void InitializeRenderers()
         {
-            _spriteSimpleRenderers = GetComponentsInChildren<SpriteSimpleRenderer>();
+            SpriteSimpleRenderer[] spriteSimpleRenderers = GetComponentsInChildren<SpriteSimpleRenderer>();
 
-            if (_spriteSimpleRenderers.Length == 0)
+            if (spriteSimpleRenderers.Length == 0)
             {
                 Debug.LogWarning("No SpriteSimpleRenderers found as children of this GameObject.");
             }
+
+            foreach (SpriteSimpleRenderer spriteSimpleRenderer in spriteSimpleRenderers)
+            {
+                _spriteRenderers.Add(spriteSimpleRenderer.gameObject.name, spriteSimpleRenderer);
+            }
+        }
+
+        public void SetUpRenderers()
+        {
+
         }
 
         public void SetAnimation(string animationName)
         {
             if (!ValidateRenderers()) return;
 
-            foreach (SpriteSimpleRenderer spriteSimpleRenderer in _spriteSimpleRenderers)
+            foreach (SpriteSimpleRenderer spriteSimpleRenderer in _spriteRenderers.Values)
             {
                 spriteSimpleRenderer.SetAnimation(animationName);
             }
@@ -38,7 +49,7 @@ namespace Tools.SpriteDynamicRenderer.Runtime
         {
             if (!ValidateRenderers()) return;
 
-            foreach (SpriteSimpleRenderer spriteSimpleRenderer in _spriteSimpleRenderers)
+            foreach (SpriteSimpleRenderer spriteSimpleRenderer in _spriteRenderers.Values)
             {
                 spriteSimpleRenderer.StopAnimation();
             }
@@ -77,15 +88,16 @@ namespace Tools.SpriteDynamicRenderer.Runtime
         {
             defaultAnimationFrames = 0;
 
-            Texture2D[] textures = new Texture2D[_spriteSimpleRenderers.Length];
+            Texture2D[] textures = new Texture2D[_spriteRenderers.Count];
 
-            for (int i = 0; i < _spriteSimpleRenderers.Length; i++)
+            int index = 0;
+            foreach (SpriteSimpleRenderer spriteRenderer in _spriteRenderers.Values)
             {
-                SpriteDynamicRendererData spriteData = _spriteSimpleRenderers[i].SpriteData;
+                SpriteDynamicRendererData spriteData = spriteRenderer.SpriteData;
 
                 if (!spriteData || !spriteData.Texture2D)
                 {
-                    Debug.LogWarning($"Missing SpriteData or Texture2D on renderer: {_spriteSimpleRenderers[i].name}");
+                    Debug.LogWarning($"Missing SpriteData or Texture2D on renderer: {spriteRenderer.name}");
                     continue;
                 }
 
@@ -93,7 +105,7 @@ namespace Tools.SpriteDynamicRenderer.Runtime
                     ? spriteData.DefaultAnimationFrames
                     : defaultAnimationFrames;
 
-                textures[i] = spriteData.Texture2D;
+                textures[index++] = spriteData.Texture2D;
             }
 
             return textures;
@@ -101,7 +113,7 @@ namespace Tools.SpriteDynamicRenderer.Runtime
 
         private bool ValidateRenderers()
         {
-            if (_spriteSimpleRenderers == null || _spriteSimpleRenderers.Length == 0)
+            if (_spriteRenderers == null || _spriteRenderers.Count == 0)
             {
                 Debug.LogWarning("SpriteSimpleRenderers are not initialized or empty. Make sure to call this script after Awake.");
                 return false;

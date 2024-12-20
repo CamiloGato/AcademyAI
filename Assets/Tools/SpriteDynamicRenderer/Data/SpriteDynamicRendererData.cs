@@ -104,5 +104,10 @@ namespace Tools.SpriteDynamicRenderer.Data
         {
             return spriteAnimationDictionary.TryGetValue(animationName, out var sprites) ? sprites.Count : 0;
         }
+
+        public override string ToString()
+        {
+            return animationSectionName;
+        }
     }
 }
