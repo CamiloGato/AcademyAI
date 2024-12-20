@@ -20,7 +20,7 @@ namespace Tools.SpriteDynamicRenderer.Runtime.Renderers
         public SpriteDynamicRendererData SpriteData
         {
             get => spriteData;
-            protected set => spriteData = value;
+            set => spriteData = value;
         }
         protected T Component => _component;
         public string CurrentAnimation => currentAnimation;

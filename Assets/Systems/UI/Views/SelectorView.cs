@@ -11,6 +11,7 @@ namespace Systems.UI.Views
         [SerializeField] private RectTransform contentSection;
         [SerializeField] private RectTransform buttonsSection;
         [SerializeField] private RectTransform titleSection;
+        [SerializeField] private ButtonComponent[] buttonComponents;
 
         public RectTransform ContentSection => contentSection;
 
@@ -18,7 +19,6 @@ namespace Systems.UI.Views
         private Vector3 _initialButtonsPosition;
         private Vector3 _initialTitlePosition;
 
-        private ButtonComponent[] _buttonComponents;
 
         private void Awake()
         {
@@ -26,9 +26,7 @@ namespace Systems.UI.Views
             _initialButtonsPosition = buttonsSection.localPosition;
             _initialTitlePosition = titleSection.localPosition;
 
-            _buttonComponents = buttonsSection.GetComponentsInChildren<ButtonComponent>();
-
-            foreach (ButtonComponent buttonComponent in _buttonComponents)
+            foreach (ButtonComponent buttonComponent in buttonComponents)
             {
                 buttonComponent.InitComponent();
             }
@@ -46,7 +44,7 @@ namespace Systems.UI.Views
 
         public override void CloseView()
         {
-            foreach (ButtonComponent buttonComponent in _buttonComponents)
+            foreach (ButtonComponent buttonComponent in buttonComponents)
             {
                 buttonComponent.CloseComponent();
             }

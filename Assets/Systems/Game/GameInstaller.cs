@@ -43,7 +43,10 @@ namespace Systems.Game
                         .SelectMany(clothCategory => clothCategory.renderData)
                         .FirstOrDefault(renderData => renderData.AnimationSectionName == npcContextClothData.cloth);
 
+                    entity.SetSpriteDynamicRendererData(npcContextClothData.category, spriteDynamicRendererData);
                 }
+
+                entity.SetAnimation("Idle");
             }
         }
 

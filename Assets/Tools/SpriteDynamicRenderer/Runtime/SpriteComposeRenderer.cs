@@ -30,9 +30,15 @@ namespace Tools.SpriteDynamicRenderer.Runtime
             }
         }
 
-        public void SetUpRenderers()
+        public void SetUpRenderer(string category, SpriteDynamicRendererData spriteData)
         {
+            if (!_spriteRenderers.ContainsKey(category))
+            {
+                Debug.LogWarning($"SpriteSimpleRenderer with category {category} not found.");
+                return;
+            }
 
+            _spriteRenderers[category].SpriteData = spriteData;
         }
 
         public void SetAnimation(string animationName)

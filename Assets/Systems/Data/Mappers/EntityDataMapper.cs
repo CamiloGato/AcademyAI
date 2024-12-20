@@ -11,7 +11,7 @@ namespace Systems.Data.Mappers
             EntityData entityData = ScriptableObject.CreateInstance<EntityData>();
             entityData.entityName = npcContextData.name;
             entityData.context = npcContextData.context;
-            entityData.entityRole = Enum.Parse<EntityRole>(npcContextData.rol);
+            entityData.entityRole = Enum.Parse<EntityRole>(char.ToUpper(npcContextData.rol[0]) + npcContextData.rol[1..]);
             return entityData;
         }
     }
