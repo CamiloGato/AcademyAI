@@ -1,0 +1,193 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4dab816f712b457d8d100151fe6b18a8, type: 3}
+  m_Name: FemaleClothStorage
+  m_EditorClassIdentifier: 
+  cloths:
+  - categoryName: Female Arm (Optional)
+    renderData:
+    - {fileID: 11400000, guid: 317afabb19f78214986d48530b2ec098, type: 2}
+    - {fileID: 11400000, guid: 69408ed18d0b51346b1197d5eaecd118, type: 2}
+    - {fileID: 11400000, guid: 18b00ab74d1205142b15c71cc65c412c, type: 2}
+    - {fileID: 11400000, guid: f642a2a6a70016b49a3faa944cf2b292, type: 2}
+    - {fileID: 11400000, guid: 8aec4a9d461e384428392524db5c271c, type: 2}
+    - {fileID: 11400000, guid: a9df8c68168ab2842bed841eee1e2b95, type: 2}
+    - {fileID: 11400000, guid: e8ec703edcf068d47966ea59ba8bc4a3, type: 2}
+  - categoryName: Female Clothing
+    renderData:
+    - {fileID: 11400000, guid: a1ed94301863b4a44aeca3578e3cbe7a, type: 2}
+    - {fileID: 11400000, guid: b459dcab850d9944aa1e313ef54f005f, type: 2}
+    - {fileID: 11400000, guid: 5f4c3fe87dfbddc45bd33e53d78d7fe5, type: 2}
+    - {fileID: 11400000, guid: 26dfb23af6543a640842d9637b27693f, type: 2}
+    - {fileID: 11400000, guid: 549904105067acb44bb621148d45eb6b, type: 2}
+    - {fileID: 11400000, guid: 679563c7c7822444391a25b83d2d1b31, type: 2}
+    - {fileID: 11400000, guid: 60e0f77bd865d664aa9f74d78c742abc, type: 2}
+    - {fileID: 11400000, guid: effafea0456334040afe7ed9d1da445a, type: 2}
+    - {fileID: 11400000, guid: 8760bde28fe9e7a4ca7c5e90dfc06a74, type: 2}
+    - {fileID: 11400000, guid: 927b6d8d6d0b14c4885756782c363190, type: 2}
+    - {fileID: 11400000, guid: fa1f272071e6ca648b5dadb72d82a428, type: 2}
+    - {fileID: 11400000, guid: d4fcfbe7b589eea459f04e7723c4c42c, type: 2}
+    - {fileID: 11400000, guid: 3b5621d6d17aa924caab66d4b35d8803, type: 2}
+    - {fileID: 11400000, guid: e986d7f93ed8ba24fac06197bcda22c5, type: 2}
+    - {fileID: 11400000, guid: 2c2394d7ed08d604493aa1e4b59d32a3, type: 2}
+    - {fileID: 11400000, guid: 74ecb464a14d67148b9e97e9c940e358, type: 2}
+    - {fileID: 11400000, guid: 715ac677cd754804689119cef8810394, type: 2}
+    - {fileID: 11400000, guid: db3184b7fad33514d80e0959361a5f86, type: 2}
+    - {fileID: 11400000, guid: 236cc60e801f0f74c80cd5b8091eed89, type: 2}
+    - {fileID: 11400000, guid: f7af71a52600d26459d7a3a45947f2e1, type: 2}
+    - {fileID: 11400000, guid: cd4e0fee5aaeb574199fce7840dc1d75, type: 2}
+    - {fileID: 11400000, guid: 2041b0f8572e7dd48af048d5f9590d7e, type: 2}
+    - {fileID: 11400000, guid: 660f0357b98d7484a82d8e070e51b91d, type: 2}
+    - {fileID: 11400000, guid: ed32af0e8e6c7ab42bda2d979467d7d1, type: 2}
+    - {fileID: 11400000, guid: 6b17a792b1faf3c41a376123145df86f, type: 2}
+    - {fileID: 11400000, guid: 963867a6218092043b6adb3b079ead5a, type: 2}
+    - {fileID: 11400000, guid: f2104172da4dd8b4b8c162a85e3b40ee, type: 2}
+    - {fileID: 11400000, guid: c1bd558d413c8644393f0a3b5f8f7bab, type: 2}
+    - {fileID: 11400000, guid: 9dea7d88f70955041a50b68be81429ac, type: 2}
+    - {fileID: 11400000, guid: 263b928655255cf4ba3ddad8f7ba009f, type: 2}
+    - {fileID: 11400000, guid: f13f35726be9a1440baad7494979cedf, type: 2}
+    - {fileID: 11400000, guid: 02afe6dd6b29e5e4ea1fb33affb578d9, type: 2}
+    - {fileID: 11400000, guid: 171fee882b88ad141be28764c33bf42c, type: 2}
+    - {fileID: 11400000, guid: fb800727a8031f8498ccb69a41bbf13c, type: 2}
+    - {fileID: 11400000, guid: 1d3fc12679494684c843f5a3e9981ad7, type: 2}
+    - {fileID: 11400000, guid: 90c00844fca381b48a705810531fcb32, type: 2}
+    - {fileID: 11400000, guid: 7dc6326ef83a0b44484c610d68d0f79b, type: 2}
+    - {fileID: 11400000, guid: 1923110f0f8da70468df9424896e1ea9, type: 2}
+    - {fileID: 11400000, guid: ec2c582f0f6dd9545b973fb049d753eb, type: 2}
+    - {fileID: 11400000, guid: 4664e2db72a6d9d4eb11119b8dec7a18, type: 2}
+    - {fileID: 11400000, guid: ffb57061ad611f649896dc6fc31e9fc5, type: 2}
+    - {fileID: 11400000, guid: 4a119878c7149e7419533cabc28c77f7, type: 2}
+    - {fileID: 11400000, guid: c89c725df52726b46a9abcc6b13210a4, type: 2}
+    - {fileID: 11400000, guid: 7889eac467ca63a4a961bb721ae3dcec, type: 2}
+    - {fileID: 11400000, guid: f15bdc10b6b562c4f9052cf821642661, type: 2}
+    - {fileID: 11400000, guid: de07bd2d0d304a3449cd2096d2e6c987, type: 2}
+    - {fileID: 11400000, guid: cdf0392ebda5cec4db7c22597ad81384, type: 2}
+    - {fileID: 11400000, guid: 9ad14c4bcf3340145ae9f92a8f5477f7, type: 2}
+    - {fileID: 11400000, guid: b108c152b31047245aa30c5126a4a3a4, type: 2}
+    - {fileID: 11400000, guid: a0eb571413363234582b6b1b2b9e32a6, type: 2}
+    - {fileID: 11400000, guid: e2490cacce14cad419780ed494158425, type: 2}
+    - {fileID: 11400000, guid: 6fcac2085ec51cd4ba5ac95802bf6198, type: 2}
+    - {fileID: 11400000, guid: a252976423484454a813b649d36d69f9, type: 2}
+    - {fileID: 11400000, guid: d995cdd99d8ae314dabaa06f83b730b4, type: 2}
+    - {fileID: 11400000, guid: 1499a41ea72888c4dbc420dee76862b4, type: 2}
+    - {fileID: 11400000, guid: 4ab4895d638aaa743ae1ec58dc854459, type: 2}
+    - {fileID: 11400000, guid: 30a5159fc7fa12147a7e623005c65f6e, type: 2}
+    - {fileID: 11400000, guid: 9a82db39582a59e4a82ae86414f42ad5, type: 2}
+    - {fileID: 11400000, guid: b901f02255753624d9b697a312d18f74, type: 2}
+    - {fileID: 11400000, guid: 08426b15afae8e14ea034e7f9d49101a, type: 2}
+    - {fileID: 11400000, guid: 7527dbf5798f50f4291ec4680320b40e, type: 2}
+    - {fileID: 11400000, guid: e36aaf787d8c7ec439f2a6c2514cba21, type: 2}
+    - {fileID: 11400000, guid: 11395eba3ccf35b49b20d69fe315c39a, type: 2}
+    - {fileID: 11400000, guid: b2e1f4e023b2c8d4582dd97cad8e549c, type: 2}
+    - {fileID: 11400000, guid: ae8310c168b21e5409d3f052e29fd59d, type: 2}
+    - {fileID: 11400000, guid: 9ab18e0532e41684b8c9f34a8615d340, type: 2}
+  - categoryName: Female Ears (Optional)
+    renderData:
+    - {fileID: 11400000, guid: a1f04504ef11115458825f2366c1185f, type: 2}
+    - {fileID: 11400000, guid: ac5d8aee26cabda4da10b3a725108fa5, type: 2}
+    - {fileID: 11400000, guid: 78b47cca76cdbdd478b5162b3c76a0b3, type: 2}
+    - {fileID: 11400000, guid: 7122dd872395af44eb2dab5ce0d87728, type: 2}
+    - {fileID: 11400000, guid: 7aa8b8a26d800b04da2f2b2b00242526, type: 2}
+  - categoryName: Female Hair
+    renderData:
+    - {fileID: 11400000, guid: f02d194eb7436a346a44801192769c8e, type: 2}
+    - {fileID: 11400000, guid: 8513b80bc788d36498ffbf68920ce519, type: 2}
+    - {fileID: 11400000, guid: 307bfe4088c508a4093f807cf8d8925b, type: 2}
+    - {fileID: 11400000, guid: a0165eae55900b14180838f4e96583af, type: 2}
+    - {fileID: 11400000, guid: 6f24cb67c9b01c64383c72e796eea4e9, type: 2}
+    - {fileID: 11400000, guid: 8c2aa76e3cf0fcd40b846ba89561f38f, type: 2}
+    - {fileID: 11400000, guid: 42eac4a7fae319f4594890f0c8713cd2, type: 2}
+    - {fileID: 11400000, guid: 020c379a625a84441b61cbd41db5cd28, type: 2}
+    - {fileID: 11400000, guid: b952c93f520b2d946a1dd01b5c4bff27, type: 2}
+    - {fileID: 11400000, guid: f4d5c8d5709411a44b771bda616097c3, type: 2}
+    - {fileID: 11400000, guid: ba8fc958fc86b7643a4389063c2fdff7, type: 2}
+    - {fileID: 11400000, guid: d9c37200e92f48a4586e3d735fa94464, type: 2}
+    - {fileID: 11400000, guid: 754b4aa3203152a4299ca488129d4d1c, type: 2}
+    - {fileID: 11400000, guid: 747aa53aa3e9f7248b9b9054d0f21353, type: 2}
+    - {fileID: 11400000, guid: 08094125e269df64882d3978c2a06cf8, type: 2}
+    - {fileID: 11400000, guid: 61725e0e38f2d2840ac791e4438ab9f3, type: 2}
+    - {fileID: 11400000, guid: beba4d5b77e6fc44c8b1099ad9ce4284, type: 2}
+    - {fileID: 11400000, guid: 34d88a99e54403d48909e5471d5eb322, type: 2}
+    - {fileID: 11400000, guid: dd94e3e5ac33d0548b4a4673293f77c0, type: 2}
+    - {fileID: 11400000, guid: e55a4f05ae70ded4dac40570255717ec, type: 2}
+    - {fileID: 11400000, guid: 18e02894eeb493c43a759e216f4c1959, type: 2}
+    - {fileID: 11400000, guid: dcb71651fce82e3449765c288c7dbb8d, type: 2}
+    - {fileID: 11400000, guid: 7d645a5be6addc040b3baa1a42c9f622, type: 2}
+    - {fileID: 11400000, guid: 90701def9ed474c4cbf7e5d4f9a0718b, type: 2}
+    - {fileID: 11400000, guid: 3e00ef4bfb03511479952bdd1ee2d4f0, type: 2}
+    - {fileID: 11400000, guid: cf16685a8fb5b0b49a896ef2bfd84eb1, type: 2}
+    - {fileID: 11400000, guid: 157578087f8e499459e2436f984a5736, type: 2}
+    - {fileID: 11400000, guid: 66ace35bd50060840a313d403bbba0ec, type: 2}
+    - {fileID: 11400000, guid: 23e09701363f2ae43be2b97c5c798750, type: 2}
+    - {fileID: 11400000, guid: 06c9ebebd6c7331449f05702c33051e3, type: 2}
+    - {fileID: 11400000, guid: bcb1fa2f5b0387a4cafc742910073ea2, type: 2}
+    - {fileID: 11400000, guid: 24ad2fb5a63c3cd4da04034463a1e8ca, type: 2}
+    - {fileID: 11400000, guid: 2b6dd2474d852a34b96b15551b660afd, type: 2}
+    - {fileID: 11400000, guid: a0a5b68fd30cb08429d9c04abcf918e6, type: 2}
+    - {fileID: 11400000, guid: f6855d5b6b6127445aa56ec9ad9d0b28, type: 2}
+  - categoryName: Female Hand (Optional)
+    renderData:
+    - {fileID: 11400000, guid: 4649f314f3038cf4bbf1472311323599, type: 2}
+    - {fileID: 11400000, guid: 5fcc20538730e9342afb4ebed21662d7, type: 2}
+    - {fileID: 11400000, guid: 55e08a1f0e654bf4b902087f64586260, type: 2}
+    - {fileID: 11400000, guid: 760645c54438e1643bccb21e610d0dc5, type: 2}
+    - {fileID: 11400000, guid: 3828582b777fa944b816b5ffa9702422, type: 2}
+    - {fileID: 11400000, guid: 6e093db87c49375428118222dcca83a8, type: 2}
+    - {fileID: 11400000, guid: 551a806bce33b064d8c93baedf4b5adf, type: 2}
+    - {fileID: 11400000, guid: be0abfca5d96d4e4b8dbbc47079d91b6, type: 2}
+    - {fileID: 11400000, guid: f4c2a59df286a7c4f87add9f5b95b60d, type: 2}
+    - {fileID: 11400000, guid: 1ddba9c4233325e4296c260ac4099bb1, type: 2}
+    - {fileID: 11400000, guid: 14fde7126ea4bd64787ae222d247d162, type: 2}
+    - {fileID: 11400000, guid: 008665c1261ef6b41b63b9b8a256c9da, type: 2}
+    - {fileID: 11400000, guid: fde734358c539354b9eeadfd71d10220, type: 2}
+    - {fileID: 11400000, guid: c4bd5f4d048ddd340903bba3e035fd12, type: 2}
+    - {fileID: 11400000, guid: 2b73154cd4b3f7e4782cafa1c406a5a1, type: 2}
+    - {fileID: 11400000, guid: 4a25dd8168107824784598c8eda304b5, type: 2}
+    - {fileID: 11400000, guid: 956336c88e7c98c47886f2f256fbc169, type: 2}
+    - {fileID: 11400000, guid: a10e260a6a52d8246bdd82e358bc61e9, type: 2}
+    - {fileID: 11400000, guid: 78dc31e26994f2a45a2b388ad8f26b9e, type: 2}
+    - {fileID: 11400000, guid: 900922f51ad40094296e438eae36c930, type: 2}
+  - categoryName: Female Hat (Optional)
+    renderData:
+    - {fileID: 11400000, guid: 1e3dd7d54651dd04d811878548bcd6dd, type: 2}
+    - {fileID: 11400000, guid: 9f51008ec38104248b6c414f74cee1a5, type: 2}
+    - {fileID: 11400000, guid: 4877019e9540559449eb6f3b5d19cc99, type: 2}
+    - {fileID: 11400000, guid: d3997b18e023a2145a82fa709a1fe876, type: 2}
+    - {fileID: 11400000, guid: 834511359a47c1c409a6de8b48c2213f, type: 2}
+    - {fileID: 11400000, guid: e58590ba0673b3045950a6747c92e8ea, type: 2}
+    - {fileID: 11400000, guid: 5523c2e3ccf61364990717f24b81dcee, type: 2}
+    - {fileID: 11400000, guid: 96bb9fa7ee71afb4abb56a3c64faae77, type: 2}
+    - {fileID: 11400000, guid: 01396b84afc8c5741aba537645e63cd4, type: 2}
+    - {fileID: 11400000, guid: 0410b6935f07fc749b619feb4ddf374b, type: 2}
+    - {fileID: 11400000, guid: 148b7eb12b5402f4abb5a2c815ad871d, type: 2}
+    - {fileID: 11400000, guid: a7c2d0a5507420448a588d21a0d69890, type: 2}
+    - {fileID: 11400000, guid: 3bb0b180e31f16345b8db8a2680902d2, type: 2}
+    - {fileID: 11400000, guid: 58cf73892496600418ffea799cad3138, type: 2}
+    - {fileID: 11400000, guid: b16a8e6d8016a874e8f91ae8476f94ac, type: 2}
+    - {fileID: 11400000, guid: e3b52ad0152957a4195469e590701889, type: 2}
+    - {fileID: 11400000, guid: e2d6454c5f7837e4c86d4dc9713dd13a, type: 2}
+    - {fileID: 11400000, guid: ff9c0aad72b29014694171b0e13d2dff, type: 2}
+  - categoryName: Female Mask (Optional)
+    renderData:
+    - {fileID: 11400000, guid: 63eefc5c155f2644592f4df11ba6a129, type: 2}
+    - {fileID: 11400000, guid: 215b12d44c13f7b4b8123ec3118ce75e, type: 2}
+    - {fileID: 11400000, guid: 1d86a73148eb7b44a8fc8f3385bb6959, type: 2}
+  - categoryName: Female Skin
+    renderData:
+    - {fileID: 11400000, guid: 2d92365622a01a14ca7adfccba0e6d77, type: 2}
+    - {fileID: 11400000, guid: fce2808c24e72d14a99e1bf030ee208a, type: 2}
+    - {fileID: 11400000, guid: 7c842bc335dd22f44bb4c64752c16e2e, type: 2}
+    - {fileID: 11400000, guid: 16a78a760c8916340b0880ef2dbbb3e8, type: 2}
+    - {fileID: 11400000, guid: 4b98bb4d4fbcc1146ad3872c5f01ed36, type: 2}
+    - {fileID: 11400000, guid: 5fdf5f0b4bd416140952a8c999ff6f0a, type: 2}
+    - {fileID: 11400000, guid: 4e777437ecabe6d4f8149e6674c7aa27, type: 2}
+    - {fileID: 11400000, guid: 3279efe948db8614f85469ef07d28b4b, type: 2}

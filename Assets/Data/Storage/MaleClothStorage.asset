@@ -1,0 +1,145 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4dab816f712b457d8d100151fe6b18a8, type: 3}
+  m_Name: MaleClothStorage
+  m_EditorClassIdentifier: 
+  cloths:
+  - categoryName: Male Arm (Optional)
+    renderData:
+    - {fileID: 11400000, guid: aa396569f662ae440b465d0667c8cdbe, type: 2}
+    - {fileID: 11400000, guid: 994ae96f763216140b5d08108fe70b57, type: 2}
+    - {fileID: 11400000, guid: 2eab568502689894fb2547f82c8fc6b8, type: 2}
+    - {fileID: 11400000, guid: ea2341488f89d86488925fcafbef501e, type: 2}
+    - {fileID: 11400000, guid: dedd013ca2527f24c8dac6541069247c, type: 2}
+    - {fileID: 11400000, guid: 2c2b89da773338a439d134f113b5e2d2, type: 2}
+    - {fileID: 11400000, guid: 16997a6604acaf44e98ecf9e6d01ccfd, type: 2}
+  - categoryName: Male Clothing
+    renderData:
+    - {fileID: 11400000, guid: fdc50d810389d1349bb67bb27cf79f1a, type: 2}
+    - {fileID: 11400000, guid: 67b9c48dc26dadc4cbbe209cdfee88ef, type: 2}
+    - {fileID: 11400000, guid: e3a291769ca305f42b9aec5b68579b6e, type: 2}
+    - {fileID: 11400000, guid: cb9ed9f159a72104d9fb8f8b1f38c609, type: 2}
+    - {fileID: 11400000, guid: 806560892250d4349b91859253c51e49, type: 2}
+    - {fileID: 11400000, guid: 5c2dd008df9b7264cb875a815a49df6a, type: 2}
+    - {fileID: 11400000, guid: 9c9f1d6de4376af469d2112e6ebe0f13, type: 2}
+    - {fileID: 11400000, guid: 28d87844964e40f449e70d772dd07c4f, type: 2}
+    - {fileID: 11400000, guid: 0438aa0e6462a1941b7c1449c3a3e103, type: 2}
+    - {fileID: 11400000, guid: fc1568b261d6cf94e9bc1e8fd3d09140, type: 2}
+    - {fileID: 11400000, guid: 1a02b86f941c9c64a8d6a44b82f51a59, type: 2}
+    - {fileID: 11400000, guid: 50c42d2238a67f44ab2f9d01a380921d, type: 2}
+    - {fileID: 11400000, guid: 9ae636e15977abd42bc4bd768ee512a7, type: 2}
+    - {fileID: 11400000, guid: c139480f9af2dab4f9748a5e37bb272e, type: 2}
+    - {fileID: 11400000, guid: 78f0bee79a6fa244e838894b5cd8dae3, type: 2}
+    - {fileID: 11400000, guid: caf9b56278235364cacef4ced520d6e5, type: 2}
+    - {fileID: 11400000, guid: 112a60efa8041614da335b971f842054, type: 2}
+    - {fileID: 11400000, guid: c631567b81b39914f9d8a5f1662eb8c9, type: 2}
+    - {fileID: 11400000, guid: 612416efacc9a0e469e62d8ca7e6bb07, type: 2}
+    - {fileID: 11400000, guid: 000e9fc60c356f247907344372d06a48, type: 2}
+    - {fileID: 11400000, guid: ec71daa6ff1c2f04bab739875f51a642, type: 2}
+    - {fileID: 11400000, guid: 3d06c38df9f70c64c9dbe2256cfeb17a, type: 2}
+    - {fileID: 11400000, guid: 147ee5be4bca4114688ee6f96ecadae6, type: 2}
+    - {fileID: 11400000, guid: 106a4f6f6e9833444b09aac3e6673439, type: 2}
+  - categoryName: Male Ears (Optional)
+    renderData:
+    - {fileID: 11400000, guid: 7b7b06cb66b3ee747933a1768f7ef449, type: 2}
+    - {fileID: 11400000, guid: 33d5043d5e15839448bb4e786eb524ea, type: 2}
+    - {fileID: 11400000, guid: 6db62e0367a6730449ceb591e3b74abc, type: 2}
+    - {fileID: 11400000, guid: 12fdbce62d583bd44a28c73f0172eee0, type: 2}
+    - {fileID: 11400000, guid: 7759ea8dc02004440aeeca7025b202eb, type: 2}
+  - categoryName: Male Hair
+    renderData:
+    - {fileID: 11400000, guid: f25752fb11a9cb940abeea6a66f24d72, type: 2}
+    - {fileID: 11400000, guid: c5d5997e867830a46a154442f3362ef2, type: 2}
+    - {fileID: 11400000, guid: 9e1a4f453163e3f488ef613c7a80904b, type: 2}
+    - {fileID: 11400000, guid: ee3035546fb364742a178d2bb59bde56, type: 2}
+    - {fileID: 11400000, guid: 38f4f386034369740b89b272ae7b0e9c, type: 2}
+    - {fileID: 11400000, guid: 746ea25270e8af64a938781cb60dfa37, type: 2}
+    - {fileID: 11400000, guid: d79e64044029b924080a7d71875362dd, type: 2}
+    - {fileID: 11400000, guid: 1f1b4375892cb4d4a8f9f93512d1ac20, type: 2}
+    - {fileID: 11400000, guid: 56b95c3adec97364084385d68a4e345c, type: 2}
+    - {fileID: 11400000, guid: 73ac21946a860cb429ce890b400fd609, type: 2}
+    - {fileID: 11400000, guid: a22a80c6de9afdd40812aeb21c6011b0, type: 2}
+    - {fileID: 11400000, guid: e581252f82bd351428c84af0640f989b, type: 2}
+    - {fileID: 11400000, guid: 3e2f2bf1077f2554ca85abafea4468e2, type: 2}
+    - {fileID: 11400000, guid: 5f2633487683981489a7c311ee8c80ae, type: 2}
+    - {fileID: 11400000, guid: 48c147b7307022446b185d4ade75c2bc, type: 2}
+    - {fileID: 11400000, guid: 76d57b6fb4cbda647a90509c5a7222db, type: 2}
+    - {fileID: 11400000, guid: aeaa995b7f0beb847b3f4eaa84d5e2fa, type: 2}
+    - {fileID: 11400000, guid: c88d69e1a1b035c4f9523b5534438032, type: 2}
+    - {fileID: 11400000, guid: a893033c39f5eb04f860e8e58178134d, type: 2}
+    - {fileID: 11400000, guid: fb19a3317d4875349af564216d8229dd, type: 2}
+    - {fileID: 11400000, guid: f70543876def4804b9118f46c7678ade, type: 2}
+    - {fileID: 11400000, guid: aebef1fe9021fbd4d81fa631491eea06, type: 2}
+    - {fileID: 11400000, guid: 8e02a32c37845b446849708aa04ccfa5, type: 2}
+    - {fileID: 11400000, guid: 102c87fc92fc5e24d9057389e7ab330c, type: 2}
+    - {fileID: 11400000, guid: c69ea46bba6f04544b7bdef6c604a73a, type: 2}
+    - {fileID: 11400000, guid: 36653be4fb7909c44aa5dbccaf92d790, type: 2}
+    - {fileID: 11400000, guid: baae4275c4bfeee419c61dd2bf83668f, type: 2}
+    - {fileID: 11400000, guid: ed340131fa2421648b09fa5d751d4502, type: 2}
+    - {fileID: 11400000, guid: 9f245734452cc8c42b19b23b3b372bed, type: 2}
+    - {fileID: 11400000, guid: 9990ca48ab3666743abf80fc9a0a5e6a, type: 2}
+    - {fileID: 11400000, guid: ad94ea0b1e454ba4a9f721e9625004c4, type: 2}
+  - categoryName: Male Hand (Optional)
+    renderData:
+    - {fileID: 11400000, guid: b291c6f3144110b4c908dfad1a26bafd, type: 2}
+    - {fileID: 11400000, guid: 8fa7374cc19d88d4d8eb43e82fc54644, type: 2}
+    - {fileID: 11400000, guid: c72beae6522cc7b4884538d01fef352c, type: 2}
+    - {fileID: 11400000, guid: 7b8d96be06288114ea152494ca049725, type: 2}
+    - {fileID: 11400000, guid: 2b84dca19271e8041a90d90597deab50, type: 2}
+    - {fileID: 11400000, guid: 1f0d2b0411ebe004f8b9a8ebb15a8d4b, type: 2}
+    - {fileID: 11400000, guid: aed3f0594af99a544b3e6affa295d5cf, type: 2}
+    - {fileID: 11400000, guid: d7c336ff8f9d18c48a8bd92969f545bd, type: 2}
+    - {fileID: 11400000, guid: fab3b828d9b45b04c8857ebfe2c4063a, type: 2}
+    - {fileID: 11400000, guid: 7ea343f2494726e41af58bed6804fa1b, type: 2}
+    - {fileID: 11400000, guid: 4de89cac2c94dcf45b55ff0b16ab6001, type: 2}
+    - {fileID: 11400000, guid: 2cd40b77f10eb6f4d8435cd1ebd3718e, type: 2}
+    - {fileID: 11400000, guid: f17f4dc6c887ad9419794447004f5b54, type: 2}
+    - {fileID: 11400000, guid: d2e4267cb0445d74e80d4282b1da6339, type: 2}
+    - {fileID: 11400000, guid: a6d3b820e69ccfc4aae19b45e5058738, type: 2}
+    - {fileID: 11400000, guid: b193dc309d5ccb3499f85d0554888dd7, type: 2}
+    - {fileID: 11400000, guid: d63fdc2dcc03307449db18e60e97b83e, type: 2}
+    - {fileID: 11400000, guid: 031324a93e20828488e58ee2dc4d38a3, type: 2}
+  - categoryName: Male Hat (Optional)
+    renderData:
+    - {fileID: 11400000, guid: 6c7fd42a33a69f243a70d0cec6810d2b, type: 2}
+    - {fileID: 11400000, guid: c99013ed81c3e5b42949bde352cc0d60, type: 2}
+    - {fileID: 11400000, guid: fb6803bcfd9edb74f9536a364ab9a4b5, type: 2}
+    - {fileID: 11400000, guid: 9e6914f7446d64d4e93ad74e3546ffbf, type: 2}
+    - {fileID: 11400000, guid: 1d1082912fc98824fbbbeed5c69afc91, type: 2}
+    - {fileID: 11400000, guid: 99c8803059eb1bc4c8bca2a42e7313c9, type: 2}
+    - {fileID: 11400000, guid: 9a90c221ea8e717488e23b2ee97ab9b7, type: 2}
+    - {fileID: 11400000, guid: df240c125e088774a87ed6f263c89078, type: 2}
+    - {fileID: 11400000, guid: e77b5be0ac1da7a46a124e4505227fc2, type: 2}
+    - {fileID: 11400000, guid: cba8a520bd1f2de4fa100fe982798e37, type: 2}
+    - {fileID: 11400000, guid: 97773401f4568de44a233d36be8cdb31, type: 2}
+    - {fileID: 11400000, guid: 5731c1bb54eef4e42abdd1eaa18af524, type: 2}
+    - {fileID: 11400000, guid: 809482869e7291d42a4df322d05f9862, type: 2}
+    - {fileID: 11400000, guid: c3dbd412df13fcf48991077e7468fce6, type: 2}
+    - {fileID: 11400000, guid: 937978a2fb7c8594386efcd51e7961fa, type: 2}
+    - {fileID: 11400000, guid: 2de1506d535625b449aa631d27c945cf, type: 2}
+    - {fileID: 11400000, guid: 011bbb6075fce1c469a68111ef1e6c20, type: 2}
+    - {fileID: 11400000, guid: af1b0352d541ed9458ae6b11fe0d75eb, type: 2}
+  - categoryName: Male Mask (Optional)
+    renderData:
+    - {fileID: 11400000, guid: 3ef0fab37d1a6f043a580bf3b561332b, type: 2}
+    - {fileID: 11400000, guid: 68948d7775190cb488a695267cc2c006, type: 2}
+    - {fileID: 11400000, guid: eea08ac6a7236f84180d0d303cf600f3, type: 2}
+  - categoryName: Male Skin
+    renderData:
+    - {fileID: 11400000, guid: ecff5e47adff50441986547491bc119a, type: 2}
+    - {fileID: 11400000, guid: 4f1dbd7e7a592494da1e4c1d64102502, type: 2}
+    - {fileID: 11400000, guid: 0d687db221ce692478572df03b27b841, type: 2}
+    - {fileID: 11400000, guid: 77504c417db3a6042b94473c54dcee77, type: 2}
+    - {fileID: 11400000, guid: 883a63ec85b43a84ca24c71d0cc30433, type: 2}
+    - {fileID: 11400000, guid: d335309c17ceb4c4cb360dec221881f1, type: 2}
+    - {fileID: 11400000, guid: ce74b725f70fe3e4bb1da7c480003723, type: 2}
+    - {fileID: 11400000, guid: b0ebb4909fae5a649bc18a1b2c8fdad5, type: 2}
