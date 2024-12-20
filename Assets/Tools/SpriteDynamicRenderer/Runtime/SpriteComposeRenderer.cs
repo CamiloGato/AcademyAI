@@ -1,4 +1,5 @@
 ﻿using System.Collections.Generic;
+using System.Linq;
 using AYellowpaper.SerializedCollections;
 using Tools.SpriteDynamicRenderer.Data;
 using Tools.SpriteDynamicRenderer.Runtime.Renderers;
@@ -32,13 +33,15 @@ namespace Tools.SpriteDynamicRenderer.Runtime
 
         public void SetUpRenderer(string category, SpriteDynamicRendererData spriteData)
         {
-            if (!_spriteRenderers.ContainsKey(category))
+            string matchedCategory = _spriteRenderers.Keys.FirstOrDefault(category.Contains);
+
+            if (string.IsNullOrEmpty(matchedCategory))
             {
                 Debug.LogWarning($"SpriteSimpleRenderer with category {category} not found.");
                 return;
             }
 
-            _spriteRenderers[category].SpriteData = spriteData;
+            _spriteRenderers[matchedCategory].SpriteData = spriteData;
         }
 
         public void SetAnimation(string animationName)
@@ -48,6 +51,16 @@ namespace Tools.SpriteDynamicRenderer.Runtime
             foreach (SpriteSimpleRenderer spriteSimpleRenderer in _spriteRenderers.Values)
             {
                 spriteSimpleRenderer.SetAnimation(animationName);
+            }
+        }
+
+        public void PlayAnimation()
+        {
+            if (!ValidateRenderers()) return;
+
+            foreach (SpriteSimpleRenderer spriteSimpleRenderer in _spriteRenderers.Values)
+            {
+                spriteSimpleRenderer.PlayAnimation();
             }
         }
 

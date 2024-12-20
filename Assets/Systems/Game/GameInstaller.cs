@@ -46,7 +46,7 @@ namespace Systems.Game
                     entity.SetSpriteDynamicRendererData(npcContextClothData.category, spriteDynamicRendererData);
                 }
 
-                entity.SetAnimation("Idle");
+                entity.Initialize();
             }
         }
 
