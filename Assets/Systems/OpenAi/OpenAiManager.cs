@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using System.Linq;
 using Cysharp.Threading.Tasks;
 using OpenAI;
@@ -30,21 +31,36 @@ namespace Systems.OpenAi
             _organizationID = organizationID;
         }
 
-        public static async UniTask<string> CreateRequest(string systemMessage, string userMessage)
+        public static async UniTask<OpenAiResponse<TData>> CreateRequest<TData>(List<OpenAiMessageData> messagesData)
         {
             OpenAiOptions openAiOptions = new OpenAiOptions()
             {
                 ApiKey = _apiKey
             };
             OpenAIService openAiService = new OpenAIService(openAiOptions);
+            List<ChatMessage> messages = new List<ChatMessage>();
+
+            foreach (OpenAiMessageData messageData in messagesData)
+            {
+                switch (messageData.from)
+                {
+                    case FromType.System:
+                        messages.Add(ChatMessage.FromSystem(messageData.message));
+                        break;
+                    case FromType.Assistant:
+                        messages.Add(ChatMessage.FromAssistant(messageData.message));
+                        break;
+                    case FromType.User:
+                        messages.Add(ChatMessage.FromUser(messageData.message));
+                        break;
+                    default:
+                        throw new ArgumentOutOfRangeException();
+                }
+            }
 
             ChatCompletionCreateRequest completionCreateRequest = new ChatCompletionCreateRequest()
             {
-                Messages = new List<ChatMessage>()
-                {
-                    ChatMessage.FromSystem(systemMessage),
-                    ChatMessage.FromUser(userMessage),
-                },
+                Messages = messages,
                 Model = Models.Gpt_4o
             };
 
@@ -52,7 +68,11 @@ namespace Systems.OpenAi
                 completionCreateRequest
             );
 
-            return completionResult.Successful ? completionResult.Choices.First().Message.Content : string.Empty;
+            string success = completionResult.Choices.First().Message.Content;
+            string error = completionResult.Successful ? string.Empty : completionResult.Error?.Message;
+            OpenAiResponse<TData> openAiResponse = new OpenAiResponse<TData>(success, error);
+
+            return openAiResponse;
         }
 
     }
