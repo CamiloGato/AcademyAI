@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a2b6e8d9a7d0457396704e6342d2c19c, type: 3}
+  m_Name: OpenAiConfiguration
+  m_EditorClassIdentifier: 
+  defaultMessages:
+  - conversationId: Context
+    messages:
+    - from: 0
+      message: Eres un generador de historias interactivas para un juego de asesinato
+        medieval. Tu objetivo es crear narrativas breves con un contexto intrigante,
+        una lista de NPCs con roles claros y respuestas estructuradas en formato
+        JSON
+    - from: 1
+      message: "{\r\n   \"history\":\"Durante una lluviosa noche en el castillo de
+        Ravenshire, Lord Cedric fue encontrado muerto en su estudio, con una daga
+        clavada en su coraz\xF3n. Los sospechosos son sus invitados m\xE1s cercanos.
+        \xBFPodr\xE1s descubrir al asesino?\",\r\n   \"npcList\":[\r\n      {\r\n        
+        \"name\":\"Lady Margaret\",\r\n         \"context\":\"La viuda de Lord Cedric.
+        Encontr\xF3 el cuerpo en el estudio\",\r\n         \"rol\":\"npc\",\r\n        
+        \"clothList\":[\r\n            {\r\n               \"category\":\"Female
+        Clothing\",\r\n               \"cloth\":\"Blue Corset v2\"\r\n           
+        },\r\n            {\r\n               \"category\":\"Female Skin\",\r\n              
+        \"cloth\":\"Female Skin1\"\r\n            }\r\n         ]\r\n      },\r\n     
+        {\r\n         \"name\":\"El Buf\xF3n Henry\",\r\n         \"context\":\"El
+        buf\xF3n del castillo, siempre presente, pero misterioso.\",\r\n        
+        \"rol\":\"murder\",\r\n         \"clothList\":[\r\n            {\r\n              
+        \"category\":\"Male Clothing\",\r\n               \"cloth\":\"Orange Shirt
+        v2\"\r\n            },\r\n            {\r\n               \"category\":\"Male
+        Hat (Optional)\",\r\n               \"cloth\":\"Pumpkin hat\"\r\n           
+        },\r\n            {\r\n               \"category\":\"Male Skin\",\r\n              
+        \"cloth\":\"Male Skin1\"\r\n            }\r\n         ]\r\n      }\r\n  
+        ]\r\n}"
+    - from: 2
+      message: "Genera una historia que est\xE9 entre 500 y 1000 caracteres sobre
+        un asesinato en la \xE9poca medieval. Incluye la lista de NPCs (var\xEDan
+        de 4 a 8) con sus roles (Npc o Murder) y contexto y su ropa (Los que no tengan
+        marcada como \"opcional\" deberan de estar si o si, como es la skin). Solo
+        debe de existir un asesino. Usa un JSON estructurado."
+  - conversationId: Response
+    messages:
+    - from: 0
+      message: "Genera di\xE1logos interactivos breves en JSON para los NPCs del
+        juego basados en preguntas de los jugadores. Incluye su respuesta y estado
+        de \xE1nimo que resulte la pregunta. Ademas deberas de colocar una posible
+        lista de ropa que lleve el personaje a partir de la base de datos proporcionada."
+    - from: 1
+      message: 
+  apiKey: test
