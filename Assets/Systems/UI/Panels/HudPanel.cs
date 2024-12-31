@@ -7,21 +7,31 @@ namespace Systems.UI.Panels
     {
         [Header("Components")]
         [SerializeField] private TimeComponent timeComponent;
-        [SerializeField] private ButtonComponent buttonComponent;
+        [SerializeField] private ButtonComponent murderSelectorComponent;
 
         [Header("Dependencies")]
         [SerializeField] private UIManager uiManager;
 
+        private bool _isMurderSelectorPanelOpen;
+
         public override void OpenPanel()
         {
             timeComponent.InitComponent();
-            buttonComponent.InitComponent();
+            murderSelectorComponent.InitComponent();
+
+            murderSelectorComponent.OnButtonClicked += OpenMurderSelectorPanel;
         }
 
         public override void ClosePanel()
         {
             timeComponent.CloseComponent();
-            buttonComponent.CloseComponent();
+            murderSelectorComponent.CloseComponent();
+
+            murderSelectorComponent.OnButtonClicked -= OpenMurderSelectorPanel;
+        }
+
+        private void OpenMurderSelectorPanel()
+        {
         }
     }
 }
