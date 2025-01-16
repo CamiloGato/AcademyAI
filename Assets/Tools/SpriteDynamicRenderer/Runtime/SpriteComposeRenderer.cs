@@ -1,6 +1,5 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
-using AYellowpaper.SerializedCollections;
 using Tools.SpriteDynamicRenderer.Data;
 using Tools.SpriteDynamicRenderer.Runtime.Renderers;
 using UnityEngine;
@@ -9,7 +8,8 @@ namespace Tools.SpriteDynamicRenderer.Runtime
 {
     public class SpriteComposeRenderer : MonoBehaviour
     {
-        private readonly SerializedDictionary<string, SpriteSimpleRenderer> _spriteRenderers = new SerializedDictionary<string, SpriteSimpleRenderer>();
+        private readonly Dictionary<string, SpriteSimpleRenderer> _spriteRenderers =
+            new Dictionary<string, SpriteSimpleRenderer>();
 
         private void Awake()
         {

@@ -1,14 +1,14 @@
 ﻿using System;
 using System.Collections.Generic;
-using AYellowpaper.SerializedCollections;
+using Sirenix.OdinInspector;
 using UnityEngine;
 
 namespace Tools.SpriteDynamicRenderer.Data
 {
-    public class SpriteDynamicRendererData : ScriptableObject
+    public class SpriteDynamicRendererData : SerializedScriptableObject
     {
         [Serializable]
-        public class AnimationDictionary : SerializedDictionary<string, List<Sprite>> { }
+        public class AnimationDictionary : Dictionary<string, List<Sprite>> { }
 
         [SerializeField] private string animationSectionName;
         [SerializeField, Tooltip("Dictionary mapping animation names to sprite lists.")]
